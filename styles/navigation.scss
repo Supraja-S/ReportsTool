@@ -1,0 +1,62 @@
+$secondary-nav-bg-color: #A37;
+$top-nav-bg-color: #000;
+$nav-font-color :#fff; 
+
+/*
+.top-navigation {
+	background-color:$top-nav-bg-color;
+	color:$nav-font-color;
+	padding:15px 60px;
+	
+}
+*/
+
+.navbar-default {
+	position:relative;
+	padding:0;
+
+	.navbar-header{
+		background: rgba(52, 201, 246, 0.88);
+		color: $nav-font-color;
+		
+	}
+	.navbar-brand{
+		color: $nav-font-color !important;
+	}
+	.navbar-nav{
+		background: #3e5d7c;
+		
+		> li.nav-tab
+		{
+			> a,>a:hover , >a:focus{
+				color: $nav-font-color;
+				padding: 15px 30px;
+				background-color: transparent;
+			}
+			&.active {
+				background: #514d4d;
+				+.sub-nav{
+					display:block;
+				}
+			}
+		}
+	}
+	.sub-nav{
+			padding:15px 60px;
+			position: absolute;
+			bottom: -48px;
+			display:none;
+			background: #514d4d;
+			left:0;
+			li{
+				display:inline-block;
+				list-style:none;
+				a{
+					color:$nav-font-color;
+				}
+			}
+		}
+}
+
+
+

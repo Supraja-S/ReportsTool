@@ -1,0 +1,29 @@
+
+$bg-color: #fff;
+$nav-font-color :#000; 
+$border-color: #dcd8d8;
+
+.bp-container{
+	background-color:$bg-color;
+	.bp-column{
+		border-bottom: 2px solid $border-color;
+		border-right: 2px solid $border-color;
+		padding: 50px 15px;
+		height: auto;
+		overflow: hidden;
+		&.top-column{
+			height: 295px;
+		}
+		&.bottom-column{
+			height: 430px;
+		}
+		.center-section{
+			.count{
+				    font-size: 8em;
+					font-weight: bold;
+					color: rgba(73, 112, 160, 0.88);
+			}
+		}
+	}
+
+}

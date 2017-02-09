@@ -1,0 +1,57 @@
+<div class="bp-container view-wrapper col-xs-12" ng-controller="bpController">
+	<div class="col-xs-4 no-padding">
+		<div class="col-xs-12 bp-column top-column">
+			<p>Total count</p>
+			<div class="center-section text-center">
+				<h1 class="count text-center">33</h1>
+				<span>BP count</span>
+			</div>
+		</div>
+		<div class="col-xs-12 bp-column bottom-column">
+			<p>Latest chart</p>
+			<div class="center-section">
+				
+			</div>
+		</div>
+		
+	</div>
+	<div class="col-xs-4 no-padding">
+		<div class="col-xs-12 bp-column top-column">
+			<p>Latest chart</p>
+			<div class="center-section">
+				
+			</div>
+		</div>
+		<div class="col-xs-12 bp-column bottom-column">
+			<p>Latest chart</p>
+			<div class="center-section">
+				
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-4 no-padding ">
+		<div class="col-xs-12 bp-column no-border">
+			<p>Table data</p>
+			<div class="center-section">
+				<table class="col-xs-12">
+					<thead>
+						<tr class="border-bottom">
+							<td >Name</td>
+							<td>Value1</td>
+							<td>Value2</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr ng-repeat="tdata in tabularData">
+							<td class="border-right">tdata.name</td>
+							<td class="border-right">tdata.value1</td>
+							<td class="border-right">tdata.value2</td>
+							
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	
+	</div>
+</div>
