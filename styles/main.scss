@@ -1,5 +1,8 @@
 $primary-color: #A37;
 $header-color: #000;
+$border-blue: #3e5d7c;
+$border-green: #22901f;
+$border-red: #d04531;
 
 #title {
 	  color: $primary-color;
@@ -56,6 +59,16 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
      background-color: #ffffff;
 }
+.status-blue{
+	border-left: 4px solid $border-blue;
+}
+.status-red{
+	border-left: 4px solid $border-red;
+}
+.status-green{
+	border-left: 4px solid $border-green;
+}
 
 @import "navigation.scss";
 @import "bp.scss";
+@import "s4.scss";

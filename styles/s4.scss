@@ -1,0 +1,23 @@
+$border-color: #dcd8d8;
+.s4-container{
+	.totals-container{
+		padding-top: 30px;
+		padding-bottom: 30px;
+		.totals-numeric{
+		    font-size: 36px;
+		}
+		.totals-text{
+		    font-weight: 200;
+    		font-size: 16px;
+		}
+	}
+	.s4-graph-container{
+		.s4-graph-box{
+			height: 300px;
+			border: 1px solid $border-color;
+		}
+	}
+	.table-container{
+		margin-top: 20px;
+	}
+}
