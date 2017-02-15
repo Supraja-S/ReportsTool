@@ -1,4 +1,4 @@
-var reportsTool =  angular.module('reportsTool',['ngRoute','ngAnimate','ngCookies','ngSanitize','ngTouch']);
+var reportsTool =  angular.module('reportsTool',['ngRoute','ngAnimate','ngCookies','ngSanitize','ngTouch','nvd3']);
 
 reportsTool.config(function($routeProvider,$locationProvider) {
     $routeProvider
@@ -72,15 +72,68 @@ reportsTool.controller('bpController',['$scope',function($scope){
 			
 		}
 	]
+	 $scope.options = {
+            chart: {
+                type: 'pieChart',
+                height: 300,
+                x: function(d){return d.key;},
+                y: function(d){return d.y;},
+                showLabels: true,
+                duration: 500,
+                labelThreshold: 0.01,
+                labelSunbeamLayout: true,
+                legend: {
+                    margin: {
+                        top: 5,
+                        right: 35,
+                        bottom: 5,
+                        left: 0
+                    }
+                }
+            }
+        };
+
+        $scope.data = [
+            {
+                key: "One",
+                y: 5
+            },
+            {
+                key: "Two",
+                y: 2
+            },
+            {
+                key: "Three",
+                y: 9
+            },
+            {
+                key: "Four",
+                y: 7
+            },
+            {
+                key: "Five",
+                y: 4
+            },
+            {
+                key: "Six",
+                y: 3
+            },
+            {
+                key: "Seven",
+                y: .5
+            }
+        ];
 }]);
 
 reportsTool.controller('ImpactController',['$scope',function($scope){
 	$scope.selected = 'defects';
+	$scope.orderByField = 'name';
+  	$scope.reverseSort = false;
 	
 	$scope.IncompabilitycountsArray = [
 	{
 		count:100,
-		color:'white',
+		color:'blue',
 		description:'Total Defects'
 	},
 	{
@@ -88,11 +141,7 @@ reportsTool.controller('ImpactController',['$scope',function($scope){
 		count:33,
 		description:'High impact'
 	},
-	{
-		count:33,
-		color:'yellow',
-		description:'Medium impact'
-	},
+	
 	{
 		count:3,
 		color:'green',
@@ -138,47 +187,165 @@ reportsTool.controller('ImpactController',['$scope',function($scope){
 			
 		}
 	];
+	
+ $scope.options = {
+            chart: {
+                type: 'pieChart',
+                height: 300,
+                x: function(d){return d.key;},
+                y: function(d){return d.y;},
+                showLabels: true,
+                duration: 500,
+                labelThreshold: 0.01,
+                labelSunbeamLayout: true,
+                legend: {
+                    margin: {
+                        top: 5,
+                        right: 35,
+                        bottom: 5,
+                        left: 0
+                    }
+                }
+            }
+        };
 
+        $scope.data = [
+            {
+                key: "One",
+                y: 5
+            },
+            {
+                key: "Two",
+                y: 2
+            },
+            {
+                key: "Three",
+                y: 9
+            },
+            {
+                key: "Four",
+                y: 7
+            },
+            {
+                key: "Five",
+                y: 4
+            },
+            {
+                key: "Six",
+                y: 3
+            },
+            {
+                key: "Seven",
+                y: .5
+            }
+        ];
+	
+}]);
 reportsTool.controller('s4Controller',['$scope',function($scope){
 	$scope.orderByField = 'name';
   	$scope.reverseSort = false;
+	$scope.selected = 'busFunctions';
+	
 	$scope.tabularData = [
 		{
 			name:'Farah',
 			age:'26',
-			city:'Pune'
+			city:'Pune',
+			age:'27',
+			city:'Vizag'
 			
 		},
 		{
 			name:'Supraja',
 			age:'26',
-			city:'Ongol'
+			city:'Ongol',
+			age:'27',
+			city:'Vizag'
 			
 		},
 		{
 			name:'Aneesh',
 			age:'20',
-			city:'Jabalpur'
+			city:'Jabalpur',
+			age:'27',
+			city:'Vizag'
 			
 		},
 		{
 			name:'Vinit',
 			age:'22',
-			city:'Mumbai'
+			city:'Mumbai',
+			age:'27',
+			city:'Vizag'
 			
 		},
 		{
 			name:'Sharath',
 			age:'28',
-			city:'Hyderabad'
+			city:'Hyderabad',
+			age:'27',
+			city:'Vizag'
 			
 		},
 		{
 			name:'Uday',
 			age:'27',
+			city:'Vizag',
+			age:'27',
 			city:'Vizag'
 			
 		}
-	]
+	];
+	 $scope.options = {
+            chart: {
+                type: 'pieChart',
+                height: 300,
+                x: function(d){return d.key;},
+                y: function(d){return d.y;},
+                showLabels: true,
+                duration: 500,
+                labelThreshold: 0.01,
+                labelSunbeamLayout: true,
+                legend: {
+                    margin: {
+                        top: 5,
+                        right: 35,
+                        bottom: 5,
+                        left: 0
+                    }
+                }
+            }
+        };
+
+        $scope.data = [
+            {
+                key: "One",
+                y: 5
+            },
+            {
+                key: "Two",
+                y: 2
+            },
+            {
+                key: "Three",
+                y: 9
+            },
+            {
+                key: "Four",
+                y: 7
+            },
+            {
+                key: "Five",
+                y: 4
+            },
+            {
+                key: "Six",
+                y: 3
+            },
+            {
+                key: "Seven",
+                y: .5
+            }
+        ];
 
 }]);
