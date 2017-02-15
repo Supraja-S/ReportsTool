@@ -73,3 +73,46 @@ reportsTool.controller('bpController',['$scope',function($scope){
 		}
 	]
 }]);
+
+reportsTool.controller('s4Controller',['$scope',function($scope){
+	$scope.orderByField = 'name';
+  	$scope.reverseSort = false;
+	$scope.tabularData = [
+		{
+			name:'Farah',
+			age:'26',
+			city:'Pune'
+			
+		},
+		{
+			name:'Supraja',
+			age:'26',
+			city:'Ongol'
+			
+		},
+		{
+			name:'Aneesh',
+			age:'20',
+			city:'Jabalpur'
+			
+		},
+		{
+			name:'Vinit',
+			age:'22',
+			city:'Mumbai'
+			
+		},
+		{
+			name:'Sharath',
+			age:'28',
+			city:'Hyderabad'
+			
+		},
+		{
+			name:'Uday',
+			age:'27',
+			city:'Vizag'
+			
+		}
+	]
+}]);
