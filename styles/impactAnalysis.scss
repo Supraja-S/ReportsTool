@@ -1,39 +1,27 @@
 $bg-color: #fff;
 $border-color: #dcd8d8;
-$border-color1 : #fff;
-$border-color2 : #ec2929;
-$border-color3 : yellow;
-$border-color4 : green;
+
 
 .iA-container{
 	background-color:$bg-color;
-	.count-container{
-		margin: 30px 15px;
-		background: #f1f1f1;
-		padding: 10px;
-	}
-	.ia-count-tile{
-		padding: 10px;
-	}
-	.border-white{
-		border-left:2px solid $border-color1;
-	}
-	.border-red{
-		border-left:2px solid $border-color2;
-	}
-	.border-yellow{
-		border-left:2px solid $border-color3;
-	}
-	.border-green{
-		border-left:2px solid $border-color4;
+	.totals-container{
+		padding-top: 30px;
+		padding-bottom: 30px;
+		.totals-numeric{
+		    font-size: 36px;
+		}
+		.totals-text{
+		    font-weight: 200;
+    		font-size: 16px;
+		}
 	}
 	
 	.ia-chart-column{
 		min-height: 300px;
+		border:1px solid $border-color; 
 	}
 	.count{
-		font-size: 1.5em;
-    font-weight: bold;
-	}
+		font-size: 36px;
+ 	}
 	
 }

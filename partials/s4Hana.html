@@ -1,12 +1,12 @@
-
+<div ng-controller="s4Controller">
 <ul class="sub-nav  col-xs-12">
-		<li class="" ><a href="">Business Functions</a></li>
-					<li class="" ><a href="">Readiness Check</a></li>
+		<li ng-class="selected == 'busFunctions'?'active':''" ng-click="selected = 'busFunctions'" ><a >Business Functions</a></li>
+		<li ng-class="selected == 'readycheck'?'active':''" ng-click="selected = 'readycheck'" ><a >Readiness Check</a></li>
 				
 	
 </ul>
 
-<div class="view-wrapper col-xs-12 s4-container" ng-controller="s4Controller">
+<div class="view-wrapper col-xs-12 s4-container" >
 	<div class="totals-container col-xs-12">
 		<div class="totals-box col-xs-2 status-blue">
 			<p class="totals-numeric">100</p>
@@ -24,9 +24,11 @@
 	<div class="s4-graph-container col-xs-12">
 		<div class="s4-graph-box col-xs-6">
 			This is a placeholder for graph
+			<nvd3 options="options" data="data"></nvd3>
 		</div>
 		<div class="s4-graph-box col-xs-6">
 			This is a placeholder for graph
+			<nvd3 options="options" data="data"></nvd3>
 		</div>
 	</div>
 	<div class="table-container col-xs-6 no-padding ">
@@ -71,3 +73,4 @@
 		</div>
 	
 	</div>
+</div>

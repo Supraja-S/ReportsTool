@@ -8,11 +8,11 @@ $border-color: #dcd8d8;
 	.bp-column{
 		border-bottom: 2px solid $border-color;
 		border-right: 2px solid $border-color;
-		padding: 50px 15px;
+		padding:15px;
 		height: auto;
 		overflow: hidden;
 		&.top-column{
-			height: 295px;
+			height: 320px;
 		}
 		&.bottom-column{
 			height: 430px;

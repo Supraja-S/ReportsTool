@@ -8,26 +8,26 @@
 
 	</ul>
 	<div  class="iA-container view-wrapper col-xs-12">
-		<div class="count-container col-xs-11 ">
-			<div class="col-xs-2 ia-count-tile border-{{countObj.color}}" ng-repeat="countObj in IncompabilitycountsArray">
+		<div class="totals-container  col-xs-12 ">
+			<div class="col-xs-2 ia-count-tile status-{{countObj.color}}" ng-repeat="countObj in IncompabilitycountsArray">
 				<div class="center-section">
-					<p class="count ">{{countObj.count}}</p>
-					<span>{{countObj.description}}</span>
+					<p class="totals-numeric">{{countObj.count}}</p>
+					<p class="totals-text">{{countObj.description}}</p>
 				</div>
 			</div>
 			
 		</div>
-		<div class="col-xs-12 margin-15">
+		<div class="col-xs-12 ">
 			<div class="col-xs-6 ia-chart-column ">
 				<p>Latest chart</p>
 				<div class="center-section">
-					
+					<nvd3 options="options" data="data"></nvd3>
 				</div>
 			</div>
 			<div class="col-xs-6 ia-chart-column ">
 				<p>Latest chart</p>
 				<div class="center-section">
-					
+					<nvd3 options="options" data="data"></nvd3>
 				</div>
 			</div>
 		</div>
@@ -38,30 +38,36 @@
 				<table class="col-xs-12">
 					<thead>
 						<tr class="border-bottom">
-							<td >Name</td>
+							<td ng-click="orderByField='name';reverseSort = !reverseSort">
+								<span>Name</span>
+								<span ng-show="orderByField == 'name'">
+									<span ng-show="!reverseSort">^</span>
+									<span ng-show="reverseSort">v</span>
+								</span>
+							</td>
 							<td>Value1</td>
 							<td>Value2</td>
-							<td >Name</td>
+							<td >Name1</td>
 							<td>Value1</td>
 							<td>Value2</td>
-							<td >Name</td>
+							<td >Name2</td>
 							<td>Value1</td>
 							<td>Value2</td>
 						</tr>
 					</thead>
 					<tbody>
-						<tr ng-repeat="tdata in tabularData">
-							<td class="border-right">tdata.name</td>
-							<td class="border-right">tdata.value1</td>
-							<td class="border-right">tdata.value2</td>
+						<tr ng-repeat="tdata in tabularData |orderBy:orderByField:reverseSort">
+							<td class="border-right">{{tdata.name}}</td>
+							<td class="border-right">{{tdata.value1}}</td>
+							<td class="border-right">{{tdata.value2}}</td>
 							
-							<td class="border-right">tdata.name</td>
-							<td class="border-right">tdata.value1</td>
-							<td class="border-right">tdata.value2</td>
+							<td class="border-right">{{tdata.name}}</td>
+							<td class="border-right">{{tdata.value1}}</td>
+							<td class="border-right">{{tdata.value2}}</td>
 							
-							<td class="border-right">tdata.name</td>
-							<td class="border-right">tdata.value1</td>
-							<td class="border-right">tdata.value2</td>
+							<td class="border-right">{{tdata.name}}</td>
+							<td class="border-right">{{tdata.value1}}</td>
+							<td class="border-right">{{tdata.value2}}</td>
 							
 						</tr>
 					</tbody>
