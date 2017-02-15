@@ -1,5 +1,13 @@
 $primary-color: #A37;
 $header-color: #000;
+$bg-color: #fff;
+$nav-font-color :#000; 
+$border-color: #dcd8d8;
+$border-color1 : #fff;
+$border-color2 : #ec2929;
+$border-color3 : yellow;
+$border-color4 : green;
+
 
 #title {
 	  color: $primary-color;
@@ -19,8 +27,7 @@ body{
 }
 .view-container{
 	background-color:#fff;
-	margin-top: 100px;
-    height: 100vh;
+	height: 100vh;
 }
 
 
@@ -42,6 +49,9 @@ body{
 .border-bottom{
 	border-bottom:1px solid #dcd8d8;
 }
+.margin-15{
+	margin:15px;
+}
 td{
 	padding:10px;
 	
@@ -59,3 +69,4 @@ tr:nth-child(odd) {
 
 @import "navigation.scss";
 @import "bp.scss";
+@import "impactAnalysis.scss";

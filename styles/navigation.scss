@@ -10,10 +10,13 @@ $nav-font-color :#fff;
 	
 }
 */
-
+.navbar{
+	border:none;
+}
 .navbar-default {
 	position:relative;
 	padding:0;
+	margin:0;
 
 	.navbar-header{
 		background: rgba(52, 201, 246, 0.88);
@@ -41,22 +44,27 @@ $nav-font-color :#fff;
 			}
 		}
 	}
-	.sub-nav{
-			padding:15px 60px;
-			position: absolute;
-			bottom: -48px;
-			display:none;
-			background: #514d4d;
-			left:0;
-			li{
-				display:inline-block;
-				list-style:none;
-				a{
-					color:$nav-font-color;
-				}
-			}
-		}
+	
 }
 
+.sub-nav{
+	background: #514d4d;
+	padding:0px 60px;
+	li{
+		display:inline-block;
+		list-style:none;
+		padding: 20px 15px;
+		vertical-align: top;
+		cursor:pointer;
+		a,a:hover,a:focus{
+			color:$nav-font-color;
+			text-decoration:none;
+		}
+		
+		&.active{
+			    background: #808080;
+		}
+	}
+}
 
 

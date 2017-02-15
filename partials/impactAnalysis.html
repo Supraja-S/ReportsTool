@@ -1,0 +1,75 @@
+
+<div ng-controller="ImpactController">
+	<ul class="sub-nav  col-xs-12">
+						
+		<li ng-class="selected == 'defects'?'active':''" ng-click="selected = 'defects'"><a >Incompatibilities</a></li>
+		<li ng-class="selected == 'performance'?'active':''" ng-click="selected = 'performance'"><a >Performance</a></li>
+		<li ng-class="selected == 'usage'?'active':''" ng-click="selected = 'usage'"><a >Usage</a></li>
+
+	</ul>
+	<div  class="iA-container view-wrapper col-xs-12">
+		<div class="count-container col-xs-11 ">
+			<div class="col-xs-2 ia-count-tile border-{{countObj.color}}" ng-repeat="countObj in IncompabilitycountsArray">
+				<div class="center-section">
+					<p class="count ">{{countObj.count}}</p>
+					<span>{{countObj.description}}</span>
+				</div>
+			</div>
+			
+		</div>
+		<div class="col-xs-12 margin-15">
+			<div class="col-xs-6 ia-chart-column ">
+				<p>Latest chart</p>
+				<div class="center-section">
+					
+				</div>
+			</div>
+			<div class="col-xs-6 ia-chart-column ">
+				<p>Latest chart</p>
+				<div class="center-section">
+					
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 no-padding ">
+		<div class="col-xs-12 bp-column no-border">
+			<p>Table data</p>
+			<div class="center-section">
+				<table class="col-xs-12">
+					<thead>
+						<tr class="border-bottom">
+							<td >Name</td>
+							<td>Value1</td>
+							<td>Value2</td>
+							<td >Name</td>
+							<td>Value1</td>
+							<td>Value2</td>
+							<td >Name</td>
+							<td>Value1</td>
+							<td>Value2</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr ng-repeat="tdata in tabularData">
+							<td class="border-right">tdata.name</td>
+							<td class="border-right">tdata.value1</td>
+							<td class="border-right">tdata.value2</td>
+							
+							<td class="border-right">tdata.name</td>
+							<td class="border-right">tdata.value1</td>
+							<td class="border-right">tdata.value2</td>
+							
+							<td class="border-right">tdata.name</td>
+							<td class="border-right">tdata.value1</td>
+							<td class="border-right">tdata.value2</td>
+							
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	
+	</div>
+
+	</div>
+</div>
