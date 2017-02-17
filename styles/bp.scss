@@ -11,12 +11,8 @@ $border-color: #dcd8d8;
 		padding:15px;
 		height: auto;
 		overflow: hidden;
-		&.top-column{
-			height: 320px;
-		}
-		&.bottom-column{
-			height: 430px;
-		}
+		height: 320px;
+		
 		.center-section{
 			.count{
 				    font-size: 8em;

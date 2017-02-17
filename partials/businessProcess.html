@@ -1,18 +1,25 @@
+<div  ng-controller="bpController"> 
 <ul class="sub-nav  col-xs-12" >
 	<li class="" ><a href=""> Summary </a></li>
 	<li class="" ><a href="">Defects</a></li>
 </ul>
 
-<div class="bp-container view-wrapper col-xs-12" ng-controller="bpController">
-	<div class="col-xs-4 no-padding">
-		<div class="col-xs-12 bp-column top-column">
+<div class="bp-container view-wrapper col-xs-12">
+	<div class="col-xs-12 no-padding">
+		<div class="col-xs-3 bp-column top-column">
 			<p>Total count</p>
 			<div class="center-section text-center">
 				<h1 class="count text-center">33</h1>
 				<span>BP count</span>
 			</div>
 		</div>
-		<div class="col-xs-12 bp-column bottom-column">
+		<div class="col-xs-4 bp-column bottom-column">
+			<p>Latest chart</p>
+			<div class="center-section">
+				<nvd3 options="options" data="data"></nvd3>
+			</div>
+		</div>
+		<div class="col-xs-5 bp-column top-column">
 			<p>Latest chart</p>
 			<div class="center-section">
 				<nvd3 options="options" data="data"></nvd3>
@@ -20,22 +27,50 @@
 		</div>
 		
 	</div>
-	<div class="col-xs-4 no-padding">
-		<div class="col-xs-12 bp-column top-column">
+	<div class="col-xs-12 no-padding">
+		<div class="col-xs-3 bp-column top-column">
+			<p>Fiori  count</p>
+			<div class="center-section text-center">
+				<h1 class="count text-center">33</h1>
+				<span>Fiori Object count</span>
+			</div>
+		</div>
+		<div class="col-xs-4 bp-column bottom-column">
 			<p>Latest chart</p>
 			<div class="center-section">
 				<nvd3 options="options" data="data"></nvd3>
 			</div>
 		</div>
-		<div class="col-xs-12 bp-column bottom-column">
-			<p>Latest chart</p>
-			<div class="center-section">
-				<nvd3 options="options" data="data"></nvd3>
+		<div class="col-xs-5 bp-column top-column">
+			<div class="col-xs-12 bp-column no-border">
+				<p>Table data</p>
+				<div class="center-section">
+					<table class="col-xs-12">
+						<thead>
+							<tr class="border-bottom">
+								<td >Name</td>
+								<td>Value1</td>
+								<td>Value2</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr ng-repeat="tdata in tabularData">
+								<td class="border-right">tdata.name</td>
+								<td class="border-right">tdata.value1</td>
+								<td class="border-right">tdata.value2</td>
+								
+							</tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
+	
 		</div>
-	</div>
-	<div class="col-xs-4 no-padding ">
-		<div class="col-xs-12 bp-column no-border">
+</div>
+		
+	
+	<div class="col-xs-12 clear-both">
+		<div class=" bp-column no-border">
 			<p>Table data</p>
 			<div class="center-section">
 				<table class="col-xs-12">
@@ -59,4 +94,5 @@
 		</div>
 	
 	</div>
+</div>
 </div>

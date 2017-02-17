@@ -284,7 +284,7 @@ reportsTool.controller('s4Controller',['$scope',function($scope){
 			age:'28',
 			city:'Hyderabad',
 			age:'27',
-			city:'Vizag'
+			city:'Hyderabad'
 			
 		},
 		{

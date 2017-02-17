@@ -1,15 +1,7 @@
-$secondary-nav-bg-color: #A37;
 $top-nav-bg-color: #000;
-$nav-font-color :#fff; 
+$nav-font-color :#fff;
+$secondary-nav-bg-color: #86bc25;
 
-/*
-.top-navigation {
-	background-color:$top-nav-bg-color;
-	color:$nav-font-color;
-	padding:15px 60px;
-	
-}
-*/
 .navbar{
 	border:none;
 }
@@ -19,7 +11,7 @@ $nav-font-color :#fff;
 	margin:0;
 
 	.navbar-header{
-		background: rgba(52, 201, 246, 0.88);
+		background: $top-nav-bg-color;
 		color: $nav-font-color;
 		
 	}
@@ -27,7 +19,9 @@ $nav-font-color :#fff;
 		color: $nav-font-color !important;
 	}
 	.navbar-nav{
-		background: #3e5d7c;
+		background: $top-nav-bg-color;
+		color: $nav-font-color !important;
+		position: fixed;
 		
 		> li.nav-tab
 		{
@@ -37,18 +31,22 @@ $nav-font-color :#fff;
 				background-color: transparent;
 			}
 			&.active {
-				background: #514d4d;
+				background: $secondary-nav-bg-color;
+				padding-bottom: 2px;
 				+.sub-nav{
 					display:block;
 				}
 			}
+		}
+		.tool-logo{
+			padding: 5px 15px;
 		}
 	}
 	
 }
 
 .sub-nav{
-	background: #514d4d;
+	background: $secondary-nav-bg-color;
 	padding:0px 60px;
 	li{
 		display:inline-block;
