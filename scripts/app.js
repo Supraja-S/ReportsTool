@@ -28,8 +28,28 @@ reportsTool.controller('LandingPageController',['$scope',function($scope){
 	
 }]);
 
-reportsTool.controller('navController',['$scope',function($scope){
-	$scope.menu = 'home';
+reportsTool.controller('navController',['$scope','$location',function($scope,$location){
+	
+	$scope.getClass = function (path) {
+	  return ($location.path().substr(0, path.length) === path) ? 'active' : '';
+	} 
+	$scope.navItems = [{
+		description:'System Overview',
+		linkCode:'/home'
+	},
+	{
+		description:'Impact Ananlysis',
+		linkCode:'/impact'
+	},
+	{
+		description:'S4',
+		linkCode:'/sFour'
+	},
+	{
+		description:'Business Process',
+		linkCode:'/bpview'
+	}];
+	
 	
 }]);
 

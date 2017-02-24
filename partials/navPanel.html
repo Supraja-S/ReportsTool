@@ -12,45 +12,31 @@
 <nav class="navbar navbar-default navbar-static-top navbackground col-xs-12" role="navigation" ng-controller="navController">
 	
  
-	  <ul class = "nav navbar-nav col-xs-12">
-		 <li >
+	  <ul class = "nav logo-navbar-nav col-xs-12">
+		 <li class="col-xs-4">
 			<a>
 				<span><img src="/icons/brand.svg" alt="Deloitte" width="150" height="20"/></span>
 			</a>
 		 </li>
-		  <li class = "nav-tab" ng-class="menu == 'home' ? 'active' : ''" ng-click="menu='home'">
-			<a href = "/home">
-				<span class="">System Overview</span>
-			</a>
-			</li>
-			
-			<li class = "nav-tab" ng-class="menu == 'IA' ? 'active' : ''" ng-click="menu='IA'">
-				<a href = "/impact">
-					<span class="">Impact Ananlysis</span>
-				</a>
-			
-			</li>
-			
-			<li class = "nav-tab" ng-class="menu == 's4' ? 'active' : ''" ng-click="menu='s4'">
-				<a href = "/sFour">
-					<span class="">S4</span>
-				</a>
-			
-			</li>
-
-			<li class = "nav-tab" ng-class="menu == 'bp' ? 'active' : ''" ng-click="menu='bp'">
-				<a href ="/bpview">
-					<span class="">BP</span>
-				</a>
-			
-			</li>
+		 
 		
-		<li class="pull-right tool-logo">
+		<li class="col-xs-4 tool-logo text-center padding-top-5">
 			<span><img src="/icons/toolLogo.png" alt="Uplgrade Analyzer "/></span>
-			<span>Client Name</span>
+		</li>
+		<li class="col-xs-4 pull-right ">
+			<a><div class="pull-right">Client Name</div></a>
 		</li>
 		
 		
 	  </ul> 
+	  <ul class = "nav navbar-nav col-xs-12 clear-both">
+		 <li class = "nav-tab" ng-class="getClass(menuItem.linkCode)" ng-repeat="menuItem in navItems">
+			<a href = "{{menuItem.linkCode}}">
+				<span class="">{{menuItem.description}}</span>
+			</a>
+			</li>
+			
+			
+	  </ul>
 </nav>
 </header>

@@ -18,11 +18,21 @@ $secondary-nav-bg-color: #86bc25;
 	.navbar-brand{
 		color: $nav-font-color !important;
 	}
+	.logo-navbar-nav{
+		background:#393939;
+		color: $nav-font-color !important;
+		> li{
+			> a,>a:hover , >a:focus{
+				color: $nav-font-color;
+				padding: 15px 30px;
+				background-color: transparent;
+			}
+		}
+	}
 	.navbar-nav{
 		background: $top-nav-bg-color;
 		color: $nav-font-color !important;
-		position: fixed;
-		
+		padding-left: 41px;
 		> li.nav-tab
 		{
 			> a,>a:hover , >a:focus{
