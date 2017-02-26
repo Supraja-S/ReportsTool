@@ -1,0 +1,78 @@
+SUBOBJ	SUBOBJDESC	COUNT	TOCNT	TERROCNT	TERRCNT	TERRCNT1	TERRCNT2	TERRCNT3	TERRCNT4	COMP1CNT	COMP2CNT	COMP3CNT
+FUNC	Function Module	        4	        4	      2	      7		      1	      4	      2	      1		      4
+COMM	Object List of Request or Piece List	        1										
+DOMA	Domain	        8										
+DTEL	Data Element	        8										
+SHLP	Search Help	        4										
+STRC	Structure	       15										
+TABL	Table	        7										
+TTYP	Table Type	        3										
+ENHC	Composite Enhancement Implementation	        1	        1	      0	      0							
+ENHO	Enhancement Implementation	        9										
+SXCI	Business Add-Ins - Implementations	        1										
+SSFO	SAP Smart Form	        5										
+CHDO	Change Document Object	        1										
+CLAS	Class (ABAP Objects)	        6	        6	      3	     13	      8	      1	      3	      1		      2	      1
+DEVC	Package	        1										
+FUGR	Function Group	        7	        7	      0	      0							
+INTF	Interface (ABAP Objects)	       19										
+METH	Method (ABAP Objects)	       16										
+MSAG	Message Class	        1										
+NROB	Number Range Objects	        1										
+OSOA	DataSource (Active Version)	        1										
+PCI1	Interface toolbox: Transport object, interface format	        1										
+PCI2	Interface toolbox: Transport object for file layout	        1										
+SCVI	Screen variants	       19										
+SFPF	Form Object: Form	        7										
+SFPI	Form Object: Interface	        7										
+SICF	ICF Service	       19										
+SOBJ	Business object types	        3										
+SOTR	All Concepts (OTR) of a Package - Short Texts	        1										
+SOTS	All Concepts (OTR) of a Package - Long Texts	        1										
+STVI	Transaction variants (cross-client)	        2										
+TOBJ	Definition of a Maintenance and Transport Object	        3										
+TRAN	Transaction	        1										
+WAPA	BSP (Business Server Pages) Application	        1										
+WDCA	Web Dynpro Application Configuration	        3										
+WDCC	Web Dynpro Component Configuration	        7										
+WDYA	Web Dynpro Application	       24										
+WDYN	Web Dynpro Component	       20	       20	      0	      0							
+INCL	Includes	       30	       30	      0	      0							
+PROG	Program	       21	       21	     11	   1881	     75	    335	    840	    621	    159	    547	    695
+SUBP	Subroutine Pool	        3	        3	      3	     49	      3	      7	     30	      9		      7	     33
+AQBG	ABAP Query: User group	        1										
+AQSG	ABAP Query: Functional area	        1										
+CORE	Core Modifications	       21										
+AQQU	ABAP Query: Query	0										
+AUTH	Authorization check fields	0										
+BMOD	Module pool programs	0										
+BSUB	Subroutine pools	0										
+CMOD	Enhancement Projects	0	0	      0	      0							
+CUS0	Customizing IMG Activity	0										
+CUS1	Customizing Transactions	0										
+CUS2	Customizing Attributes	0										
+DOCT	General Text	0										
+ENQU	Lock Objects	0										
+FORM	Sapscript Form	0										
+IARP	Parameters of IAC Language Resource	0										
+IASP	Parameters of an IAC service	0										
+IATU	Language-Independent IAC Templates	0										
+IDOC	Intermediate Document	0										
+MCOB	Matchcode Objects	0										
+MODP	Module pool programs	0	0	      0	      0							
+PARA	SET/GET Parameters	0										
+PRIN	Printer Description	0										
+PRIP	Print programs	0	0	      0	      0							
+QUER	ABAP Query: User group	0										
+SCAT	Test case	0										
+SHI3	Area Menus	0										
+SPLO	Format types	0										
+SPPF	Page formats	0										
+SSST	SAP Smart Style	0										
+STRU	Structures	0										
+SUSC	Authorization object class	0										
+SUSO	Authorization object	0										
+TYPE	Type Group	0										
+VCLS	View cluster	0										
+VIEW	View	0										
+W3MI	Web Reporting/Internet Transaction Server MIM	0										

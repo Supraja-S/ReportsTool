@@ -1,0 +1,11 @@
+OBJTYPE	OBJDESC	COUNT
+FM	Function Module	       28
+CORE	Core Modifications	      132
+DDIC	Data Dictionary	      119
+ENH	Enhancements	       15
+FRM	Forms	        1
+PROG	Programs	       84
+QUER	Queries	        3
+OTH	Others	      378
+BDC	BDC Objects	        1
+TOT	Total objects count	      761

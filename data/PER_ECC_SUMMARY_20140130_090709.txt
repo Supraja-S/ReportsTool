@@ -1,0 +1,6 @@
+OBJTYPE	OBJDESC	COMP1CNT	COMP2CNT	COMP3CNT	SEV1CNT	SEV2CNT	SEV3CNT	SEV4CNT	TOTPERANA	TOTOBJPER
+ENH	Enhancements	      0	      0	      0	      6	      0	      1	      0	     11	      1
+FUNC	Function Modules	      1	      0	      4	      0	      1	      4	      2	      3	      0
+OTH	Others	      0	      2	      1	      2	      1	      2	      1	     25	      2
+PROG	Programs	    159	    554	    728	     78	    342	    870	    630	     54	     14
+HANA	HANA	    159	    554	    728	     78	    342	    870	    630	     54	     14

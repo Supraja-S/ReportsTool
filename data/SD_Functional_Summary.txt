@@ -1,0 +1,11 @@
+DATATYPE	SUBTYPE	COUNT
+MasterData	Customer master	100000
+MasterData	Material Master	500000
+MasterData	Condition records	2000
+Transactiondata	Pre-Sales (Inquiry, Quotations)	7000000
+Transactiondata	Sales Documents	7000000
+Transactiondata	Delivery Documents	7000000
+Transactiondata	Billing Documents	4000000
+Configuration	Enterprise Structure (SD)	100
+Configuration	Sales and Distribution	100
+Processes	Level 3	50

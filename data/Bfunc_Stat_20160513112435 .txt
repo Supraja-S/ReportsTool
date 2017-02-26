@@ -1,0 +1,7 @@
+COMPONENT	BFACTIVE	ADDONCONFLICTS	BFCONFLICTS
+No of Business Functions	       14	        0	        0
+No of Industry Components	        0	        0	        0
+No of 3rd Party Components	        0	        0	        0
+No of Add-on Components	        0	        0	        0
+Other Components	       14	        0	        0
+			

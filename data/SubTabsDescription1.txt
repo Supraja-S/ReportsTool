@@ -1,0 +1,2 @@
+Inventory	DefectPrediction	PreformanceImprovementAnalysis	Exclusive	Report
+Inventory Analysis is based on Function Modules, Data dictionary, Forms etc.	Defect Analysis by Complexity, Severity and Defect type.	Detailed Code and Performance Improvement Analysis by Complexity and Severity.	Detailed Inventory analysis of CRM Specific custom developments covering UI elements, CRM Order frameworks etc. 	Download System analysis data in Excel sheet. 

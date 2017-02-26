@@ -1,0 +1,32 @@
+SUBOBJ	SUBOBJDESC	INVOCNT	DEFOCNT	TERROCONT	TERRCNT	COMP1CNT	COMP2CNT	COMP3CNT	WARNINGS	ERRORS
+FUNC	Function Module	28	28	28	0	0	0	0	0	0
+DOMA	Domain	8	0	0	0	0	0	0	0	0
+DTEL	Data Element	66	0	0	0	0	0	0	0	0
+SHLP	Search Help	4	0	0	0	0	0	0	0	0
+STRC	Structure	20	0	0	0	0	0	0	0	0
+TABL	Table	19	0	0	0	0	0	0	0	0
+VIEW	View	2	0	0	0	0	0	0	0	0
+SXCI	Business Add-Ins - Implementations	15	15	3	3	3	0	0	0	3
+SSFO	SAP Smart Form	1	0	0	0	0	0	0	0	0
+CLAS	Class (ABAP Objects)	15	0	0	0	0	0	0	0	0
+DEVC	Package	8	0	0	0	0	0	0	0	0
+FUGR	Function Group	12	0	0	0	0	0	0	0	0
+METH	Method (ABAP Objects)	153	153	153	0	0	0	0	0	0
+MSAG	Message Class	1	0	0	0	0	0	0	0	0
+SCAT	Test case	2	0	0	0	0	0	0	0	0
+SCP1	BC Set or Customizing Profile	1	0	0	0	0	0	0	0	0
+SCVI	Screen variants	142	0	0	0	0	0	0	0	0
+STVI	Transaction variants (cross-client)	12	0	0	0	0	0	0	0	0
+SUSC	Authorization object class	2	0	0	0	0	0	0	0	0
+SUSO	Authorization object	2	0	0	0	0	0	0	0	0
+TOBJ	Definition of a Maintenance and Transport Object	4	0	0	0	0	0	0	0	0
+TRAN	Transaction	24	0	0	0	0	0	0	0	0
+INCL	Includes	41	41	41	3	3	0	0	0	3
+MODP	Module Pool	1	1	1	7	7	0	0	0	7
+PRIP	Print Programs	1	1	1	0	0	0	0	0	0
+PROG	Program	41	41	41	3	3	0	0	0	3
+AQBG	ABAP Query: User group	1	0	0	0	0	0	0	0	0
+AQQU	ABAP Query: Query	1	0	0	0	0	0	0	0	0
+AQSG	ABAP Query: Functional area	1	0	0	0	0	0	0	0	0
+CORE	Core Modifications	132	0	0	0	0	0	0	0	0
+BPRO	Program	1	1	0	0	0	0	0	0	0

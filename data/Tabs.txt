@@ -1,0 +1,7 @@
+TABNAME	TABID	COLOR	BARCOLOR
+Summary	SUMMARY
+CRM	CRM	panel-red	red
+#ECC	ECC	panel-primary	blue
+#Portal	PORTAL	panel-green	green
+Custom Developments	ECC	panel-red	red
+S/4 HANA System Readiness	SYSREDY	panel-primary	blue

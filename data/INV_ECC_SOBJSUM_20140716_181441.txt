@@ -1,0 +1,32 @@
+SUBOBJ	SUBOBJDESC	INVOCNT
+FUNC	Function Module	       28
+DOMA	Domain	        8
+DTEL	Data Element	       66
+SHLP	Search Help	        4
+STRC	Structure	       20
+TABL	Table	       19
+VIEW	View	        2
+SXCI	Business Add-Ins - Implementations	       15
+SSFO	SAP Smart Form	        1
+CLAS	Class (ABAP Objects)	       15
+DEVC	Package	        8
+FUGR	Function Group	       12
+METH	Method (ABAP Objects)	      153
+MSAG	Message Class	        1
+SCAT	Test case	        2
+SCP1	BC Set or Customizing Profile	        1
+SCVI	Screen variants	      142
+STVI	Transaction variants (cross-client)	       12
+SUSC	Authorization object class	        2
+SUSO	Authorization object	        2
+TOBJ	Definition of a Maintenance and Transport Object	        4
+TRAN	Transaction	       24
+INCL	Includes	       41
+MODP	Module Pool	        1
+PRIP	Print Programs	        1
+PROG	Program	       41
+AQBG	ABAP Query: User group	        1
+AQQU	ABAP Query: Query	        1
+AQSG	ABAP Query: Functional area	        1
+CORE	Core Modifications	      132
+BPRO	Program	        1

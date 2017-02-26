@@ -149,6 +149,8 @@ reportsTool.controller('ImpactController',['$scope',function($scope){
 	$scope.selected = 'defects';
 	$scope.orderByField = 'name';
   	$scope.reverseSort = false;
+	$scope.view = 'pieChart';
+	$scope.showTable = false;
 	
 	$scope.IncompabilitycountsArray = [
 	{
@@ -208,9 +210,9 @@ reportsTool.controller('ImpactController',['$scope',function($scope){
 		}
 	];
 	
- $scope.options = {
+	$scope.options = {
             chart: {
-                type: 'pieChart',
+                type: $scope.view,
                 height: 300,
                 x: function(d){return d.key;},
                 y: function(d){return d.y;},
@@ -229,37 +231,39 @@ reportsTool.controller('ImpactController',['$scope',function($scope){
             }
         };
 
-        $scope.data = [
-            {
-                key: "One",
-                y: 5
-            },
-            {
-                key: "Two",
-                y: 2
-            },
-            {
-                key: "Three",
-                y: 9
-            },
-            {
-                key: "Four",
-                y: 7
-            },
-            {
-                key: "Five",
-                y: 4
-            },
-            {
-                key: "Six",
-                y: 3
-            },
-            {
-                key: "Seven",
-                y: .5
-            }
-        ];
-	
+	$scope.data = [
+		{
+			key: "One",
+			y: 5
+		},
+		{
+			key: "Two",
+			y: 2
+		},
+		{
+			key: "Three",
+			y: 9
+		},
+		{
+			key: "Four",
+			y: 7
+		},
+		{
+			key: "Five",
+			y: 4
+		},
+		{
+			key: "Six",
+			y: 3
+		},
+		{
+			key: "Seven",
+			y: .5
+		}
+	];
+	$scope.$watch('view',function(newVal, oldVal){
+		$scope.options.chart.type = $scope.view;
+	});
 }]);
 reportsTool.controller('s4Controller',['$scope',function($scope){
 	$scope.orderByField = 'name';

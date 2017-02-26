@@ -5,7 +5,7 @@ $bg-color: #fff;
 $nav-font-color :#000; 
 
 
-
+$border-grey:#dcd8d8;
 $border-blue: #3e5d7c;
 $border-green: #22901f;
 $border-red: #d04531;
@@ -43,14 +43,17 @@ body{
 .text-center{
 	text-align:center;
 }
+.text-right{
+	text-align:right;
+}
 .no-border{
 	border:none !important;
 }
 .border-right{
-	border-right:1px solid #dcd8d8;
+	border-right:1px solid $border-grey;
 }
 .border-bottom{
-	border-bottom:1px solid #dcd8d8;
+	border-bottom:1px solid $border-grey;
 }
 .margin-15{
 	margin:15px;
@@ -84,7 +87,32 @@ tr:nth-child(odd) {
 .status-green{
 	border-left: 4px solid $border-green;
 }
-
+.switch-block-container{
+	 border: 1px solid $border-grey;
+    border-radius: 5px;
+}
+.switch-block{
+	padding: 5px;
+   
+}
+.switch-block.active{
+	color:$bg-color;
+	background-color:#337ab7;
+}
+.table-container{
+	position:relative;
+	.center-section{
+		height: auto;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+}
+.table-toggler{
+	.btn-primary{
+		background-color:#86bc25;
+	}
+}
+@import "font-awesome.css";
 @import "navigation.scss";
 @import "bp.scss";
 

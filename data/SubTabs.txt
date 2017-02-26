@@ -1,0 +1,6 @@
+TABID	SUBTABS	DISPLAYNAMES	ICONS
+#SUMMARY	TechnicalSUMMARY;FunctionLSummary;Report	Technical;Functional;Download Report
+#CRM	INVENTORY;DEFECTS;PERFORMANCE;EXCLUSIVE	Inventory;Defect Prediction;Preformance Improvement Analysis;Exclusive;Report
+ECC	SUMMARY;INVENTORY;DEFECTS;PERFORMANCE;S4HANA	Summary;Inventory;Defect Prediction;Preformance Improvement Analysis;S/4 HANA Specific	fa-dashboard;fa-info;fa-bug;fa-bar-chart-o;fa-certificate
+SYSREDY	BFCONFLICT	S/4 HANA System Readiness	fa-certificate
+#PORTAL	Inventory;DefectPrediction;PreformanceImprovementAnalysis;Exclusive;Report	Inventory;Defect Prediction;Preformance Improvement Analysis;Exclusive;Report

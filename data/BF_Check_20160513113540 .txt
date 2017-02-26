@@ -1,0 +1,404 @@
+COMPONENT	COMPONENTDESC	COMPTYPE	RELEASE	BFUNCTION	BFUNCDESC	CURRSTAT	STAT1511	BFCONFLICT	MSGTYPE	ADDONSTAT	ADDONCONFLICT	SUCCPRODUCT	SUCCSW
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	/BEV1/ARC	BEV Archiving (PL,Emps,Rets,ED)	OFF	OFF	Pass - No Impact	S		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	/BEV1/NE_ENH	Functional Improvements BEV	OFF	OFF	Pass - No Impact	S		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	/CUM/MAIN_1	Compatible Units Archiving	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	/DSD/ARC	Archiving for Direct Store Deliv	OFF	OFF	Pass - No Impact	S		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	/DSD/DEX	DEX Enablement for DSD	OFF	OFF	Pass - No Impact	S		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	/DSD/OCS	Occasionally-Connected Scenarios	OFF	OFF	Pass - No Impact	S		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	/SAPNEA/J_SCC_BF	Business funciton for SCC JP	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	EA_ICM_ICM_CORE_01	Incentive&Commission Management	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	EA_ICM_ICM_CORE_02	Incentive&Commission Management	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	EA_ICM_ICM_CORE_03	Incentive&Commission Management	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	EA_ICM_ICM_CORE_04	Incentive and Commission Mgmt	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	EA_ICM_ICM_CORE_04_02	Incentive and Commission Mgmt	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	EA_ICM_PFO_CORE_04	Portfolio Assignment 2	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	ERP_AIE_INTEGRATION	AIE ERP Integration	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	FIN_ACC_LOCAL_CLOSE	Local Close	OFF	OFF	Pass - No Impact	S		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	FIN_ACC_LOCAL_CLOSE_2	Local Close 2	OFF	OFF	Pass - No Impact	S		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	FIN_ACC_LOCAL_CLOSE_3	Local Close 3	OFF	OFF	Pass - No Impact	S		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	FIN_BL_EB_1	FI-BL, Elec. Bank Statement	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	FIN_CO_CCMGMT	CO, Cost Center Management	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	FIN_CO_MSSBUA_NWBC	Roles for MSS/BUA	OFF	OFF	Pass - No Impact	S		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	FIN_LOC_CI_1	Non-HCM Localization Topics	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	FIN_LOC_CI_12	RE-FX, Loc. for France	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	FIN_LOC_CI_18	FI-AA Localization for Japan	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	FIN_LOC_CI_2	FI Topics for Japan and Portugal	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	FIN_LOC_CI_21	RE-FX, Par. Adjustment for NL	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	FIN_LOC_CI_22	RE-FX, Loc. of CMD for Italy	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	FIN_LOC_CI_26	Golden Tax Interface for China	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	FIN_LOC_CI_3	RE-FX Portugal	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	FIN_LOC_CI_38	RE-FX, Loc. for ES	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	FIN_LOC_CI_6	RE-FX, Loc. for CZ, HU, NL, SK	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	FIN_LOC_CI_8	FI-AA Topics for IN, JP, RU	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	FIN_LOC_CI_9	FI, Localization for CN	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	JVA_CUTB_REVERSE	JVA cutback reversal	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	JVA_GL_INTEGRATION	JVA - New G/L Integration	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	JVA_INFS_VALIDREP	JVA, cutb, validation, reporting	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	JVA_REP_SIMPL	JVA, ODP for JVA	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	J_7L_REA_AUTO_CONFIG	REA, Automatic Configuration	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	J_7L_REA_CORE	REA, Recycling Administration	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	J_7L_REA_SUSTAIN	REA, Environmental Reporting	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EAM_CC	Config. Control Innovations	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EAM_CI_2	Enterprise Asset Management	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EAM_CI_3	EAM: Continuous Improvements	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EAM_CI_4	Enterprise Asset Mgmt Part 4	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EAM_CI_5	Enterprise Asset Mgmt Part 5	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EAM_CI_6	Enterprise Asset Mgmt Part 6	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EAM_CI_7	Enterprise Asset Mgmt Part 7	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EAM_LINEAR_1	EAM, Linear Asset Management 1	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EAM_LINEAR_2	EAM, Linear Asset Management 2	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EAM_PAM	EAM: Pool Asset Management	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EAM_SIMPLICITY	Simplified EAM Functions	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EAM_SIMPLICITY_2	Simplified EAM Functions 2	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EAM_SIMPLICITY_3	Simplified EAM Functions 3	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EAM_SIMPLICITY_4	Simplified EAM Functions 4	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EAM_TOHO	Takeover/Handover of Tech. Objs	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EAM_TOHO_2	Takeover/Handover Improvements	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EAM_TZS_1	EAM: Time Zone Support	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EAM_TZS_2	EAM: Time Zone Support (Part 2)	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EAM_VE_INT	EAM, Int. SAP 3D Visual Enterp.	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EAM_WCM_1	Stepwise Tagging/Work Permits	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EAM_WCM_2	Definition of WCM Templates	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EAM_WCM_3	Managing WCM Objects/Templates	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EHS_CI_2	EH&S Continuous Improvement	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EHS_CI_4	EHS - Continuous Improv. for PS	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EHS_DG_CI_3	EHS - Continuous Improvements DG	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EHS_GLM_CI_4	EHS - Cont. Improvement GLM	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EHS_PS_CI_3	EHS - Continuous Improvements PS	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_EHS_PS_CI_5	EHS - Continuous Improvements PS	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_FI_DPC_MM_1	Subcontractor Mgmt (DwnPayChain)	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_PP_CI_1	Optimizations in Production	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_PP_INTELI_01	POWL	OFF	OFF	Pass - No Impact	S		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_PP_PI_PMA_01	PI Sheet Archiving	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_PP_PMA_PMC	PI Sheet	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_PP_SRN_02	Shift Report/Shift Note	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_PP_SRN_CONF	Shift Report/Notes, Confirmation	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_PP_XS_01	XStep Repository Enhancements	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_PP_XS_RTG_PO	XSteps for Routing and PO	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_SD_SMI	Supplier Managed Inventory	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_WTYRCL_REPORT_OPT	Warranty Recall report opt.	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	LOG_XPD_EXT_1	PS, Progress Tracking Data in PO	OFF	OFF	Pass - No Impact	S		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	OIL_UOM_UPST_CI_2	Upstream Ops. Management CI 2	OFF	OFF	Pass - No Impact	S		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	OIL_UOM_UPST_CI_3	Upstream Ops Management CI3	OFF	OFF	Pass - No Impact	S		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	OPS_EC_INTEGRATION	Env. Compl. Integration	OFF	OFF	Pass - No Impact	S		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	OPS_PS_CI_1	Project System Enhancements	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	OPS_PS_HLP_1	PS Handling Large Projects	OFF	OFF	Pass - No Impact	S		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	OPS_PS_HLP_2	PS, Handling Large Projects 2	OFF	OFF	Pass - No Impact	S		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	OPS_QM_EXTENSION_2	Enhanc.in FMEA + QM Notificatns	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	OPS_QM_EXTENSION_3	QM Extensions in QC and Notif.	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	OPS_QM_NOTIFICATION	QM: Functions for Qty Notifictns	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	OPS_QM_PLAN_INTEGRAT	QM: Inspection Plan Integration	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	OPS_QM_VP	QM: Visual Planning	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	PLM_PMEVC_1	PLM Var. Config.  Prod. Mod. Env	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	PLM_RM_PRODUCT_LABELING	PLM RM: Labeling	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	PMD_PLM_RECIPE_MANAGEMENT_1	PLM: Recipe Management	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	PRS_ERP_CPILS_1	Comm.Proj.Inception&L.Staffing	OFF	OFF	Pass - No Impact	S		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	PRS_ERP_CPILS_2	Comm.Proj.Inception&L.Staffing 2	OFF	OFF	Pass - No Impact	S		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	RE_CRE_MISC	Corporate Real Estate	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	RE_FM_EARMARKED_FUND	RE/FM Earmarked Funds	OFF	OFF	Pass - No Impact	S		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	RE_GEN_CI_1	Real Estate	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	RE_GEN_CI_2	Real Estate 2	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	RE_GEN_CI_3	Real Estate 3	OFF	ON	Warning	W		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	WTY_DP_1	LO, Warranty for Dealer Portal	OFF		Not part of BF list	I		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Regular Applications	617	WTY_DP_2	Warranty DP, Innovations	OFF		Not part of BF list	I		S		
+EA-FIN	EA-FIN	Regular Applications	617	FIN_AA_PARALLEL_VAL	Parallel Valuation in FI-AA	ON		Not part of BF list	I	Yes, retrofitted into S/4HANA product version	S		
+EA-FIN	EA-FIN	Regular Applications	617	FIN_LOC_CI_20	RE-FX, Loc. for IT	OFF		Not part of BF list	I	Yes, retrofitted into S/4HANA product version	S		
+EA-FIN	EA-FIN	Regular Applications	617	RE_MOBILE_BROKER_1	Real Estate Broker Mobile App	OFF		Not part of BF list	I	Yes, retrofitted into S/4HANA product version	S		
+EA-FINSERV	SAP Enterprise Extension Financial Services	Regular Applications	600	/IBS/EAFS_RBD_INT_ECF	SAP RBD: ECF Procedure	OFF		Not part of BF list	I		S		
+EA-HRCTW	Sub component EA-HRCTW of EA-HR	Regular Applications	600	HCM_LOC_CI_37	HCM, Cross-Year Tax for Taiwan	OFF		Not part of BF list	I		S		
+FINBASIS	Financial Basis	Regular Applications	747	FIN_FSCM_CCD_2	FSCM Functions 2	ON	ON	Pass - No Impact	S				
+FINBASIS	Financial Basis	Regular Applications	747	FIN_FSCM_CCD_3	FSCM Functions 3	ON	ON	Pass - No Impact	S				
+FINBASIS	Financial Basis	Regular Applications	747	FIN_FSCM_SSC_AIC_1	FSCM, Enablement for FSS	OFF		Not part of BF list	I				
+FINBASIS	Financial Basis	Regular Applications	747	FIN_MDM_ORG	MDG, Financials, Org. Units	OFF		Not part of BF list	I				
+FINBASIS	Financial Basis	Regular Applications	747	FIN_SSC_ISS_1	ISS, Enablement for FSS	OFF		Not part of BF list	I				
+IS-OIL	IS-OIL	Industry Solutions	600	COMMODITY_MGMT_&_BULK_LOGISTIC	Commodity Mgmt & Bulk Logistics	OFF	OFF	Pass - No Impact	S		S		
+MDG_APPL	MDG Applications	Application Componen	617	ERP_MATERIAL_SOA	MDG Material Servcies BuFu	OFF		Not part of BF list	I		S		
+MDG_APPL	MDG Applications	Application Componen	617	MDG_ERP_CUSTOMER_1	MDG for Customer	OFF		Not part of BF list	I		S		
+MDG_APPL	MDG Applications	Application Componen	617	MDG_ERP_CUSTOMER_2	MDG for Customer 6.1	OFF		Not part of BF list	I		S		
+MDG_APPL	MDG Applications	Application Componen	617	MDG_ERP_SUPPLIER	MDG for Supplier	OFF		Not part of BF list	I		S		
+MDG_APPL	MDG Applications	Application Componen	617	MDG_ERP_SUPPLIER_2	MDG for Supplier on ERP Hub EhP6	OFF		Not part of BF list	I		S		
+MDG_APPL	MDG Applications	Application Componen	617	MDG_ERP_SUPPLIER_3	MDG for Supplier 6.1	OFF		Not part of BF list	I		S		
+MDG_APPL	MDG Applications	Application Componen	617	MDG_MATERIAL_2	MDG for Material 2	OFF		Not part of BF list	I		S		
+MDG_APPL	MDG Applications	Application Componen	617	MDG_MATERIAL_3	MDG for Material 3	OFF		Not part of BF list	I		S		
+MDG_FND	MDG Foundation	Application Platform	747	FIN_SSC_MDGINT	Integration of MDG and SSF	OFF		Not part of BF list	I		S		
+MDG_FND	MDG Foundation	Application Platform	747	MDG_FINANCIALS_3	MDG for Financials 3	OFF		Not part of BF list	I		S		
+MDG_FND	MDG Foundation	Application Platform	747	MDG_FOUNDATION_3	MDG, Generic Functions 3	OFF		Not part of BF list	I		S		
+SAP_ABA	Cross-Application Component	Netweaver Basis Comp	740	CA_ECH_1	Error and Conflict Handler	OFF	ON	Warning	W		S		
+SAP_ABA	Cross-Application Component	Netweaver Basis Comp	740	CA_FSBP_MIGRATION_ID	FS-BP Migration Partner Numbers	OFF		Not part of BF list	I		S		
+SAP_ABA	Cross-Application Component	Netweaver Basis Comp	740	CA_FSBP_TAX_C	FS-BP Tax Compliance	OFF		Not part of BF list	I		S		
+SAP_ABA	Cross-Application Component	Netweaver Basis Comp	740	CA_HAP_CI_1	Evaluations/Appraisals/Surveys	OFF		Not part of BF list	I		S		
+SAP_ABA	Cross-Application Component	Netweaver Basis Comp	740	CA_PA_CE_GE_QUALI	CA, EE Qualifications for CE/GE	OFF		Not part of BF list	I		S		
+SAP_ABA	Cross-Application Component	Netweaver Basis Comp	740	ILM_RWC_PRODUCT_LIABILITY	ILM Pred. RW Content ProdLiab	OFF		Not part of BF list	I		S		
+SAP_ABA	Cross-Application Component	Netweaver Basis Comp	740	ILM_RWC_TAX	ILM Predefined RW Content TAX	OFF		Not part of BF list	I		S		
+SAP_ABA	Cross-Application Component	Netweaver Basis Comp	740	ILM_RWC_TAX_IS_OIL	ILM Predef. RW Content TAX OIL	OFF		Not part of BF list	I		S		
+SAP_ABA	Cross-Application Component	Netweaver Basis Comp	740	ILM_RWC_TAX_IS_U	ILM Predef. RW Content TAX IS-U	OFF		Not part of BF list	I		S		
+SAP_ABA	Cross-Application Component	Netweaver Basis Comp	740	PCA_KEYV	Payment Cards: Key Version	OFF		Not part of BF list	I		S		
+SAP_AP	SAP Application Platform	Application Platform	700	IBASE_ILM	IBASE ILM	OFF		Not part of BF list	I		S		
+SAP_APPL	Logistics and Accounting	Application Componen	617	/KYK/GEN_AIO_SIMPLIFICATION	SAP All-In-One Roles	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	/SPE/TPOP_CANCEL	SPM: Cancellation of TPOP Order	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	APO_VMI_CONS	VMI Consignment	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	AUTO_LOC_IN_1	IS-Auto Localization for IN, JP	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	AUTO_LOC_JP_1	IS-Auto Localization for JP	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	CA_CATS_CE	CATS classic for CE	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	CA_CATS_CPR_CORE	CATS classic: cProjects Details	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	CA_CIF_INILOAD_01	Enhanced Initial DataTransfer	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	CO_ALLOCATIONS	CO, Allocations	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	DA_ARCHOBJ_STANDARD_3	Standardization - Arch. Objects	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ERP_ATP_EXT_CUST	Enterprise Services for the ATP	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ERP_CF_INTEGRATION_1	ERP, Integration with CLA & FM	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ERP_CF_INTEGRATION_CPM	ERP, Integration with Claims	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ERP_CVP_ILM_1	Customer/Vendor Master ILM-Del	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ERP_IPM_BACKEND_1	IPM, Ind-Independent Back End	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ERP_IPM_BACKEND_2	IPM, Dwnld CRM Matl-Reld IP Info	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ERP_UID_01	Item Unique Identification	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ERP_UID_02	Item Unique Identification	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ERP_UID_03	Item Unique Identification	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ERP_WEB_CHANNEL_1	SAP Web Channel Exp. Mgmt	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ERP_WEB_CHANNEL_2	SAP Web Channel Exp. Mgmt 2.0	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ERP_WEB_CHANNEL_3	SAP Web Channel Exp. Mgmt. 3.0	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_AA_CI_1	FI-AA, Asset Accounting	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_ACC_ILM	ILM Tax Auditing	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_ACC_PEO	Partially Exempt Organizations	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_APAR_PAYMT_ADV	FI, ES Sending of PaymentAdvices	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_CO_CCPLAN	CO, Cost Center Planning	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_CO_COGM	Parallel COGM	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_CO_ORPLAN	CO, Order Planning	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_CRM_MKT_INTGR	ERP FIN Integration for CRM Mark	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_EWHT_EXCL	FI, Exclusions in Extended WTax	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_FSCM_BD_3	SAP Biller Direct Buy Side 2	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_FSCM_BNK	Bank Communication Management	ON		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_FSCM_CCD_INTEGRATION	FSCM Integration 2	ON	ON	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_FSCM_CCD_INTEGRATION_3	FSCM Integration 3	ON	ON	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_GL_ADB	Average Daily Balance	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_GL_CI_1	New General Ledger Accounting	ON	ON	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_GL_CI_3	New General Ledger Accounting 3	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_GL_DISTR_SCEN_1	Totals Trsfr in Distrib. Systems	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_GL_ERR_CORR	Error Correction System	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_GL_ERR_CORR_SUSP	Error Corr. and Susp. Accounting	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_GL_MCA	Multi Currency Accounting	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_GL_REORG_1	Profit Center Reorganization	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_GL_REORG_SEG	Segment Reorganization	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_LOC_CI_11	FI, Localization for CN, SA, AE	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_LOC_CI_13	FI, Localization for China	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_LOC_CI_14	FI, LO, Topics for Russia 2	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_LOC_CI_15	FI-AA Localization Topics for RU	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_LOC_CI_16	FI, E-Payments for China	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_LOC_CI_17	Optimized Fin. Processes, China	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_LOC_CI_19	FI, LO Topics  RU 3	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_LOC_CI_23	FI, LO Topics  RU 4	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_LOC_CI_25	Electronic Monetary Claims	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_LOC_CI_33	FI, LO Topics  RU 5	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_LOC_CI_35	FI, LO Topics  RU 6	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_LOC_CI_37	FIN, Localization AR	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_LOC_CI_4	FI Topics Japan and South Korea	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_LOC_CI_7	FI, LO Topics for CL, IN, PT, RU	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_LOC_EPIC_2	FI, E-Payments for China 2	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_LOC_EPIC_3	FI, E-Payments for China 3	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_LOC_EPIC_4	FI, E-Payments for China 4	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_LOC_EPIC_4_2	FI, E-Payments for China 4_2	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_MDM_SOA_ORG	MDGF, SOA Organizational Units	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_REP_SIMPL_2	Reporting Financials 2	ON		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_REP_SIMPL_3	Reporting Financials 3	ON		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_REP_SIMPL_4	Reporting Financials 4	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_SSC_AIC_1	FI, Enablement for FSS	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	FIN_TRM_CM_DIMENSIONS	CLM-CM, Additional Acct Assgmts	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	HCM_CRM_CATS_PROFILE	CRM, Time Rec. - CATS Profiles	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ILM_CDE_CONT_SAP_APPL	ILM: CDE Content (SAP_APPL)	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ISR_APPL_AGENCY_4	Trade, Agency Business 4	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ISR_APPL_AGENCY_5	Trade, Agency Business 5	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ISR_APPL_AGENCY_6	Trade, Agency Business 6	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ISR_APPL_CRM_INTEG	Retail, MD Integration in CRM 01	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ISR_APPL_OUTBOUND_DMF	Retail, Export of Data to PMR	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ISR_APPL_PCI_DSS	Retail, PCI DSS	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ISR_APPL_POS_INTEG	Retail, POS Integration via IDoc	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ISR_APPL_PRICE_OPTIM	Retail, Price Determination	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ISR_APPL_RRPL	Rapid Replenishment Planning	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ISR_APPL_SCM_2	Retail, Connectivity to F&R 5.2	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ISR_APPL_STORE_CON	Retail Store Connectivity	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ISR_APPL_USABILITY	Retail, Usability	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ISR_RETAILSYSTEM	Retail Enhancements	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ISR_RET_AGENCY_2	Trade, Agency Business 2	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ISR_RET_AGENCY_3	Trade, Agency Business 3	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ISR_RET_CD/FT_EWM	Retail, CD/FT_EWM Integration	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ISR_RET_CROSS_DOCK_IF	Retail, Cross-Docking Interface	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	ISR_RET_PERISH_PROCUREMENT	Retail, Perishables Procurement	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_CPE_FA_FE	CPE: BAdI-Based Formula Handling	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_CPE_SD_MM	Logistics, CPE in SD and MM	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_EAM_MAM	EAM : Mobile Asset Management	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_EAM_MPOINT_MASS_DEACT	EAM Deactiv.of Measuring Points	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_EAM_MPS1	Maintenance Plan Scheduling 1	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_EAM_OLC	Operation Account Assignment	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_EAM_OLC_2	Operation Account Assignment 2	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_EAM_SHIFTFACTORS	EAM, Shift Factors MCP	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_ESOA_OPS_2	Operations, Enterprise Services	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_ESOA_OPS_3	Operations, Enterprise Services	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_MMFI_P2P	MM, Integration MM and FI	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_MM_ANALYTICS_01	MM, Analytics 01	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_MM_CI_3	Enhancements in Procurement	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_MM_CI_4	ERP, MM, Procurement	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_MM_COMMODITY	Procure-to-Pay for Commodities	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_MM_COMMODITY_02	Procure-to-Pay Commodities 2	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_MM_COMMODITY_03	Procure-to-Pay Commodities 3	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_MM_COMMODITY_04	Procure-to-Pay Commodities 4	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_MM_EXT_REL	External rel. for purchase req.	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_MM_MAA_1	MM Multiple Account Assignment	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_MM_OM_1	ERP OPS Outsourced Manufacturing	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_MM_OM_2	Outsourced Mfg 2 in ERP OPS	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_MM_OPTIMIZATIONS	UI and Performance Optimizations	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_MM_OPT_POH	Optimization for PO History	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_MM_P2PSE_1	Procurement - SRM Integration	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_MM_P2PSE_2	Procurement - SRM Integration 2	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_MM_P2PSE_3	ERP, MM, Procurement and SRM Int	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_MM_SERNO	Serial Numbers in Purchasing	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_MM_SIT	MM, Stock in Transit & Act.Cstng	ON	ON	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_MM_SSP_1	MM, Self-Service Procurement	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_MM_SUSTAIN_1	Sustainable Sourcing and Proc.	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_PPH_MDPSX_READ	MRP Performance Optimizations	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_PP_BATCH_HISTORY	Batch History	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_PP_CFB	PP, Food and Beverage	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_PP_EWM_MAN	EWM Integration in Manufacturing	ON		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_PP_EWM_MAN_2	EWM Integr. in Manufacturing 2	ON		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_PP_LMAN_02	Kanban Enh. for Lean Manufact.	ON	ON	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_PP_LPO	SAP LPO Integration	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_PP_MES_INT_01	Integr. Production Orders MES	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_PP_MES_INT_02	Integration Production/MES	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_PP_MES_INT_03	Integration Production/MES 2	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_PP_MIS	Manufacturing Information System	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_PP_PROD_ORD_SPLIT	Order Split	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_PP_WIP_BATCH	WIP Batch	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_PP_WIP_BATCH_02	WIP Batch Enhancements	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_SCM_CUSTVEND_INT	SCM, Customer Vendor Integration	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_SCM_EQUIFUNCLOC_INT	SCM, Equip / FuncLoc Integration	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_SCM_EWM_INT	EWM Integration	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_SCM_MEAN_INT	SCM, Additional GTINs (EAN/UPC)	ON		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_SD_ADVORD	Adv. Order Process. and Billing	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_SD_ANALYTICS_01	SD, Analytics 01	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_SD_CI_01	Sales & Distribution	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_SD_CI_02	Sales & Distribution 2	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_SD_COMMODITY	Contract-to-Cash for Commodities	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_SD_COMMODITY_02	Contract-to-Cash Commodities 2	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_SD_COMMODITY_03	Contract-to-Cash Commodities 3	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_SD_COMMODITY_04	Contract-to-Cash Commodities 4	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_SD_FICA_DISTRIBUTED	SD/FI-CA Integration Dist.Syst.	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_SD_JAM_INTEG	SD, JAM Integration	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_SD_PRICE_LIST	SD, Price Lists	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_SD_PRICE_LIST_2	SD, Price Lists 2	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_SD_REBATE_INDEX	SD, Replacement of Rebate Index	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_SD_REBATE_INDEX_SBS	SD, Elimination of VBOX (S-B-S)	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_SD_REPORT_OPT	SD, Optimized Reports	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_SD_SIMP_02	S&D Simplification 2	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_SEGMENTATION	Segmentation	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_SEGMENTATION_02	Segmentation Part II	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_TMF_CIAP	Tax Declaration Framework-CIAP	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_TMF_INT_1	Tax Declaration Framework # BR	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_TM_ERP_LOCL_BR01	TMS-ERP: Localization Brazil	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_TM_ERP_LOCL_BR02	TMS-ERP: Localization Brazil 02	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_TM_IV_INT	TMS-ERP: Invoice Integration	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_TM_ORD_INT	ERP-TMS: Order Integration	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_TM_ORD_INT_I	ERP-TMS: Ord. and Inv. Integ. 1	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_TM_ORD_INT_II	ERP-TMS: Order Integration 2	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_TM_ORD_INT_III	ERP-TMS: Order Integration 3	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_TM_ORD_INT_IV	ERP-TMS: Order Integration 4	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_TM_ORD_INT_TRQ	ERP-TMS: Basic Order Integration	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_TM_SAG_INT_I	Sched. Agreement Int. with TM	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_TRM_INT_2	Log-TRM Integ. for Commodities 2	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	LOG_WM_ROLES_2	LOG_WM_ROLES_2	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	MDG_CUST_ERPCLIENT_1	MDG Customer ERP Client	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	MDG_MATERIAL	MDG for Material	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	OIL_OPM_UPST	Op. Perf. Management Upstream	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	OIL_OPM_UPSTGIS	Integration of GIS	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	OIL_OPM_UPST_CI_1	Op. Perf. Management Upstream 1	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	OPS_ADVRETURNS_1	Advanced Returns Management	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	OPS_ADVRETURNS_2	Advanced Returns Management 2	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	OPS_PS_CI_2	PS, Performance Improvements	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	OPS_PS_CI_3	PS, Performance Improvements 3	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	OPS_SME_SIMP_01	SME Simplification 1	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	PLM_CFO_IMPEXPMPN	cFolders Import Export of MPNs	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	PLM_CFO_ORDWBSBOM	Export Order/WBS-BOM to cFolders	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	PLM_EDM_DISPLAYCHANGESWITHACL	Display Changes to ACL	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Application Componen	617	PLM_VCHLL_HANA	Low-Level VC with SAP HANA	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	PRS_GEN_UI	Prof. Services, UI Enhancements	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	PS_GOVPROC_ITEMTYPES	PS, Item Hierarchies	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	PS_GOVPROC_SCCMT	PS, Shopping Cart Commitment	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	RE_CO_INTEGRATION	Real Estate: CO Integration	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	SCM_GEN_02	Integration of SCM and ERP 2	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Application Componen	617	SD_01	Logistics S&D Simplification	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Application Componen	617	SPE_CI_1	SPM: Innovations in ERP	OFF		Not part of BF list	I				
+SAP_BASIS	SAP Basis Component	Netweaver Basis Comp	740	BC_SRV_STW_01	StreamWork ABAP Integration 1	OFF		Not part of BF list	I		S		
+SAP_BASIS	SAP Basis Component	Netweaver Basis Comp	740	BC_SRV_STW_02	StreamWork ABAP Integration 2	OFF		Not part of BF list	I		S		
+SAP_BASIS	SAP Basis Component	Netweaver Basis Comp	740	BC_SRV_STW_03	Social Media ABAP Integration	OFF		Not part of BF list	I		S		
+SAP_BASIS	SAP Basis Component	Netweaver Basis Comp	740	DAAG_DATA_AGING	Data Aging	OFF		Not part of BF list	I		S		
+SAP_BASIS	SAP Basis Component	Netweaver Basis Comp	740	DA_ARCHOBJ_STANDARD_1	Standardization - Arch. Objects	OFF	ON	Warning	W		S		
+SAP_BASIS	SAP Basis Component	Netweaver Basis Comp	740	DA_ARCHOBJ_STANDARD_2	Standardization - Arch. Objects	OFF	ON	Warning	W		S		
+SAP_BASIS	SAP Basis Component	Netweaver Basis Comp	740	DA_COCKPIT_ILM	Data Archiving Cockpit	OFF		Not part of BF list	I		S		
+SAP_BASIS	SAP Basis Component	Netweaver Basis Comp	740	ERP_CA_INT_ADD_VERSN	International Address Versioning	OFF	ON	Warning	W		S		
+SAP_BASIS	SAP Basis Component	Netweaver Basis Comp	740	FDT_TEST_ENTERPRISE_BF_OFF	BRF+ Test Business Function Off	OFF		Not part of BF list	I		S		
+SAP_BASIS	SAP Basis Component	Netweaver Basis Comp	740	FDT_TEST_ENTERPRISE_BF_ON	BRF+ Test Business Function On	OFF		Not part of BF list	I		S		
+SAP_BASIS	SAP Basis Component	Netweaver Basis Comp	740	ILM	INFORMATION LIFECYCLE MANAGEMENT	OFF		Not part of BF list	I		S		
+SAP_BASIS	SAP Basis Component	Netweaver Basis Comp	740	ILM_STOR	ILM Database Store	OFF		Not part of BF list	I		S		
+SAP_BASIS	SAP Basis Component	Netweaver Basis Comp	740	SRIS_SOURCE_SEARCH	ABAP Source Search	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	/BCV/EASY_QUERY	BCV Easy Query	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	/BCV/MAIN	FND, Business Context Viewer	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	/BCV/MAIN_1	FND, BCV Main Application 2	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	/BCV/NWBC_SIDEPANEL	BCV Side Panel for NWBC	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	/IPRO/FND_DOCB_CC	FND, Content Controls	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	/IPRO/FND_DOCB_FILLINS	Fill-In Enhancement	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	/IPRO/FND_DOCB_WORD2007	Word 2007 Support	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	/IPRO/FND_DOCUMENT_BUILDER	SAP Document Builder	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	BSCBN_HANA_NAV	HANA-Based Navigation for Suite	OFF	ON	Warning	W		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	BSESH_HANA_SEARCH	SAP HANA-Based Search for Suite	OFF	ON	Warning	W		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	BUPA_ILM_BF	Business Partner ILM	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	CA_BP_SOA	Services for Business Partner	OFF	ON	Warning	W		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	CA_SUPPLIER_SOA	Services for Supplier	OFF	ON	Warning	W		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	ERP_ALL_LISTS	ERP, New UI for ABAP Lists	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	ERP_ALL_LISTS_2	ERP, New UI for ABAP Lists	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	ERP_ALL_PDF_FORMS	ERP, PDF-based forms	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	ERP_CA_SIDEPANEL	Side Panel for Business Suite	OFF	ON	Warning	W		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	ERP_NWBC_ROLES	ERP, Roles for SAP NWBC	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	FICA_FSCM_CRM_DISPUTE	FICA Dispute  / CRM Complaint	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	FIN_MDM_ACC	FIN, Master Data Management	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	FND_ANALYTICS_TOOLS	Enh. f. Business Suite Analytics	OFF	ON	Warning	W		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	FND_ANALYTICS_TOOLS_2	Enh. Business Suite Analytics 2	OFF	ON	Warning	W		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	FND_EPT_PROC_ORCH_1	Process Orchestration v1	OFF	ON	Warning	W		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	FND_HRICP_1	Framework to Track IT Changes	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	FND_IBO_MULTIBE_1	FND, Multi Back-End for Inbox	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	FND_IDM_1	FND, Identity Mgmt Integration	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	FND_MOBILEINBOX_WF_1	FND, Workflow & Alert (Mobile)	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	FND_SMB_UIE	SAP BP for UI Enhancement	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	FND_SOA_REUSE_1	SOA Reuse Functions	OFF	ON	Warning	W		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	FND_SOMI_CM	Social Consent Management	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	FND_SOMI_DS	DataSift - Social Data Harvest	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	FND_VISUAL_BUSINESS	Visual Business	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	HCM_ANALYTICS_1	HCM Cross Analytics 1	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	HCM_NWBC_ROLES	HCM, Roles for SAP NWBC	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	MDG_FOUNDATION	MDG, Generic Functions	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	MDG_FOUNDATION_2	MDG, Generic Functions 2	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	PSM_GEN_BUDPER_1	PSM, Budget Period	OFF		Not part of BF list	I		S		
+SAP_BS_FND	SAP Business Suite Foundation	Application Platform	747	PSM_GEN_BUDPER_2	PSM, Budget Period 2	OFF		Not part of BF list	I		S		
+SAP_BW	SAP Business Warehouse	Add-On	740	RS_IQM	IQM Reporting	OFF		Not part of BF list	I		S		
+SAP_FIN	SAP_FIN	Application Componen	617	FIN_GL_CHNG_LEAD_VAL	FI-GL (New), Change Valuation	OFF	OFF	Pass - No Impact	S		S		
+SAP_FIN	SAP_FIN	Application Componen	617	FIN_GL_DIR_CASHFLOW	Determination Direct Cash Flow	OFF	OFF	Pass - No Impact	S		S		
+SAP_FIN	SAP_FIN	Application Componen	617	FIN_LOC_CI_40	FI, LO Topics  RU 7	OFF	ON	Warning	W		S		
+SAP_FIN	SAP_FIN	Application Componen	617	FIN_LOC_CI_41	FI, LO Topics  RU 8	OFF	ON	Warning	W		S		
+SAP_FIN	SAP_FIN	Application Componen	617	FIN_LOC_CI_42	FI, LO Topics  RU 9	OFF	ON	Warning	W		S		
+SAP_FIN	SAP_FIN	Application Componen	617	FIN_LOC_CI_44	FI, LO Topics  RU 10	OFF	ON	Warning	W		S		
+SAP_FIN	SAP_FIN	Application Componen	617	FIN_LOC_EPIC_5	FI, E-Payments for China 5	OFF		Not part of BF list	I		S		
+SAP_FIN	SAP_FIN	Application Componen	617	FIN_LOC_EPIC_6	FI, E-Payments for China 6	OFF		Not part of BF list	I		S		
+SAP_FIN	SAP_FIN	Application Componen	617	FIN_LOC_EPIC_7	FI, E-Payments for China 7	OFF		Not part of BF list	I		S		
+SAP_FIN	SAP_FIN	Application Componen	617	FIN_LOC_TR_1	FI, Loc. for TR	OFF		Not part of BF list	I		S		
+SEM-BW	SEM-BW: Strategic Enterprise Management	Industry Solutions	747	CA_FINANCIALS_SOA_SEM	Financials SOA for SEM, EhP6	OFF	OFF	Pass - No Impact	S		S		
+SEM-BW	SEM-BW: Strategic Enterprise Management	Industry Solutions	747	FIN_ACC_GC_ALLOC	Allocation	OFF	OFF	Pass - No Impact	S		S		
+SEM-BW	SEM-BW: Strategic Enterprise Management	Industry Solutions	747	FIN_ACC_GC_ASTHFS	Assets Held for Sale	OFF	OFF	Pass - No Impact	S		S		
+SEM-BW	SEM-BW: Strategic Enterprise Management	Industry Solutions	747	FIN_ACC_GC_BCOMB	Business Combinations	OFF	OFF	Pass - No Impact	S		S		
+SEM-BW	SEM-BW: Strategic Enterprise Management	Industry Solutions	747	FIN_ACC_GC_RESTAT	Restatement Monitor	OFF	OFF	Pass - No Impact	S		S		
+SEM-BW	SEM-BW: Strategic Enterprise Management	Industry Solutions	747	FIN_ACC_GC_TAXRATECHG	FIN, Group Close, Tax Adjustment	OFF	OFF	Pass - No Impact	S		S		
+SEM-BW	SEM-BW: Strategic Enterprise Management	Industry Solutions	747	FIN_ACC_GROUPCLOSE_2	FIN, Group Closing, Compliance	OFF	OFF	Pass - No Impact	S		S		
+SEM-BW	SEM-BW: Strategic Enterprise Management	Industry Solutions	747	FIN_MDM_SOA_CU	MDGF, SOA ChtAccts and FinRptgSt	OFF	OFF	Pass - No Impact	S		S		
+SEM-BW	SEM-BW: Strategic Enterprise Management	Industry Solutions	747	FIN_PDCE_COSTQUOT	Cost and Quotation Management	OFF	OFF	Pass - No Impact	S		S		
+SEM-BW	SEM-BW: Strategic Enterprise Management	Industry Solutions	747	FIN_PDCE_COSTQUOT_CI_1	Cost Estimate and Simulation	OFF	OFF	Pass - No Impact	S		S		
+SEM-BW	SEM-BW: Strategic Enterprise Management	Industry Solutions	747	FIN_PDCE_PI	PDCE, Improved Performance	OFF	OFF	Pass - No Impact	S		S		
+ST-PI	SAP Solution Tools Plug-In	Netweaver Plug-In	740	/SDF/E2E_TRACE	E2E Trace	OFF		Not part of BF list	I		S		
+WEBCUIF	SAP Web UI Framework	Application Platform	747	UI_FRW_1	UI Framework	OFF		Not part of BF list	I		S		
+WEBCUIF	SAP Web UI Framework	Application Platform	747	UI_FRW_1_DOCU	UI Framework Documentation	OFF		Not part of BF list	I		S		
+WEBCUIF	SAP Web UI Framework	Application Platform	747	UI_FRW_2	UI Framework	OFF		Not part of BF list	I		S		
+WEBCUIF	SAP Web UI Framework	Application Platform	747	UI_FRW_2_DOCU	WebClient UI Framework Docu.	OFF		Not part of BF list	I		S		

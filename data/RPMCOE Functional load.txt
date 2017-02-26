@@ -1,0 +1,98 @@
+MODULE	UNQ_PROC_ID	PROC_DESC	PROC_AVAIL	SIMPLD_1511	SIMPLD_ITEMID	SIMPLD_ITEM_DESC	MIGRATION
+Module	Unique Process ID	Process	Available in Client System (Y/N)	Simplified in S/4H	Simplification Item ID	Simplification Item Description	Migration Compatibility
+Sales and Distribution	SD-01	Create and Maintain Customer	Yes	Yes	2.1.2.1	SD Simplified Data Models	2
+Sales and Distribution	SD-02	Define and Maintain Customer Groups and Customer Hierarchy	Yes	Yes	2.1.2.2	Data Model Changes in SD Pricing	1
+Sales and Distribution	SD-03	Manage Customer Credit Exposure	Yes	Yes	2.1.2.3	Foreign Trade within SAP S/4HANA	2
+Sales and Distribution	SD-04	Maintain Price	Yes	Yes	2.1.2.4	Credit Management	1
+Sales and Distribution	SD-05	Generate Sales Agreements and Contracts	Yes	Yes	2.1.2.5	ERP SD Revenue Recognition	1
+Sales and Distribution	SD-06	Advanced Returns Management	Yes	Yes	2.1.2.6	Optimization of SD Rebate Processing for TPM Customers	1
+Sales and Distribution	SD-07	Capture / Process Orders	Yes	Yes	2.1.2.7	Simplification in SD Analytics	1
+Sales and Distribution	SD-08	Manage Backorders	Yes	Yes	2.1.2.8	Business Role Internal Sales Representative	1
+Sales and Distribution	SD-09	Manage Product Returns	Yes	Yes	2.1.2.9	Sales Activities	1
+Sales and Distribution	SD-10	Manage Returnable Containers	Yes	Yes	2.1.2.10	SD Rebate Processing replaced by Settlement Management	1
+Sales and Distribution	SD-11	Direct store delivery	Yes	Yes	2.1.2.11	Webshops by Internet Sales or Web Channel Experience Management	1
+Sales and Distribution	SD-12	Ship/Deliver Orders	Yes	Yes	2.1.2.12	Commodity Management Sales	1
+Sales and Distribution	SD-13	Manage Customer Invoices	Yes	Yes	2.1.2.13	Sales Activities	1
+Sales and Distribution	SD-14	Manage Customer Transactional Complaints	Yes	Yes	2.1.2.14	Billing Document Output Management	1
+Sales and Distribution	SD-15	Develop Intercompany Price	Yes	Yes	2.1.2.15	SD Rebate Processing replaced by Settlement Management	1
+Sales and Distribution	SD-16	Perform Customer Rebate Management	Yes	Yes	2.1.2.16	Miscellaneous minor functionalities in SD Area	2
+Sales and Distribution	SD-17	Sales Order Processing with Customer Down Payment	Yes	Yes	2.1.2.17	SD Complaint Handling	1
+Sales and Distribution	SD-18	Sales Order Processing with WM	Yes	Yes	2.1.2.18	SD – FI/CA Integration with distributed systems	1
+Sales and Distribution	SD-19	Sales Processing Using Third Party (w. Shipping Notification)	Yes	Yes	2.1.2.19		1
+Sales and Distribution	SD-20	Sales Processing Using Third Party (w/o. Shipping Notification)	Yes	Yes	2.1.2.20		1
+Sales and Distribution	SD-21	Third party order procesing with Subcontracting	Yes	Yes	2.1.2.21		1
+Sales and Distribution	SD-22	Cross Company Sales Order Processing	Yes	Yes	2.1.2.22		1
+Sales and Distribution	SD-23	Consignment Sales	Yes	Yes	2.1.2.23		1
+Sales and Distribution	SD-24	Foreign Trade	Yes	Yes	2.1.2.24		3
+Sales and Distribution	SD-25	Revenue Recognition	Yes	Yes	2.1.2.25		2
+Sales and Distribution	SD-26	Business Role Internal Sales Representative	Yes	Yes	2.1.2.26		3
+Sales and Distribution	SD-27	SD Analytics	Yes	Yes	2.1.2.27		2
+Sales and Distribution	SD-28	Sales Activities	Yes	Yes	2.1.2.28		3
+Sales and Distribution	SD-29	Transportation (LE-TRA)	Yes	Yes	2.1.2.29		2
+Sales and Distribution	SD-30	Warehouse Management (WM)	Yes	Yes	2.1.2.30		2
+Sales and Distribution	SD-31	Output Management	Yes	Yes	2.1.2.31		2
+Sales and Distribution	SD-32	Batch Management	Yes	Yes	2.1.2.32		2
+Material Management	FUGT_MM_1	Direct Procurement - Non ERS Vendors	Yes	Yes	2.1.4	Procurement	2
+Material Management	FUGT_MM_2	Direct Procurement - ERS Vendors	Yes	Yes	2.1.4	Procurement	2
+Material Management	FUGT_MM_3	Indirect procurement - Foreign Trade	Yes	Yes	2.1.4.15	Foreign Trade within SAP S/4HANA Procurement	2
+Material Management	FUGT_MM_4	Indirect procurement - Services	Yes	Yes			1
+Material Management	FUGT_MM_5	Consignment procurement 	Yes	Yes			1
+Material Management	FUGT_MM_6	Subcontracting procurment process	Yes	Yes	"2.1.4,2.1.12.1"	"ProcurementPP-MRP-Subcontracting"	2
+Material Management	FUGT_MM_7	Thirdparty order process	No	Yes			
+Material Management	FUGT_MM_8	Thirdparty order subcontracting process	No	Yes	2.1.32	Industry DIMP Aerospace & Defece - Business Function LOG_MM_OM_2	
+Material Management	FUGT_MM_9	Return purchase order processing	No	Yes			
+Material Management	FUGT_MM_10	Vendor returns processing	No	No			
+Material Management	FUGT_MM_11	Stock Transfer  between plants	No	No	2.1.4	Procurement and 2.1.12.11 - MRP in HANA	
+Material Management	FUGT_MM_12	Stock transport order processing without delivery	No	No	2.1.4	Procurement and 2.1.12.11 - MRP in HANA	
+Material Management	FUGT_MM_13	Stock transport order processing with delivery	No	No	2.1.4	Procurement and 2.1.12.11 - MRP in HANA	
+Material Management	FUGT_MM_14	Stock transport order processing with delivery with shipping and Billing	Yes	No	2.1.4	Procurement and 2.1.12.11 - MRP in HANA	1
+Material Management	FUGT_MM_15	Goods receipt for batch manged parts	Yes	No	2.1.10	Logistics Material Management Inventory Management	2
+Material Management	FUGT_MM_16	Goods receipt for serialized parts	Yes	No	2.1.10	Logistics Material Management Inventory Management	2
+Material Management	FUGT_MM_17	Procurement from vendors with downpayment requirement	No	Yes			
+Material Management	FUGT_MM_18	Physical inventory processing - Annual counting method	No	Yes			
+Material Management	FUGT_MM_19	Physical inventory processing - Cycle counting method	No	Yes			
+Material Management	FUGT_MM_20	Physical inventory processing - WM Storage bin level counting	Yes	Yes	2.1.18.1	Warehouse Management (WM)	1
+Material Management	FUGT_MM_21	Physical inventory processing - WM Quant level counting	Yes	Yes	2.1.18.1	Warehouse Management (WM)	1
+Material Management	FUGT_MM_22	Incoming Invoice via EDI	Yes	Yes			1
+Material Management	FUGT_MM_23	Advanced Shipping Notification(ASN) via EDI Inbound	Yes	No			1
+Finance and Controlling	FI-01	Manage General Ledger	Yes	Yes	2.1.20.1	General Ledger	2
+Finance and Controlling	FI-02	Perform Transaction Processing	Yes	Yes	2.1.20.2	SAP Invoice and Goods Receipt Reconciliation	2
+Finance and Controlling	FI-03	Perform Closing	Yes	Yes	2.1.20.3	SAP HANA ODP on HANA Calc View-Based Reporting - Calc View-Based Reporting	2
+Finance and Controlling	FI-04	Perform Closing	No	Yes	2.1.20.4	SAP HANA Live Reporting - Live Reporting	
+Finance and Controlling	FI-05	Perform Fixed Asset Accounting	No	Yes	2.1.22.2	Classic Asset Accounting	
+Finance and Controlling	FI-06	Perform Fixed Asset Accounting	Yes	Yes	2.1.22.3	Integration to Lease Accounting Engine (LAE)	3
+Finance and Controlling	FI-07	Perform Fixed Asset Accounting	Yes	Yes	2.1.22.4	Joint Venture Accounting (JVA)	3
+Finance and Controlling	FI-08	Perform Overhead Accounting and Allocation	No	Yes	2.1.24.2	Profit and Loss Planning and profit center planning	
+Finance and Controlling	FI-09	Perform Overhead Accounting and Allocation	No	Yes	2.1.24.7	Cost Elements	
+Finance and Controlling	FI-10	Perform Overhead Accounting and Allocation	No	Yes	2.1.24.6	ALE Scenarios	
+Finance and Controlling	FI-11	Support Product Costing	No	Yes	2.1.24.5	Transfer Prices/ Parallel Delta Versions	
+Finance and Controlling	FI-12	Support Product Costing	Yes	Yes	2.1.24.3	Activity-Based Costing	2
+Finance and Controlling	FI-13	Support Product Costing	Yes	Yes	2.1.26.2	Technical Changes in Material Ledger	1
+Finance and Controlling	FI-14	Perform Profitability Analysis	Yes	Yes	2.1.24.8	SAP Margin Analysis	2
+Finance and Controlling	FI-15	Manage Customer Credit Exposure	Yes	Yes	2.1.26.1	Credit Management	2
+Finance and Controlling	FI-16	Treasury Management	Yes	Yes	"2.1.25.4,2.1.25.5,2.1.25.7,2.1.25.8,2.1.25.9,2.1.25.10,2.1.25.11,2.1.25.12,2.1.25.13,2.1.25.14"	Treasury & Risk Management	3
+Finance and Controlling	FI-17	Treasury Management	Yes	Yes	"2.1.25.1,2.1.25.2,2.1.25.3,2.1.25.6"	Treasury & Risk Management	2
+Finance and Controlling	FI-18	Manage Collections	Yes	Yes	2.1.21.2	Integration with FSCM Biller Direct (FI-AR)	1
+Finance and Controlling	FI-19	Manage Collections	Yes	Yes	2.1.21.3	Integration with FSCM Biller Direct (FI-AP)	1
+Finance and Controlling	FI-20	Process Receipts	No	Yes	2.1.23.1	Cash Management 	
+Finance and Controlling	FI-21	Business Partner	No	Yes	2.1.1.1	Business Partner Approach	
+Finance and Controlling	FI-22	Process Vendor Transactions & Payments	No	Yes	2.1.21.1	SAP Working Capital Analytics/DSO and DPO	
+Production planning	PP-01	Business Process - 01	Yes	Yes			1
+Production planning	PP-02	Business Process - 02	Yes	Yes			1
+Production planning	PP-03	Business Process - 03	Yes	No			1
+Production planning	PP-04	Business Process - 04	Yes	No			1
+Production planning	PP-05	Business Process - 05	No	Yes			
+Production planning	PP-06	Business Process - 06	No	Yes			
+Production planning	PP-07	Business Process - 07	No	Yes			
+Production planning	PP-08	Business Process - 08	Yes	Yes			1
+Production planning	PP-09	Business Process - 09	Yes	No			1
+Production planning	PP-10	Business Process - 10	Yes	No			1
+Production planning	PP-11	Business Process - 11	Yes	No			2
+Production planning	PP-12	Business Process - 12	Yes	No			2
+Production planning	PP-13	Business Process - 13	Yes	Yes			2
+Production planning	PP-14	Business Process - 14	No	Yes			
+Production planning	PP-15	Business Process - 15	No	Yes			
+Production planning	PP-16	Business Process - 16	Yes	Yes			2
+Production planning	PP-17	Business Process - 17	Yes	Yes			2
+Production planning	PP-18	Business Process - 18	Yes	Yes			3
+Production planning	PP-19	Business Process - 19	Yes	Yes			1

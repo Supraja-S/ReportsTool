@@ -1,0 +1,7 @@
+SUBTABID	DISPLAYNAME	Description
+Inventory	Inventory	Inventory Analysis is based on Function Modules, Data dictionary, Forms etc.
+DefectPrediction	Defect Prediction	Defect Analysis by Complexity, Severity and Defect type.
+PreformanceImprovementAnalysis	Performance Improvement Analysis	Detailed Code and Performance Improvement Analysis by Complexity and Severity.
+Exclusive	Exclusive	Detailed Inventory analysis of CRM Specific custom developments covering UI elements, CRM Order frameworks etc. 
+Report	Report	Download System analysis data in Excel sheet. 
+TechnicalSUMMARY	Technical	Download Systems Summary Data.
