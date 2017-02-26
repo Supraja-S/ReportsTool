@@ -6,7 +6,11 @@
     "gulp-coffee": "latest",
     "gulp-uglify": "latest",
     "gulp-concat": "latest",
-    "gulp-connect": "latest"
+    "gulp-connect": "latest",
+	"express":"latest",
+	"fs":"latest",
+	"excel-export":"latest",
+	"body-parser":"latest"
   },
   "dependencies": {
     "browser-sync": "^2.18.6",

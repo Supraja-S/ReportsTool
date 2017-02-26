@@ -149,8 +149,17 @@ reportsTool.controller('ImpactController',['$scope',function($scope){
 	$scope.selected = 'defects';
 	$scope.orderByField = 'name';
   	$scope.reverseSort = false;
-	$scope.view = 'pieChart';
 	$scope.showTable = false;
+	$scope.scrolDown = false;
+	
+	$scope.$watch('scrolDown',function(newVal, oldVal){
+		if(newVal){
+			debugger;
+			window.scrollTo(0,document.body.scrollHeight);
+		}else{
+			window.scrollTo(0,0);
+		}
+	});	
 	
 	$scope.IncompabilitycountsArray = [
 	{
@@ -209,8 +218,21 @@ reportsTool.controller('ImpactController',['$scope',function($scope){
 			
 		}
 	];
-	function createPieChartData(){
-		$scope.options = {
+}]);
+reportsTool.controller('chartController',['$scope',function($scope){
+	$scope.chart={
+		view:'pieChart',
+		piechart:{
+			options:[],
+			data:[]
+		},
+		linechart:{
+			options:[],
+			data:[]
+		}
+	};
+	function createPieChartData(data){
+		var options = {
             chart: {
                 type: 'pieChart',
                 height: 300,
@@ -231,7 +253,7 @@ reportsTool.controller('ImpactController',['$scope',function($scope){
             }
         };
 	
-	$scope.data = [
+	var data = [
 		{
 			key: "One",
 			y: 5
@@ -261,9 +283,10 @@ reportsTool.controller('ImpactController',['$scope',function($scope){
 			y: .5
 		}
 	];
+	return [options, data];
 	}
-	function createLineChartData(){
-		$scope.options = {
+	function createLineChartData(data){
+		 var options = {
             chart: {
                 type: 'lineChart',
                 margin: 300,
@@ -289,7 +312,7 @@ reportsTool.controller('ImpactController',['$scope',function($scope){
 			cos.push({x: i, y: .5 * Math.cos(i/10)});
 		  }
 
-		  $scope.data= [
+		   var  data= [
 			{
 			  values: sin,
 			  key: 'Sine Wave',
@@ -301,17 +324,27 @@ reportsTool.controller('ImpactController',['$scope',function($scope){
 			  color: '#2ca02c'
 			}
 		  ];
+		  return [options,data];
 	}
-	
-
-	$scope.$watch('view',function(newVal, oldVal){
+	$scope.$watch('chart.view',function(newVal, oldVal){
 		if(newVal == 'pieChart'){
-			createPieChartData()
+			var results = createPieChartData();
+			console.log(results);
+			$scope.chart.piechart.options= results[0];
+			$scope.chart.piechart.data= results[1];
 		}
 		if(newVal == 'lineChart'){
-			createLineChartData()
+			var results = createLineChartData();
+			console.log(results);
+			$scope.chart.linechart.options= results[0];
+			$scope.chart.linechart.data= results[1];
 		}
 	});
+	
+	
+	/* var fileContent = getFileContent('data/' +getFileName("DEF_" + systemID + "_SUMMARY"));
+	console.log(fileContent); */
+	
 }]);
 reportsTool.controller('s4Controller',['$scope',function($scope){
 	$scope.orderByField = 'name';
