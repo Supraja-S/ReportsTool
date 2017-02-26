@@ -10,6 +10,9 @@ $border-blue: #3e5d7c;
 $border-green: #22901f;
 $border-red: #d04531;
 
+$brand-color1:#000;
+$brand-color2:#86bc25;
+
 
 #title {
 	  color: $primary-color;
@@ -93,30 +96,44 @@ tr:nth-child(odd) {
 }
 .switch-block{
 	padding: 5px;
-	color:#86bc25;
+	color:$brand-color2;
    
 }
 .switch-block.active{
 	color:$bg-color;
-	background-color:#86bc25;
+	background-color:$brand-color2;
 }
 .table-container{
 	position:relative;
 	.center-section{
-		height: auto;
+		height: 80%;
 		overflow-y: scroll;
 		overflow-x: hidden;
 	}
 }
 .table-toggler{
 	.btn-primary{
-		background-color:#86bc25;
-		border-color:#86bc25;
+		background-color:$brand-color2;
+		border-color:$brand-color2;
 	}
 }
 .align-center{
 	left: 40%;
 	position:absolute;
+}
+
+::-webkit-scrollbar {
+    width: 0.45em;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px $brand-color1;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: #777777;
+  outline: 4px solid $brand-color1;
+  border-radius:5px;
 }
 
 @import "font-awesome.css";
