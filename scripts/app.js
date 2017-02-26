@@ -209,10 +209,10 @@ reportsTool.controller('ImpactController',['$scope',function($scope){
 			
 		}
 	];
-	
-	$scope.options = {
+	function createPieChartData(){
+		$scope.options = {
             chart: {
-                type: $scope.view,
+                type: 'pieChart',
                 height: 300,
                 x: function(d){return d.key;},
                 y: function(d){return d.y;},
@@ -230,7 +230,7 @@ reportsTool.controller('ImpactController',['$scope',function($scope){
                 }
             }
         };
-
+	
 	$scope.data = [
 		{
 			key: "One",
@@ -261,8 +261,56 @@ reportsTool.controller('ImpactController',['$scope',function($scope){
 			y: .5
 		}
 	];
+	}
+	function createLineChartData(){
+		$scope.options = {
+            chart: {
+                type: 'lineChart',
+                margin: 300,
+                showLabels: true,
+				useInteractiveGuideline:true,
+				transitionDuration:350,
+                labelThreshold: 0.01,
+                labelSunbeamLayout: true,
+                legend: {
+                    margin: {
+                        top: 5,
+                        right: 35,
+                        bottom: 5,
+                        left: 100
+                    }
+                }
+            }
+        };
+		var sin = [],cos = [];
+
+		  for (var i = 0; i < 100; i++) {
+			sin.push({x: i, y: Math.sin(i/10)});
+			cos.push({x: i, y: .5 * Math.cos(i/10)});
+		  }
+
+		  $scope.data= [
+			{
+			  values: sin,
+			  key: 'Sine Wave',
+			  color: '#ff7f0e'
+			},
+			{
+			  values: cos,
+			  key: 'Cosine Wave',
+			  color: '#2ca02c'
+			}
+		  ];
+	}
+	
+
 	$scope.$watch('view',function(newVal, oldVal){
-		$scope.options.chart.type = $scope.view;
+		if(newVal == 'pieChart'){
+			createPieChartData()
+		}
+		if(newVal == 'lineChart'){
+			createLineChartData()
+		}
 	});
 }]);
 reportsTool.controller('s4Controller',['$scope',function($scope){
