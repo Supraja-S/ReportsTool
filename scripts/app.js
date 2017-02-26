@@ -35,19 +35,24 @@ reportsTool.controller('navController',['$scope','$location',function($scope,$lo
 	} 
 	$scope.navItems = [{
 		description:'System Overview',
-		linkCode:'/home'
+		linkCode:'/home',
+		iconName:'dashboard'
 	},
 	{
 		description:'Impact Ananlysis',
-		linkCode:'/impact'
+		linkCode:'/impact',
+		iconName:'bar-chart'
 	},
 	{
-		description:'S4',
-		linkCode:'/sFour'
+		description:'S/4Hana',
+		linkCode:'/sFour',
+		iconName:'mixcloud'
 	},
 	{
 		description:'Business Process',
-		linkCode:'/bpview'
+		linkCode:'/bpview',
+		iconName:'tasks',
+		
 	}];
 	
 	
@@ -152,14 +157,13 @@ reportsTool.controller('ImpactController',['$scope',function($scope){
 	$scope.showTable = false;
 	$scope.scrolDown = false;
 	
-	$scope.$watch('scrolDown',function(newVal, oldVal){
-		if(newVal){
-			debugger;
-			window.scrollTo(0,document.body.scrollHeight);
-		}else{
-			window.scrollTo(0,0);
-		}
-	});	
+	$scope.toggleTableData= function(){
+		$scope.showTable  = !$scope.showTable ;
+		$scope.scrolDown = !$scope.scrolDown;
+		var scrollValue = $scope.scrolDown? document.body.scrollHeight:0;
+		
+		$('html, body').animate({ scrollTop:scrollValue }, 800);
+	};	
 	
 	$scope.IncompabilitycountsArray = [
 	{
@@ -221,7 +225,7 @@ reportsTool.controller('ImpactController',['$scope',function($scope){
 }]);
 reportsTool.controller('chartController',['$scope',function($scope){
 	$scope.chart={
-		view:'pieChart',
+		view:'',
 		piechart:{
 			options:[],
 			data:[]
@@ -253,7 +257,7 @@ reportsTool.controller('chartController',['$scope',function($scope){
             }
         };
 	
-	var data = [
+		var data = [
 		{
 			key: "One",
 			y: 5
@@ -283,7 +287,7 @@ reportsTool.controller('chartController',['$scope',function($scope){
 			y: .5
 		}
 	];
-	return [options, data];
+		return [options, data];
 	}
 	function createLineChartData(data){
 		 var options = {
@@ -326,18 +330,84 @@ reportsTool.controller('chartController',['$scope',function($scope){
 		  ];
 		  return [options,data];
 	}
-	$scope.$watch('chart.view',function(newVal, oldVal){
-		if(newVal == 'pieChart'){
-			var results = createPieChartData();
-			console.log(results);
-			$scope.chart.piechart.options= results[0];
-			$scope.chart.piechart.data= results[1];
+	function createDonutChartData(data){
+		var options = {
+            chart: {
+                type: 'pieChart',
+                height: 300,
+                x: function(d){return d.key;},
+                y: function(d){return d.y;},
+                showLabels: true,
+                duration: 500,
+                labelThreshold: 0.01,
+                labelSunbeamLayout: true,
+                legend: {
+                    margin: {
+                        top: 5,
+                        right: 35,
+                        bottom: 5,
+                        left: 0
+                    }
+                },
+				donut:true,
+				donutRatio:0.35
+            }
+        };
+	
+		var data = [
+		{
+			key: "One",
+			y: 5
+		},
+		{
+			key: "Two",
+			y: 2
+		},
+		{
+			key: "Three",
+			y: 9
+		},
+		{
+			key: "Four",
+			y: 7
+		},
+		{
+			key: "Five",
+			y: 4
+		},
+		{
+			key: "Six",
+			y: 3
+		},
+		{
+			key: "Seven",
+			y: .5
 		}
-		if(newVal == 'lineChart'){
-			var results = createLineChartData();
-			console.log(results);
-			$scope.chart.linechart.options= results[0];
-			$scope.chart.linechart.data= results[1];
+	];
+		return [options, data];
+	}
+	$scope.$watch('chart.view',function(newVal, oldVal){
+		switch(newVal){
+			
+			case 'pieChart':
+				var results = createPieChartData();
+				console.log(results);
+				$scope.chart.piechart.options= results[0];
+				$scope.chart.piechart.data= results[1];
+				break;
+			
+		case 'lineChart' : 
+				var results = createLineChartData();
+				console.log(results);
+				$scope.chart.linechart.options= results[0];
+				$scope.chart.linechart.data= results[1];
+				break;
+		case 'donutChart':	
+				var results = createDonutChartData();
+				console.log(results);
+				$scope.chart.piechart.options= results[0];
+				$scope.chart.piechart.data= results[1];
+				break;
 		}
 	});
 	

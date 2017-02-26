@@ -19,30 +19,60 @@ $secondary-nav-bg-color: #86bc25;
 		color: $nav-font-color !important;
 	}
 	.logo-navbar-nav{
-		background:#393939;
+		background:$top-nav-bg-color;
 		color: $nav-font-color !important;
+		
 		> li{
 			> a,>a:hover , >a:focus{
 				color: $nav-font-color;
-				padding: 15px 30px;
+				padding: 15px 0px;
 				background-color: transparent;
 			}
 		}
+		.client-section a{
+			display: inline-block;
+			float: right;
+			background: #ff7700;
+			border-radius: 5px;
+			padding: 10px;
+			margin-top: 5px;
+		}
 	}
 	.navbar-nav{
-		background: $top-nav-bg-color;
-		color: $nav-font-color !important;
-		padding-left: 41px;
+		  width: 100%;
+		  height: 100%;
+		  background: url('../icons/NavBg.png') repeat;
+		  background-size: cover;
+		  color: $nav-font-color !important;
+		    
+		  &:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background-image: linear-gradient(to right,#000,#333333,#000);
+			opacity: .6; 
+		  }
 		> li.nav-tab
 		{
+			padding: 15px 30px;
+
 			> a,>a:hover , >a:focus{
 				color: $nav-font-color;
-				padding: 15px 30px;
 				background-color: transparent;
+				>span{
+					margin-top:5px;
+					display:inline-block;
+				}
 			}
-			&.active {
-				background: $secondary-nav-bg-color;
-				padding-bottom: 2px;
+			&.active a{
+				-moz-box-shadow:    inset 0 0 10px #000000;
+				-webkit-box-shadow: inset 0 0 10px #000000;
+				box-shadow:         inset 0 0 10px #000000;
+				border-radius:5px;
+				padding: 15px;
 				+.sub-nav{
 					display:block;
 				}
@@ -57,20 +87,26 @@ $secondary-nav-bg-color: #86bc25;
 
 .sub-nav{
 	background: $secondary-nav-bg-color;
-	padding:0px 60px;
+	padding:0px 60px 0 15px;
 	li{
 		display:inline-block;
 		list-style:none;
-		padding: 20px 15px;
+		padding: 10px 15px;
 		vertical-align: top;
 		cursor:pointer;
 		a,a:hover,a:focus{
 			color:$nav-font-color;
 			text-decoration:none;
+			display: inline-block;
+			padding: 10px;
 		}
 		
-		&.active{
-			    background: #808080;
+		&.active a{
+			-moz-box-shadow:    inset 0 0 10px #5a5a5a;
+			-webkit-box-shadow: inset 0 0 10px #5a5a5a;
+			box-shadow:         inset 0 0 10px #5a5a5a;
+			border-radius:5px;
+				
 		}
 	}
 }

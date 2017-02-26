@@ -15,7 +15,7 @@
 	  <ul class = "nav logo-navbar-nav col-xs-12">
 		 <li class="col-xs-4">
 			<a>
-				<span><img src="/icons/brand.svg" alt="Deloitte" width="150" height="20"/></span>
+				<span><img src="/icons/brand.svg" alt="Deloitte" width="135" height="20"/></span>
 			</a>
 		 </li>
 		 
@@ -23,16 +23,17 @@
 		<li class="col-xs-4 tool-logo text-center padding-top-5">
 			<span><img src="/icons/toolLogo.png" alt="Uplgrade Analyzer "/></span>
 		</li>
-		<li class="col-xs-4 pull-right ">
-			<a><div class="pull-right">Client Name</div></a>
+		<li class="col-xs-4 pull-right client-section">
+			<a><div class="pull-right">Hi , Client Name !!</div></a>
 		</li>
 		
 		
 	  </ul> 
 	  <ul class = "nav navbar-nav col-xs-12 clear-both">
 		 <li class = "nav-tab" ng-class="getClass(menuItem.linkCode)" ng-repeat="menuItem in navItems">
-			<a href = "{{menuItem.linkCode}}">
-				<span class="">{{menuItem.description}}</span>
+			<a  href = "{{menuItem.linkCode}}">
+				<i  class="fa  pull-left fa-2x fa-{{menuItem.iconName}}"></i>
+				<span >{{menuItem.description}}</span>
 			</a>
 			</li>
 			

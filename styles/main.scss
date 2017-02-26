@@ -93,11 +93,12 @@ tr:nth-child(odd) {
 }
 .switch-block{
 	padding: 5px;
+	color:#86bc25;
    
 }
 .switch-block.active{
 	color:$bg-color;
-	background-color:#337ab7;
+	background-color:#86bc25;
 }
 .table-container{
 	position:relative;
@@ -110,8 +111,14 @@ tr:nth-child(odd) {
 .table-toggler{
 	.btn-primary{
 		background-color:#86bc25;
+		border-color:#86bc25;
 	}
 }
+.align-center{
+	left: 40%;
+	position:absolute;
+}
+
 @import "font-awesome.css";
 @import "navigation.scss";
 @import "bp.scss";

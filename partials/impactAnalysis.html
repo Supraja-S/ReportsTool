@@ -18,12 +18,18 @@
 			
 		</div>
 		<div class="col-xs-12 ">
-			<div class="col-xs-6 ia-chart-column padding-top-10" ng-controller="chartController">
+			<div class="col-xs-6 ia-chart-column padding-top-10" ng-controller="chartController" ng-init="chart.view='pieChart'">
 				<div class="pull-left col-xs-9">&nbsp;</div>
 				<div class="pull-right col-xs-3 switch-block-container no-padding"> 
-					<a class="switch-block col-xs-4 border-right text-center" href="javascript:void(0)" ng-click="chart.view='pieChart'" ng-class="chart.view=='pieChart'?'active':''" title="Pie"><span class="fa fa-pie-chart"></span></a>
-					<a class="switch-block col-xs-4 border-right text-center" href="javascript:void(0)" ng-click="chart.view='lineChart'" ng-class="chart.view=='lineChart'?'active':''" title="Line"><span class="fa fa-line-chart"></span></a>
-					<a class="switch-block col-xs-4 text-center" ng-class="chart.view=='table'?'active':''" href="javascript:void(0)" ng-click="chart.view='table'" title="Tabular"><span class="fa fa-table"></span></a>
+					<a class="switch-block col-xs-4 border-right text-center" href="javascript:void(0)" ng-click="chart.view='pieChart'" ng-class="chart.view=='pieChart'?'active':''" title="Pie">
+						<span class="fa-lg fa fa-pie-chart fa-lg"></span>
+					</a>
+					<a class="switch-block col-xs-4 border-right text-center" href="javascript:void(0)" ng-click="chart.view='lineChart'" ng-class="chart.view=='lineChart'?'active':''" title="Line">
+						<span class="fa-lg fa fa-line-chart fa-lg"></span>
+					</a>
+					<a class="switch-block col-xs-4 text-center" ng-class="chart.view=='table'?'active':''" href="javascript:void(0)" ng-click="chart.view='table'" title="Tabular">
+						<span class="fa fa-table fa-lg"></span>
+					</a>
 				</div>
 				<div class="center-section">
 					
@@ -50,14 +56,18 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-6 ia-chart-column padding-top-10" ng-controller="chartController">
+			<div class="col-xs-6 ia-chart-column padding-top-10" ng-controller="chartController" ng-init="chart.view = 'donutChart'">
 				<div class="pull-left col-xs-10">&nbsp;</div>
 				<div class="pull-right col-xs-2 switch-block-container no-padding"> 
-					<a class="switch-block col-xs-6 border-right text-center" href="javascript:void(0)" ng-click="chart.view='pieChart'" ng-class="chart.view=='pieChart'?'active':''" title="Chart"><span class="fa fa-pie-chart"></span></a>
-					<a class="switch-block col-xs-6 text-center" ng-class="chart.view=='table'?'active':''" href="javascript:void(0)" ng-click="chart.view='table'" title="Tabular"><span class="fa fa-table"></span></a>
+					<a class="switch-block col-xs-6 border-right text-center" href="javascript:void(0)" ng-click="chart.view='donutChart'" ng-class="chart.view=='donutChart'?'active':''" title="Chart">
+						<span class="fa fa-pie-chart fa-lg"></span>
+					</a>
+					<a class="switch-block col-xs-6 text-center" ng-class="chart.view=='table'?'active':''" href="javascript:void(0)" ng-click="chart.view='table'" title="Tabular">
+						<span class="fa fa-table fa-lg"></span>
+					</a>
 				</div>
 				<div class="center-section">
-					<nvd3 ng-if="chart.view=='pieChart'" options="chart.piechart.options" data="chart.piechart.data"></nvd3>
+					<nvd3 ng-if="chart.view=='donutChart'" options="chart.piechart.options" data="chart.piechart.data"></nvd3>
 					<div class="tabular-data" ng-if="chart.view=='table'">
 						<table>
 							<thead >
@@ -82,8 +92,8 @@
 		</div>
 		<div class="col-xs-12 padding-top-10 table-container">
 		<div class="col-xs-3 pull-right table-toggler text-right">
-			<a  ng-show="!showTable" class="btn btn-primary" ng-click="showTable =!showTable;scrolDown =  !scrolDown;">Show Total Data</a>
-			<a  ng-show="showTable" class="btn btn-primary" ng-click="showTable =!showTable;scrolDown =  !scrolDown;">Hide Total Data</a></div>
+			<a class="btn btn-primary" ng-click="toggleTableData()">Show/Hide Total Data</a>
+		</div>
 		<div class="col-xs-12 bp-column no-border" ng-if="showTable">
 			<p>Table data</p>
 			<div class="center-section">
