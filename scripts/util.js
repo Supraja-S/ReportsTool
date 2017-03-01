@@ -1,5 +1,34 @@
+var  mapTextFile;
+var S4Data;
+var request = $.ajax({
+  url: "/getFileContent",
+  method: "GET",
+  data: { fileName : 'data/SAPUATProp.Properties' },
+});
+request.done(function( response ) {
+  mapTextFile = response;
+});
+request.fail(function( jqXHR, textStatus ) {
+  console.log('error');
+});
+getS4Data();
 
-var  mapTextFile = getFileContent("data/SAPUATProp.Properties");
+function getS4Data(){
+	
+	var request = $.ajax({
+	  url: "/getFileContent",
+	  method: "GET",
+	  data: { fileName : 'data/BF_Check_20161107114158.txt' },
+	});
+	request.done(function( response ) {
+	  S4Data = response;
+	  console.log(S4Data);
+	});
+	request.fail(function( jqXHR, textStatus ) {
+	  console.log('error');
+	});
+
+}
 
 function getFileName(key){
 	var fileName =null;

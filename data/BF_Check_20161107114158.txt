@@ -1,0 +1,670 @@
+COMPONENT	COMPONENTDESC	COMPTYPE	RELEASE	BFUNCTION	BFUNCDESC	BFUNCCATEG	CURRSTAT	FUTURESTAT	BFCONFLICT	MSGTYPE	ADDONSTAT	ADDONCONFLICT	SUCCPRODUCT	SUCCSW
+DMIS	DMIS 2011_1	Industry Solutions	2011_1_731	LT_PC_REORG_ANALYSIS	LT Profit Center Reorg. Analysis	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	/BEV1/ARC	BEV Archiving (PL,Emps,Rets,ED)	Enterprise BF / Enhancement Packages	OFF	OFF	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	/BEV1/NE_ENH	Functional Improvements BEV	Enterprise BF / Enhancement Packages	OFF	OFF	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	/CUM/MAIN_1	Compatible Units Archiving	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	/DSD/ARC	Archiving for Direct Store Deliv	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	/DSD/DEX	DEX Enablement for DSD	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	/DSD/OCS	Occasionally-Connected Scenarios	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	EA_ICM_ICM_CORE_01	Incentive&Commission Management	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	EA_ICM_ICM_CORE_02	Incentive&Commission Management	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	EA_ICM_ICM_CORE_03	Incentive&Commission Management	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	EA_ICM_ICM_CORE_04	Incentive and Commission Mgmt	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	EA_ICM_ICM_CORE_04_02	Incentive and Commission Mgmt	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	EA_ICM_PFO_CORE_04	Portfolio Assignment 2	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	ERP_AIE_INTEGRATION	AIE ERP Integration	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	FIN_ACC_LOCAL_CLOSE	Local Close	Enterprise BF / Enhancement Packages	ON	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	FIN_ACC_LOCAL_CLOSE_2	Local Close 2	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	FIN_ACC_LOCAL_CLOSE_3	Local Close 3	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	FIN_BL_EB_1	FI-BL, Elec. Bank Statement	Enterprise BF / Enhancement Packages	ON	ON	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	FIN_CO_CCMGMT	CO, Cost Center Management	Enterprise BF / Enhancement Packages	ON	ON	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	FIN_CO_MSSBUA_NWBC	Roles for MSS/BUA	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	FIN_LOC_CI_1	Non-HCM Localization Topics	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	FIN_LOC_CI_12	RE-FX, Loc. for France	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	FIN_LOC_CI_18	FI-AA Localization for Japan	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	FIN_LOC_CI_2	FI Topics for Japan and Portugal	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	FIN_LOC_CI_21	RE-FX, Par. Adjustment for NL	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	FIN_LOC_CI_22	RE-FX, Loc. of CMD for Italy	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	FIN_LOC_CI_26	Golden Tax Interface for China	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	FIN_LOC_CI_3	RE-FX Portugal	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	FIN_LOC_CI_6	RE-FX, Loc. for CZ, HU, NL, SK	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	FIN_LOC_CI_8	FI-AA Topics for IN, JP, RU	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	FIN_LOC_CI_9	FI, Localization for CN	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	JVA_CUTB_REVERSE	JVA cutback reversal	Enterprise BF / Enhancement Packages	ON	ON	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	JVA_GL_INTEGRATION	JVA - New G/L Integration	Enterprise BF / Enhancement Packages	ON	ON	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	JVA_INFS_VALIDREP	JVA, cutb, validation, reporting	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	JVA_REP_SIMPL	JVA, ODP for JVA	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	J_7L_REA_AUTO_CONFIG	REA, Automatic Configuration	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	J_7L_REA_CORE	REA, Recycling Administration	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	J_7L_REA_SUSTAIN	REA, Environmental Reporting	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_EAM_CC	Config. Control Innovations	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_EAM_CI_2	Enterprise Asset Management	Enterprise BF / Enhancement Packages	ON	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_EAM_CI_3	EAM: Continuous Improvements	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_EAM_CI_4	Enterprise Asset Mgmt Part 4	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_EAM_CI_5	Enterprise Asset Mgmt Part 5	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_EAM_CI_6	Enterprise Asset Mgmt Part 6	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_EAM_LINEAR_1	EAM, Linear Asset Management 1	Enterprise BF / Enhancement Packages	ON	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_EAM_LINEAR_2	EAM, Linear Asset Management 2	Enterprise BF / Enhancement Packages	ON	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_EAM_PAM	EAM: Pool Asset Management	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_EAM_SIMPLICITY	Simplified EAM Functions	Enterprise BF / Enhancement Packages	ON	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_EAM_SIMPLICITY_2	Simplified EAM Functions 2	Enterprise BF / Enhancement Packages	ON	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_EAM_TOHO	Takeover/Handover of Tech. Objs	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_EAM_TOHO_2	Takeover/Handover Improvements	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_EAM_TZS_1	EAM: Time Zone Support	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_EAM_TZS_2	EAM: Time Zone Support (Part 2)	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_EAM_VE_INT	EAM, Int. SAP Visual Enterprise	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_EAM_WCM_1	Stepwise Tagging/Work Permits	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_EAM_WCM_2	Definition of WCM Templates	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_EAM_WCM_3	Managing WCM Objects/Templates	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_EHS_CI_2	EH&S Continuous Improvement	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_EHS_DG_CI_3	EHS - Continuous Improvements DG	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_EHS_PS_CI_3	EHS - Continuous Improvements PS	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_FI_DPC_MM_1	Subcontractor Mgmt (DwnPayChain)	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_PP_CI_1	Optimizations in Production	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_PP_INTELI_01	POWL	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_PP_PI_PMA_01	PI Sheet Archiving	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_PP_PMA_PMC	PI Sheet	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_PP_SRN_02	Shift Report/Shift Note	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_PP_SRN_CONF	Shift Report/Notes, Confirmation	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_PP_XS_01	XStep Repository Enhancements	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_PP_XS_RTG_PO	XSteps for Routing and PO	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_SD_SMI	Supplier Managed Inventory	Enterprise BF / Enhancement Packages	ON	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	LOG_XPD_EXT_1	PS, Progress Tracking Data in PO	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	OPS_EC_INTEGRATION	Env. Compl. Integration	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	OPS_PS_CI_1	Project System Enhancements	Enterprise BF / Enhancement Packages	ON	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	OPS_PS_HLP_1	PS Handling Large Projects	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	OPS_PS_HLP_2	PS, Handling Large Projects 2	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	OPS_QM_EXTENSION_2	Enhanc.in FMEA + QM Notificatns	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	OPS_QM_EXTENSION_3	QM Extensions in QC and Notif.	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	OPS_QM_NOTIFICATION	QM: Functions for Qty Notifictns	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	OPS_QM_PLAN_INTEGRAT	QM: Inspection Plan Integration	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	PLM_PMEVC_1	PLM Var. Config.  Prod. Mod. Env	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	PLM_RM_PRODUCT_LABELING	PLM RM: Labeling	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	PMD_PLM_RECIPE_MANAGEMENT_1	PLM: Recipe Management	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	PRS_ERP_CPILS_1	Comm.Proj.Inception&L.Staffing	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	PRS_ERP_CPILS_2	Comm.Proj.Inception&L.Staffing 2	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	RE_CRE_MISC	Corporate Real Estate	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	RE_FM_EARMARKED_FUND	RE/FM Earmarked Funds	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	RE_GEN_CI_1	Real Estate	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	RE_GEN_CI_2	Real Estate 2	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	RE_GEN_CI_3	Real Estate 3	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	WTY_DP_1	LO, Warranty for Dealer Portal	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-APPL	SAP Enterprise Extension PLM, SCM, Financials	Others	606	WTY_DP_2	Warranty DP, Innovations	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-DFPS	SAP Enterprise Extension Defense Forces & Public Security	Others	606	DFPS_ICM_OF	DFPS: Investigative Case Mgmt	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-DFPS	SAP Enterprise Extension Defense Forces & Public Security	Others	606	DFPS_LM_GEN	Maint, Support: Flight Operat.	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-DFPS	SAP Enterprise Extension Defense Forces & Public Security	Others	606	DFPS_MDS_INTEGRATION	DFPS, Integration with SAP MDS	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-DFPS	SAP Enterprise Extension Defense Forces & Public Security	Others	606	DFPS_MDS_INTEGRATION_2	DFPS, Integration with SAP MDS 2	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-DFPS	SAP Enterprise Extension Defense Forces & Public Security	Others	606	DFPS_OF_DEPL_LOG	DFPS, Log. Operational Support	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-DFPS	SAP Enterprise Extension Defense Forces & Public Security	Others	606	DFPS_OF_LOG	DFPS, Log. Oper. Support 3	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-DFPS	SAP Enterprise Extension Defense Forces & Public Security	Others	606	DFPS_OF_OS	DFPS, Log. Operational Sup 2	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-DFPS	SAP Enterprise Extension Defense Forces & Public Security	Others	606	DFPS_OF_PERS_EQUI	DFPS, Personal Equipment	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-DFPS	SAP Enterprise Extension Defense Forces & Public Security	Others	606	DFPS_PM_DIS_SIG	DFPS, Distribution of Signatures	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-DFPS	SAP Enterprise Extension Defense Forces & Public Security	Others	606	EA-DFP	DefenseForces&PublicSecurity	Enterprise Addons	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	/IBS/EAFS_RBD_BUSOPR	RBD - Business Operations	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	/IBS/EAFS_RBD_BUSOPR5	RBD - Business Operations 2	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	EA-FS	Financial Services	Enterprise Addons	ON	ON	Pass - No Impact	S				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	EAFS_BCA_BUSOPR	Deposits – Business Operations	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	EAFS_BCA_BUSOPR_2	Deposits – Business Operations	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	EAFS_BCA_BUSOPR_3	Deposits – Business Operations	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	EAFS_CML_AUTH_REL	Auth,  Release & Maint. of bank	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	EAFS_CML_CL_EXT	Consumer Loan Extension	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	EAFS_CML_DEFCAP	CML: Deferral and Capitalization	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	EAFS_CML_FACILITIES	CML - Facilities	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	EAFS_CML_IOA	CML - Interest On Arrears	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	EAFS_CML_LOANS_POOLING	CML, Loan Data to Funding Mngmnt	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	EAFS_CML_PAH_NP	CML-Payt. App. Hier. & Neg. Post	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	FIN_INHOUSE_CASH_1	FIN IHC Enhancements	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	FIN_TRM_CCC	Central Counterparty Clearing	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	FIN_TRM_COMM_RM	TRM, FRM for Commodities	Enterprise BF / Enhancement Packages	OFF	OFF	Pass - No Impact	S				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	FIN_TRM_COMM_RM_2	TRM,  FRM for Commodities 2	Enterprise BF / Enhancement Packages	OFF	OFF	Pass - No Impact	S				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	FIN_TRM_CORR_FW	TRM, Correspondence Framework	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	FIN_TRM_CORR_FW_2	TRM, Correspondence Framework 2	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	FIN_TRM_INS_HM	TRM, P-Hedge Accounting	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	FIN_TRM_INS_HM_2	TRM, P-Hedge Accounting 2	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	FIN_TRM_INS_LOCBR	TRM, Treasury Localiz. Brazil	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	FIN_TRM_INS_LOCFR	TRM, Trans.Man. Localiz. France	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	FIN_TRM_LR_FI_AN	TRM: Hedge, Instr., Key Figures	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	FIN_TRM_LR_FI_AN_2	TRM, Hedge, Exposure, FI	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	FIN_TRM_LR_FI_AN_3	TRM, Instruments, Accounting	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	FIN_TRM_PSM_INTEGRATION	TM, Integration into Funds Mgmt	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-FINSERV	SAP Enterprise Extension Financial Services	Others	606	LOG_TRM_INT_1	Logistics Treasury Integration	Enterprise BF / Enhancement Packages	OFF	OFF	Pass - No Impact	S				
+EA-GLTRADE	SAP Enterprise Extension Global Trade	Others	606	ISR_GLT_COMMODITY_4	Trade, Commodity Management 4	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W		S		
+EA-GLTRADE	SAP Enterprise Extension Global Trade	Others	606	ISR_GLT_COMMODITY_5	Trade, Commodity Management 5	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W		S		
+EA-GLTRADE	SAP Enterprise Extension Global Trade	Others	606	ISR_GLT_IFW	Trade, Invoice Forecasting	Enterprise BF / Enhancement Packages	OFF	OFF	Pass - No Impact	S		S		
+EA-GLTRADE	SAP Enterprise Extension Global Trade	Others	606	ISR_GLT_VENDOR_FUND	Trade, Fund Settlement	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W		S		
+EA-GLTRADE	SAP Enterprise Extension Global Trade	Others	606	ISR_RET_COMMODITY_2	Trade, Commodity Management 2	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W		S		
+EA-GLTRADE	SAP Enterprise Extension Global Trade	Others	606	ISR_RET_COMMODITY_3	Trade, Commodity Management 3	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W		S		
+EA-GLTRADE	SAP Enterprise Extension Global Trade	Others	606	ISR_RET_COMPENSATION	Trade, Compensation Management	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W		S		
+EA-HR	SAP Enterprise Extension HR	Others	606	CA_CATS_CPR	CATS regular: cProject Details	Enterprise BF / Enhancement Packages	OFF	DEF_STATE			Yes, retrofitted into S/4HANA product version	S		
+EA-HR	SAP Enterprise Extension HR	Others	606	FIN_TRAVEL_2	Travel Management 2	Enterprise BF / Enhancement Packages	ON	DEF_STATE			Yes, retrofitted into S/4HANA product version	S		
+EA-HR	SAP Enterprise Extension HR	Others	606	HCM_ASR_CI_2	HCM, Administrative Services 02	Enterprise BF / Enhancement Packages	OFF	DEF_STATE			Yes, retrofitted into S/4HANA product version	S		
+EA-HR	SAP Enterprise Extension HR	Others	606	HCM_CE_PT	HCM, Time and Labor Mgmt for CE	Enterprise BF / Enhancement Packages	OFF	DEF_STATE			Yes, retrofitted into S/4HANA product version	S		
+EA-HR	SAP Enterprise Extension HR	Others	606	HCM_ECM_CI_1	HCM, ECM	Enterprise BF / Enhancement Packages	ON	DEF_STATE			Yes, retrofitted into S/4HANA product version	S		
+EA-HR	SAP Enterprise Extension HR	Others	606	HCM_EIC_CI_2	HCM, Empl. Interaction Center 02	Enterprise BF / Enhancement Packages	OFF	DEF_STATE			Yes, retrofitted into S/4HANA product version	S		
+EA-HR	SAP Enterprise Extension HR	Others	606	HCM_ESS_CE	HCM, ESS for CE/GE	Enterprise BF / Enhancement Packages	OFF	DEF_STATE			Yes, retrofitted into S/4HANA product version	S		
+EA-HR	SAP Enterprise Extension HR	Others	606	HCM_ESS_CI_1	HCM, ESS for Personal Info.	Enterprise BF / Enhancement Packages	OFF	DEF_STATE			Yes, retrofitted into S/4HANA product version	S		
+EA-HR	SAP Enterprise Extension HR	Others	606	HCM_LOC_CI_1	HCM Localization Topics	Enterprise BF / Enhancement Packages	OFF	DEF_STATE			Yes, retrofitted into S/4HANA product version	S		
+EA-HR	SAP Enterprise Extension HR	Others	606	HCM_LOC_CI_2	HCM Topics for Russia	Enterprise BF / Enhancement Packages	OFF	DEF_STATE			Yes, retrofitted into S/4HANA product version	S		
+EA-HR	SAP Enterprise Extension HR	Others	606	HCM_LOC_CI_3	HCM Developments JP	Enterprise BF / Enhancement Packages	OFF	DEF_STATE			Yes, retrofitted into S/4HANA product version	S		
+EA-HR	SAP Enterprise Extension HR	Others	606	HCM_LOC_CI_4	HCM Public Sector Italy	Enterprise BF / Enhancement Packages	OFF	DEF_STATE			Yes, retrofitted into S/4HANA product version	S		
+EA-HR	SAP Enterprise Extension HR	Others	606	HCM_LOC_CI_5	Offcycle payment Spain	Enterprise BF / Enhancement Packages	OFF	DEF_STATE			Yes, retrofitted into S/4HANA product version	S		
+EA-HR	SAP Enterprise Extension HR	Others	606	HCM_LOC_CI_6	HCM: Public Sector SE	Enterprise BF / Enhancement Packages	OFF	DEF_STATE			Yes, retrofitted into S/4HANA product version	S		
+EA-HR	SAP Enterprise Extension HR	Others	606	HCM_LOC_CI_7	HCM Municipalities Norway	Enterprise BF / Enhancement Packages	OFF	DEF_STATE			Yes, retrofitted into S/4HANA product version	S		
+EA-HR	SAP Enterprise Extension HR	Others	606	HCM_LOC_CI_8	HCM TNM/LSO Integration	Enterprise BF / Enhancement Packages	OFF	DEF_STATE			Yes, retrofitted into S/4HANA product version	S		
+EA-HR	SAP Enterprise Extension HR	Others	606	HCM_LSO_CI_2	HCM, Learning Solution 02	Enterprise BF / Enhancement Packages	OFF	DEF_STATE			Yes, retrofitted into S/4HANA product version	S		
+EA-HR	SAP Enterprise Extension HR	Others	606	HCM_MSS_ERC_CI_1	HCM, MSS for SAP E-Recruiting	Enterprise BF / Enhancement Packages	OFF	DEF_STATE			Yes, retrofitted into S/4HANA product version	S		
+EA-HR	SAP Enterprise Extension HR	Others	606	HCM_OSA_CI_1	HCM, Performance Management 01	Enterprise BF / Enhancement Packages	OFF	DEF_STATE			Yes, retrofitted into S/4HANA product version	S		
+EA-HR	SAP Enterprise Extension HR	Others	606	HCM_TMC_CI_1	HCM, Core Procs in Talent Mgmt	Enterprise BF / Enhancement Packages	OFF	DEF_STATE			Yes, retrofitted into S/4HANA product version	S		
+EA-HR	SAP Enterprise Extension HR	Others	606	PSM_PBC_XPL	PSM, PBC: Extended Posting Logic	Enterprise BF / Enhancement Packages	OFF	DEF_STATE			Yes, retrofitted into S/4HANA product version	S		
+EA-HRCCL	Sub component EA-HRCCL of EA-HR	Others	606	HCM_LOC_CI_16	HCM, Payroll for Chile	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRCCN	Sub component EA-HRCCN of EA-HR	Others	606	HCM_LOC_CI_30	HCM, Performance Mgmt for China	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRCCN	Sub component EA-HRCCN of EA-HR	Others	606	HCM_LOC_CI_38	HCM, Talent Management for China	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRCCN	Sub component EA-HRCCN of EA-HR	Others	606	HCM_LOC_CI_39	HCM, Performance Mgmt for China	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRCCN	Sub component EA-HRCCN of EA-HR	Others	606	HCM_LOC_CI_45	HCM, IT and Legal Rpt for CN	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRCES	Sub component EA-HRCES of EA-HR	Others	606	HCM_LOC_CI_23	Massive IRPF Calculation Spain	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRCFR	Sub component EA-HRCFR of EA-HR	Others	606	HCM_LOC_CI_10	HCM, Local Public Sector PT	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRCIN	Sub component EA-HRCIN of EA-HR	Others	606	HCM_LOC_CI_21	HCM Topics for India	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRCIN	Sub component EA-HRCIN of EA-HR	Others	606	HCM_LOC_CI_22	Alternate Financial Year	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRCIN	Sub component EA-HRCIN of EA-HR	Others	606	HCM_LOC_CI_32	HCM, Topics for India	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRCIN	Sub component EA-HRCIN of EA-HR	Others	606	HCM_LOC_CI_33	HCM Topics for India	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRCIN	Sub component EA-HRCIN of EA-HR	Others	606	HCM_LOC_CI_36	HCM, Localization for India	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRCIT	Sub component EA-HRCIT of EA-HR	Others	606	HCM_LOC_CI_15	HCM, Local Public Sector Italy	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRCJP	Sub component EA-HRCJP of EA-HR	Others	606	HCM_LOC_CI_24	HCM, Japan Insurance Data Exchan	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRCJP	Sub component EA-HRCJP of EA-HR	Others	606	HCM_LOC_CI_25	HCM, ESS Work Schedule for Japan	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRCJP	Sub component EA-HRCJP of EA-HR	Others	606	HCM_LOC_CI_31	Child Care and Nursing Leave JP	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRCMY	Sub component EA-HRCMY of EA-HR	Others	606	HCM_LOC_CI_35	MY ESS TP1 TP2 Development	Enterprise BF / Enhancement Packages	OFF		Not part of BF list	I		S		
+EA-HRCRU	Sub component EA-HRCRU of EA-HR	Others	606	HCM_LOC_CI_14	HCM, Concurrent Employment RU	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRCRU	Sub component EA-HRCRU of EA-HR	Others	606	HCM_LOC_CI_19	HCM, PY and TRV Topics for RU	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRCTW	Sub component EA-HRCTW of EA-HR	Others	606	HCM_LOC_CI_37	HCM, Cross-Year Tax for Taiwan	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRCUN	Sub component EA-HRCUN of EA-HR	Others	606	HCM_LOC_CI_27	HCM Localization NPO Topics	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	FIN_SSC_TIC_1	FI-TV, Enablement for SSC	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	FIN_TRAVEL_3	Travel Management 3	Enterprise BF / Enhancement Packages	ON	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	FIN_TRAVEL_4	Travel Management 4	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	FIN_TRAVEL_LOC_1	FI-TV, Travel Mgmt for PL/RU/UA	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	FIN_TRAVEL_PLANNING_EXTERNAL	Third-party Travel Planning	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	FIN_TRAVEL_PLANNING_EXTERNAL_2	Third-party Travel Planning 2	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	HCM_ANALYTICS_2	HCM, Analytics ODP	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	HCM_ASR_CI_3	HCM, Administrative Services 03	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	HCM_ECM_CI_2	HCM, ECM 02	Enterprise BF / Enhancement Packages	ON	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	HCM_HAP_CI_1	HCM, Perform. Mgmt (Flexible) 01	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	HCM_HCP_CI_1	HCM, Personnel Cost Planning	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	HCM_HIRE_INT_CI_1	HCM, Hire Integration 1	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	HCM_LOC_CI_18	HCM Localization Topics	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	HCM_LOC_CI_20	HCM Localization NPO Topics	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	HCM_LSO_CI_3	HCM, Learning Solution 03	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	HCM_OSA_CI_2	HCM, Performance Management 02	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	HCM_OSA_CI_3	HCM, Perform. Mgmt (Predef.) 03	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	HCM_PD_UI_1	HCM, PD UI Visualization 01	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	HCM_PYO_CI_1	HCM, Payroll Outsouring	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	HCM_SSC_EIC_1	HCM, Integration with SCC	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	HCM_TMC_CI_2	HCM, Core Procs in Tal. Mgmt 02	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	HCM_TMC_CI_3	HCM, Core Procs in TalentMgmt 03	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	PRS_HCM_CPILS_1	HCM, CATS WD Lean Staffing	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	PSM_PBC_CI_1	PSM, Position Budgeting and Ctrl	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+EA-HRGXX	Sub component EA-HRGXX of EA-HR	Others	606	PSM_PBC_MIXEDFUND	Funds-/Mixed Financing	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+EA-HRRXX	Sub component EA-HRRXX of EA-HR	Others	606	HCM_ESS_WDA_1	Employee Self Services on WDA	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRRXX	Sub component EA-HRRXX of EA-HR	Others	606	HCM_ESS_WDA_2	HCM, ESS on Web Dynpro ABAP 2	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRRXX	Sub component EA-HRRXX of EA-HR	Others	606	HCM_LOC_CI_11	HCM Localization Topics	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRRXX	Sub component EA-HRRXX of EA-HR	Others	606	HCM_LOC_CI_12	HCM, Topics for India and Japan	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRRXX	Sub component EA-HRRXX of EA-HR	Others	606	HCM_LOC_CI_13	HCM Topics for Japan	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRRXX	Sub component EA-HRRXX of EA-HR	Others	606	HCM_LOC_CI_17	HCM, Pension IT/Parallelization	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRRXX	Sub component EA-HRRXX of EA-HR	Others	606	HCM_LOC_CI_26	HCM, Localization for India	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRRXX	Sub component EA-HRRXX of EA-HR	Others	606	HCM_LOC_CI_28	HCM, Localization for China	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRRXX	Sub component EA-HRRXX of EA-HR	Others	606	HCM_LOC_CI_29	HCM XSS WDA Additions EHP6 SP01	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRRXX	Sub component EA-HRRXX of EA-HR	Others	606	HCM_LOC_CI_9	HCM, Topics for Spain and Italy	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRRXX	Sub component EA-HRRXX of EA-HR	Others	606	HCM_MOBILEINBOX_TT_1	HCM, Time & Travel Mgmt (Mobile)	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-HRRXX	Sub component EA-HRRXX of EA-HR	Others	606	HCM_SRV_CI_2	HCM, Enterprise Services 02	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	FIN_LOC_CI_10	FI, LO, Interest on Arrears	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	FIN_LOC_CI_5	FI&FM Public Sector Spain	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_ACC_SEIZURE	Seizure of Non-Pyrl Liabilities	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_ESOA_SDINT	PSM extensions for SD services	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_FA_CASH	Cash-Basis Acc. & Cash Flow Rep.	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_FA_CI	Fund Accounting	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_FA_CI_2	Fund Accounting 2	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_FM_BCS_AVC	PSM, BCS Availability Control	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_FM_BCS_CI_1	PSM, Budget Control System	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_FM_BCS_FMAA_DESCR	BCS FM account assignment texts	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_FM_BCS_MBS	PSM, Multi-Level Budget Struct.	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_FM_BCS_MBS_2	PSM, Multi-Level Budget Struc. 2	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_FM_CI_2	PSM, Funds Management 2	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_FM_CI_3	PSM, Funds Management 3	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_FM_CI_4	PSM, Funds Management 4	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_FM_LOC_CI_01	PSM, FM, Localization ES, EA-PS	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_FM_LOC_CI_02	PSM, FM, Localization IT, EA-PS	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_FM_LOC_CI_04	Invoice Split Spain	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_FM_REASSIGN	PSM, Reassignment w. FI-GL (New)	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_GM_GTE_CI_1	Grantee Management	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_GM_GTE_CI_2	PSM, Grantee Management 2	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_GOVPROC_JFMIP	PSM, Financial Integration EA-PS	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_GOVPROC_PA	PSM, Pricing Arrangement in PPS	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_GRANTOR_APAR	PSM, Grantor Integration (AP/AR)	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_GRANTOR_APAR_2	PSM, Enh. Feat. GM-GTR (AP/AR)	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_MM_MAA	PSM, MAA Final Acct Assignment	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_PPS_INTEGRATION	PSM, Addnl Functions in SAP PPS	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_USFED_BPN_1	Business Partner Network	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_USFED_CI_2	PSM, US Federal 2	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_USFED_CI_3	PSM, US Federal generic 3	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_USFED_DEBT_1	Debt Management	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_USFED_DEBT_RESCHEDULE	PSM, US Federal Debt Management	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_USFED_PEROP_1	Period of Performance	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_USFED_PPAP_1	PPA and Payments	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_USFED_PPAP_2	PSM, US Federal PPA and Payments	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_USFED_PPAP_3	US Federal - PPA and Payments 3	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_USFED_REIMB_1	Reimbursable Orders	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-PS	SAP Enterprise Extension Public Services	Others	606	PSM_USFED_SO_ADJ	PSM, US Fed - SO Adjustment prog	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	EA-RET	Retail	Enterprise Addons	ON							
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_BONUS_BUY	Retail, Bonus Buy	Enterprise BF / Enhancement Packages	OFF							
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_CI	Retail, Contin.Improvements EA	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_CRM_INTEG	Retail, MD Integration in CRM 02	Enterprise BF / Enhancement Packages	OFF							
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_DSD	Retail, Direct Store Delivery	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_DSD_2	Retail, Direct Store Delivery 2	Enterprise BF / Enhancement Packages	OFF							
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_ENH_MAT_SEARCH	Retail, MM Enh. Mat. Search	Enterprise BF / Enhancement Packages	OFF							
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_GDS	Retail, Global Data Synchron.	Enterprise BF / Enhancement Packages	OFF							
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_INDIA_LOC	Retail, Localization for IN	Enterprise BF / Enhancement Packages	OFF	OFF	Pass - No Impact	S				
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_INSTORE_FPD	Retail, Instore Food Production	Enterprise BF / Enhancement Packages	OFF	OFF	Pass - No Impact	S				
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_INSTORE_FPD_2	Retail, Instore Food Prod. 2	Enterprise BF / Enhancement Packages	OFF							
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_MAP_IF	Retail, MAP Interface	Enterprise BF / Enhancement Packages	OFF	OFF	Pass - No Impact	S				
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_MAP_IF2	Retail, MAP Interface 2	Enterprise BF / Enhancement Packages	OFF							
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_OUTBOUND_DMF	Retail, Expt Retail Data to PMR	Enterprise BF / Enhancement Packages	OFF							
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_PERISH_PROCUREMENT	Retail, Perishables Procure EA	Enterprise BF / Enhancement Packages	OFF							
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_POS_INTEG	Retail, POS Integration	Enterprise BF / Enhancement Packages	OFF							
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_PROMO	Retail, ERP Inbound Promotions	Enterprise BF / Enhancement Packages	OFF							
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_PROMO_2	Retail, Inbound Promotions 2	Enterprise BF / Enhancement Packages	OFF							
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_RMA	Retail, Method of Accounting	Enterprise BF / Enhancement Packages	OFF	OFF	Pass - No Impact	S				
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_RMA_2	Retail, Method of Accounting 2	Enterprise BF / Enhancement Packages	OFF							
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_RMA_3	Retail, RMA Cost Allocations	Enterprise BF / Enhancement Packages	OFF							
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_STORE_2	Retail, Store & Multichannel 2	Enterprise BF / Enhancement Packages	ON							
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_STORE_3	Retail, Store & Multichannel 3	Enterprise BF / Enhancement Packages	ON							
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_STORE_4	Retail, In-Store MIM	Enterprise BF / Enhancement Packages	ON							
+EA-RETAIL	SAP Enterprise Extension Retail	Others	606	ISR_RETAIL_USABILITY	Retail, Usability EA	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+ECC-DIMP	DIMP	Industry Solutions	606	/SAPMP/GEN_CI_1	Mill, OrderToCash & Global Trade	Industries Business Functions	OFF	ON	Warning	W		S		
+ECC-DIMP	DIMP	Industry Solutions	606	/SAPMP/GEN_MILLFUNC	Mill Functions for Mining	Enterprise BF / Enhancement Packages	OFF		Not part of BF list	I		S		
+ECC-DIMP	DIMP	Industry Solutions	606	/SAPMP/PP_CMTSBVAL	MTS with Ind. Batch Determ.	Industries Business Functions	OFF	ON	Warning	W		S		
+ECC-DIMP	DIMP	Industry Solutions	606	/SAPMP/USER_PROD	Mill Products, UI Harmonization	Industries Business Functions	OFF	ON	Warning	W		S		
+ECC-DIMP	DIMP	Industry Solutions	606	AD_GPD_CI_1	GPD Improvements	Industries Business Functions	OFF	ON	Warning	W		S		
+ECC-DIMP	DIMP	Industry Solutions	606	AD_GPD_CI_2	GPD Innovations	Industries Business Functions	OFF	ON	Warning	W		S		
+ECC-DIMP	DIMP	Industry Solutions	606	AD_MPN_SCM	Material Exchange Using SCM	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+ECC-DIMP	DIMP	Industry Solutions	606	AD_MPN_SCM_2	Mat.Exc.SCM Int/Ext Comp.Repair	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+ECC-DIMP	DIMP	Industry Solutions	606	AD_MPN_STO	Interchangeability in STO	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+ECC-DIMP	DIMP	Industry Solutions	606	AD_MRO_CI_3	Rot/SSP, Subcon Innovations	Industries Business Functions	OFF	ON	Warning	W		S		
+ECC-DIMP	DIMP	Industry Solutions	606	AUTO_DP_1	Dealer Portal, VMS, SPP, ES	Industries Business Functions	OFF	ON	Warning	W		S		
+ECC-DIMP	DIMP	Industry Solutions	606	AUTO_DP_2	DP, NWBC, VC Intgr.	Industries Business Functions	OFF	ON	Warning	W		S		
+ECC-DIMP	DIMP	Industry Solutions	606	ERP_ECC_MSP_EA	ERP MSP(general core enablement)	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W		S		
+ECC-DIMP	DIMP	Industry Solutions	606	LOG_EAM_ELBK	Electronic Logbook Data Exchange	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W		S		
+ECC-DIMP	DIMP	Industry Solutions	606	LOG_EAM_POM_2	MEB and Logbook Innovations	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W		S		
+ECC-DIMP	DIMP	Industry Solutions	606	LOG_EAM_ROTSUB	Refurbishment & Subcontracting	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W		S		
+ECC-DIMP	DIMP	Industry Solutions	606	LOG_EAM_ROTSUB_2	Refurbishment & Subcontracting 2	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W		S		
+ECC-DIMP	DIMP	Industry Solutions	606	LOG_EAM_WTY	Warranty for customer service	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W		S		
+ECC-DIMP	DIMP	Industry Solutions	606	LOG_MM_RL	Returnable Packaging Logistics	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+ECC-DIMP	DIMP	Industry Solutions	606	LOG_SD_EDIMON	EDI Monitors	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W		S		
+ERECRUIT	E-Recruiting	Industry Solutions	606	HCM_ERC_ANALYTICS_1	HCM, SAP E-Recruiting Analytics	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+ERECRUIT	E-Recruiting	Industry Solutions	606	HCM_ERC_CI_1	HCM, SAP E-Recruiting 1	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+ERECRUIT	E-Recruiting	Industry Solutions	606	HCM_ERC_CI_2	HCM, SAP E-Recruiting 2	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+ERECRUIT	E-Recruiting	Industry Solutions	606	HCM_ERC_CI_3	HCM, SAP E-Recruiting 3	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+ERECRUIT	E-Recruiting	Industry Solutions	606	HCM_ERC_CI_4	HCM, SAP E-Recruiting 4	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+ERECRUIT	E-Recruiting	Industry Solutions	606	HCM_ERC_EIC_1	ERC, Integration with SSC	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+ERECRUIT	E-Recruiting	Industry Solutions	606	HCM_ERC_EIC_2	ERC, Integration with SSC 2	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+ERECRUIT	E-Recruiting	Industry Solutions	606	HCM_ERC_SES_1	HCM, SAP E-Recruiting Search 1	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+ERECRUIT	E-Recruiting	Industry Solutions	606	HCM_TM_ANALYTICS_1	HCM, TM Analytics 1	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+FI-CA	FI-CA	Industry Solutions	606	FIN_FSCM_BD_2	BD: Pr. to Pay, Cust. Fld. Ext.	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+FI-CAX	FI-CA Extended	Industry Solutions	606	FICAX_BILL_INVOICING	Billing and Invoicing	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+FI-CAX	FI-CA Extended	Industry Solutions	606	FICAX_CI_2	Contract Accounts A/R and A/P,02	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+FI-CAX	FI-CA Extended	Industry Solutions	606	FICAX_CI_3	Contract Accounts A/R + A/P, 03	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+FI-CAX	FI-CA Extended	Industry Solutions	606	FICAX_CI_4	Contract Accounts A/R and A/P,04	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+FI-CAX	FI-CA Extended	Industry Solutions	606	FICAX_INV_1	Invoicing	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+FI-CAX	FI-CA Extended	Industry Solutions	606	FICAX_INV_PP_1	Billing in FI-CA	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+FI-CAX	FI-CA Extended	Industry Solutions	606	FICAX_INV_PP_2	Billing in FI-CA, 01	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+FI-CAX	FI-CA Extended	Industry Solutions	606	FICAX_LEASING_CI_1	Contract A/R & A/P, Leasing 1	Industries Business Functions	OFF	OFF	Pass - No Impact	S		S		
+FINBASIS	Financial Basis	Others	736	FIN_FSCM_CCD_2	FSCM Functions 2	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W		S		
+FINBASIS	Financial Basis	Others	736	FIN_FSCM_CCD_3	FSCM Functions 3	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W		S		
+FINBASIS	Financial Basis	Others	736	FIN_FSCM_SSC_AIC_1	FSCM, Enablement for FSS	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+FINBASIS	Financial Basis	Others	736	FIN_MDM_ORG	MDG, Financials, Org. Units	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+FINBASIS	Financial Basis	Others	736	FIN_SSC_ISS_1	ISS, Enablement for FSS	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+INSURANCE	SAP Insurance	Industry Solutions	606	/GSINS/INS_LOC_01	Insurance, Vehicle Func. for RU	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+INSURANCE	SAP Insurance	Industry Solutions	606	/GSINS/INS_LOC_02	Insurance Localization Brazil	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+INSURANCE	SAP Insurance	Industry Solutions	606	INS_FSCD	Collections/Disbursements	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+INSURANCE	SAP Insurance	Industry Solutions	606	INS_FSCD_CI_2	Insurance: Coll./Disb. 2	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+INSURANCE	SAP Insurance	Industry Solutions	606	INS_FSCD_CI_3	Ins: Collections/Disbursements 3	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+INSURANCE	SAP Insurance	Industry Solutions	606	INS_FSCD_CI_4	Ins.:Collections/Disbursements 4	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+INSURANCE	SAP Insurance	Industry Solutions	606	INS_FSCD_CI_4B	Insurance Collect./Disburse. 4B	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+INSURANCE	SAP Insurance	Industry Solutions	606	INS_FSCM_AUTO	Insurance Auto Best Practice	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+INSURANCE	SAP Insurance	Industry Solutions	606	INS_FSCM_CI_1	Insurance Claim Handling	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+INSURANCE	SAP Insurance	Industry Solutions	606	INS_FSCM_CI_2	Insurance Claim Handling 2	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+INSURANCE	SAP Insurance	Industry Solutions	606	INS_FSCM_CI_3	Insurance Claim Handling 3	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+INSURANCE	SAP Insurance	Industry Solutions	606	INS_FSCM_CI_4	Insurance Claim Handling 4	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+INSURANCE	SAP Insurance	Industry Solutions	606	INS_FSCM_ENT_SRCH_1	Claims Enterprise Search I	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+INSURANCE	SAP Insurance	Industry Solutions	606	INS_FSCM_LIFE	Insurance Life Benefit Process	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+INSURANCE	SAP Insurance	Industry Solutions	606	INS_LOC_IN_01	Insurance localization WHT India	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-CWM	Industry Solution Catch Weight Management	Industry Solutions	606	/CWM/CM_1	CWM, Inv.Mgmt, Inv.Acctg in ERP	Industries Business Functions	OFF	OFF	Pass - No Impact	S		S		
+IS-CWM	Industry Solution Catch Weight Management	Industry Solutions	606	/CWM/CM_2	Finalization Architecture Change	Industries Business Functions	OFF					S		
+IS-CWM	Industry Solution Catch Weight Management	Industry Solutions	606	/CWM/CM_3	Repetitive MFG, Addit. Processes	Industries Business Functions	OFF					S		
+IS-CWM	Industry Solution Catch Weight Management	Industry Solutions	606	/CWM/FMP	CWM: Flexible Material Prices	Industries Business Functions	OFF					S		
+IS-H	SAP Healthcare	Industry Solutions	606	ISHMED_EDP	Clinical System EDP	Industries Business Functions	OFF					S		
+IS-H	SAP Healthcare	Industry Solutions	606	ISHMED_MISC01	Clinical System Func. Ext. 6	Industries Business Functions	OFF					S		
+IS-H	SAP Healthcare	Industry Solutions	606	ISHMED_SCD	Clinical System SCD	Industries Business Functions	OFF					S		
+IS-H	SAP Healthcare	Industry Solutions	606	ISH_AMB_MISC1	SAP Ambulatory Care Mgmt LPA	Industries Business Functions	OFF					S		
+IS-H	SAP Healthcare	Industry Solutions	606	ISH_BP_OM	SAP Patient Management BP/OM	Industries Business Functions	OFF					S		
+IS-H	SAP Healthcare	Industry Solutions	606	ISH_CRMPM	SAP CRM and PM Integration	Industries Business Functions	OFF					S		
+IS-H	SAP Healthcare	Industry Solutions	606	ISH_CV_CN	SAP Patient Management CV China	Industries Business Functions	OFF					S		
+IS-H	SAP Healthcare	Industry Solutions	606	ISH_CV_FR	SAP Patient Management CV France	Industries Business Functions	OFF					S		
+IS-H	SAP Healthcare	Industry Solutions	606	ISH_CV_IT	SAP Patient Management CV Italy	Industries Business Functions	OFF					S		
+IS-H	SAP Healthcare	Industry Solutions	606	ISH_MISC1	SAP Patient Management LPA	Industries Business Functions	OFF					S		
+IS-H	SAP Healthcare	Industry Solutions	606	ISH_MISC2	SAP Patient Management LPA 2	Industries Business Functions	OFF					S		
+IS-H	SAP Healthcare	Industry Solutions	606	ISH_MISC3	SAP Patient Management LPA 3	Industries Business Functions	OFF					S		
+IS-H	SAP Healthcare	Industry Solutions	606	ISH_TC	SAP Patient Management TC	Industries Business Functions	OFF					S		
+IS-M	SAP MEDIA	Industry Solutions	606	MED_BP_1	Media, BP	Industries Business Functions	OFF	OFF	Pass - No Impact	S		S		
+IS-M	SAP MEDIA	Industry Solutions	606	MED_CA_1	Media, Contract A/R & A/P	Industries Business Functions	OFF	OFF	Pass - No Impact	S		S		
+IS-M	SAP MEDIA	Industry Solutions	606	MED_CA_2	Media, Contract Accounting 2	Industries Business Functions	OFF	OFF	Pass - No Impact	S		S		
+IS-M	SAP MEDIA	Industry Solutions	606	MED_CA_3	Media, Contract A/R and A/P 3	Industries Business Functions	OFF	OFF	Pass - No Impact	S		S		
+IS-M	SAP MEDIA	Industry Solutions	606	MED_CA_4	Media, Contract A/R and A/P 4	Industries Business Functions	OFF	OFF	Pass - No Impact	S		S		
+IS-M	SAP MEDIA	Industry Solutions	606	MED_INV_PP	Media: Content to Cash	Industries Business Functions	OFF	OFF	Pass - No Impact	S		S		
+IS-M	SAP MEDIA	Industry Solutions	606	MED_MAM_1	Media, Ad Mgmt 2	Industries Business Functions	OFF	OFF	Pass - No Impact	S		S		
+IS-M	SAP MEDIA	Industry Solutions	606	MED_MAM_2	Media, Cross-Media Ads	Industries Business Functions	OFF	OFF	Pass - No Impact	S		S		
+IS-M	SAP MEDIA	Industry Solutions	606	MED_MSD_1	Media, Subs. Mgmt 2	Industries Business Functions	OFF	OFF	Pass - No Impact	S		S		
+IS-M	SAP MEDIA	Industry Solutions	606	MED_PDEX_1	Media, Press Distrib. 2	Industries Business Functions	OFF	OFF	Pass - No Impact	S		S		
+IS-OIL	IS-OIL	Industry Solutions	606	COMM_MGMT&BULK_LOG_1	Commodity mgmt & Bulk Transports	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-OIL	IS-OIL	Industry Solutions	606	CROSS_EXCISE_DUTY	Cross Excise Duty Management	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-OIL	IS-OIL	Industry Solutions	606	ILM_CDE_CONT_IS_OIL	ILM, CDE for Oil&Gas	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-OIL	IS-OIL	Industry Solutions	606	IS_MIN_LOC_BR_01	IS-Mining Brazil	Enterprise BF / Enhancement Packages	OFF	OFF	Pass - No Impact	S		S		
+IS-OIL	IS-OIL	Industry Solutions	606	LOG_COMMODITY_TRANSPORT_MGMT_4	Commodity Mgt & Bulk Transports2	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-OIL	IS-OIL	Industry Solutions	606	LOG_COMMODITY_TRANSPORT_MGMT_5	Commodity Mgt & Bulk Transports3	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-OIL	IS-OIL	Industry Solutions	606	LOG_TSW_ECC	Trader's & Scheduler's Workbench	Enterprise BF / Enhancement Packages	OFF	OFF	Pass - No Impact	S		S		
+IS-OIL	IS-OIL	Industry Solutions	606	OIL_LOC_AR_01	IS-Oil Localization Argentina	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-OIL	IS-OIL	Industry Solutions	606	OIL_PRODUCTION	Upstream Production Management	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-OIL	IS-OIL	Industry Solutions	606	OIL_REVENUE_ACCOUNTING	Upstream Revenue Accounting	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-OIL	IS-OIL	Industry Solutions	606	OIL_TSW_LOCRU_CI_1	IS-OIL, TSW Localization for RU	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-OIL	IS-OIL	Industry Solutions	606	OIL_TSW_LOCRU_CI_2	IS-OIL,TSW Localization for RU 2	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-OIL	IS-OIL	Industry Solutions	606	REMOTE_LOGISTICS_MANAGEMENT	Remote Logistics Management	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-OIL	IS-OIL	Industry Solutions	606	REMOTE_LOG_MGMT_1	Remote Logistics Management 1	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PRA	SAP IS-PRA	Industry Solutions	606	OIL_PRA_CI_1	PRA - Extended Features	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	ERP_IPS_4S_1	Social Services	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	ERP_IPS_4S_3	Social Services	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	ISHERCM_ESOA	SLCM, ESOA	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	ISHERCM_EXT_IAP	SLCM, Extended IAP	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	ISHERCM_EXT_IAP_2	SLCM, Extended IAP 2	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	ISHERCM_GRADING_ENH	SLCM, Grading Enhancements	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	ISHERCM_INTERNSHIP	SLcM: Internships	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	ISHERCM_LOCES_K12	Student Lifecycle Management ES	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	ISHERCM_LOCNL_STUDYLINK_1	Student Lifecycle Management NL	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	ISHERCM_MAIN	Academic Structure	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	ISHERCM_MAIN_IAP	SLCM, Implementation Accelerator	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	ISHERCM_REP	Student Reporting	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	ISHERCM_SETTINGS	Customizing & Settings	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	ISHERCM_UCAS	UCAS Interface	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	ISHERCM_UI_ADVISOR	SLCM, UI for Academic Advisor	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	ISHERCM_UI_STUDENT	SLCM, UI for Student Role	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	ISHER_BRFP_PROGRESSION	SLcM: Progression with BRF+	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	PSCD	PSCD, Collections & Disbursement	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	PSCD_COLLECTIONS_MANAGEMENT	PSCD, Collections Management	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	PSCD_COLLECTIONS_MANAGEMENT_1	PSCD, Collections&Corresp. Mgmt	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	PSCD_COLLECTIONS_MANAGEMENT_2	PSCD, Collections&Corresp. Mgmt2	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	PSCD_COLLECTIONS_MANAGEMENT_3	PSCD Collections Management 3	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	PSCD_COLLECTIONS_MANAGEMENT_3C	PSCD Customer Connect	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	PSCD_GRANTOR_2	PSM, Enh. Feat. GM-GTR (PSCD)	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	PSCD_SETTINGS	PSCD, Customizing & Settings	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	PSCD_SOCIAL	Social Services (PSCD)	Industries Business Functions	OFF	OFF	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	PSCD_TRM_&_PROPERTY_TAX	Tax&Rev. Mmgt incl. Prop. Tax	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	PSCD_TRM_AND_WITHHOLDING	Tax&Rev. Mmgt incl. Withholding	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	PSCD_TRM_BRFPLUS	PSCD: Calculate PT using BRFPlus	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-PS-CA	IS-PUBLIC SECTOR CONTRACT ACCOUNTING	Industry Solutions	606	PSCD_TRM_RETURN_PROCESSING	PSCD, Tax Return Processing	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ILM_CDE_CONT_IS_U	CDE Content for IS-U	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_AMI_1	Advanced Metering Infrastructure	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_AMI_2	Advanced Metering Infrastructure	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_AMI_3	Advanced Metering Infrastructure	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_AMI_4A	Advanced Metering Infrastructure	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_AMI_4B	Advanced Metering Infrastructure	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_BI_INV_1	Enhanced Billing & Invoicing	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_CA_1	Utilities, Contract A/R a. A/P 1	Industries Business Functions	ON	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_CA_2	Utilities, Contract A/R a. A/P 2	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_CRM_1	Customer Relationship Management	Industries Business Functions	ON	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_CRM_2	CRM for Utilities 1	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_INV_1	Utilities, Conv. Invoicing 1	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_INV_PP_1	Billing in FI-CA	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_INV_PP_2	Billing in Cont.Acc.Rec./Pay.1	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_LOC_CI_1	Localization, Customer Feedback	Industries Business Functions	ON	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_LOC_CI_2	Localization, Customer Feedback	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_LOC_CI_3	Localization, Customer Feedback	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_MCOMM_1	Flexibilization of IDE	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_MCOMM_2	Flexibilization of IDE	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_MCOMM_3	Utilities, Market Communictn. 3	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_MC_DEX_1	Infrastructure ServiceEnabl. IDE	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_QD_1	Utilities, Quantity Determinatn.	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_UI_1	UI BT	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_UI_2	UI BT	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_WASTE_2	Waste & Recycling	Industries Business Functions	OFF	OFF	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_WASTE_3	Waste & Recycling	Industries Business Functions	OFF	OFF	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_WASTE_C&I_2	Waste & Recycling, C&I	Industries Business Functions	OFF	OFF	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	ISU_WASTE_RCI_2	Waste & Recycling, RCI	Industries Business Functions	OFF	OFF	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	TEL_BI_INV_1	Telco,Enhanced Billing&Invoicing	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	TEL_CA_2	Telco, Enhanced Revenue Mgmt.	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	TEL_CA_3	Telco, Contract Acc A/R a. A/P 3	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	TEL_CA_4	Telco, Contract Acc A/R a. A/P 4	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	TEL_CONV_INV_1	Telco, Enhanced Invoicing	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	TEL_INV_1	Telco, Convergent Invoicing	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	TEL_INV_PP_1	Telco, Invoicing in CntAccRecPay	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IS-UT	SAP Utilities/Telecommunication	Industry Solutions	606	TEL_INV_PP_2	Telco, Billing in FI-CA 2	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+IW_CNT	SAP IW CNT 200	Industry Solutions	200	/IWCNT/COMMON	Business Function for CBC Common	Enterprise BF / Enhancement Packages	OFF		Not part of BF list	I	Yes, released as an Add-on on S/4HANA	S		
+IW_CNT	SAP IW CNT 200	Industry Solutions	200	/IWCNT/LEMA	Business Function for LEMA	Enterprise BF / Enhancement Packages	OFF		Not part of BF list	I	Yes, released as an Add-on on S/4HANA	S		
+IW_CNT	SAP IW CNT 200	Industry Solutions	200	/IWCNT/REPORTING	Business Function for Reporting	Enterprise BF / Enhancement Packages	OFF		Not part of BF list	I	Yes, released as an Add-on on S/4HANA	S		
+IW_CNT	SAP IW CNT 200	Industry Solutions	200	/IWCNT/TRVL	Bussiness Function for TRVL	Enterprise BF / Enhancement Packages	OFF		Not part of BF list	I	Yes, released as an Add-on on S/4HANA	S		
+IW_CNT	SAP IW CNT 200	Industry Solutions	200	/IWCNT/WF	Business Function for CBC WF	Enterprise BF / Enhancement Packages	OFF		Not part of BF list	I	Yes, released as an Add-on on S/4HANA	S		
+MDG_APPL	MDG Applications 606	Others	606	MDG_ERP_CUSTOMER_1	MDG for Customer	Enterprise BF / Enhancement Packages	ON	DEF_STATE						
+MDG_APPL	MDG Applications 606	Others	606	MDG_ERP_SUPPLIER	MDG for Supplier	Enterprise BF / Enhancement Packages	ON	DEF_STATE						
+MDG_APPL	MDG Applications 606	Others	606	MDG_ERP_SUPPLIER_2	MDG for Supplier on ERP Hub EhP6	Enterprise BF / Enhancement Packages	ON	DEF_STATE						
+MDG_APPL	MDG Applications 606	Others	606	MDG_MATERIAL_2	MDG for Material 2	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+MDG_FND	MDG Foundation 731	Others	731	FIN_SSC_MDGINT	Integration of MDG and SSF	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+MDG_FND	MDG Foundation 731	Others	731	MDG_FINANCIALS_3	MDG for Financials 3	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+MDG_FND	MDG Foundation 731	Others	731	MDG_FOUNDATION_2	MDG, Generic Functions 2	Enterprise BF / Enhancement Packages	ON	DEF_STATE						
+SAP_ABA	Cross-Application Component	Others	731	CA_ECH_1	Error and Conflict Handler	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W		S		
+SAP_ABA	Cross-Application Component	Others	731	CA_FSBP_MIGRATION_ID	FS-BP Migration Partner Numbers	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+SAP_ABA	Cross-Application Component	Others	731	CA_FSBP_TAXC	FS-BP Tax Compliance	Industries Business Functions	OFF		Not part of BF list	I		S		
+SAP_ABA	Cross-Application Component	Others	731	CA_FSBP_TAX_C	FS-BP Tax Compliance	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+SAP_ABA	Cross-Application Component	Others	731	CA_HAP_CI_1	Evaluations/Appraisals/Surveys	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+SAP_ABA	Cross-Application Component	Others	731	CA_PA_CE_GE_QUALI	CA, EE Qualifications for CE/GE	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+SAP_ABA	Cross-Application Component	Others	731	ILM_RWC_PRODUCT_LIABILITY	ILM Pred. RW Content ProdLiab	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+SAP_ABA	Cross-Application Component	Others	731	ILM_RWC_TAX	ILM Predefined RW Content TAX	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+SAP_ABA	Cross-Application Component	Others	731	ILM_RWC_TAX_IS_OIL	ILM Predef. RW Content TAX OIL	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+SAP_ABA	Cross-Application Component	Others	731	ILM_RWC_TAX_IS_U	ILM Predef. RW Content TAX IS-U	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+SAP_ABA	Cross-Application Component	Others	731	PCA_KEYV	Payment Cards: Key Version	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+SAP_APPL	Logistics and Accounting	Others	606	/KYK/GEN_AIO_SIMPLIFICATION	SAP All-In-One Roles	Enterprise BF / Enhancement Packages	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Others	606	/SPE/TPOP_CANCEL	SPM: Cancellation of TPOP Order	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	APO_VMI_CONS	VMI Consignment	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	AUTO_LOC_IN_1	IS-Auto Localization for IN, JP	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	AUTO_LOC_JP_1	IS-Auto Localization for JP	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	CA_CATS_CE	CATS classic for CE	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+SAP_APPL	Logistics and Accounting	Others	606	CA_CATS_CPR_CORE	CATS classic: cProjects Details	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	CA_CIF_INILOAD_01	Enhanced Initial DataTransfer	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	CO_ALLOCATIONS	CO, Allocations	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	ERP_ATP_EXT_CUST	Enterprise Services for the ATP	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	ERP_CF_INTEGRATION_1	ERP, Integration with CLA & FM	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	ERP_IPM_BACKEND_1	IPM, Ind-Independent Back End	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	ERP_IPM_BACKEND_2	IPM, Dwnld CRM Matl-Reld IP Info	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	ERP_UID_01	Item Unique Identification	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	ERP_UID_02	Item Unique Identification	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	ERP_UID_03	Item Unique Identification	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	ERP_WEB_CHANNEL_1	SAP Web Channel Exp.  Mgmt	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+SAP_APPL	Logistics and Accounting	Others	606	ERP_WEB_CHANNEL_2	SAP Web Channel Exp. Mgmt 2.0	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+SAP_APPL	Logistics and Accounting	Others	606	ERP_WEB_CHANNEL_3	SAP Web Channel Exp. Mgmt. 3.0	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+SAP_APPL	Logistics and Accounting	Others	606	FIN_AA_CI_1	FI-AA, Asset Accounting	Enterprise BF / Enhancement Packages	ON	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_ACC_ILM	ILM Tax Auditing	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_ACC_PEO	Partially Exempt Organizations	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_APAR_PAYMT_ADV	FI, ES Sending of PaymentAdvices	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_CO_CCPLAN	CO, Cost Center Planning	Enterprise BF / Enhancement Packages	ON	ON	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_CO_COGM	Parallel COGM	Enterprise BF / Enhancement Packages	ON	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_CRM_MKT_INTGR	ERP FIN Integration for CRM Mark	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_EWHT_EXCL	FI, Exclusions in Extended WTax	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_FSCM_BD_3	SAP Biller Direct Buy Side 2	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_FSCM_BNK	Bank Communication Management	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_FSCM_CCD_INTEGRATION	FSCM Integration 2	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_FSCM_CCD_INTEGRATION_3	FSCM Integration 3	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_GL_ADB	Average Daily Balance	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_GL_CI_1	New General Ledger Accounting	Enterprise BF / Enhancement Packages	ON	ON	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_GL_CI_3	New General Ledger Accounting 3	Enterprise BF / Enhancement Packages	ON	ON	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_GL_DISTR_SCEN_1	Totals Trsfr in Distrib. Systems	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_GL_ERR_CORR	Error Correction System	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_GL_ERR_CORR_SUSP	Error Corr. and Susp. Accounting	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_GL_MCA	Multi Currency Accounting	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_GL_REORG_1	Profit Center Reorganization	Enterprise BF / Enhancement Packages	ON	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_GL_REORG_SEG	Segment Reorganization	Enterprise BF / Enhancement Packages	ON	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_LOC_CI_11	FI, Localization for CN, SA, AE	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_LOC_CI_13	FI, Localization for China	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_LOC_CI_14	FI, LO, Topics for Russia 2	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_LOC_CI_15	FI-AA Localization Topics for RU	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_LOC_CI_16	FI, E-Payments for China	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_LOC_CI_19	FI, LO Topics  RU 3	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_LOC_CI_23	FI, LO Topics  RU 4	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_LOC_CI_25	Electronic Monetary Claims	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_LOC_CI_33	FI, LO Topics  RU 5	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_LOC_CI_35	FI, LO Topics  RU 6	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_LOC_CI_4	FI Topics Japan and South Korea	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_LOC_CI_7	FI, LO Topics for CL, IN, PT, RU	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_LOC_EPIC_2	FI, E-Payments for China 2	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_LOC_EPIC_3	FI, E-Payments for China 3	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_LOC_EPIC_4	FI, E-Payments for China 4	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_LOC_EPIC_4_2	FI, E-Payments for China 4_2	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_MDM_SOA_ORG	MDGF, SOA Organizational Units	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_REP_SIMPL_2	Reporting Financials 2	Enterprise BF / Enhancement Packages	ON	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_REP_SIMPL_3	Reporting Financials 3	Enterprise BF / Enhancement Packages	ON	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_REP_SIMPL_4	Reporting Financials 4	Enterprise BF / Enhancement Packages	ON	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_SSC_AIC_1	FI, Enablement for FSS	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	FIN_TRM_CM_DIMENSIONS	CLM-CM, Additional Acct Assgmts	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	HCM_CRM_CATS_PROFILE	CRM, Time Rec. - CATS Profiles	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+SAP_APPL	Logistics and Accounting	Others	606	ILM_CDE_CONT_SAP_APPL	ILM: CDE Content (SAP_APPL)	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	ISR_APPL_AGENCY_4	Trade, Agency Business 4	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	ISR_APPL_AGENCY_5	Trade, Agency Business 5	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	ISR_APPL_CRM_INTEG	Retail, MD Integration in CRM 01	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	ISR_APPL_OUTBOUND_DMF	Retail, Export of Data to PMR	Enterprise BF / Enhancement Packages	OFF							
+SAP_APPL	Logistics and Accounting	Others	606	ISR_APPL_PCI_DSS	Retail, PCI DSS	Enterprise BF / Enhancement Packages	OFF							
+SAP_APPL	Logistics and Accounting	Others	606	ISR_APPL_POS_INTEG	Retail, POS Integration via IDoc	Enterprise BF / Enhancement Packages	OFF							
+SAP_APPL	Logistics and Accounting	Others	606	ISR_APPL_SCM_2	Retail, Connectivity to F&R 5.2	Enterprise BF / Enhancement Packages	OFF							
+SAP_APPL	Logistics and Accounting	Others	606	ISR_APPL_USABILITY	Retail, Usability	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	ISR_RETAILSYSTEM	Retail Enhancements	Industries Business Functions	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	ISR_RET_AGENCY_2	Trade, Agency Business 2	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	ISR_RET_AGENCY_3	Trade, Agency Business 3	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	ISR_RET_CD/FT_EWM	Retail, CD/FT_EWM Integration	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	ISR_RET_CROSS_DOCK_IF	Retail, Cross-Docking Interface	Enterprise BF / Enhancement Packages	OFF							
+SAP_APPL	Logistics and Accounting	Others	606	ISR_RET_PERISH_PROCUREMENT	Retail, Perishables Procurement	Enterprise BF / Enhancement Packages	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_CPE_FA_FE	CPE: BAdI-Based Formula Handling	Enterprise BF / Enhancement Packages	ON	OFF	Conflict with 1610	E				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_CPE_SD_MM	Logistics, CPE in SD and MM	Enterprise BF / Enhancement Packages	ON	OFF	Conflict with 1610	E				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_EAM_MAM	EAM : Mobile Asset Management	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_EAM_MPOINT_MASS_DEACT	EAM Deactiv.of Measuring Points	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_EAM_OLC	Operation Account Assignment	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_EAM_OLC_2	Operation Account Assignment 2	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_EAM_SHIFTFACTORS	EAM, Shift Factors MCP	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_ESOA_OPS_2	Operations, Enterprise Services	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_ESOA_OPS_3	Operations, Enterprise Services	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_MMFI_P2P	MM, Integration MM and FI	Enterprise BF / Enhancement Packages	ON	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_MM_ANALYTICS_01	MM, Analytics 01	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_MM_CI_3	Enhancements in Procurement	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_MM_CI_4	ERP, MM, Procurement	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_MM_COMMODITY	Procure-to-Pay for Commodities	Enterprise BF / Enhancement Packages	ON	OFF	Conflict with 1610	E				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_MM_EXT_REL	External rel. for purchase req.	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_MM_MAA_1	MM Multiple Account Assignment	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_MM_OM_1	ERP OPS Outsourced Manufacturing	Enterprise BF / Enhancement Packages	ON	ON	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_MM_OM_2	Outsourced Mfg 2 in ERP OPS	Enterprise BF / Enhancement Packages	ON	ON	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_MM_P2PSE_1	Procurement - SRM Integration	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_MM_P2PSE_2	Procurement - SRM Integration 2	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_MM_P2PSE_3	ERP, MM, Procurement and SRM Int	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_MM_SERNO	Serial Numbers in Purchasing	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_MM_SIT	MM, Stock in Transit & Act.Cstng	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_MM_SSP_1	MM, Self-Service Procurement	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_MM_SUSTAIN_1	Sustainable Sourcing and Proc.	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_PP_BATCH_HISTORY	Batch History	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_PP_CFB	PP, Food and Beverage	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_PP_EWM_MAN	EWM Integration in Manufacturing	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_PP_LMAN_02	Kanban Enh. for Lean Manufact.	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_PP_LPO	SAP LPO Integration	Enterprise BF / Enhancement Packages	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_PP_MES_INT_01	Integr. Production Orders MES	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_PP_MES_INT_02	Integration Production/MES	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_PP_MES_INT_03	Integration Production/MES 2	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_PP_MIS	Manufacturing Information System	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_PP_PROD_ORD_SPLIT	Order Split	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_PP_WIP_BATCH	WIP Batch	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_PP_WIP_BATCH_02	WIP Batch Enhancements	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_SCM_CUSTVEND_INT	SCM, Customer Vendor Integration	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_SCM_MEAN_INT	SCM, Additional GTINs (EAN/UPC)	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_SD_ADVORD	Adv. Order Process. and Billing	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_SD_ANALYTICS_01	SD, Analytics 01	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_SD_CI_01	Sales & Distribution	Enterprise BF / Enhancement Packages	ON	ON	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_SD_CI_02	Sales & Distribution 2	Enterprise BF / Enhancement Packages	ON	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_SD_COMMODITY	Contract-to-Cash for Commodities	Enterprise BF / Enhancement Packages	ON	OFF	Conflict with 1610	E				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_SD_SIMP_02	S&D Simplification 2	Enterprise BF / Enhancement Packages	ON	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_TM_IV_INT	TMS-ERP: Invoice Integration	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_TM_ORD_INT	ERP-TMS: Order Integration	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_TM_ORD_INT_I	ERP-TMS: Ord. and Inv. Integ. 1	Enterprise BF / Enhancement Packages	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_TM_ORD_INT_II	ERP-TMS: Ord and Inv Integration	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_TM_ORD_INT_TRQ	ERP-TMS: Basic Order Integration	Enterprise BF / Enhancement Packages	OFF		Not part of BF list	I				
+SAP_APPL	Logistics and Accounting	Others	606	LOG_WM_ROLES_2	LOG_WM_ROLES_2	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	MDG_CUST_ERPCLIENT_1	MDG Customer ERP Client	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	MDG_MATERIAL	MDG for Material	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+SAP_APPL	Logistics and Accounting	Others	606	OIL_OPM_UPST	Op. Perf. Management Upstream	Industries Business Functions	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	OIL_OPM_UPSTGIS	Integration of GIS	Industries Business Functions	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	OIL_OPM_UPST_CI_1	Op. Perf. Management Upstream 1	Industries Business Functions	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	OPS_ADVRETURNS_1	Advanced Returns Management	Enterprise BF / Enhancement Packages	ON	ON	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	OPS_ADVRETURNS_2	Advanced Returns Management 2	Enterprise BF / Enhancement Packages	ON	ON	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	OPS_PS_CI_2	PS, Performance Improvements	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	OPS_SME_SIMP_01	SME Simplification 1	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	PLM_CFO_IMPEXPMPN	cFolders Import Export of MPNs	Enterprise BF / Enhancement Packages	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	PLM_CFO_ORDWBSBOM	Export Order/WBS-BOM to cFolders	Enterprise BF / Enhancement Packages	OFF	OFF	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	PLM_EDM_DISPLAYCHANGESWITHACL	Display Changes to ACL	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	PRS_GEN_UI	Prof. Services, UI Enhancements	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	PS_GOVPROC_ITEMTYPES	PS, Item Hierarchies	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	PS_GOVPROC_SCCMT	PS, Shopping Cart Commitment	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	RE_CO_INTEGRATION	Real Estate: CO Integration	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_APPL	Logistics and Accounting	Others	606	SCM_GEN_02	Integration of SCM and ERP 2	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	SD_01	Logistics S&D Simplification	Enterprise BF / Enhancement Packages	ON	ON	Pass - No Impact	S				
+SAP_APPL	Logistics and Accounting	Others	606	SPE_CI_1	SPM: Innovations in ERP	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_BASIS	SAP Basis Component	Others	731	BC_SRV_STW_01	SAP StreamWork ABAP Integration	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+SAP_BASIS	SAP Basis Component	Others	731	BC_SRV_STW_02	Social Media ABAP Integration	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+SAP_BASIS	SAP Basis Component	Others	731	BC_SRV_STW_03	Social Media ABAP Integration	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+SAP_BASIS	SAP Basis Component	Others	731	DA_ARCHOBJ_STANDARD_1	Standardization - Arch. Objects	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W		S		
+SAP_BASIS	SAP Basis Component	Others	731	ERP_CA_INT_ADD_VERSN	International Address Versioning	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W		S		
+SAP_BASIS	SAP Basis Component	Others	731	ESH_EPM_BF	Test: NW Enterprise Search Auth.	Enterprise BF / Enhancement Packages	OFF		Not part of BF list	I		S		
+SAP_BASIS	SAP Basis Component	Others	731	ILM	INFORMATION LIFECYCLE MANAGEMENT	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	/BCV/EASY_QUERY	BCV Easy Query	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	/BCV/MAIN	FND, Business Context Viewer	Enterprise BF / Enhancement Packages	ON	CUS_SWITCH	Pass - No Impact	S				
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	/BCV/MAIN_1	FND, BCV Main Application 2	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	/BCV/NWBC_SIDEPANEL	BCV Side Panel for NWBC	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	/IPRO/FND_DOCB_FILLINS	Fill-In Enhancement	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	/IPRO/FND_DOCB_WORD2007	Word 2007 Support	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	/IPRO/FND_DOCUMENT_BUILDER	SAP Document Builder	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	CA_BP_SOA	Services for Business Partner	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	CA_SUPPLIER_SOA	Services for Supplier	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	ERP_ALL_LISTS	ERP, New UI for ABAP Lists	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	ERP_ALL_LISTS_2	ERP, New UI for ABAP Lists	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	ERP_ALL_PDF_FORMS	ERP, PDF-based forms	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	ERP_CA_SIDEPANEL	Side Panel for Business Suite	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	ERP_NWBC_ROLES	ERP, Roles for SAP NWBC	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	FICA_FSCM_CRM_DISPUTE	FICA Dispute  / CRM Complaint	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	FIN_MDM_ACC	FIN, Master Data Management	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	FND_ANALYTICS_TOOLS	Enh. f. Business Suite Analytics	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	FND_ANALYTICS_TOOLS_2	Enh. Business Suite Analytics 2	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	FND_EPT_PROC_ORCH_1	Process Orchestration v1	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	FND_HRICP_1	Framework to Track IT Changes	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	FND_IBO_MULTIBE_1	FND, Multi Back-End for Inbox	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	FND_IDM_1	FND, Identity Mgmt Integration	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	FND_MOBILEINBOX_WF_1	FND, Workflow & Alert (Mobile)	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	FND_SMB_UIE	SAP BP for UI Enhancement	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	FND_SOA_REUSE_1	SOA Reuse Functions	Enterprise BF / Enhancement Packages	OFF	ON	Warning	W				
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	FND_VISUAL_BUSINESS	Visual Business	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	HCM_ANALYTICS_1	HCM Cross Analytics 1	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	HCM_NWBC_ROLES	HCM, Roles for SAP NWBC	Enterprise BF / Enhancement Packages	OFF	DEF_STATE						
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	MDG_FOUNDATION	MDG, Generic Functions	Enterprise BF / Enhancement Packages	ON	DEF_STATE						
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	PSM_GEN_BUDPER_1	PSM, Budget Period	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_BS_FND	SAP Business Suite Foundation	Others	731	PSM_GEN_BUDPER_2	PSM, Budget Period 2	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S				
+SAP_BW	SAP Business Warehouse	Add-On	731	RS_IQM	IQM Reporting	Enterprise BF / Enhancement Packages	OFF	OFF	Pass - No Impact	S		S		
+SAP_HR	Human Resources	Others	604	HCM_CE_PA_PA	HCM, Personnel Actions for CE	Enterprise BF / Enhancement Packages	OFF	DEF_STATE			Yes, retrofitted into S/4HANA product version	S		
+SAP_HRRXX	Sub component SAP_HRRXX of SAP_HR	Others	604	HCM_LOC_CI_50	HCM Declustering Tools Part 1	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+SEM-BW	SEM-BW: Strategic Enterprise Management	Industry Solutions	736	CA_FINANCIALS_SOA_SEM	Financials SOA for SEM, EhP6	Enterprise BF / Enhancement Packages	OFF	OFF	Pass - No Impact	S		S		
+SEM-BW	SEM-BW: Strategic Enterprise Management	Industry Solutions	736	FIN_ACC_GC_ASTHFS	Assets Held for Sale	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+SEM-BW	SEM-BW: Strategic Enterprise Management	Industry Solutions	736	FIN_ACC_GC_BCOMB	Business Combinations	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+SEM-BW	SEM-BW: Strategic Enterprise Management	Industry Solutions	736	FIN_ACC_GC_RESTAT	Restatement Monitor	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+SEM-BW	SEM-BW: Strategic Enterprise Management	Industry Solutions	736	FIN_ACC_GC_TAXRATECHG	FIN, Group Close, Tax Adjustment	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+SEM-BW	SEM-BW: Strategic Enterprise Management	Industry Solutions	736	FIN_ACC_GROUPCLOSE_2	FIN, Group Closing, Compliance	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+SEM-BW	SEM-BW: Strategic Enterprise Management	Industry Solutions	736	FIN_MDM_SOA_CU	MDGF, SOA ChtAccts and FinRptgSt	Enterprise BF / Enhancement Packages	OFF	OFF	Pass - No Impact	S		S		
+SEM-BW	SEM-BW: Strategic Enterprise Management	Industry Solutions	736	FIN_PDCE_COSTQUOT	Cost and Quotation Management	Enterprise BF / Enhancement Packages	OFF	OFF	Pass - No Impact	S		S		
+SEM-BW	SEM-BW: Strategic Enterprise Management	Industry Solutions	736	FIN_PDCE_COSTQUOT_CI_1	Cost Estimate and Simulation	Enterprise BF / Enhancement Packages	OFF	OFF	Pass - No Impact	S		S		
+SEM-BW	SEM-BW: Strategic Enterprise Management	Industry Solutions	736	FIN_PDCE_PI	PDCE, Improved Performance	Enterprise BF / Enhancement Packages	OFF	OFF	Pass - No Impact	S		S		
+WEBCUIF	SAP Web UI Framework	Others	731	UI_FRW_1	UI Framework	Enterprise BF / Enhancement Packages	OFF	CUS_SWITCH	Pass - No Impact	S		S		
+WEBCUIF	SAP Web UI Framework	Others	731	UI_FRW_1_DOCU	UI Framework Documentation	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
+WEBCUIF	SAP Web UI Framework	Others	731	UI_FRW_2_DOCU	WebClient UI Framework Docu.	Enterprise BF / Enhancement Packages	OFF	DEF_STATE				S		
