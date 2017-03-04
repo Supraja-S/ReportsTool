@@ -30,6 +30,9 @@ function getS4Data(){
 
 }
 
+
+var  mapTextFile = getFileContent("data/SAPUATProp.Properties");
+
 function getFileName(key){
 	var fileName =null;
 	$.each(mapTextFile,function(index,item){

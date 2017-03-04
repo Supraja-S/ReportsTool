@@ -1,4 +1,13 @@
 {
+  "name": "nw-readFile",
+  "version": "1.0.0",
+  "description": "sample app to read the local text files under data folder",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Supraja Surabhi",
+  "license": "MIT",
   "devDependencies": {
     "gulp": "latest",
     "gulp-util": "latest",

@@ -1,6 +1,8 @@
 var reportsTool =  angular.module('reportsTool',['ngRoute','ngAnimate','ngCookies','ngSanitize','ngTouch','nvd3']);
 
-reportsTool.config(function($routeProvider,$locationProvider) {
+reportsTool.config(function($routeProvider,$locationProvider,$compileProvider) {
+	   
+   $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|chrome-extension):/), 
     $routeProvider
     .when("/home", {
         templateUrl : "../partials/dashboard.html",
