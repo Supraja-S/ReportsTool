@@ -9,15 +9,15 @@
 <div class="view-wrapper col-xs-12 s4-container" >
 	<div class="totals-container col-xs-12">
 		<div class="totals-box col-xs-2 status-blue">
-			<p class="totals-numeric">100</p>
+			<p class="totals-numeric" ng-bind="tabularData.length"></p>
 			<p class="totals-text">Total</p>
 		</div>
 		<div class="totals-box col-xs-2 status-green">
-			<p class="totals-numeric">60</p>
+			<p class="totals-numeric" ng-bind="supportedCount"></p>
 			<p class="totals-text">Supported</p>
 		</div>
 		<div class="totals-box col-xs-2 status-red">
-			<p class="totals-numeric">40</p>
+			<p class="totals-numeric" ng-bind="notSupportedCount"></p>
 			<p class="totals-text">Not Supported</p>
 		</div>
 	</div>
@@ -28,44 +28,28 @@
 		</div>
 		<div class="s4-graph-box col-xs-6">
 			This is a placeholder for graph
-			<nvd3 options="options" data="data"></nvd3>
+			<nvd3 options="options" data="uniqueBFuncCateg"></nvd3>
 		</div>
 	</div>
 	<div class="table-container col-xs-12 no-padding ">
 		<div class="col-xs-12 bp-column no-border">
 			<p>Table data</p>
 			<div class="center-section">
-				<table class="col-xs-12">
+				<table class="col-xs-12" ng-init="orderByField = 'COMPONENT'">
 					<thead>
 						<tr class="border-bottom">
-							<td ng-click="orderByField='name';reverseSort = !reverseSort">
-								<span>Name</span>
-								<span ng-show="orderByField == 'name'">
-									<span ng-show="!reverseSort">^</span>
-									<span ng-show="reverseSort">v</span>
-								</span>
-							</td>
-							<td ng-click="orderByField='age';reverseSort = !reverseSort">
-								<span>Age</span>
-								<span ng-show="orderByField == 'age'">
-									<span ng-show="!reverseSort">^</span>
-									<span ng-show="reverseSort">v</span>
-								</span>
-							</td>
-							<td ng-click="orderByField='city';reverseSort = !reverseSort">
-								<span>City</span>
-								<span ng-show="orderByField == 'city'">
-									<span ng-show="!reverseSort">^</span>
-									<span ng-show="reverseSort">v</span>
+							<td ng-repeat="(key,value) in tabularData[0]" ng-click="sortFunction(key)">
+								<span ng-bind="key"></span>
+								<span ng-show="orderByField == '{{key}}'">
+									<span ng-show="!$parent.reverseSort">^</span>
+									<span ng-show="$parent.reverseSort">v</span>
 								</span>
 							</td>
 						</tr>
 					</thead>
 					<tbody>
-						<tr ng-repeat="tdata in tabularData|orderBy:orderByField:reverseSort">
-							<td class="border-right" ng-bind="tdata.name"></td>
-							<td class="border-right" ng-bind="tdata.age"></td>
-							<td class="border-right" ng-bind="tdata.city"></td>
+						<tr ng-repeat="row in tabularData|orderBy:orderByField:reverseSort">
+							<td ng-repeat="(key,value) in row" class="border-right" ng-bind="value"></td>
 						</tr>
 					</tbody>
 				</table>
