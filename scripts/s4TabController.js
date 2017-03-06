@@ -1,0 +1,95 @@
+reportsTool.controller('s4Controller',['$scope','s4TabService',function($scope,s4TabService){
+	$scope.orderByField = '';
+  	$scope.reverseSort = false;
+	$scope.selected = 'busFunctions';
+
+    $scope.supportedCount = 0;
+    $scope.notSupportedCount = 0;
+
+
+	s4TabService.getData(getFileName('S4HANA_DATA')).then(function(response){
+		$scope.tabularData = response;
+
+        $scope.uniqueBFuncCateg = [];
+        angular.forEach($scope.tabularData, function(value, index){
+            if(value.CURRSTAT == 'ON'){
+                var found = false;
+                for(var i=0; i<$scope.uniqueBFuncCateg.length; i++){
+                    if($scope.uniqueBFuncCateg[i].key == value.BFUNCCATEG){
+                        $scope.uniqueBFuncCateg[i].y++;
+                        found = true;
+                        break;
+                    }
+                }
+
+                if(!found){
+                    $scope.uniqueBFuncCateg.push({key:value.BFUNCCATEG, y:1})
+                }
+            }
+            if(value.FUTURESTAT == 'ON'){
+                $scope.supportedCount++;
+            }
+            else if(value.FUTURESTAT == 'OFF'){
+                $scope.notSupportedCount++;
+            }
+        });   
+	});
+	
+    $scope.sortFunction = function(key){
+        $scope.orderByField = key;
+        $scope.reverseSort = !$scope.reverseSort;
+    };
+
+	 $scope.options = {
+            chart: {
+                type: 'pieChart',
+                height: 300,
+                x: function(d){return d.key;},
+                y: function(d){return d.y;},
+                showLabels: false,
+                duration: 500,
+                labelThreshold: 0.01,
+                labelSunbeamLayout: true,
+                legend: {
+                    margin: {
+                        top: 5,
+                        right: 35,
+                        bottom: 5,
+                        left: 0
+                    }
+                }
+            }
+        };
+
+        $scope.data = [
+            {
+                key: "One",
+                y: 5
+            },
+            {
+                key: "Two",
+                y: 2
+            },
+            {
+                key: "Three",
+                y: 9
+            },
+            {
+                key: "Four",
+                y: 7
+            },
+            {
+                key: "Five",
+                y: 4
+            },
+            {
+                key: "Six",
+                y: 3
+            },
+            {
+                key: "Seven",
+                y: .5
+            }
+        ];
+
+}]);
