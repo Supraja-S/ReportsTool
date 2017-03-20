@@ -1,0 +1,4 @@
+key 	y              
+Type 1	48          
+Type 2	20
+Type 3	3        

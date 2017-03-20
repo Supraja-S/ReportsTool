@@ -19,4 +19,3 @@ reportsTool.factory('s4TabService',['$http','$q',function($http,$q){
 
 	return s4TabService;
 }]);
-//BF_Check_20161107114158.txt
