@@ -18,7 +18,7 @@ reportsTool.config(function($routeProvider,$locationProvider,$compileProvider) {
          templateUrl : "../partials/businessProcess.html",
          controller : "bpController"
     })
-	 .otherwise({
+	.otherwise({
          redirectTo:'/home'
     });
    
@@ -61,6 +61,18 @@ reportsTool.controller('navController',['$scope','$location',function($scope,$lo
 }]);
 
 reportsTool.controller('bpController',['$scope',function($scope){
+	
+	$scope.showTable = false;
+	$scope.scrolDown = false;
+	
+	$scope.toggleTableData= function(){
+		$scope.showTable  = !$scope.showTable ;
+		$scope.scrolDown = !$scope.scrolDown;
+		var scrollValue = $scope.scrolDown? document.body.scrollHeight:0;
+		
+		$('html, body').animate({ scrollTop:scrollValue }, 800);
+	};	
+	
 	$scope.tabularData = [
 		{
 			name:'object1',
@@ -99,57 +111,7 @@ reportsTool.controller('bpController',['$scope',function($scope){
 			
 		}
 	]
-	 $scope.options = {
-            chart: {
-                type: 'pieChart',
-                height: 300,
-                x: function(d){return d.key;},
-                y: function(d){return d.y;},
-                showLabels: true,
-                duration: 500,
-                labelThreshold: 0.01,
-                labelSunbeamLayout: true,
-                legend: {
-                    margin: {
-                        top: 5,
-                        right: 35,
-                        bottom: 5,
-                        left: 0
-                    }
-                }
-            }
-        };
-
-        $scope.data = [
-            {
-                key: "One",
-                y: 5
-            },
-            {
-                key: "Two",
-                y: 2
-            },
-            {
-                key: "Three",
-                y: 9
-            },
-            {
-                key: "Four",
-                y: 7
-            },
-            {
-                key: "Five",
-                y: 4
-            },
-            {
-                key: "Six",
-                y: 3
-            },
-            {
-                key: "Seven",
-                y: .5
-            }
-        ];
+	
 }]);
 
 reportsTool.controller('ImpactController',['$scope',function($scope){
@@ -233,6 +195,14 @@ reportsTool.controller('chartController',['$scope',function($scope){
 			data:[]
 		},
 		linechart:{
+			options:[],
+			data:[]
+		},
+		barchart:{
+			options:[],
+			data:[]
+		},
+		bubblechart:{
 			options:[],
 			data:[]
 		}
@@ -388,10 +358,131 @@ reportsTool.controller('chartController',['$scope',function($scope){
 	];
 		return [options, data];
 	}
+	function createBubbleChartData(data){
+		var options = {
+            chart: {
+                type: 'scatterChart',
+                height: 300,
+				width:300,
+                showLabels: true,
+                duration: 500,
+                showDistX: true,
+				showDistY: true,
+				forceX: [0, 100],
+				forceY: [0, 100],
+				color:d3.scale.category10().range(),
+				xAxis: {
+				  axisLabel: "X Axis",
+				  axisLabelDistance: 5
+			
+				},
+				yAxis: {
+				  axisLabel: "Y Axis",
+				  axisLabelDistance: 5
+				}
+				
+			}
+        };
+	
+		var data = [{
+		key:'sample Group',
+		values:[
+			{
+			  y: 20,
+			  x: 10,
+			  size:5
+			},
+			{
+			  y: 20,
+			  x: 30,
+			  size:5
+			},
+			{
+			  y: 30,
+			  x: 40,
+			  size:5
+			},
+			{
+			  y: 70,
+			  x: 40,
+			  size:5
+			},
+			{
+			  y: 50,
+			  x: 100,
+			  size:5
+			},
+			{
+			  y: 60,
+			  x: 80,
+			  size:5
+			},
+			{
+			  y: 70,
+			  x: 50,
+			  size:5
+			}
+		]
+	    }]	
+		return [options, data];
+	}
+	function createBarChartData(data){
+		var options = {
+		  "chart": {
+			"type": "discreteBarChart",
+			"height": 300,
+			"showValues": true,
+			"duration": 500,
+			"xAxis": {
+			  "axisLabel": "X Axis"
+			},
+			"yAxis": {
+			  "axisLabel": "Y Axis",
+			  "axisLabelDistance": 5
+			}
+		  }
+		};
+	
+		var data = [{
+			
+        key: "Cumulative Return",
+		values:[
+			{
+			  y: 20,
+			  x: 10,
+			},
+			{
+			  y: 20,
+			  x: 30,
+			},
+			{
+			  y: 30,
+			  x: 40,
+			},
+			{
+			  y: 70,
+			  x: 40,
+			},
+			{
+			  y: 50,
+			  x: 100,
+			},
+			{
+			  y: 60,
+			  x: 80,
+			},
+			{
+			  y: 70,
+			  x: 50,
+			}
+		]
+	    }]	
+		return [options, data];
+	}
 	$scope.$watch('chart.view',function(newVal, oldVal){
 		switch(newVal){
 			
-			case 'pieChart':
+		case 'pieChart':
 				var results = createPieChartData();
 				console.log(results);
 				$scope.chart.piechart.options= results[0];
@@ -409,6 +500,18 @@ reportsTool.controller('chartController',['$scope',function($scope){
 				console.log(results);
 				$scope.chart.piechart.options= results[0];
 				$scope.chart.piechart.data= results[1];
+				break;
+		case 'bubbleChart' : 
+				var results = createBubbleChartData();
+				console.log(results);
+				$scope.chart.bubblechart.options= results[0];
+				$scope.chart.bubblechart.data= results[1];
+				break;
+		case 'barChart' : 
+				var results = createBarChartData();
+				console.log(results);
+				$scope.chart.barchart.options= results[0];
+				$scope.chart.barchart.data= results[1];
 				break;
 		}
 	});

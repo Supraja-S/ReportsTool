@@ -29,13 +29,16 @@ $secondary-nav-bg-color: #86bc25;
 				background-color: transparent;
 			}
 		}
-		.client-section a{
-			display: inline-block;
-			float: right;
-			background: #ff7700;
-			border-radius: 5px;
-			padding: 10px;
-			margin-top: 5px;
+		.client-section {
+			 a, a:hover,a:visited,a:focus{
+				display: inline-block;
+				float: right;
+				background: #ff7700;
+				border-radius: 5px;
+				padding: 10px;
+				margin-top: 5px;
+				cursor:pointer;
+			}
 		}
 	}
 	.navbar-nav{
