@@ -106,9 +106,9 @@ tr:nth-child(odd) {
 .table-container{
 	position:relative;
 	.center-section{
-		height: 80%;
-		overflow-y: scroll;
-		overflow-x: hidden;
+		max-width: 100%;
+	    overflow: scroll;
+	    max-height: 600px;
 	}
 }
 .table-toggler{
@@ -134,6 +134,9 @@ tr:nth-child(odd) {
   background-color: #777777;
   outline: 4px solid $brand-color1;
   border-radius:5px;
+}
+.tabular-data table{
+	width: 100%;
 }
 
 @import "font-awesome.css";
