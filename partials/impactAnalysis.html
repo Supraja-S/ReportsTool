@@ -91,8 +91,8 @@
 			</div>
 		</div>
 		<div class="col-xs-12 padding-top-10 table-container">
-		<div class="col-xs-3 pull-right table-toggler text-right">
-			<a class="btn btn-primary" ng-click="toggleTableData()">Show/Hide Total Data</a>
+		<div class="col-xs-3 pull-right text-right" ng-init="showTable =  false;scrolDown = false;">
+			<a class="btn btn-primary table-toggler" show-table="showTable" scroll-down="scrolDown">Show/Hide Total Data</a>
 		</div>
 		<div class="col-xs-12 bp-column no-border" ng-if="showTable">
 			<p>Table data</p>

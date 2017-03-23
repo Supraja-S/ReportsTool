@@ -6,8 +6,6 @@ reportsTool.controller('s4Controller',['$scope','s4TabService',function($scope,s
     //$scope.supportedCount = 0;
     //$scope.notSupportedCount = 0;
 
-    $scope.showTable = false;
-    $scope.scrolDown = false;
     $scope.tabularData = '';
 
 
@@ -55,19 +53,6 @@ reportsTool.controller('s4Controller',['$scope','s4TabService',function($scope,s
     $scope.sortFunction = function(key){
         $scope.orderByField = key;
         $scope.reverseSort = !$scope.reverseSort;
-    };
-
-    $scope.toggleTableData= function(){
-        if(!$scope.tabularData){
-            s4TabService.getData(getFileName('S4HANA_DATA')).then(function(response){
-                $scope.tabularData = response;
-            });
-        }
-        $scope.showTable  = !$scope.showTable ;
-        $scope.scrolDown = !$scope.scrolDown;
-        var scrollValue = $scope.scrolDown? document.body.scrollHeight:0;
-        
-        $('html, body').animate({ scrollTop:scrollValue }, 800);
     };
 
 	 $scope.options = {

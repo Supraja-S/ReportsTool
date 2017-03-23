@@ -98,10 +98,10 @@
 		</div>-->
 	</div>
 	<div class="table-container col-xs-12 no-padding ">
-		<div class="col-xs-3 pull-right table-toggler text-right">
-			<a class="btn btn-primary" ng-click="toggleTableData()">Show/Hide Total Data</a>
-		</div>
-		<div class="col-xs-12 no-border" ng-if="showTable">
+		<div class="col-xs-3 pull-right text-right" ng-init="showTable=false;scrollDown=false;tabularData=''">
+			<a class="btn btn-primary table-toggler" show-table="showTable" scroll-down="scrollDown" tabular-data =" tabularData" file-name="S4HANA_DATA" file-service="s4TabService" >Show/Hide Total Data</a>
+	</div>
+		<div class="col-xs-12 no-border" ng-show="showTable">
 			<p>Table data</p>
 			<div class="center-section">
 				<table class="col-xs-12" ng-init="$parent.orderByField = 'COMPONENT'">
