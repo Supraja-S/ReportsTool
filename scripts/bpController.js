@@ -1,4 +1,4 @@
-reportsTool.controller('bpController',['$scope',function($scope){
+reportsTool.controller('bpController',['$scope','s4TabService',function($scope,s4TabService){
 	
 	$scope.tabularData = [
 		{
@@ -37,6 +37,9 @@ reportsTool.controller('bpController',['$scope',function($scope){
 			value2:'value2'
 			
 		}
-	]
+	];
 	
+	s4TabService.getData(getFileName('Fiorie_data')).then(function(response){
+        $scope.fioriData = response;
+    });
 }]);

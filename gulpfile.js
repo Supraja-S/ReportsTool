@@ -4,11 +4,13 @@ utils =  require('gulp-util'),
 sass =  require('gulp-sass'),
 uglify =  require('gulp-uglify'),
 browserSync = require('browser-sync'),
-rename =  require('gulp-rename');
+rename =  require('gulp-rename'),
+concat = require('gulp-concat');
 
 gulp.task('styles',function(){
 gulp.src('styles/*.scss')
 .pipe(sass({styles:'expanded'}))
+.pipe(concat('app.min.css'))
 .pipe(gulp.dest('dist/css'));
 	
 });
@@ -16,8 +18,8 @@ gulp.src('styles/*.scss')
 
 gulp.task('minifyJs',function(){
  gulp.src('scripts/*.js')
-  .pipe(rename({suffix:'.min'}))
   .pipe(uglify())
+  .pipe(concat('app.min.js'))
   .pipe(gulp.dest('dist/js'));
  
 });
