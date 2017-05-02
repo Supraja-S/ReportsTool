@@ -1,6 +1,11 @@
-reportsTool.controller('chartController',['$scope',function($scope){
-	$scope.chart={
+reportsTool.factory('chartCreationService',['s4TabService',function(s4TabService){
+	
+	var chartCreationService = {};
+	
+	
+	/* $scope.chart={
 		view:'',
+		callBackCheck:false,
 		piechart:{
 			options:[],
 			data:[]
@@ -16,9 +21,14 @@ reportsTool.controller('chartController',['$scope',function($scope){
 		bubblechart:{
 			options:[],
 			data:[]
+		},
+		donutchart:{
+			options:[],
+			data:[]
 		}
-	};
-	function createPieChartData(data){
+	}; */
+	
+	chartCreationService.createPieChartData= function(callbackRequired){
 		var options = {
             chart: {
                 type: 'pieChart',
@@ -37,42 +47,12 @@ reportsTool.controller('chartController',['$scope',function($scope){
                         left: 0
                     }
                 }
+				
             }
         };
-	
-		var data = [
-		{
-			key: "One",
-			y: 5
-		},
-		{
-			key: "Two",
-			y: 2
-		},
-		{
-			key: "Three",
-			y: 9
-		},
-		{
-			key: "Four",
-			y: 7
-		},
-		{
-			key: "Five",
-			y: 4
-		},
-		{
-			key: "Six",
-			y: 3
-		},
-		{
-			key: "Seven",
-			y: .5
-		}
-	];
-		return [options, data];
+	return options;
 	}
-	function createLineChartData(data){
+	chartCreationService.createLineChartData = function(data){
 		 var options = {
             chart: {
                 type: 'lineChart',
@@ -113,7 +93,7 @@ reportsTool.controller('chartController',['$scope',function($scope){
 		  ];
 		  return [options,data];
 	}
-	function createDonutChartData(data){
+	chartCreationService.createDonutChartData = function(callbackRequired){
 		var options = {
             chart: {
                 type: 'pieChart',
@@ -137,39 +117,10 @@ reportsTool.controller('chartController',['$scope',function($scope){
             }
         };
 	
-		var data = [
-		{
-			key: "One",
-			y: 5
-		},
-		{
-			key: "Two",
-			y: 2
-		},
-		{
-			key: "Three",
-			y: 9
-		},
-		{
-			key: "Four",
-			y: 7
-		},
-		{
-			key: "Five",
-			y: 4
-		},
-		{
-			key: "Six",
-			y: 3
-		},
-		{
-			key: "Seven",
-			y: .5
-		}
-	];
-		return [options, data];
+	
+	return options;
 	}
-	function createBubbleChartData(data){
+	chartCreationService.createBubbleChartData =  function(){
 		var options = {
             chart: {
                 type: 'scatterChart',
@@ -196,49 +147,10 @@ reportsTool.controller('chartController',['$scope',function($scope){
 			}
         };
 	
-		var data = [{
-		key:'sample Group',
-		values:[
-			{
-			  y: 20,
-			  x: 10,
-			  size:5
-			},
-			{
-			  y: 20,
-			  x: 30,
-			  size:5
-			},
-			{
-			  y: 30,
-			  x: 40,
-			  size:5
-			},
-			{
-			  y: 70,
-			  x: 40,
-			  size:5
-			},
-			{
-			  y: 50,
-			  x: 100,
-			  size:5
-			},
-			{
-			  y: 60,
-			  x: 80,
-			  size:5
-			},
-			{
-			  y: 70,
-			  x: 50,
-			  size:5
-			}
-		]
-	    }]	
-		return [options, data];
+		
+	return options;
 	}
-	function createBarChartData(data){
+	chartCreationService.createBarChartData= function(){
 		var options = {
 		  "chart": {
 			"type": "discreteBarChart",
@@ -255,76 +167,9 @@ reportsTool.controller('chartController',['$scope',function($scope){
 		  }
 		};
 	
-		var data = [{
 			
-        key: "Cumulative Return",
-		values:[
-			{
-			  y: 20,
-			  x: 10,
-			},
-			{
-			  y: 20,
-			  x: 30,
-			},
-			{
-			  y: 30,
-			  x: 40,
-			},
-			{
-			  y: 70,
-			  x: 40,
-			},
-			{
-			  y: 50,
-			  x: 100,
-			},
-			{
-			  y: 60,
-			  x: 80,
-			},
-			{
-			  y: 70,
-			  x: 50,
-			}
-		]
-	    }]	
-		return [options, data];
+	return options;
 	}
-	$scope.$watch('chart.view',function(newVal, oldVal){
-		switch(newVal){
-			
-		case 'pieChart':
-				var results = createPieChartData();
-				$scope.chart.piechart.options= results[0];
-				$scope.chart.piechart.data= results[1];
-				break;
-			
-		case 'lineChart' : 
-				var results = createLineChartData();
-				$scope.chart.linechart.options= results[0];
-				$scope.chart.linechart.data= results[1];
-				break;
-		case 'donutChart':	
-				var results = createDonutChartData();
-				$scope.chart.piechart.options= results[0];
-				$scope.chart.piechart.data= results[1];
-				break;
-		case 'bubbleChart' : 
-				var results = createBubbleChartData();
-				$scope.chart.bubblechart.options= results[0];
-				$scope.chart.bubblechart.data= results[1];
-				break;
-		case 'barChart' : 
-				var results = createBarChartData();
-				$scope.chart.barchart.options= results[0];
-				$scope.chart.barchart.data= results[1];
-				break;
-		}
-	});
 	
-	
-	/* var fileContent = getFileContent('data/' +getFileName("DEF_" + systemID + "_SUMMARY"));
-	console.log(fileContent); */
-	
+	return chartCreationService;
 }]);

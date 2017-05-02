@@ -7,7 +7,21 @@ reportsTool.controller('s4Controller',['$scope','s4TabService',function($scope,s
     //$scope.notSupportedCount = 0;
 
     $scope.tabularData = '';
-
+	$scope.chart={
+		view:'',
+		callBackCheck:false,
+		piechart:{
+			options:[],
+			data:[]
+		},
+		linechart:{
+			options:[],
+			data:[]
+		},
+		barchart:{
+			options:[],
+		}
+	}
 
 	/*s4TabService.getData(getFileName('S4HANA_DATA')).then(function(response){
 		$scope.tabularData = response;
