@@ -127,6 +127,17 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 			data:[]
 		}
 	};
+	$scope.performanceCharts.piechart.options.chart.callback =  function(chart) {
+		console.log(chart);
+		chart.pie.dispatch.on('elementClick', function(e){
+			s4TabService.getData(getFileName('defects_BY_COMPTYPE')).then(function(response){
+				$scope.performanceCharts.donutchart.data =  response;
+				console.log('elementClick in callback',response); 
+			});                           
+		});
+		
+	}
+	
 	s4TabService.getData(getFileName('S4HANA_BF_BY_COMPTYPE')).then(function(response){
 		$scope.performanceCharts.piechart.data = response;
 	});		
@@ -153,6 +164,16 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 			data:[]
 		}
 	};
+	$scope.usageCharts.piechart.options.chart.callback =  function(chart) {
+		console.log(chart);
+		chart.pie.dispatch.on('elementClick', function(e){
+			s4TabService.getData(getFileName('defects_BY_COMPTYPE')).then(function(response){
+				$scope.usageCharts.donutchart.data =  response;
+				console.log('elementClick in callback',response); 
+			});                           
+		});
+		
+	}
 	s4TabService.getData(getFileName('S4HANA_BF_BY_COMPTYPE')).then(function(response){
 		$scope.usageCharts.piechart.data = response;
 	});		
