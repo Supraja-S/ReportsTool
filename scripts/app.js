@@ -1,4 +1,4 @@
-var reportsTool =  angular.module('reportsTool',['ngRoute','ngAnimate','ngCookies','ngSanitize','ngTouch','nvd3']);
+var reportsTool =  angular.module('reportsTool',['ngRoute','ngAnimate','ngCookies','ngSanitize','ngTouch','nvd3','floatThead']);
 
 reportsTool.config(function($routeProvider,$locationProvider,$compileProvider) {
 	   

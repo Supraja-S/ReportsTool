@@ -21,7 +21,13 @@ reportsTool.controller('s4Controller',['$scope','getFileContent',function($scope
 		barchart:{
 			options:[],
 		}
-	}
+	};
+
+    $scope.floatTheadOptions = {
+        scrollContainer: function($table){
+            return $table.closest('.center-section');
+        }
+    };
 
 	/*s4TabService.getData(getFileName('S4HANA_DATA')).then(function(response){
 		$scope.tabularData = response;
