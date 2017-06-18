@@ -23,10 +23,17 @@ reportsTool.controller('s4Controller',['$scope','getFileContent',function($scope
 		}
 	};
 
+    $scope.searchCategory = "COMPONENT";
+    $scope.searchText = "";
     $scope.floatTheadOptions = {
         scrollContainer: function($table){
             return $table.closest('.center-section');
         }
+    };
+
+    $scope.filterFunction = function(item) {
+        var val = item[$scope.searchCategory].toLowerCase();
+        return (val.indexOf($scope.searchText.toLowerCase()) > -1);
     };
 
 	/*s4TabService.getData(getFileName('S4HANA_DATA')).then(function(response){
