@@ -10,7 +10,6 @@ concat = require('gulp-concat');
 gulp.task('styles',function(){
 gulp.src('styles/*.scss')
 .pipe(sass({styles:'expanded'}))
-.pipe(concat('app.min.css'))
 .pipe(gulp.dest('dist/css'));
 	
 });

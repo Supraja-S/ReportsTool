@@ -1,8 +1,14 @@
-y	x	size
-10	48	5
-30	20	5
-40	30	5
-40	70	5
-100	50	5
-80	60	5
-50	70	5
+group	y	x	size
+
+Industry Solutions	10	48	1
+
+Enterprise Addons	30	20	1
+
+Enterprise Addons	40	30	1
+
+Enterprise Addons	40	70	1
+
+Industries Business Functions	100	50	1
+
+Industries Business Functions	80	60	1
+Industries Business Functions	50	70	1

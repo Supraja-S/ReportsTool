@@ -5,6 +5,7 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
   	$scope.reverseSort = false;
 	$scope.showTable = false;
 	$scope.scrolDown = false;
+	$scope.tabularData = [] ;
 	
 	$scope.toggleTableData= function(){
 		$scope.showTable  = !$scope.showTable ;
@@ -14,64 +15,14 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 		$('html, body').animate({ scrollTop:scrollValue }, 800);
 	};	
 	
-	$scope.IncompabilitycountsArray = [
-	{
-		count:100,
-		color:'blue',
-		description:'Total Defects'
-	},
-	{
-		color:'red',
-		count:33,
-		description:'High impact'
-	},
-	
-	{
-		count:3,
-		color:'green',
-		description:'Low impact'
+	s4TabService.getData(getFileName('defects_BY_count')).then(function(response){
+			$scope.IncompabilitycountsArray = response;
+	});	
+	if($scope.tabularData.length ==0){
+		s4TabService.getData(getFileName('DEF_ECC_PROG_20140716_182107')).then(function(response){
+        	$scope.tabularData = response;
+    	});
 	}
-	
-	]
-	$scope.tabularData = [
-	{
-			name:'object1',
-			value1:'value1',
-			value2:'value2'
-			
-		},
-		{
-			name:'object2',
-			value1:'value1',
-			value2:'value2'
-			
-		},
-		{
-			name:'object3',
-			value1:'value1',
-			value2:'value2'
-			
-		},
-		{
-			name:'object4',
-			value1:'value1',
-			value2:'value2'
-			
-		},
-		{
-			name:'object5',
-			value1:'value1',
-			value2:'value2'
-			
-		},
-		{
-			name:'object1',
-			value1:'value1',
-			value2:'value2'
-			
-		}
-	];
-	
 	$scope.defectsCharts = {
 		view1:'piechart',
 		view2:'donutchart',
@@ -89,22 +40,24 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 		}
 	};
 	if($scope.defectsCharts.piechart.data.length==0){
-		s4TabService.getData(getFileName('S4HANA_BF_BY_COMPTYPE')).then(function(response){
+		s4TabService.getData(getFileName('defects_BY_COMPTYPE')).then(function(response){
 			$scope.defectsCharts.piechart.data = response;
 		});		
 	}
 	
 	if($scope.defectsCharts.donutchart.data.length ==0){
-		s4TabService.getData(getFileName('S4HANA_BF_BY_COMPTYPE')).then(function(response){
-			$scope.defectsCharts.donutchart.data =  response;
+		s4TabService.getData(getFileName('defects_BY_COMPTYPE_complexity')).then(function(response){
+			generateDonutdata(response,'')
+		
 		});
 	}
 	$scope.defectsCharts.piechart.options.chart.callback =  function(chart) {
-				console.log(chart);
+				console.log(chart.pie);
 				chart.pie.dispatch.on('elementClick', function(e){
-					s4TabService.getData(getFileName('defects_BY_COMPTYPE')).then(function(response){
-						$scope.defectsCharts.donutchart.data =  response;
-						console.log('elementClick in callback',response); 
+					s4TabService.getData(getFileName('defects_BY_COMPTYPE_complexity')).then(function(response){
+
+						generateDonutdata(response,e.data.key)
+						//$scope.defectsCharts.donutchart.data =  response;
 					});                           
 				});
 				
@@ -184,6 +137,42 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 	s4TabService.getData(getFileName('S4HANA_BF_BY_COMPTYPE')).then(function(response){
 		$scope.usageCharts.donutchart.data =  response;
 	});
+	 
+	function generateDonutdata(response,compType){
+		var internalData = [] , complexityArry=['High','Medium','Low'];
+
+		if(compType === ''){
+			for(var j=0;j<complexityArry.length;j++){
+				var count = 0;
+				for(var i=0;i<response.length;i++){
+					
+					count = count+parseInt(response[i][complexityArry[j]]);
+				}	
+				internalData.push({
+					key:complexityArry[j],
+					y:count
+				});
+			}
+
+			
+		}else{
+			var compObject = {};
+			for(var i=0;i<response.length;i++){
+					if(compType == response[i].compType){
+						compObject = response[i];
+						break;
+					}
+				}
+			for(var j=0;j<complexityArry.length;j++){
+				internalData.push({
+					key:complexityArry[j],
+					y:compObject[complexityArry[j]]
+				});
+			}
+		}
+		$scope.defectsCharts.donutchart.data =  internalData;
+		
+	}
 	
-	
+		
 }]);

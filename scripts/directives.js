@@ -7,6 +7,10 @@ reportsTool.directive('tableToggler', ['$injector',function($injector){
 			if(attrs.fileService){
 				 fileService  = $injector.get([attrs.fileService]);
 			}
+			scope.sortFunction = function(key){
+		        scope.orderByField = key;
+		        scope.reverseSort = !scope.reverseSort;
+		    };
 			element.on('click', function(e){
 				if(!scope.tabularData && fileService != undefined){
 					 fileService.getData(getFileName(attrs.fileName)).then(function(response){

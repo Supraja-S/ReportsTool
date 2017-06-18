@@ -1,0 +1,5 @@
+count	color	description
+100	blue	Total Defects
+33	red	High impact
+3	green	Low impact
+66	yellow	Other	

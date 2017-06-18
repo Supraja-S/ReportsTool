@@ -1,4 +1,4 @@
 key 	y              
-Type 4	56          
-Type 5	78
-Type 6	90       
+MSGTYP	56          
+Enhancements	78
+Programs	90       

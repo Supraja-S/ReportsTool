@@ -9,6 +9,7 @@ $border-grey:#dcd8d8;
 $border-blue: #3e5d7c;
 $border-green: #22901f;
 $border-red: #d04531;
+$border-yellow: #f0f78b;
 
 $brand-color1:#000;
 $brand-color2:#86bc25;
@@ -88,7 +89,11 @@ tr:nth-child(odd) {
 	border-left: 4px solid $border-red;
 }
 .status-green{
+
 	border-left: 4px solid $border-green;
+}
+.status-yellow{
+	border-left: 4px solid $border-yellow;
 }
 .switch-block-container{
 	 border: 1px solid $border-grey;

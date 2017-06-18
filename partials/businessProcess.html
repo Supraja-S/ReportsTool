@@ -1,7 +1,7 @@
 <div  ng-controller="bpController"> 
 <ul class="sub-nav  col-xs-12" >
-	<li class="" ><a href=""> Summary </a></li>
-	<li class="" ><a href="">Defects</a></li>
+	<li ng-class="selected == 'summary'?'active':''" ng-click="selected = 'summary'" ><a href=""> Summary </a></li>
+	<li ng-class="selected == 'defects'?'active':''" ng-click="selected = 'defects'" ><a href="">Defects</a></li>
 </ul>
 
 <div class="bp-container view-wrapper col-xs-12">
@@ -9,7 +9,7 @@
 		<div class="col-xs-2 bp-column top-column">
 			<p>Total count</p>
 			<div class="center-section text-center">
-				<h1 class="count text-center">33</h1>
+				<h1 class="count text-center">{{bpCount}}</h1>
 				<span>BP count</span>
 			</div>
 		</div>
@@ -87,7 +87,7 @@
 		<div class="col-xs-2 bp-column top-column">
 			<p>Fiori  count</p>
 			<div class="center-section text-center">
-				<h1 class="count text-center">33</h1>
+				<h1 class="count text-center">{{fioriCount}}</h1>
 				<span>Fiori Object count</span>
 			</div>
 		</div>
@@ -131,18 +131,15 @@
 				<div class="center-section">
 					<table class="col-xs-12">
 						<thead>
-							<tr class="border-bottom">
-								<td >Name</td>
-								<td>Value1</td>
-								<td>Value2</td>
-							</tr>
+							
+							<tr class="border-bottom" >
+								<th ng-repeat="(key,value) in fioriData[0]" class="border-right" ng-bind="key"></th>
+		 					</tr>
 						</thead>
 						<tbody>
-							<tr ng-repeat="tdata in tabularData">
-								<td class="border-right">tdata.name</td>
-								<td class="border-right">tdata.value1</td>
-								<td class="border-right">tdata.value2</td>
-								
+							
+							<tr ng-repeat="row in fioriData|orderBy:orderByField:reverseSort">
+								<td ng-repeat="(key,value) in row" class="border-right" ng-bind="value"></td>
 							</tr>
 						</tbody>
 					</table>
@@ -158,22 +155,25 @@
 			<a class="btn btn-primary table-toggler" show-table="showTable" scroll-down="scrolDown" tabular-data=" tabularData">Show/Hide Total Data</a>
 		</div>
 		<div class="clear-both bp-column no-border table-container" ng-show="showTable">
-			<p>TableTable data</p>
+			<p>Tabledata</p>
  			<div class="center-section">
-				<table class="col-xs-12">
+				<table class="col-xs-12"  ng-init="$parent.orderByField = 'OBJTYPE'">
 					<thead>
-						<tr class="border-bottom">
-							<td >Name</td>
-							<td>Value1</td>
-							<td>Value2</td>
+							
+						<tr class="border-bottom" >
+							<th ng-repeat="(key,value) in tabularData[0]" class="border-right" ng-click="sortFunction(key)">
+								<span ng-bind="key"></span>
+								<span ng-show="$parent.orderByField == '{{key}}'">
+									<span ng-show="!$parent.reverseSort">^</span>
+									<span ng-show="$parent.reverseSort">v</span>
+								</span>
+							</th>
 						</tr>
 					</thead>
 					<tbody>
-						<tr ng-repeat="tdata in tabularData">
-							<td class="border-right">tdata.name</td>
-							<td class="border-right">tdata.value1</td>
-							<td class="border-right">tdata.value2</td>
-							
+						
+						<tr ng-repeat="row in tabularData|orderBy:orderByField:reverseSort">
+							<td ng-repeat="(key,value) in row" class="border-right" ng-bind="value"></td>
 						</tr>
 					</tbody>
 				</table>

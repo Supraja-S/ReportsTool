@@ -1,4 +1,7 @@
-key 	y              
-Type 1	48          
-Type 2	20
-Type 3	3        
+key 	y
+
+Function Module	28
+
+Method (ABAP Objects)	15
+
+Program	41

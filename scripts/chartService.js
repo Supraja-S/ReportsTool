@@ -35,14 +35,14 @@ reportsTool.factory('chartCreationService',['s4TabService',function(s4TabService
                 height: 300,
                 x: function(d){return d.key;},
                 y: function(d){return d.y;},
-                showLabels: true,
+                showLabels: false,
                 duration: 500,
                 labelThreshold: 0.01,
                 labelSunbeamLayout: true,
                 legend: {
                     margin: {
                         top: 5,
-                        right: 35,
+                        right: 0,
                         bottom: 5,
                         left: 0
                     }
@@ -57,7 +57,7 @@ reportsTool.factory('chartCreationService',['s4TabService',function(s4TabService
             chart: {
                 type: 'lineChart',
                 margin: 300,
-                showLabels: true,
+                showLabels: false,
 				useInteractiveGuideline:true,
 				transitionDuration:350,
                 labelThreshold: 0.01,
@@ -65,7 +65,7 @@ reportsTool.factory('chartCreationService',['s4TabService',function(s4TabService
                 legend: {
                     margin: {
                         top: 5,
-                        right: 35,
+                        right: 0,
                         bottom: 5,
                         left: 100
                     }
@@ -100,7 +100,7 @@ reportsTool.factory('chartCreationService',['s4TabService',function(s4TabService
                 height: 300,
                 x: function(d){return d.key;},
                 y: function(d){return d.y;},
-                showLabels: true,
+                showLabels: false,
                 duration: 500,
                 labelThreshold: 0.01,
                 labelSunbeamLayout: true,
@@ -126,13 +126,13 @@ reportsTool.factory('chartCreationService',['s4TabService',function(s4TabService
                 type: 'scatterChart',
                 height: 300,
 				width:300,
-                showLabels: true,
+                showLabels: false,
                 duration: 500,
                 showDistX: true,
 				showDistY: true,
 				forceX: [0, 100],
 				forceY: [0, 100],
-				color:['#ff7f0e'],
+				color:d3.scale.category10().range(),
 				xAxis: {
 				  axisLabel: "X Axis",
 				  axisLabelDistance: 5
@@ -152,17 +152,19 @@ reportsTool.factory('chartCreationService',['s4TabService',function(s4TabService
 	}
 	chartCreationService.createBarChartData= function(){
 		var options = {
-		  "chart": {
-			"type": "discreteBarChart",
-			"height": 300,
-			"showValues": true,
-			"duration": 500,
-			"xAxis": {
-			  "axisLabel": "X Axis"
+		  chart: {
+			type: "discreteBarChart",
+			height: 300,
+			showValues: true,
+			duration: 500,
+			staggerLabels:true,
+			xAxis: {
+			  axisLabel: "X Axis",
+			  rotateLabels:-45
 			},
-			"yAxis": {
-			  "axisLabel": "Y Axis",
-			  "axisLabelDistance": 5
+			yAxis: {
+			  axisLabel: "Y Axis",
+			  axisLabelDistance: 5
 			}
 		  }
 		};
