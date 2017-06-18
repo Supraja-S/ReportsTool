@@ -2,6 +2,7 @@
 reportsTool.directive('tableToggler', ['$injector',function($injector){
 	return {
 		restrict: 'C',
+		
 		link: function(scope, element, attrs){
 			var fileService;
 			if(attrs.fileService){
@@ -11,6 +12,17 @@ reportsTool.directive('tableToggler', ['$injector',function($injector){
 		        scope.orderByField = key;
 		        scope.reverseSort = !scope.reverseSort;
 		    };
+		    scope.floatTheadOptions = {
+		        scrollContainer: function($table){
+		            return $table.closest('.center-section');
+		        }
+		    };
+		     scope.filterFunction = function(item) {
+
+		        var val = item[scope.searchCategory].toLowerCase();
+		        return (val.indexOf(scope.searchText.toLowerCase()) > -1);
+		    };
+
 			element.on('click', function(e){
 				if(!scope.tabularData && fileService != undefined){
 					 fileService.getData(getFileName(attrs.fileName)).then(function(response){

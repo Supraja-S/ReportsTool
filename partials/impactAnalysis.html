@@ -96,9 +96,21 @@
 					<a class="btn btn-primary table-toggler" show-table="showTable" scroll-down="scrolDown">Show/Hide Total Data</a>
 				</div>
 				<div class="col-xs-12 bp-column no-border" ng-if="showTable">
-					<p>Table data</p>
+
+					<div class="search-selector">
+						<span>
+							<label for="categorySelect">Select a category:</label>
+						    <select name="categorySelect" id="categorySelect" ng-model="searchCategory">
+						    	<option ng-repeat="(key,value) in tabularData[0]" value="{{key}}">{{key}}</option>
+						    </select>
+					    </span>
+					    <span>
+					    	<label for="searchText">Search text</label>
+					    	<input name="searchText" type="text" ng-model="searchText">
+					    </span>
+					</div>
 					<div class="center-section">
-						<table class="col-xs-12" ng-init="$parent.orderByField = 'OBJTYPE'">
+						<table float-thead="floatTheadOptions" ng-model="tabularData" class="col-xs-12" ng-init="$parent.orderByField = 'OBJTYPE';$parent.searchCategory='OBJTYPE'">
 							<thead>
 									<tr class="border-bottom" >
 										<th ng-repeat="(key,value) in tabularData[0]" class="border-right" ng-click="sortFunction(key)">

@@ -137,6 +137,11 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 	s4TabService.getData(getFileName('S4HANA_BF_BY_COMPTYPE')).then(function(response){
 		$scope.usageCharts.donutchart.data =  response;
 	});
+	$scope.floatTheadOptions = {
+		        scrollContainer: function($table){
+		            return $table.closest('.center-section');
+		        }
+		    };
 	 
 	function generateDonutdata(response,compType){
 		var internalData = [] , complexityArry=['High','Medium','Low'];
