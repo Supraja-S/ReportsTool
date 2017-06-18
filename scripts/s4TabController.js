@@ -1,4 +1,4 @@
-reportsTool.controller('s4Controller',['$scope','s4TabService',function($scope,s4TabService){
+reportsTool.controller('s4Controller',['$scope','getFileContent',function($scope,getFileContent){
 	$scope.orderByField = '';
   	$scope.reverseSort = false;
 	$scope.selected = 'busFunctions';
@@ -21,7 +21,20 @@ reportsTool.controller('s4Controller',['$scope','s4TabService',function($scope,s
 		barchart:{
 			options:[],
 		}
-	}
+	};
+
+    $scope.searchCategory = "COMPONENT";
+    $scope.searchText = "";
+    $scope.floatTheadOptions = {
+        scrollContainer: function($table){
+            return $table.closest('.center-section');
+        }
+    };
+
+    $scope.filterFunction = function(item) {
+        var val = item[$scope.searchCategory].toLowerCase();
+        return (val.indexOf($scope.searchText.toLowerCase()) > -1);
+    };
 
 	/*s4TabService.getData(getFileName('S4HANA_DATA')).then(function(response){
 		$scope.tabularData = response;
@@ -51,15 +64,15 @@ reportsTool.controller('s4Controller',['$scope','s4TabService',function($scope,s
         });
 	});*/
 
-    s4TabService.getData(getFileName('S4HANA_COUNT_SUMMARY')).then(function(response){
+    getFileContent.getData(getFileName('S4HANA_COUNT_SUMMARY')).then(function(response){
         $scope.countSummary = response;
     });
 
-    s4TabService.getData(getFileName('S4HANA_BF_BY_CATEGORY')).then(function(response){
+    getFileContent.getData(getFileName('S4HANA_BF_BY_CATEGORY')).then(function(response){
         $scope.uniqueBFuncCateg = response;
     });
 
-    s4TabService.getData(getFileName('S4HANA_BF_BY_COMPTYPE')).then(function(response){
+    getFileContent.getData(getFileName('S4HANA_BF_BY_COMPTYPE')).then(function(response){
         $scope.uniqueBFuncCompType = response;
     });
 
@@ -74,7 +87,7 @@ reportsTool.controller('s4Controller',['$scope','s4TabService',function($scope,s
             type: 'pieChart',
             height: 300,
             x: function(d){return d.key;},
-            y: function(d){return d.y;},
+            y: function(d){return d.value;},
             showLabels: false,
             duration: 500,
             labelThreshold: 0.01,
@@ -89,36 +102,5 @@ reportsTool.controller('s4Controller',['$scope','s4TabService',function($scope,s
             }
         }
     };
-
-    $scope.data = [
-        {
-            key: "One",
-            y: 5
-        },
-        {
-            key: "Two",
-            y: 2
-        },
-        {
-            key: "Three",
-            y: 9
-        },
-        {
-            key: "Four",
-            y: 7
-        },
-        {
-            key: "Five",
-            y: 4
-        },
-        {
-            key: "Six",
-            y: 3
-        },
-        {
-            key: "Seven",
-            y: .5
-        }
-    ];
 
 }]);
