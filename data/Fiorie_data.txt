@@ -1,4 +1,5 @@
 PROGTYPE	OBJTYPE	OBJDESC	SUBOBJ	SUBOBJDESC	OBJNAME	OBJTEXT	APPLN
+Program Type	Object Type	Object Description	Sub Object	Sub Object Description	Object Name	Object Text	Application
 
 R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZBBP_CUF_BADI_2		
 

@@ -154,13 +154,14 @@ reportsTool.factory('chartCreationService',['s4TabService',function(s4TabService
 		var options = {
 		  chart: {
 			type: "discreteBarChart",
-			height: 300,
+			height: 260,
 			showValues: true,
 			duration: 500,
 			staggerLabels:true,
 			xAxis: {
 			  axisLabel: "X Axis",
-			  rotateLabels:-45
+			  rotateLabels:-45,
+			  extraBottomOffset:10
 			},
 			yAxis: {
 			  axisLabel: "Y Axis",

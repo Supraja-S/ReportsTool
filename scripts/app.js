@@ -27,5 +27,7 @@ reportsTool.config(function($routeProvider,$locationProvider,$compileProvider) {
 
 
 reportsTool.controller('LandingPageController',['$scope',function($scope){
-	
+	d3.select(".nv-legendWrap").attr("transform", "translate(200,10)");
+    console.log(d3.select(".nv-legendWrap .nv-series"));
+
 }]);

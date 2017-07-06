@@ -133,7 +133,7 @@
 						<thead>
 							
 							<tr class="border-bottom" >
-								<th ng-repeat="(key,value) in fioriData[0]" class="border-right" ng-bind="key"></th>
+								<th ng-repeat="(key,value) in fioriData[0]" class="border-right" ng-bind="value"></th>
 		 					</tr>
 						</thead>
 						<tbody>
@@ -155,7 +155,7 @@
 			<a class="btn btn-primary table-toggler" show-table="showTable" scroll-down="scrolDown" tabular-data=" tabularData">Show/Hide Total Data</a>
 		</div>
 		<div class="clear-both bp-column no-border table-container" ng-show="showTable">
-			<div class="search-selector">
+			<div class="search-selector pull-right col-xs-6">
 				<span>
 					<label for="categorySelect">Select a category:</label>
 				    <select name="categorySelect" id="categorySelect" ng-model="searchCategory">
@@ -168,12 +168,12 @@
 			    </span>
 			</div>
  			<div class="center-section">
-				<table class="col-xs-12" float-thead="floatTheadOptions" ng-model="tabularData" ng-init="$parent.orderByField = 'OBJTYPE';$parent.searchCategory='OBJTYPE'">
+				<table  float-thead="floatTheadOptions" ng-model="tabularData" ng-init="$parent.orderByField = 'OBJTYPE'" class="col-xs-12">
 					<thead>
 							
 						<tr class="border-bottom" >
 							<th ng-repeat="(key,value) in tabularData[0]" class="border-right" ng-click="sortFunction(key)">
-								<span ng-bind="key"></span>
+								<span ng-bind="value"></span>
 								<span ng-show="$parent.orderByField == '{{key}}'">
 									<span ng-show="!$parent.reverseSort">^</span>
 									<span ng-show="$parent.reverseSort">v</span>
