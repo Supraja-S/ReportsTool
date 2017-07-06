@@ -144,6 +144,15 @@ tr:nth-child(odd) {
 	width: 100%;
 }
 
+.nv-discreteBarWithAxes {
+	> g{ 
+  		transform : translate(70px,15px);
+	}
+	.nv-x.nv-axis .tick text{
+      transform: rotate(-45deg);
+    }
+}
+
 @import "font-awesome.css";
 @import "navigation.scss";
 @import "bp.scss";

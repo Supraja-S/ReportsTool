@@ -1,4 +1,5 @@
 OBJTYPE	OBJDESC	INVOCNT	TOTDEFANA	TOTOBJDEF	TOTDEF	TOTLOWDEF	TOTMEDDEF	TOTHGHDEF	WARNINGS
+Object Type	Object Description	Invoice Count	TOTDEFANA	Total Object Defects	Total Defects	Total Low Defects	Totoal Medium Defects	Total high Defects	Warning
 FUNC	Function Module	28	28	0	0	0	0	0	0
 DOMA	Domain	8	0	0	0	0	0	0	0
 DTEL	Data Element	66	0	0	0	0	0	0	0

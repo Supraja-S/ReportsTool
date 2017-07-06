@@ -3,6 +3,12 @@ reportsTool.controller('bpController',['$scope','s4TabService','chartCreationSer
 	$scope.selected = 'summary'; 
 	$scope.bpCount = 0;
 	$scope.fioriCount = 0;
+
+	$scope.floatTheadOptions = {
+        scrollContainer: function($table){
+            return $table.closest('.center-section');
+        }
+    };
 	/*Business process charts*/
 	$scope.bpCharts = {
 		view1:'piechart',
@@ -25,6 +31,7 @@ reportsTool.controller('bpController',['$scope','s4TabService','chartCreationSer
 			   $scope.bpCount += parseInt(response[i].y);
 			}
 		});	
+		
 	}
 	if($scope.bpCharts.bubblechart.data.length == 0 ){
 		s4TabService.getData(getFileName('BP_COUNT_BY_OBJECT_BUBBLE')).then(function(response){
