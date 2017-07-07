@@ -111,10 +111,22 @@ tr:nth-child(odd) {
 .table-container{
 	position:relative;
 	.center-section{
-		max-width: 90%;
 	    overflow: scroll;
 	    max-height: 600px;
 	}
+	table{
+		border:1px solid $border-grey;
+    	thead{
+    		tr{
+    			text-align: center;
+    			font-weight: 600;
+    			border-bottom:4px solid $border-grey;
+    		}
+    	}
+    }
+    .search-selector{
+    	margin: 30px 0;
+    }
 }
 .table-toggler{
 	.btn-primary{
