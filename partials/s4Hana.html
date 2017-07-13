@@ -6,7 +6,7 @@
 	
 </ul>
 
-<div class="view-wrapper col-xs-12 s4-container" ng-show="selected == 'busFunctions'">
+<div class="view-wrapper col-xs-12 s4-container" ng-if="selected == 'busFunctions'">
 	<div class="totals-container col-xs-12">
 		<div class="totals-box col-xs-2 status-blue">
 			<p class="totals-numeric" ng-bind="countSummary[0]['TOTAL']"></p>
@@ -101,8 +101,8 @@
 		<div class="col-xs-3 pull-right text-right" ng-init="showTable=false;scrollDown=false;tabularData=''">
 			<a class="btn btn-primary table-toggler" show-table="showTable" scroll-down="scrollDown" tabular-data ="tabularData" file-name="S4HANA_DATA" file-service="getFileContent" >Show/Hide Total Data</a>
 		</div>
-		<div class="col-xs-12 no-border" ng-show="showTable">
-			<div class="search-selector pull-left col-xs-6">
+		<div class="col-xs-12 no-border loader-container" ng-show="showTable" ng-class="{'show-loader': !tabularData}">
+			<div class="search-selector pull-left">
 				<span>
 					<label for="categorySelect">Select a category:</label>
 				    <select name="categorySelect" id="categorySelect" ng-model="searchCategory">
@@ -110,10 +110,11 @@
 				    </select>
 			    </span>
 			    <span>
-			    	<label for="searchText">Search text</label>
+			    	<label for="searchText">Search text:</label>
 			    	<input name="searchText" type="text" ng-model="searchText">
 			    </span>
 			</div>
+			<div class="clearfix"></div>
 			<div class="center-section">
 				<table float-thead="floatTheadOptions" ng-model="tabularData" class="col-xs-12" ng-init="orderByField = 'COMPONENT'">
 					<thead>
@@ -133,12 +134,13 @@
 					</tbody>
 				</table>
 			</div>
+			<div class="loader"></div>
 		</div>
 	
 	</div>
 </div>
 
-<div class="view-wrapper col-xs-12 s4-container" ng-show="selected == 'readycheck'">
+<div class="view-wrapper col-xs-12 s4-container" ng-if="selected == 'readycheck'">
 	<div class="totals-container col-xs-12">
 		<div class="totals-box col-xs-2 status-blue">
 			<p class="totals-numeric" ng-bind="countSummary[0]['TOTAL']"></p>
@@ -222,24 +224,31 @@
 				</div>
 			</div>
 		</div>
-		<!--<div class="s4-graph-box col-xs-6">
-			<nvd3 options="options" data="uniqueBFuncCompType"></nvd3>
-		</div>-->
-		<!--<div class="s4-graph-box col-xs-6">
-			<nvd3 options="options" data="uniqueBFuncCateg"></nvd3>
-		</div>-->
+		
 	</div>
 	<div class="table-container col-xs-12 no-padding ">
 		<div class="col-xs-3 pull-right text-right" ng-init="showTable=false;scrollDown=false;tabularData=''">
-			<a class="btn btn-primary table-toggler" show-table="showTable" scroll-down="scrollDown" tabular-data =" tabularData" file-name="S4HANA_DATA" file-service="getFileContent" >Show/Hide Total Data</a>
+			<a class="btn btn-primary table-toggler" show-table="showTable" scroll-down="scrollDown" tabular-data ="tabularData" file-name="S4HANA_DATA" file-service="getFileContent" table-header="tableHeader">Show/Hide Total Data</a>
 		</div>
-		<div class="col-xs-12 no-border" ng-show="showTable">
-			<p>Table data</p>
+		<div class="col-xs-12 no-border loader-container" ng-show="showTable" ng-class="{'show-loader': !tabularData}">
+			<div class="search-selector pull-left">
+				<span>
+					<label for="categorySelect">Select a category:</label>
+				    <select name="categorySelect" id="categorySelect" ng-model="searchCategory">
+				    	<option ng-repeat="(key,value) in tableHeader" value="{{key}}">{{value}}</option>
+				    </select>
+			    </span>
+			    <span>
+			    	<label for="searchText">Search text:</label>
+			    	<input name="searchText" type="text" ng-model="searchText">
+			    </span>
+			</div>
+			<div class="clearfix"></div>
 			<div class="center-section">
-				<table class="col-xs-12" ng-init="orderByField = 'COMPONENT'">
+				<table float-thead="floatTheadOptions" ng-model="tabularData" class="col-xs-12" ng-init="orderByField = 'COMPONENT'">
 					<thead>
 						<tr class="border-bottom">
-							<td ng-repeat="(key,value) in tableHeader" ng-click="sortFunction(key)">
+							<td ng-repeat="(key,value) in tableHeader" class="border-right table-header" ng-click="sortFunction(key)">
 								<span ng-bind="value"></span>
 								<span class="fa fa-sort" ng-hide="orderByField == '{{key}}'"></span>
 								<span class="fa fa-sort-asc" ng-show="orderByField == '{{key}}' && !reverseSort"></span>
@@ -248,12 +257,13 @@
 						</tr>
 					</thead>
 					<tbody>
-						<tr ng-repeat="row in tabularData|orderBy:orderByField:reverseSort">
+						<tr ng-repeat="row in tabularData|orderBy:orderByField:reverseSort|filter:filterFunction">
 							<td ng-repeat="(key,value) in row" class="border-right" ng-bind="value"></td>
 						</tr>
 					</tbody>
 				</table>
 			</div>
+			<div class="loader"></div>
 		</div>
 	
 	</div>

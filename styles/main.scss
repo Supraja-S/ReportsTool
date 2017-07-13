@@ -126,6 +126,21 @@ tr:nth-child(odd) {
     }
     .search-selector{
     	margin: 30px 0;
+    	>span{
+    		margin-right: 10px;
+    	}
+    	select{
+    		border-radius: 5px;
+    		padding: 5px 0;
+    		border-color: $border-grey;
+    	}
+    	input{
+    		border-radius: 5px;
+		    border-style: solid;
+		    border-width: 1px;
+		    border-color: $border-grey;
+		    padding: 5px 0;
+    	}
     }
 }
 .table-toggler{
@@ -163,6 +178,36 @@ tr:nth-child(odd) {
 	.nv-x.nv-axis .tick text{
       transform: rotate(-45deg);
     }
+}
+.loader-container{
+	position: relative;
+	.loader{
+		font-size: 24px;
+	    z-index: 1001;
+	    height: 100%;
+	    width: 100%;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    display: none;
+	    background: rgba(240,242,244,.8);
+
+	    &:before{
+	    	display: block;
+		    width: 36px;
+		    height: 36px;
+		    background: url(../icons/icon-loading.svg) no-repeat;
+		    position: absolute;
+		    top: 50%;
+		    left: 50%;
+		    margin-top: -18px;
+		    margin-left: -18px;
+		    content:' ';
+	    }
+	}
+	&.show-loader .loader{
+		display: block;
+	}
 }
 
 @import "font-awesome.css";
