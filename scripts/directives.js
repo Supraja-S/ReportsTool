@@ -26,6 +26,8 @@ reportsTool.directive('tableToggler', ['$injector',function($injector){
 			element.on('click', function(e){
 				if(!scope.tabularData && fileService != undefined){
 					 fileService.getData(getFileName(attrs.fileName)).then(function(response){
+					 	scope.tableHeader = response[0];
+					 	response.splice(0,1);
 						scope.tabularData = response;
 					});
 				}

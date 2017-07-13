@@ -35,6 +35,11 @@ gulp.task('browserSync',function(){
 	
 });
 
+gulp.task('images', function () {
+	gulp.src('icons/*.*')
+  	.pipe(gulp.dest('dist/icons'));
+});
+
 gulp.task('watch',function(){
 	gulp.watch('scripts/*.js',['minifyJs']);
 	gulp.watch('styles/*.scss',['styles']);
@@ -43,4 +48,4 @@ gulp.task('watch',function(){
 	
 })
 
-gulp.task('default',['styles','minifyJs','html','browserSync','watch']);
+gulp.task('default',['styles','minifyJs','html','images','browserSync','watch']);
