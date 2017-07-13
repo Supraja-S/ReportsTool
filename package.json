@@ -9,17 +9,17 @@
   "author": "Supraja Surabhi",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "latest",
-    "gulp-util": "latest",
-    "gulp-sass": "latest",
+    "body-parser": "latest",
+    "excel-export": "latest",
+    "express": "latest",
+    "fs": "latest",
+    "gulp": "^3.9.1",
     "gulp-coffee": "latest",
-    "gulp-uglify": "latest",
     "gulp-concat": "latest",
     "gulp-connect": "latest",
-	"express":"latest",
-	"fs":"latest",
-	"excel-export":"latest",
-	"body-parser":"latest"
+    "gulp-sass": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest"
   },
   "dependencies": {
     "browser-sync": "^2.18.6",
