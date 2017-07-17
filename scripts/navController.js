@@ -23,6 +23,11 @@ reportsTool.controller('navController',['$scope','$location',function($scope,$lo
 		linkCode:'/bpview',
 		iconName:'tasks',
 		
+	},
+	{
+		description:'Inventory',
+		linkCode:'/inventory',
+		iconName:'',
 	}];
 	
 	

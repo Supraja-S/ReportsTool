@@ -18,6 +18,10 @@ reportsTool.config(function($routeProvider,$locationProvider,$compileProvider) {
          templateUrl : "../partials/businessProcess.html",
          controller : "bpController"
     })
+    .when("/inventory", {
+         templateUrl : "../partials/inventory.html",
+         controller : "inventoryController"
+    })
 	.otherwise({
          redirectTo:'/home'
     });
