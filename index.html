@@ -33,7 +33,11 @@
 <body ng-controller="LandingPageController">
 
     <div class="container" id="wrapper" class="col-xs-12">
-
+        <div class="loader-container" ng-show="showLoader">
+            <div class="loader-message">
+                Please wait
+            </div>
+        </div>
         <!-- Navigation -->
         <div ng-include="'../partials/navPanel.html'">
         </div>
