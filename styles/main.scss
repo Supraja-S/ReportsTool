@@ -180,7 +180,7 @@ tr:nth-child(odd) {
       transform: rotate(-45deg);
     }
 }
-.loader-container{
+/*.loader-container{
 	position: relative;
 	.loader{
 		font-size: 24px;
@@ -209,7 +209,7 @@ tr:nth-child(odd) {
 	&.show-loader .loader{
 		display: block;
 	}
-}
+}*/
 
 .loader-container{
 	position: absolute;
@@ -228,6 +228,11 @@ tr:nth-child(odd) {
 	    width: 200px;
 	    height: 200px;
 	}
+}
+
+.graph-box{
+	min-height: 300px;
+	border: 1px solid $border-grey;
 }
 
 @import "font-awesome.css";
