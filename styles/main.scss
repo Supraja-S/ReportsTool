@@ -168,8 +168,12 @@ tr:nth-child(odd) {
   outline: 4px solid $brand-color1;
   border-radius:5px;
 }
-.tabular-data table{
-	width: 100%;
+.tabular-data {
+	max-height: 280px;
+    overflow: auto;
+	table{
+		width: 100%;
+	}
 }
 
 .nv-discreteBarWithAxes {
@@ -231,8 +235,14 @@ tr:nth-child(odd) {
 }
 
 .graph-box{
-	min-height: 300px;
+	height: 350px;
 	border: 1px solid $border-grey;
+	.center-section{
+		padding-top: 10px;
+	}
+}
+.graph-label-container{
+	padding: 30px 0;
 }
 
 @import "font-awesome.css";

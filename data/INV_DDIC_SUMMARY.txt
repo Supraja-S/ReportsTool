@@ -1,0 +1,7 @@
+key	value
+Domain	8
+Data Element	66
+Search Help	4
+Structure	20
+Table	19
+View	2

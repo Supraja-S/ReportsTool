@@ -1,0 +1,13 @@
+key	value
+Class (ABAP Objects)	15
+Package	8
+Function Group	12
+Method (ABAP Objects)	153
+Message Class	1
+Test case	2
+BC Set or Customizing Profile	1
+Screen variants	142
+Transaction variants (cross-client)	12
+Authorization Object 2
+Definition of a Maintenance and Transport Object 4
+Transaction	24
