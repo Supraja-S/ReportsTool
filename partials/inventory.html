@@ -79,6 +79,18 @@
 				</div>
 			</div>
 		</div>
-		
+
+		<div class="table-container col-xs-12 no-padding">
+			<div class="col-xs-3 pull-right text-right">
+				<a class="btn btn-primary toggle-table" show-table="showObjTypeTable" scroll-down="scrollDown" tabular-data="objTypeData" tabular-header="objTypeHeader" file-name="{{objTypeDataFile}}" file-service="getFileContent">Show/Hide Total Data</a>
+			</div>
+
+			<div class="col-xs-12 no-border" ng-if="showObjTypeTable && objTypeData">
+				<table-generate table-header="objTypeHeader" tabular-data="objTypeData"></table-generate>
+			</div>
+		</div>
+
 	</div>
 </div>
+
+<div ng-include="'../partials/tableStructure.html'">

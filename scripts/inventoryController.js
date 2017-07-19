@@ -15,9 +15,10 @@ reportsTool.controller('inventoryController',['$scope','getFileContent',function
     getFileContent.getData(getFileName('INV_OBJ_SUMMARY')).then(function(response){
         $scope.objSummary = response;
         $scope.defaultObjType = $scope.objSummary[0]['OBJTYPE'];
-        $scope.subObjDataFile = 'INV_' + $scope.defaultObjType + '_DATA';
+        $scope.objTypeDataFile = 'INV_' + $scope.defaultObjType + '_DATA';
 
         fetchSubObjChartData($scope.defaultObjType);
+
     });    
 
     var fetchSubObjChartData = function(objType){
@@ -25,11 +26,18 @@ reportsTool.controller('inventoryController',['$scope','getFileContent',function
         getFileContent.getData(getFileName(fileName)).then(function(response){
             $scope.subObjSummary = response;
         });
+        fetchTableData(objType);
     }
 
-    /*getFileContent.getData(getFileName($scope.subObjDataFile)).then(function(response){
-        $scope.tableData = response;
-    });*/
+    var fetchTableData = function(objType){
+        var fileName = 'INV_' + objType + '_DATA';
+        getFileContent.getData(getFileName(fileName)).then(function(response){
+            $scope.objTypeHeader = response[0];
+            response.splice(0,1);
+            $scope.objTypeData = response;
+        });
+    };
+
 
 	$scope.pieOptions = {
         chart: {
