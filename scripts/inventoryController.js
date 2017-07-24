@@ -1,16 +1,9 @@
 reportsTool.controller('inventoryController',['$scope','getFileContent',function($scope,getFileContent){
-	$scope.orderByField = '';
-  	$scope.reverseSort = false;
-
-    $scope.tabularData = '';
 
     $scope.chart={
         view1:'pieChart',
         view2:'donutchart'
     };
-
-    $scope.searchCategory = "COMPONENT";
-    $scope.searchText = "";
 
     getFileContent.getData(getFileName('INV_OBJ_SUMMARY')).then(function(response){
         $scope.objSummary = response;
