@@ -7,6 +7,12 @@ reportsTool.controller('s4Controller',['$scope','getFileContent',function($scope
         view2:'pieChart'
 	};
 
+    $scope.floatTheadOptions = {
+        scrollContainer: function($table){
+            return $table.closest('.tabular-data');
+        }
+    }
+
     getFileContent.getData(getFileName('S4HANA_COUNT_SUMMARY')).then(function(response){
         $scope.countSummary = response;
     });

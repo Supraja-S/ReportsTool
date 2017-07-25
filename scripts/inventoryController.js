@@ -5,6 +5,12 @@ reportsTool.controller('inventoryController',['$scope','getFileContent',function
         view2:'donutchart'
     };
 
+    $scope.floatTheadOptions = {
+        scrollContainer: function($table){
+            return $table.closest('.tabular-data');
+        }
+    };
+
     getFileContent.getData(getFileName('INV_OBJ_SUMMARY')).then(function(response){
         $scope.objSummary = response;
         $scope.defaultObjType = $scope.objSummary[0]['OBJTYPE'];

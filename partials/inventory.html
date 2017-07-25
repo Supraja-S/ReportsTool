@@ -24,7 +24,7 @@
 					
 					<nvd3 ng-if="chart.view1=='pieChart'" options="pieOptions" data="objSummary"></nvd3>
 					<div class="tabular-data" ng-if="chart.view1=='table'">
-						<table>
+						<table float-thead="floatTheadOptions">
 							<thead >
 								<tr class="border-bottom">
 									<td class="col-xs-2 border-right">S.No.</td>
@@ -58,7 +58,7 @@
 					
 					<nvd3 ng-if="chart.view2=='donutchart'" options="donutOptions" data="subObjSummary"></nvd3>
 					<div class="tabular-data" ng-if="chart.view2=='table'">
-						<table>
+						<table float-thead="floatTheadOptions">
 							<thead >
 								<tr class="border-bottom">
 									<td class="col-xs-2 border-right">S.No.</td>
