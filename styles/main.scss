@@ -168,8 +168,12 @@ tr:nth-child(odd) {
   outline: 4px solid $brand-color1;
   border-radius:5px;
 }
-.tabular-data table{
-	width: 100%;
+.tabular-data {
+	max-height: 280px;
+    overflow: auto;
+	table{
+		width: 100%;
+	}
 }
 
 .nv-discreteBarWithAxes {
@@ -180,7 +184,7 @@ tr:nth-child(odd) {
       transform: rotate(-45deg);
     }
 }
-.loader-container{
+/*.loader-container{
 	position: relative;
 	.loader{
 		font-size: 24px;
@@ -209,14 +213,14 @@ tr:nth-child(odd) {
 	&.show-loader .loader{
 		display: block;
 	}
-}
+}*/
 
 .loader-container{
 	position: absolute;
 	top: 0px;
 	left: 0px;
 	background: #fff;
-	z-index: 10;
+	z-index: 10001;
 	height: 100%;
 	width: 100%;
 	opacity: 0.94;
@@ -228,6 +232,17 @@ tr:nth-child(odd) {
 	    width: 200px;
 	    height: 200px;
 	}
+}
+
+.graph-box{
+	height: 350px;
+	border: 1px solid $border-grey;
+	.center-section{
+		padding-top: 10px;
+	}
+}
+.graph-label-container{
+	padding: 30px 0;
 }
 
 @import "font-awesome.css";

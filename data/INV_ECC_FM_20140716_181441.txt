@@ -1,4 +1,5 @@
 PROGTYPE	OBJTYPE	OBJDESC	SUBOBJ	SUBOBJDESC	OBJNAME	OBJTEXT	APPLN	FRICETYPE	PACKAGE	SYSNAME	MAINPROG	INCL	REFOBJTYP
+Program type	Obj Type	Obj Desc.	Sub-Obj Type	Sub-Obj Desc.	Object Name	Object Desc.	Application Name	Frice Type	Package	Sys Name	Main Program	Include Name	Ref. Obj. Type
 LIMU	FM	Function Module	FUNC	Function Module	ZZ_BBP_EXTREQ_PLM	Shopping cart function for PLM			ZBBP	SRM 4.00	SAPLZBBP_PLM	LZBBP_PLMU01	
 LIMU	FM	Function Module	FUNC	Function Module	ZZ_BBP_EXTREQ_INBOUND	Eingang für externe Anforderungen			ZBBP	SRM 4.00	SAPLZBBP_PLM	LZBBP_PLMU03	
 LIMU	FM	Function Module	FUNC	Function Module	ZZ_BBP_EXTREQ_CRT_IN_MAPD	Shopping cart data mapping - RFC to SC BAPI			ZBBP	SRM 4.00	SAPLZBBP_PLM	LZBBP_PLMU02	

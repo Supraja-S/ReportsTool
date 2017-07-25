@@ -2,8 +2,6 @@
 <ul class="sub-nav  col-xs-12">
 		<li ng-class="selected == 'busFunctions'?'active':''" ng-click="selected = 'busFunctions'" ><a >Business Functions</a></li>
 		<li ng-class="selected == 'readycheck'?'active':''" ng-click="selected = 'readycheck'" ><a >Readiness Check</a></li>
-				
-	
 </ul>
 
 <div class="view-wrapper col-xs-12 s4-container" ng-if="selected == 'busFunctions'">
@@ -22,7 +20,7 @@
 		</div>
 	</div>
 	<div class="s4-graph-container col-xs-12">
-		<div class="col-xs-6 s4-graph-box ia-chart-column padding-top-10" ng-init="chart.view1='pieChart'">
+		<div class="col-xs-6 graph-box padding-top-10" ng-init="chart.view1='pieChart'">
 			<div class="pull-left col-xs-9">&nbsp;</div>
 			<div class="pull-right col-xs-3 switch-block-container no-padding"> 
 				<a class="switch-block col-xs-6 border-right text-center" href="javascript:void(0)" ng-click="chart.view1='pieChart'" ng-class="chart.view1=='pieChart'?'active':''" title="Pie">
@@ -32,7 +30,7 @@
 					<span class="fa fa-table fa-lg"></span>
 				</a>
 			</div>
-			<div class="center-section">
+			<div class="center-section clear-both">
 				
 				<nvd3 ng-if="chart.view1=='pieChart'" options="options" data="uniqueBFuncCompType"></nvd3>
 				<div class="tabular-data" ng-if="chart.view1=='table'">
@@ -56,7 +54,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-xs-6 s4-graph-box ia-chart-column padding-top-10" ng-init="chart.view2='pieChart'">
+		<div class="col-xs-6 graph-box padding-top-10" ng-init="chart.view2='pieChart'">
 			<div class="pull-left col-xs-9">&nbsp;</div>
 			<div class="pull-right col-xs-3 switch-block-container no-padding"> 
 				<a class="switch-block col-xs-6 border-right text-center" href="javascript:void(0)" ng-click="chart.view2='pieChart'" ng-class="chart.view2=='pieChart'?'active':''" title="Pie">
@@ -66,7 +64,7 @@
 					<span class="fa fa-table fa-lg"></span>
 				</a>
 			</div>
-			<div class="center-section">
+			<div class="center-section clear-both">
 				
 				<nvd3 ng-if="chart.view2=='pieChart'" options="options" data="uniqueBFuncCateg"></nvd3>
 				<div class="tabular-data" ng-if="chart.view2=='table'">
@@ -90,53 +88,14 @@
 				</div>
 			</div>
 		</div>
-		<!--<div class="s4-graph-box col-xs-6">
-			<nvd3 options="options" data="uniqueBFuncCompType"></nvd3>
-		</div>-->
-		<!--<div class="s4-graph-box col-xs-6">
-			<nvd3 options="options" data="uniqueBFuncCateg"></nvd3>
-		</div>-->
 	</div>
 	<div class="table-container col-xs-12 no-padding ">
-		<div class="col-xs-3 pull-right text-right" ng-init="showTable=false;scrollDown=false;tabularData=''">
-			<a class="btn btn-primary table-toggler" show-table="showTable" scroll-down="scrollDown" tabular-data ="tabularData" file-name="S4HANA_DATA" file-service="getFileContent" >Show/Hide Total Data</a>
+		<div class="col-xs-3 pull-right text-right">
+			<a class="btn btn-primary toggle-table" show-table="showBFTable" scroll-down="scrollDown" tabular-data="BFData" tabular-header="BFHeader" file-name="S4HANA_DATA" file-service="getFileContent">Show/Hide Total Data</a>
 		</div>
-		<div class="col-xs-12 no-border loader-container" ng-show="showTable" ng-class="{'show-loader': !tabularData}">
-			<div class="search-selector pull-left">
-				<span>
-					<label for="categorySelect">Select a category:</label>
-				    <select name="categorySelect" id="categorySelect" ng-model="searchCategory">
-				    	<option ng-repeat="(key,value) in tableHeader" value="{{key}}">{{value}}</option>
-				    </select>
-			    </span>
-			    <span>
-			    	<label for="searchText">Search text:</label>
-			    	<input name="searchText" type="text" ng-model="searchText">
-			    </span>
-			</div>
-			<div class="clearfix"></div>
-			<div class="center-section">
-				<table float-thead="floatTheadOptions" ng-model="tabularData" class="col-xs-12" ng-init="orderByField = 'COMPONENT'">
-					<thead>
-						<tr class="border-bottom">
-							<td ng-repeat="(key,value) in tableHeader" class="border-right table-header" ng-click="sortFunction(key)">
-								<span ng-bind="value"></span>
-								<span class="fa fa-sort" ng-hide="orderByField == '{{key}}'"></span>
-								<span class="fa fa-sort-asc" ng-show="orderByField == '{{key}}' && !reverseSort"></span>
-								<span class="fa fa-sort-desc" ng-show="orderByField == '{{key}}' && reverseSort"></span>
-							</td>
-						</tr>
-					</thead>
-					<tbody>
-						<tr ng-repeat="row in tabularData|orderBy:orderByField:reverseSort|filter:filterFunction">
-							<td ng-repeat="(key,value) in row" class="border-right" ng-bind="value"></td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="loader"></div>
+		<div class="col-xs-12 no-border" ng-if="showBFTable && BFData">
+			<table-generate table-header="BFHeader" tabular-data="BFData"></table-generate>
 		</div>
-	
 	</div>
 </div>
 
@@ -156,7 +115,7 @@
 		</div>
 	</div>
 	<div class="s4-graph-container col-xs-12">
-		<div class="col-xs-6 s4-graph-box ia-chart-column padding-top-10" ng-init="chart.view1='pieChart'">
+		<div class="col-xs-6 graph-box padding-top-10" ng-init="chart.view1='pieChart'">
 			<div class="pull-left col-xs-9">&nbsp;</div>
 			<div class="pull-right col-xs-3 switch-block-container no-padding"> 
 				<a class="switch-block col-xs-6 border-right text-center" href="javascript:void(0)" ng-click="chart.view1='pieChart'" ng-class="chart.view1=='pieChart'?'active':''" title="Pie">
@@ -166,7 +125,7 @@
 					<span class="fa fa-table fa-lg"></span>
 				</a>
 			</div>
-			<div class="center-section">
+			<div class="center-section clear-both">
 				
 				<nvd3 ng-if="chart.view1=='pieChart'" options="options" data="uniqueBFuncCompType"></nvd3>
 				<div class="tabular-data" ng-if="chart.view1=='table'">
@@ -190,7 +149,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-xs-6 s4-graph-box ia-chart-column padding-top-10" ng-init="chart.view2='pieChart'">
+		<div class="col-xs-6 graph-box padding-top-10" ng-init="chart.view2='pieChart'">
 			<div class="pull-left col-xs-9">&nbsp;</div>
 			<div class="pull-right col-xs-3 switch-block-container no-padding"> 
 				<a class="switch-block col-xs-6 border-right text-center" href="javascript:void(0)" ng-click="chart.view2='pieChart'" ng-class="chart.view2=='pieChart'?'active':''" title="Pie">
@@ -200,7 +159,7 @@
 					<span class="fa fa-table fa-lg"></span>
 				</a>
 			</div>
-			<div class="center-section">
+			<div class="center-section clear-both">
 				
 				<nvd3 ng-if="chart.view2=='pieChart'" options="options" data="uniqueBFuncCateg"></nvd3>
 				<div class="tabular-data" ng-if="chart.view2=='table'">
@@ -227,44 +186,17 @@
 		
 	</div>
 	<div class="table-container col-xs-12 no-padding ">
-		<div class="col-xs-3 pull-right text-right" ng-init="showTable=false;scrollDown=false;tabularData=''">
-			<a class="btn btn-primary table-toggler" show-table="showTable" scroll-down="scrollDown" tabular-data ="tabularData" file-name="S4HANA_DATA" file-service="getFileContent" table-header="tableHeader">Show/Hide Total Data</a>
+
+		<div class="col-xs-3 pull-right text-right">
+			<a class="btn btn-primary toggle-table" show-table="showReadinessTable" scroll-down="scrollDown" tabular-data="readinessData" tabular-header="readinessHeader" file-name="S4HANA_DATA" file-service="getFileContent">Show/Hide Total Data</a>
 		</div>
-		<div class="col-xs-12 no-border loader-container" ng-show="showTable" ng-class="{'show-loader': !tabularData}">
-			<div class="search-selector pull-left">
-				<span>
-					<label for="categorySelect">Select a category:</label>
-				    <select name="categorySelect" id="categorySelect" ng-model="searchCategory">
-				    	<option ng-repeat="(key,value) in tableHeader" value="{{key}}">{{value}}</option>
-				    </select>
-			    </span>
-			    <span>
-			    	<label for="searchText">Search text:</label>
-			    	<input name="searchText" type="text" ng-model="searchText">
-			    </span>
-			</div>
-			<div class="clearfix"></div>
-			<div class="center-section">
-				<table float-thead="floatTheadOptions" ng-model="tabularData" class="col-xs-12" ng-init="orderByField = 'COMPONENT'">
-					<thead>
-						<tr class="border-bottom">
-							<td ng-repeat="(key,value) in tableHeader" class="border-right table-header" ng-click="sortFunction(key)">
-								<span ng-bind="value"></span>
-								<span class="fa fa-sort" ng-hide="orderByField == '{{key}}'"></span>
-								<span class="fa fa-sort-asc" ng-show="orderByField == '{{key}}' && !reverseSort"></span>
-								<span class="fa fa-sort-desc" ng-show="orderByField == '{{key}}' && reverseSort"></span>
-							</td>
-						</tr>
-					</thead>
-					<tbody>
-						<tr ng-repeat="row in tabularData|orderBy:orderByField:reverseSort|filter:filterFunction">
-							<td ng-repeat="(key,value) in row" class="border-right" ng-bind="value"></td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="loader"></div>
+
+		<div class="col-xs-12 no-border" ng-if="showReadinessTable && readinessData">
+			<table-generate table-header="readinessHeader" tabular-data="readinessData"></table-generate>
 		</div>
-	
+
 	</div>
 </div>
+</div>
+
+<div ng-include="'../partials/tableStructure.html'">

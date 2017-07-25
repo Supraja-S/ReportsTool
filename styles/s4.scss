@@ -1,5 +1,5 @@
 $bg-color: #fff;
-$border-color: #dcd8d8;
+
 .s4-container{
 	background-color:$bg-color;
 	.totals-container{
@@ -13,12 +13,7 @@ $border-color: #dcd8d8;
     		font-size: 16px;
 		}
 	}
-	.s4-graph-container{
-		.s4-graph-box{
-			height: 300px;
-			border: 1px solid $border-color;
-		}
-	}
+	
 	.table-container{
 		margin-top: 20px;
 	}

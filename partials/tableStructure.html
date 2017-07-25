@@ -1,0 +1,34 @@
+<script type="text/ng-template" id="table.html">
+	<div class="search-selector pull-left">
+		<span>
+			<label for="categorySelect">Select a category:</label>
+		    <select name="categorySelect" id="categorySelect" ng-model="searchCategory">
+		    	<option ng-repeat="(key,value) in tableHeader" value="{{key}}">{{value}}</option>
+		    </select>
+	    </span>
+	    <span>
+	    	<label for="searchText">Search text:</label>
+	    	<input name="searchText" type="text" ng-model="searchText">
+	    </span>
+	</div>
+	<div class="clearfix"></div>
+	<div class="center-section">
+		<table float-thead="floatTheadOptions" ng-model="tabularData" class="col-xs-12">
+			<thead>
+				<tr class="border-bottom">
+					<td ng-repeat="(key,value) in tableHeader" class="border-right table-header" ng-click="sortFunction(key)">
+						<span ng-bind="value"></span>
+						<span class="fa fa-sort" ng-hide="orderByField == '{{key}}'"></span>
+						<span class="fa fa-sort-asc" ng-show="orderByField == '{{key}}' && !reverseSort"></span>
+						<span class="fa fa-sort-desc" ng-show="orderByField == '{{key}}' && reverseSort"></span>
+					</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="row in tabularData|orderBy:orderByField:reverseSort|filter:filterFunction">
+					<td ng-repeat="(key,value) in row" class="border-right" ng-bind="value"></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</script>
