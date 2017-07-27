@@ -1,0 +1,4 @@
+compType	Obsolete	Syntax	Unicode	SecondaryIndex	Pool/ClusterTable	ALV	count           
+MSGTYP	13	12	20	30	0	40	115      
+Enhancements	10	10	10	10	10	10	60
+Programs	1	2	3	5	8	13	32

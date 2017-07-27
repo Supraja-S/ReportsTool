@@ -9,6 +9,11 @@ reportsTool.controller('navController',['$scope','$location',function($scope,$lo
 		iconName:'dashboard'
 	},
 	{
+		description:'Inventory',
+		linkCode:'/inventory',
+		iconName:'',
+	},
+	{
 		description:'Impact Ananlysis',
 		linkCode:'/impact',
 		iconName:'bar-chart'
@@ -24,11 +29,7 @@ reportsTool.controller('navController',['$scope','$location',function($scope,$lo
 		iconName:'tasks',
 		
 	},
-	{
-		description:'Inventory',
-		linkCode:'/inventory',
-		iconName:'',
-	}];
+	];
 	
 	
 }]);

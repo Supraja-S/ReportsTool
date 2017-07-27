@@ -1,0 +1,4 @@
+compType	Warning	MustFix	Suggestive	Count            
+MSGTYP	20	15	15	45	          
+Enhancements	1	2	3	6
+Programs	10	20	30	60       

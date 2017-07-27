@@ -1,4 +1,4 @@
-compType	High	Medium	Low	count             
+compType	High	Medium	Low	count
 MSGTYP	22	17	17	56	          
 Enhancements	26	26	26	78
 Programs	30	30	30	90       
