@@ -1,16 +1,17 @@
 reportsTool.controller('s4Controller',['$scope','getFileContent',function($scope,getFileContent){
-	$scope.orderByField = '';
-  	$scope.reverseSort = false;
+
 	$scope.selected = 'busFunctions';
 
-    $scope.tabularData = '';
 	$scope.chart={
 		view1:'pieChart',
         view2:'pieChart'
 	};
 
-    $scope.searchCategory = "COMPONENT";
-    $scope.searchText = "";
+    $scope.floatTheadOptions = {
+        scrollContainer: function($table){
+            return $table.closest('.tabular-data');
+        }
+    }
 
     getFileContent.getData(getFileName('S4HANA_COUNT_SUMMARY')).then(function(response){
         $scope.countSummary = response;
