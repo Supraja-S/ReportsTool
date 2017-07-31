@@ -12,7 +12,7 @@ reportsTool.directive('tableToggler', ['$injector',function($injector){
 		        scope.orderByField = key;
 		        scope.reverseSort = !scope.reverseSort;
 		    };
-		    scope.floatTheadOptions = {
+		    scope.floatTOptions = {
 		        scrollContainer: function($table){
 		            return $table.closest('.center-section');
 		        }

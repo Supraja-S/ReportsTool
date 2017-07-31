@@ -19,7 +19,7 @@
 			
 			</div>
 			<div class="col-xs-12 ">
-				<div class="col-xs-6 ia-chart-column padding-top-10" >
+				<div class="col-xs-6 graph-box padding-top-10" >
 					<div class="pull-left col-xs-10">&nbsp;</div>
 					<div class="pull-right col-xs-2 switch-block-container no-padding"> 
 						<a class="switch-block col-xs-6 border-right text-center" href="javascript:void(0)" ng-click="defectsCharts.view1='piechart'" ng-class="defectsCharts.view1=='piechart'?'active':''" title="Pie">
@@ -29,12 +29,12 @@
 							<span class="fa fa-table fa-lg"></span>
 						</a>
 					</div>
-					<div class="center-section">
+					<div class="center-section clear-both">
 						
 						<nvd3 ng-if="defectsCharts.view1=='piechart'" options="defectsCharts.piechart.options" data="defectsCharts.piechart.data"></nvd3>
 						<nvd3 ng-if="defectsCharts.view1=='linechart'" options="defectsCharts.linechart.options" data="defectsCharts.linechart.data"></nvd3>
 						<div class="tabular-data" ng-if="defectsCharts.view1=='table'">
-							<table>
+							<table float-thead="floatTheadOptions">
 								<thead >
 									<tr class="border-bottom">
 										<td class="col-xs-2 border-right">S.No.</td>
@@ -54,7 +54,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6 ia-chart-column padding-top-10">
+				<div class="col-xs-6 graph-box padding-top-10">
 					<div class="pull-right col-xs-10 switch-block-container no-padding"> 
 						<div class="col-xs-9 no-padding">
 						    <a class="switch-block col-xs-4 border-right text-center" href="javascript:void(0)" ng-click="updateChartType('COMPLEXITY')" title="Chart">
@@ -76,10 +76,10 @@
 							</a>
 						</div>
 					</div>
-					<div class="center-section">
+					<div class="center-section clear-both">
 						<nvd3 ng-if="defectsCharts.view2=='donutchart'" options="defectsCharts.donutchart.options" data="defectsCharts.donutchart.data"></nvd3>
 						<div class="tabular-data" ng-if="defectsCharts.view2=='table'">
-							<table>
+							<table float-thead="floatTheadOptions">
 								<thead >
 									<tr class="border-bottom">
 										<td class="col-xs-2 border-right">S.No.</td>
@@ -100,50 +100,16 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 padding-top-10 table-container">
-				<div class="col-xs-3 pull-right text-right" ng-init="showTable =  false;scrolDown = false;">
-					<a class="btn btn-primary table-toggler" show-table="showTable" scroll-down="scrolDown">Show/Hide Total Data</a>
-				</div>
-				<div class="col-xs-12 bp-column no-border" ng-if="showTable">
 
-					<div class="search-selector pull-right col-xs-6">
-						<span>
-							<label for="categorySelect">Select a category:</label>
-						    <select name="categorySelect" id="categorySelect" ng-model="searchCategory">
-						    	<option ng-repeat="(key,value) in tabularData[0]" value="{{key}}">{{key}}</option>
-						    </select>
-					    </span>
-					    <span>
-					    	<label for="searchText">Search text</label>
-					    	<input name="searchText" type="text" ng-model="searchText">
-					    </span>
-					</div>
-					<div class="center-section">
-						<table float-thead="floatTheadOptions" ng-model="tabularData" class="col-xs-12" ng-init="$parent.orderByField = 'OBJTYPE';$parent.searchCategory='OBJTYPE'">
-							<thead>
-									<tr class="border-bottom" >
-										<th ng-repeat="(key,value) in tabularData[0]" class="border-right" ng-click="sortFunction(key)">
-											<span ng-bind="key"></span>
-											<span ng-show="$parent.orderByField == '{{key}}'">
-												<span ng-show="!$parent.reverseSort">^</span>
-												<span ng-show="$parent.reverseSort">v</span>
-											</span>
-										</th>
-									</tr>
-								
-							</thead>
-							<tbody>
-								<tr ng-repeat="row in tabularData|orderBy:orderByField:reverseSort">
-									<td ng-repeat="(key,value) in row" class="border-right" ng-bind="value"></td>
-								</tr>
-								
-							</tbody>
-						</table>
-					</div>
+			<div class="table-container col-xs-12 no-padding">
+				<div class="col-xs-3 pull-right text-right">
+					<a class="btn btn-primary toggle-table" show-table="showTabOneTable" scroll-down="scrollDown" tabular-data="tabOneData" tabular-header="tabOneHeader" file-name="DEF_ECC_PROG_20140716_182107" file-service="getFileContent">Show/Hide Total Data</a>
 				</div>
-	
-	</div>
 
+				<div class="col-xs-12 no-border" ng-if="showTabOneTable && tabOneData">
+					<table-generate table-header="tabOneHeader" tabular-data="tabOneData"></table-generate>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="view-container" ng-show="selected == 'performance'">
@@ -158,7 +124,7 @@
 				
 			</div>
 			<div class="col-xs-12 ">
-				<div class="col-xs-6 ia-chart-column padding-top-10" ng-init="performanceCharts.view1='piechart'">
+				<div class="col-xs-6 graph-box padding-top-10" ng-init="performanceCharts.view1='piechart'">
 					<div class="pull-left col-xs-9">&nbsp;</div>
 					<div class="pull-right col-xs-3 switch-block-container no-padding"> 
 						<a class="switch-block col-xs-4 border-right text-center" href="javascript:void(0)" ng-click="performanceCharts.view1='piechart'" ng-class="performanceCharts.view1=='piechart'?'active':''" title="Pie">
@@ -171,12 +137,12 @@
 							<span class="fa fa-table fa-lg"></span>
 						</a>
 					</div>
-					<div class="center-section">
+					<div class="center-section clear-both">
 						
 						<nvd3 ng-if="performanceCharts.view1=='piechart'" options="performanceCharts.piechart.options" data="performanceCharts.piechart.data"></nvd3>
 						<nvd3 ng-if="performanceCharts.view1=='linechart'" options="performanceCharts.linechart.options" data="performanceCharts.linechart.data"></nvd3>
 						<div class="tabular-data" ng-if="performanceCharts.view1=='table'">
-							<table>
+							<table float-thead="floatTheadOptions">
 								<thead >
 									<tr class="border-bottom">
 										<td class="col-xs-2 border-right">S.No.</td>
@@ -196,7 +162,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6 ia-chart-column padding-top-10" ng-init="performanceCharts.view2 = 'donutchart'">
+				<div class="col-xs-6 graph-box padding-top-10" ng-init="performanceCharts.view2 = 'donutchart'">
 					<div class="pull-left col-xs-10">&nbsp;</div>
 					<div class="pull-right col-xs-2 switch-block-container no-padding"> 
 						<a class="switch-block col-xs-6 border-right text-center" href="javascript:void(0)" ng-click="performanceCharts.view2='donutchart'" ng-class="performanceCharts.view2=='donutchart'?'active':''" title="Chart">
@@ -206,10 +172,10 @@
 							<span class="fa fa-table fa-lg"></span>
 						</a>
 					</div>
-					<div class="center-section">
+					<div class="center-section clear-both">
 						<nvd3 ng-if="performanceCharts.view2=='donutchart'" options="performanceCharts.donutchart.options" data="performanceCharts.donutchart.data"></nvd3>
 						<div class="tabular-data" ng-if="performanceCharts.view2=='table'">
-							<table>
+							<table float-thead="floatTheadOptions">
 								<thead >
 									<tr class="border-bottom">
 										<td class="col-xs-2 border-right">S.No.</td>
@@ -230,54 +196,15 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 padding-top-10 table-container">
-			<div class="col-xs-3 pull-right text-right" ng-init="showTable =  false;scrolDown = false;">
-				<a class="btn btn-primary table-toggler" show-table="showTable" scroll-down="scrolDown">Show/Hide Total Data</a>
-			</div>
-			<div class="col-xs-12 bp-column no-border" ng-if="showTable">
-				<p>Table data</p>
-				<div class="center-section">
-					<table class="col-xs-12">
-						<thead>
-							<tr class="border-bottom">
-								<td ng-click="orderByField='name';reverseSort = !reverseSort">
-									<span>Name</span>
-									<span ng-show="orderByField == 'name'">
-										<span ng-show="!reverseSort">^</span>
-										<span ng-show="reverseSort">v</span>
-									</span>
-								</td>
-								<td>Value1</td>
-								<td>Value2</td>
-								<td >Name1</td>
-								<td>Value1</td>
-								<td>Value2</td>
-								<td >Name2</td>
-								<td>Value1</td>
-								<td>Value2</td>
-							</tr>
-						</thead>
-						<tbody>
-							<tr ng-repeat="tdata in tabularData |orderBy:orderByField:reverseSort">
-								<td class="border-right">{{tdata.name}}</td>
-								<td class="border-right">{{tdata.value1}}</td>
-								<td class="border-right">{{tdata.value2}}</td>
-								
-								<td class="border-right">{{tdata.name}}</td>
-								<td class="border-right">{{tdata.value1}}</td>
-								<td class="border-right">{{tdata.value2}}</td>
-								
-								<td class="border-right">{{tdata.name}}</td>
-								<td class="border-right">{{tdata.value1}}</td>
-								<td class="border-right">{{tdata.value2}}</td>
-								
-							</tr>
-						</tbody>
-					</table>
+			<div class="table-container col-xs-12 no-padding">
+				<div class="col-xs-3 pull-right text-right">
+					<a class="btn btn-primary toggle-table" show-table="showTabTwoTable" scroll-down="scrollDown" tabular-data="tabTwoData" tabular-header="tabTwoHeader" file-name="DEF_ECC_PROG_20140716_182107" file-service="getFileContent">Show/Hide Total Data</a>
+				</div>
+
+				<div class="col-xs-12 no-border" ng-if="showTabTwoTable && tabTwoData">
+					<table-generate table-header="tabTwoHeader" tabular-data="tabTwoData"></table-generate>
 				</div>
 			</div>
-	
-	</div>
 
 		</div>
 	</div>
@@ -292,7 +219,7 @@
 				</div>
 			</div>
 			<div class="col-xs-12 ">
-				<div class="col-xs-6 ia-chart-column padding-top-10" ng-init="usageCharts.view1='piechart'">
+				<div class="col-xs-6 graph-box padding-top-10" ng-init="usageCharts.view1='piechart'">
 					<div class="pull-left col-xs-9">&nbsp;</div>
 					<div class="pull-right col-xs-3 switch-block-container no-padding"> 
 						<a class="switch-block col-xs-4 border-right text-center" href="javascript:void(0)" ng-click="usageCharts.view1='piechart'" ng-class="usageCharts.view1=='piechart'?'active':''" title="Pie">
@@ -305,12 +232,12 @@
 							<span class="fa fa-table fa-lg"></span>
 						</a>
 					</div>
-					<div class="center-section">
+					<div class="center-section clear-both">
 						
 						<nvd3 ng-if="usageCharts.view1=='piechart'" options="usageCharts.piechart.options" data="usageCharts.piechart.data"></nvd3>
 						<nvd3 ng-if="usageCharts.view1=='linechart'" options="usageCharts.linechart.options" data="usageCharts.linechart.data"></nvd3>
 						<div class="tabular-data" ng-if="usageCharts.view1=='table'">
-							<table>
+							<table float-thead="floatTheadOptions">
 								<thead >
 									<tr class="border-bottom">
 										<td class="col-xs-2 border-right">S.No.</td>
@@ -330,7 +257,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6 ia-chart-column padding-top-10" ng-init="usageCharts.view2 = 'donutchart'">
+				<div class="col-xs-6 graph-box padding-top-10" ng-init="usageCharts.view2 = 'donutchart'">
 					<div class="pull-left col-xs-10">&nbsp;</div>
 					<div class="pull-right col-xs-2 switch-block-container no-padding"> 
 						<a class="switch-block col-xs-6 border-right text-center" href="javascript:void(0)" ng-click="usageCharts.view2='donutchart'" ng-class="usageCharts.view2=='donutchart'?'active':''" title="Chart">
@@ -340,10 +267,10 @@
 							<span class="fa fa-table fa-lg"></span>
 						</a>
 					</div>
-					<div class="center-section">
+					<div class="center-section clear-both">
 						<nvd3 ng-if="usageCharts.view2=='donutchart'" options="usageCharts.donutchart.options" data="usageCharts.donutchart.data"></nvd3>
 						<div class="tabular-data" ng-if="usageCharts.view2=='table'">
-							<table>
+							<table float-thead="floatTheadOptions">
 								<thead >
 									<tr class="border-bottom">
 										<td class="col-xs-2 border-right">S.No.</td>
@@ -364,55 +291,17 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 padding-top-10 table-container">
-				<div class="col-xs-3 pull-right text-right" ng-init="showTable =  false;scrolDown = false;">
-					<a class="btn btn-primary table-toggler" show-table="showTable" scroll-down="scrolDown">Show/Hide Total Data</a>
+			<div class="table-container col-xs-12 no-padding">
+				<div class="col-xs-3 pull-right text-right">
+					<a class="btn btn-primary toggle-table" show-table="showTabThreeTable" scroll-down="scrollDown" tabular-data="tabThreeData" tabular-header="tabThreeHeader" file-name="DEF_ECC_PROG_20140716_182107" file-service="getFileContent">Show/Hide Total Data</a>
 				</div>
-				<div class="col-xs-12 bp-column no-border" ng-if="showTable">
-					<p>Table data</p>
-					<div class="center-section">
-						<table class="col-xs-12">
-							<thead>
-								<tr class="border-bottom">
-									<td ng-click="orderByField='name';reverseSort = !reverseSort">
-										<span>Name</span>
-										<span ng-show="orderByField == 'name'">
-											<span ng-show="!reverseSort">^</span>
-											<span ng-show="reverseSort">v</span>
-										</span>
-									</td>
-									<td>Value1</td>
-									<td>Value2</td>
-									<td >Name1</td>
-									<td>Value1</td>
-									<td>Value2</td>
-									<td >Name2</td>
-									<td>Value1</td>
-									<td>Value2</td>
-								</tr>
-							</thead>
-							<tbody>
-								<tr ng-repeat="tdata in tabularData |orderBy:orderByField:reverseSort">
-									<td class="border-right">{{tdata.name}}</td>
-									<td class="border-right">{{tdata.value1}}</td>
-									<td class="border-right">{{tdata.value2}}</td>
-									
-									<td class="border-right">{{tdata.name}}</td>
-									<td class="border-right">{{tdata.value1}}</td>
-									<td class="border-right">{{tdata.value2}}</td>
-									
-									<td class="border-right">{{tdata.name}}</td>
-									<td class="border-right">{{tdata.value1}}</td>
-									<td class="border-right">{{tdata.value2}}</td>
-									
-								</tr>
-							</tbody>
-						</table>
-					</div>
+
+				<div class="col-xs-12 no-border" ng-if="showTabThreeTable && tabThreeData">
+					<table-generate table-header="tabThreeHeader" tabular-data="tabThreeData"></table-generate>
 				</div>
-	
 			</div>
 
 		</div>
 	</div>
 </div>
+<div ng-include="'../partials/tableStructure.html'">
