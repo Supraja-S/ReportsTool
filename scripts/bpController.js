@@ -6,7 +6,7 @@ reportsTool.controller('bpController',['$scope','s4TabService','chartCreationSer
 
 	$scope.floatTheadOptions = {
         scrollContainer: function($table){
-            return $table.closest('.center-section');
+            return $table.closest('.tabular-data');
         }
     };
 	/*Business process charts*/
@@ -91,10 +91,6 @@ reportsTool.controller('bpController',['$scope','s4TabService','chartCreationSer
 			}
 		});
 	}
-	
-	s4TabService.getData(getFileName('BP_data')).then(function(response){
-        $scope.tabularData = response;
-    });
 	
 	if($scope.fioriData.length == 0){
 		s4TabService.getData(getFileName('Fiorie_data')).then(function(response){

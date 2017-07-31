@@ -24,12 +24,12 @@
 					<span class="fa fa-table fa-lg"></span>
 				</a>
 			</div>
-			<div class="center-section">
+			<div class="center-section clear-both">
 				<nvd3 ng-if="bpCharts.view1=='piechart'" options="bpCharts.piechart.options" data="bpCharts.piechart.data" ></nvd3>
 					<nvd3 ng-if="bpCharts.view1=='linechart'" options="bpCharts.linechart.options" data="bpCharts.linechart.data"></nvd3>
 					<div class="tabular-data" ng-if="bpCharts.view1=='table'">
-						<table>
-							<thead >
+						<table float-thead="floatTheadOptions">
+							<thead>
 								<tr class="border-bottom">
 									<td class="col-xs-2 border-right">S.No.</td>
 									<td class="col-xs-6 border-right">Feature Name</td>
@@ -58,11 +58,11 @@
 						<span class="fa fa-table fa-lg"></span>
 					</a>
 				</div>
-				<div class="center-section">
+				<div class="center-section clear-both">
 					<nvd3 ng-if="bpCharts.view2=='bubblechart'" options="bpCharts.bubblechart.options" data="bpCharts.bubblechart.data"></nvd3>
 					<div class="tabular-data" ng-if="bpCharts.view2=='table'">
-						<table>
-							<thead >
+						<table float-thead="floatTheadOptions">
+							<thead>
 								<tr class="border-bottom">
 									<td class="col-xs-2 border-right">S.No.</td>
 									<td class="col-xs-6 border-right">Feature Name</td>
@@ -101,10 +101,10 @@
 						<span class="fa fa-table fa-lg"></span>
 					</a>
 				</div>
-				<div class="center-section">
+				<div class="center-section clear-both">
 					<nvd3 ng-if="fioriCharts.view=='barchart'" options="fioriCharts.barchart.options" data="fioriCharts.barchart.data"></nvd3>
 					<div class="tabular-data" ng-if="fioriCharts.view=='table'">
-						<table>
+						<table float-thead="floatTheadOptions">
 							<thead >
 								<tr class="border-bottom">
 									<td class="col-xs-2 border-right">S.No.</td>
@@ -126,9 +126,9 @@
 		</div>
 		<div class="col-xs-5 bp-column top-column ">
 			
-			<div class="col-xs-12 bp-column no-border table-container" 
+			<div class="col-xs-12 bp-column no-border table-container">
 				<p>Table data</p>
-				<div class="center-section">
+				<div class="tabular-data">
 					<table class="col-xs-12" float-thead="floatTheadOptions" ng-model="fioriData">
 						<thead>
 							
@@ -147,50 +147,19 @@
 			</div>
 	
 		</div>
-</div>
+	</div>
 		
-	
-	<div class="col-xs-12 clear-both table-container">
-		<div class="col-xs-3 pull-right text-right" ng-init="showTable=false;scrolDown=false;">
-			<a class="btn btn-primary table-toggler" show-table="showTable" scroll-down="scrolDown" tabular-data=" tabularData">Show/Hide Total Data</a>
+
+	<div class="table-container col-xs-12 no-padding">
+		<div class="col-xs-3 pull-right text-right">
+			<a class="btn btn-primary toggle-table" show-table="showTable" scroll-down="scrollDown" tabular-data="tabData" tabular-header="tabHeader" file-name="BP_data" file-service="getFileContent">Show/Hide Total Data</a>
 		</div>
-		<div class="clear-both bp-column no-border table-container" ng-show="showTable">
-			<div class="search-selector pull-right col-xs-6">
-				<span>
-					<label for="categorySelect">Select a category:</label>
-				    <select name="categorySelect" id="categorySelect" ng-model="searchCategory">
-				    	<option ng-repeat="(key,value) in tabularData[0]" value="{{key}}">{{key}}</option>
-				    </select>
-			    </span>
-			    <span>
-			    	<label for="searchText">Search text</label>
-			    	<input name="searchText" type="text" ng-model="searchText">
-			    </span>
-			</div>
- 			<div class="center-section">
-				<table  float-thead="floatTheadOptions" ng-model="tabularData" ng-init="$parent.orderByField = 'OBJTYPE'" class="col-xs-12">
-					<thead>
-							
-						<tr class="border-bottom" >
-							<th ng-repeat="(key,value) in tabularData[0]" class="border-right" ng-click="sortFunction(key)">
-								<span ng-bind="value"></span>
-								<span ng-show="$parent.orderByField == '{{key}}'">
-									<span ng-show="!$parent.reverseSort">^</span>
-									<span ng-show="$parent.reverseSort">v</span>
-								</span>
-							</th>
-						</tr>
-					</thead>
-					<tbody>
-						
-						<tr ng-repeat="row in tabularData|orderBy:orderByField:reverseSort">
-							<td ng-repeat="(key,value) in row" class="border-right" ng-bind="value"></td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
+
+		<div class="col-xs-12 no-border" ng-if="showTable && tabData">
+			<table-generate table-header="tabHeader" tabular-data="tabData"></table-generate>
 		</div>
-	
 	</div>
 </div>
 </div>
+
+<div ng-include="'../partials/tableStructure.html'">
