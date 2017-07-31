@@ -15,14 +15,12 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 	$scope.typeArray['SEVERITY'] = ['Warning','MustFix','Suggestive'];
 	$scope.typeArray['ERROR'] = ['Obsolete','Syntax','Unicode','SecondaryIndex','Pool/ClusterTable','ALV'];
 
-	
-	$scope.toggleTableData= function(){
-		$scope.showTable  = !$scope.showTable ;
-		$scope.scrolDown = !$scope.scrolDown;
-		var scrollValue = $scope.scrolDown? document.body.scrollHeight:0;
-		
-		$('html, body').animate({ scrollTop:scrollValue }, 800);
-	};	
+	$scope.floatTheadOptions = {
+        scrollContainer: function($table){
+            return $table.closest('.tabular-data');
+        }
+    };
+
 	if($scope.tabularData.length ==0){
 		s4TabService.getData(getFileName('DEF_ECC_PROG_20140716_182107')).then(function(response){
         	$scope.tabularData = response;
@@ -195,12 +193,6 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 			$scope.usageCharts.donutchart.data =  response;
 		});
 	}
-	$scope.floatTheadOptions = {
-        scrollContainer: function($table){
-            return $table.closest('.center-section');
-        }
-    };
-
 	function generateDonutdata(response,compType,type){
 		var internalData = [] , typeArray=$scope.typeArray[type];
 
