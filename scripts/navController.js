@@ -11,7 +11,7 @@ reportsTool.controller('navController',['$scope','$location',function($scope,$lo
 	{
 		description:'Inventory',
 		linkCode:'/inventory',
-		iconName:'',
+		iconName:'university',
 	},
 	{
 		description:'Impact Ananlysis',

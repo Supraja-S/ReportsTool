@@ -12,10 +12,11 @@ var server = expressApp.listen(3000, function () {
    var host = server.address().address
    var port = server.address().port
    
-   console.log("Example app listening at http://%s:%s", host, port)
+   console.log("Example app listening at http://%s:%s", host, port);
+
 });
 
-expressApp.get('/index.html', function (req, res) {
+expressApp.get('/home', function (req, res) {
 	console.log(__dirname + "/" + "index.html");
 	res.sendFile( __dirname + "/" + "index.html" );
   // res.send('Hello World');
