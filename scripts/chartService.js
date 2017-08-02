@@ -46,8 +46,8 @@ reportsTool.factory('chartCreationService',['s4TabService',function(s4TabService
                         bottom: 5,
                         left: 0
                     }
-                }
-				
+                },
+				legendPosition: "right"
             }
         };
 	return options;
@@ -69,7 +69,8 @@ reportsTool.factory('chartCreationService',['s4TabService',function(s4TabService
                         bottom: 5,
                         left: 100
                     }
-                }
+                },
+                legendPosition: "right"
             }
         };
 		var sin = [],cos = [];
@@ -113,7 +114,8 @@ reportsTool.factory('chartCreationService',['s4TabService',function(s4TabService
                     }
                 },
 				donut:true,
-				donutRatio:0.35
+				donutRatio:0.35,
+				legendPosition: "right"
             }
         };
 	
@@ -142,7 +144,8 @@ reportsTool.factory('chartCreationService',['s4TabService',function(s4TabService
 				  axisLabel: "Y Axis",
 				  axisLabelDistance: 5
 				},
-				pointRange: [100, 100]
+				pointRange: [100, 100],
+				legendPosition: "right"
 				
 			}
         };
@@ -166,7 +169,8 @@ reportsTool.factory('chartCreationService',['s4TabService',function(s4TabService
 			yAxis: {
 			  axisLabel: "Y Axis",
 			  axisLabelDistance: 5
-			}
+			},
+			legendPosition: "right"
 		  }
 		};
 	

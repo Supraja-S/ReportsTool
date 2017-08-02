@@ -42,7 +42,8 @@ reportsTool.controller('s4Controller',['$scope','getFileContent',function($scope
                     bottom: 5,
                     left: 0
                 }
-            }
+            },
+            legendPosition: "right"
         }
     };
 
