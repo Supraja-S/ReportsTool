@@ -49,7 +49,7 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 	};
 	function generateIncompatibilityCharts(){
 		
-		
+		$scope.defectFilter = 'COMPLEXITY';
 		$scope.defectsCharts = {
 			view1:'piechart',
 			view2:'donutchart',
