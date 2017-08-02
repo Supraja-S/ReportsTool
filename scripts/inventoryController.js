@@ -60,7 +60,8 @@ reportsTool.controller('inventoryController',['$scope','getFileContent',function
                 chart.pie.dispatch.on('elementClick', function(e){
                     fetchSubObjChartData(e.data['OBJTYPE']);                      
                 });
-            }
+            },
+            legendPosition: "right"
         }
     };
 
@@ -83,7 +84,8 @@ reportsTool.controller('inventoryController',['$scope','getFileContent',function
                 }
             },
             donut:true,
-            donutRatio:0.35
+            donutRatio:0.35,
+            legendPosition: "right"
         }
     };
 
