@@ -48,18 +48,22 @@
 					</div>
 			</div>
 		</div>
-		<div class="col-xs-5 bp-column top-column" ng-init="bpCharts.view2 = 'bubblechart'">
-			<div class="pull-left col-xs-10">&nbsp;</div>
-				<div class="pull-right col-xs-2 switch-block-container no-padding"> 
-					<a class="switch-block col-xs-6 border-right text-center" href="javascript:void(0)" ng-click="bpCharts.view2='bubblechart'" ng-class="bpCharts.view2=='bubblechart'?'active':''" title="Chart">
-						<span class="fa fa-line-chart fa-lg"></span>
-					</a>
-					<a class="switch-block col-xs-6 text-center" ng-class="bpCharts.view2=='table'?'active':''" href="javascript:void(0)" ng-click="bpCharts.view2='table'" title="Tabular">
-						<span class="fa fa-table fa-lg"></span>
-					</a>
-				</div>
+		<div class="col-xs-5 bp-column top-column" ng-init="bpCharts.view2 = 'COMPLEXITY'">
+			<div class="pull-left col-xs-4">&nbsp;</div>
+			<div class="pull-right col-xs-8 switch-block-container no-padding"> 
+				<a class="switch-block col-xs-4 border-right text-center" href="javascript:void(0)" ng-click="bpCharts.view2='COMPLEXITY'" ng-class="bpCharts.view2=='COMPLEXITY'?'active':''" title="Chart">
+					<span class=""> Complexity</span>
+				</a>
+				<a class="switch-block col-xs-4 border-right text-center" href="javascript:void(0)" ng-click="bpCharts.view2='MIGRATION'" ng-class="bpCharts.view2=='MIGRATION'?'active':''" title="Chart">
+					<span class="">Migration</span>
+				</a>
+				<a class="switch-block col-xs-4 text-center" ng-class="bpCharts.view2=='table'?'active':''" href="javascript:void(0)" ng-click="bpCharts.view2='table'" title="Tabular">
+					<span class="fa fa-table fa-lg"></span>
+				</a>
+			</div>
 				<div class="center-section clear-both">
-					<nvd3 ng-if="bpCharts.view2=='bubblechart'" options="bpCharts.bubblechart.options" data="bpCharts.bubblechart.data"></nvd3>
+					<nvd3 ng-if="bpCharts.view2=='COMPLEXITY'" options="bpCharts.complexity.options" data="bpCharts.complexity.data"></nvd3>
+					<nvd3 ng-if="bpCharts.view2=='MIGRATION'" options="bpCharts.migration.options" data="bpCharts.migration.data"></nvd3>
 					<div class="tabular-data" ng-if="bpCharts.view2=='table'">
 						<table float-thead="floatTheadOptions">
 							<thead>
@@ -70,8 +74,15 @@
 								</tr>
 							</thead>
 							
-							<tbody>
-								<tr class="" ng-repeat="item in bpCharts.bubblechart.data[0].values">
+							<tbody ng-if="bpCharts.view2=='COMPLEXITY'">
+								<tr class="" ng-repeat="item in bpCharts.complexity.data[0].values">
+									<td class="col-xs-2 border-right">{{$index+1}}</td>
+									<td class="col-xs-6 border-right">{{item.x}}</td>
+									<td class="col-xs-4 border-right">{{item.y}}</td>
+								</tr>
+							</tbody>
+							<tbody ng-if="bpCharts.view2=='MIGRATION'">
+								<tr class="" ng-repeat="item in bpCharts.migration..data[0].values">
 									<td class="col-xs-2 border-right">{{$index+1}}</td>
 									<td class="col-xs-6 border-right">{{item.x}}</td>
 									<td class="col-xs-4 border-right">{{item.y}}</td>

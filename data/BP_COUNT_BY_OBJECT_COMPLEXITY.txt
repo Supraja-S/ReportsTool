@@ -1,0 +1,8 @@
+x	y
+Enhancements	48
+Business Add-Ins - Implementations	20
+Message Class	30
+BC Set or Customizing Profile	70
+Transaction	50
+Module Pool	60
+ABAP Query: Functional area	70

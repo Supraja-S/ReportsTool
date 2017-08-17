@@ -18,9 +18,19 @@ reportsTool.controller('bpController',['$scope','s4TabService','chartCreationSer
 			data:[]
 		},
 		
-		bubblechart:{
-			options:chartCreationService.createBubbleChartData(),
-			data:[]
+		complexity:{
+			options:chartCreationService.createBarChartData(),
+			data:[{
+				key:'complexity',
+				values:[]
+			}]
+		},
+		migration:{
+			options:chartCreationService.createBarChartData(),
+			data:[{
+				key:'Migration',
+				values:[]
+			}]
 		}
 	};
 	$scope.fioriData = [];
@@ -33,44 +43,25 @@ reportsTool.controller('bpController',['$scope','s4TabService','chartCreationSer
 		});	
 		
 	}
-	if($scope.bpCharts.bubblechart.data.length == 0 ){
-		s4TabService.getData(getFileName('BP_COUNT_BY_OBJECT_BUBBLE')).then(function(response){
-			var groups = [] ;
-			var j=0;
-			for(var i=0;i<response.length;i++){
-				if(i===0){
-					groups[j]=response[i].group;
-					j++;
-				}
-				if(response[i+1] && response[i].group != response[i+1].group){
-					groups[j]=response[i+1].group;
-					j++;
-				}
-				
-			}
-			for (i = 0; i < groups.length; i++) {
-			    $scope.bpCharts.bubblechart.data.push({
-			      key:groups[i],
-			      values: []
-			    });
-			}
-			for (i = 0; i < groups.length; i++) {
-				for(var j=0;j<response.length;j++){
-					if(groups[i] === response[j].group){
 
-						$scope.bpCharts.bubblechart.data[i].values.push({
-							y:response[i].y,
-							x:response[i].x,
-							size:response[i].size
-						});
-					}
-				}
+	$scope.$watch('bpCharts.view2',function(n){
+		if(n === 'COMPLEXITY'){
+			if($scope.bpCharts.complexity.data[0].values.length == 0 ){
+				var fileName = 'BP_COUNT_BY_OBJECT_'+n;
+				s4TabService.getData(getFileName(fileName)).then(function(response){
+					$scope.bpCharts.complexity.data[0].values  = response;
+				});
 			}
-			console.log($scope.bpCharts.bubblechart.data)
-
-			//$scope.bpCharts.bubblechart.data[0].values=  response;
-		});
-	}
+		}else if(n === 'MIGRATION'){
+			if($scope.bpCharts.migration.data[0].values.length == 0 ){
+				var fileName = 'BP_COUNT_BY_OBJECT_'+n;
+				s4TabService.getData(getFileName(fileName)).then(function(response){
+					$scope.bpCharts.migration.data[0].values  = response;
+				});
+			}
+		}
+		console.log($scope.bpCharts);
+	})
 	/*Fiori charts*/
 	$scope.fioriCharts = {
 		view:'barchart',
