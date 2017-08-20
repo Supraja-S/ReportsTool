@@ -24,5 +24,10 @@
   "dependencies": {
     "browser-sync": "^2.18.6",
     "gulp-rename": "^1.2.2"
+  },
+  "window": {
+    "toolbar": true,
+    "width": 1400,
+    "height": 600
   }
 }

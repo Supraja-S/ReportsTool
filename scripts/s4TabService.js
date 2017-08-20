@@ -3,7 +3,10 @@ reportsTool.factory('s4TabService',['$http','$q',function($http,$q){
 
 	s4TabService.getData = function(fname){
 		var deferred = $q.defer();
-		$http({
+		
+		/*Development section - uncomment when using node server command instead of app*/
+
+		/*$http({
 			url: "/getFileContent",
 			method: "GET",
 			contentType : "application/json; charset=utf-8",
@@ -14,6 +17,12 @@ reportsTool.factory('s4TabService',['$http','$q',function($http,$q){
 		}, function errorCallback(response){
 			deferred.reject(response.data);
 		})
+		return deferred.promise;*/
+
+		/*Development section - comment when using node server command instead of app*/
+		var response =getFileContent('data/'+fname);
+		deferred.resolve(response);
+		
 		return deferred.promise;
 	};
 
