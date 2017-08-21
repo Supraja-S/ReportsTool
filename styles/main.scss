@@ -245,6 +245,10 @@ tr:nth-child(odd) {
 	padding: 30px 0;
 }
 
+.nvd3.nv-pie .clicked path{
+	fill-opacity: 1;
+}
+
 @import "font-awesome.css";
 @import "navigation.scss";
 @import "bp.scss";

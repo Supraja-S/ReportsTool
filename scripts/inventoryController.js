@@ -1,5 +1,9 @@
 reportsTool.controller('inventoryController',['$scope','getFileContent',function($scope,getFileContent){
 
+    var bulgedArc = d3.svg.arc().outerRadius(105);
+    var regularArc = d3.svg.arc().outerRadius(100);
+    var prevArc = null;
+
     $scope.chart={
         view1:'pieChart',
         view2:'donutchart'
@@ -10,6 +14,11 @@ reportsTool.controller('inventoryController',['$scope','getFileContent',function
             return $table.closest('.tabular-data');
         }
     };
+
+    getFileContent.getData(getFileName('INV_COUNT_SUMMARY')).then(function(response){
+        $scope.countSummary = response;
+        console.log($scope.countSummary);
+    });
 
     getFileContent.getData(getFileName('INV_OBJ_SUMMARY')).then(function(response){
         $scope.objSummary = response;
@@ -44,10 +53,10 @@ reportsTool.controller('inventoryController',['$scope','getFileContent',function
             height: 300,
             x: function(d){return d.key;},
             y: function(d){return d.value;},
-            showLabels: false,
+            showLabels: true,
+            labelType: "value",
             duration: 500,
-            labelThreshold: 0.01,
-            labelSunbeamLayout: true,
+            labelThreshold: 0.05,
             legend: {
                 margin: {
                     top: 5,
@@ -58,10 +67,19 @@ reportsTool.controller('inventoryController',['$scope','getFileContent',function
             },
             callback: function(chart) {
                 chart.pie.dispatch.on('elementClick', function(e){
-                    fetchSubObjChartData(e.data['OBJTYPE']);                      
+                    fetchSubObjChartData(e.data['OBJTYPE']);
+                    if(prevArc){
+                        d3.select(prevArc).classed('clicked', false);
+                        d3.select(prevArc).select("path").transition().duration(70).attr('d', regularArc);
+                    }
+                    d3.select(e.element).classed('clicked', true);
+                    d3.select(e.element).select("path").transition().duration(70).attr('d', bulgedArc);     
+                    prevArc = e.element;                   
                 });
             },
-            legendPosition: "right"
+            legendPosition: "right",
+            showTooltipPercent: true,
+            growOnHover: false
         }
     };
 
@@ -71,10 +89,10 @@ reportsTool.controller('inventoryController',['$scope','getFileContent',function
             height: 300,
             x: function(d){return d.key;},
             y: function(d){return d.value;},
-            showLabels: false,
+            showLabels: true,
+            labelType: "value",
             duration: 500,
-            labelThreshold: 0.01,
-            labelSunbeamLayout: true,
+            labelThreshold: 0.05,
             legend: {
                 margin: {
                     top: 5,
@@ -85,7 +103,9 @@ reportsTool.controller('inventoryController',['$scope','getFileContent',function
             },
             donut:true,
             donutRatio:0.35,
-            legendPosition: "right"
+            legendPosition: "right",
+            showTooltipPercent: true,
+            growOnHover: false
         }
     };
 

@@ -1,0 +1,5 @@
+key	value
+Total	90
+Core Modification	40
+DDIC	30
+Non-DDIC	20
