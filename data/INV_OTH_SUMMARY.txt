@@ -1,13 +1,28 @@
 key	value
-Class (ABAP Objects)	15
-Package	8
-Function Group	12
-Method (ABAP Objects)	153
-Message Class	1
-Test case	2
-BC Set or Customizing Profile	1
-Screen variants	142
-Transaction variants (cross-client)	12
-Authorization Object 2
-Definition of a Maintenance and Transport Object 4
-Transaction	24
+All Concepts (OTR) of a Package - Short Texts	2
+Authorization Object 1
+Authorization object Class 1
+BSP (Business Server Pages) Application	6
+Class (ABAP Objects)	111
+Definition of a Maintenance and Transport Object 29
+Function Group	23
+Gateway Business Suite Enablement - Model	2
+Gateway Business Suite Enablement - Service	2
+Gateway Business Suite Enablement - Service Builder Project	2
+Gateway: Model Metadata	43
+Gateway: Service Groups Metadata	44
+General structure storage: Definition of a structure	1
+General Text 1
+ICF Service	27
+Interface (ABAP Objects)	67
+Launchpad short Text 1
+Message Class	4
+Method (ABAP Objects)	701
+Number Range Objects	4
+OAuth2 Scope	4
+Package	18
+Printer Description	1
+RFC Service	7
+SAP Smart Style	2
+Transaction	101
+Virtual End Point 10

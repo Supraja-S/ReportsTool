@@ -1,0 +1,10 @@
+PROGTYPE	OBJTYPE	OBJDESC	SUBOBJ	SUBOBJDESC	OBJNAME	OBJTEXT	APPLN	FRICETYPE	PACKAGE	SYSNAME	MAINPROG	INCL	REFOBJTYP
+Program type	Obj Type	Obj Desc.	Sub-Obj Type	Sub-Obj Desc.	Object Name	Object Desc.	Application Name	Frice Type	Package	Sys Name	Main Program	Include Name	Ref. Obj. Type
+R3TR	BDC	Programs	INCL	Includes	LZFI_DATAF01		Basis		Z001	SAP ECC 6.0	SAPLZFI_DATA		
+R3TR	BDC	Programs	INCL	Includes	LZSD_FG_WARPF01		Basis		Z001	SAP ECC 6.0	SAPLZSD_FG_WARP		
+R3TR	BDC	Programs	PROG	Program	ZDELEPARKED	Mass Deletion of parked document			Z001	SAP ECC 6.0			
+R3TR	BDC	Programs	INCL	Includes	ZMM_MAT_UPLOAD_F01	Include ZMM_MAT_UPLOAD_F01			Z001	SAP ECC 6.0			
+R3TR	BDC	Programs	INCL	Includes	ZRFFORI01	International Payment Medium Include: Check	Financial accounting		Z001	SAP ECC 6.0			
+R3TR	BDC	Programs	INCL	Includes	ZRFFORI99	International Payment Medium Include: General Subroutines	Financial accounting		Z001	SAP ECC 6.0			
+R3TR	BDC	Programs	INCL	Includes	ZSD_PR00_UPLOAD_F01	Include ZSD_PR00_UPLOAD_F01			Z001	SAP ECC 6.0			
+R3TR	BDC	Programs	INCL	Includes	ZSD_RVA_PO_CHANGE_FORM01	Include ZSD_RVA_PO_FORM01			Z001	SAP ECC 6.0			
