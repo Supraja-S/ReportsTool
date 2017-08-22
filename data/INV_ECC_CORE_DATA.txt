@@ -1,0 +1,10 @@
+PROGTYPE	OBJTYPE	OBJDESC	SUBOBJ	SUBOBJDESC	OBJNAME	OBJTEXT	OPERATION	FRICETYPE	PACKAGE	SYSNAME	MAINPROG	INCL	UPG_MODE	REFOBJTYP
+Program type	Obj Type	Obj Desc.	Sub-Obj Type	Sub-Obj Desc.	Object Name	Object Desc.	Application Name	Frice Type	Package	Sys Name	Main Program	Include Name	UPG Mode	Ref. Obj. Type
+R3TR	CORE	Core Modifications	NOTE	NOTE Implementations	2077976		NOTE	C		SAP ECC 6.0			O	
+R3TR	CORE	Core Modifications	NOTE	NOTE Implementations	2089122		NOTE	C		SAP ECC 6.0			O	
+R3TR	CORE	Core Modifications	NOTE	NOTE Implementations	2094432		NOTE	C		SAP ECC 6.0			O	
+R3TR	CORE	Core Modifications	NOTE	NOTE Implementations	2089841		NOTE	C		SAP ECC 6.0			O	
+R3TR	CORE	Core Modifications	NOTE	NOTE Implementations	2089754		NOTE	C		SAP ECC 6.0			O	
+R3TR	CORE	Core Modifications	NOTE	NOTE Implementations	2099346		NOTE	C		SAP ECC 6.0			O	
+R3TR	CORE	Core Modifications	NOTE	NOTE Implementations	2122333		NOTE	C		SAP ECC 6.0			S	
+R3TR	CORE	Core Modifications	NOTE	NOTE Implementations	2153150		NOTE	C		SAP ECC 6.0			S	

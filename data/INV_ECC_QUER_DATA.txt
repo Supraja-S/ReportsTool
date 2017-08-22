@@ -1,0 +1,15 @@
+PROGTYPE	OBJTYPE	OBJDESC	SUBOBJ	SUBOBJDESC	OBJNAME	OBJTEXT	APPLN	FRICETYPE	PACKAGE	SYSNAME	MAINPROG	INCL	REFOBJTYP
+Program type	Obj Type	Obj Desc.	Sub-Obj Type	Sub-Obj Desc.	Object Name	Object Desc.	Application Name	Frice Type	Package	Sys Name	Main Program	Include Name	Ref. Obj. Type
+R3TR	QUER	Queries	AQBG	ABAP Query: User group	ZWRP_PRICE				Z001	SAP ECC 6.0			
+R3TR	QUER	Queries	AQBG	ABAP Query: User group	ZSOPO				Z001	SAP ECC 6.0			
+R3TR	QUER	Queries	AQQU	ABAP Query: Query	ZWRP_PRICE  ZWRP_PRICES				Z001	SAP ECC 6.0			
+R3TR	QUER	Queries	AQQU	ABAP Query: Query	ZWRP_PRICE  ZWRP_PRICE				Z001	SAP ECC 6.0			
+R3TR	QUER	Queries	AQSG	ABAP Query: Functional area	ZWRP_PRICE_INF				Z001	SAP ECC 6.0			
+R3TR	QUER	Queries	AQSG	ABAP Query: Functional area	ZAUDIT				Z001	SAP ECC 6.0			
+R3TR	QUER	Queries	AQSG	ABAP Query: Functional area	ZWRP_PRICE				Z001	SAP ECC 6.0			
+R3TR	QUER	Queries	AQSG	ABAP Query: Functional area	ZSD_TLMS				Z001	SAP ECC 6.0			
+R3TR	QUER	Queries	AQSG	ABAP Query: Functional area	ZSD_FORECAT				Z001	SAP ECC 6.0			
+R3TR	QUER	Queries	AQSG	ABAP Query: Functional area	ZBBLOCK				Z001	SAP ECC 6.0			
+R3TR	QUER	Queries	AQSG	ABAP Query: Functional area	ZDELSTATUS				Z001	SAP ECC 6.0			
+R3TR	QUER	Queries	AQSG	ABAP Query: Functional area	ZSD_FORECAST	Forecast details			Z001	SAP ECC 6.0			
+R3TR	QUER	Queries	AQSG	ABAP Query: Functional area	ZORDSTATUS				Z001	SAP ECC 6.0			

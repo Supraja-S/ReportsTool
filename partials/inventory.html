@@ -1,5 +1,12 @@
 <div ng-controller="inventoryController">
 	<div class="view-wrapper col-xs-12 s4-container">
+		<div class="totals-container col-xs-12">
+			<div class="totals-box col-xs-2 status-blue" ng-repeat="item in countSummary">
+				<p class="totals-numeric" ng-bind="item.value"></p>
+				<p class="totals-text" ng-bind="item.key"></p>
+			</div>
+		</div>
+
 		<div class="graph-label-container col-xs-12">
 			<div class="col-xs-6">
 				<b>Custom Inventory Breakup</b>

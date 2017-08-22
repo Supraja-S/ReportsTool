@@ -1,0 +1,14 @@
+PROGTYPE	OBJTYPE	OBJDESC	SUBOBJ	SUBOBJDESC	OBJNAME	OBJTEXT	APPLN	FRICETYPE	PACKAGE	SYSNAME	MAINPROG	INCL	REFOBJTYP
+Program type	Obj Type	Obj Desc.	Sub-Obj Type	Sub-Obj Desc.	Object Name	Object Desc.	Application Name	Frice Type	Package	Sys Name	Main Program	Include Name	Ref. Obj. Type
+R3TR	ENH	Enhancements	CMOD	Customer enhancement projects	ZVF04				Z001	SAP ECC 6.0			
+R3TR	ENH	Enhancements	CMOD	Customer enhancement projects	ZMRRL				Z001	SAP ECC 6.0			
+R3TR	ENH	Enhancements	ENHO	Enhancement Implementation	ZENH_BILLING_DUELIST				Z001	SAP ECC 6.0			
+R3TR	ENH	Enhancements	ENHO	Enhancement Implementation	ZENH_BILLING_DUELIST_2				Z001	SAP ECC 6.0			
+R3TR	ENH	Enhancements	ENHO	Enhancement Implementation	ZENH_BILLING_DUELIST_3				Z001	SAP ECC 6.0			
+R3TR	ENH	Enhancements	ENHO	Enhancement Implementation	Z_SRA017_USER_TO_CUSTOMER				Z001	SAP ECC 6.0			
+R3TR	ENH	Enhancements	ENHO	Enhancement Implementation	Z_SHP_TAB_CUST_ITEM				Z001	SAP ECC 6.0			
+R3TR	ENH	Enhancements	ENHO	Enhancement Implementation	ZSD_ENH_NUMBER_RANGE				Z001	SAP ECC 6.0			
+R3TR	ENH	Enhancements	ENHO	Enhancement Implementation	ZS4H_ECC_ADEC_HBS				ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	Z_SHP_TAB_CUST_HEAD				Z001	SAP ECC 6.0	ZCL_IM__SHP_TAB_CUST_HEAD		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZFI_ERS_DATE_CHANGE				Z001	SAP ECC 6.0	ZCL_IM_FI_ERS_DATE_CHANGE		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	Z_SHP_TAB_CUST_ITEM				Z001	SAP ECC 6.0	ZCL_IM__SHP_TAB_CUST_ITEM		
