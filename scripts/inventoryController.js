@@ -20,7 +20,7 @@ reportsTool.controller('inventoryController',['$scope','getFileContent',function
         console.log($scope.countSummary);
     });
 
-    getFileContent.getData(getFileName('INV_OBJ_SUMMARY')).then(function(response){
+    getFileContent.getData(getFileName('INV_ECC_SUMMARY')).then(function(response){
         $scope.objSummary = response;
         $scope.defaultObjType = $scope.objSummary[0]['OBJTYPE'];
         $scope.objTypeDataFile = 'INV_' + $scope.defaultObjType + '_DATA';
@@ -38,7 +38,7 @@ reportsTool.controller('inventoryController',['$scope','getFileContent',function
     }
 
     var fetchTableData = function(objType){
-        var fileName = 'INV_' + objType + '_DATA';
+        var fileName = 'INV_ECC_' + objType;
         getFileContent.getData(getFileName(fileName)).then(function(response){
             $scope.objTypeHeader = response[0];
             response.splice(0,1);
