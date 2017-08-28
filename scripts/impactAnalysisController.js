@@ -15,6 +15,9 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 	$scope.typeArray['SEVERITY'] = ['Warning','MustFix','Suggestive'];
 	$scope.typeArray['ERROR'] = ['Obsolete','Syntax','Unicode','SecondaryIndex','Pool/ClusterTable','ALV'];
 
+	var bulgedArc = d3.svg.arc().outerRadius(105);
+    var regularArc = d3.svg.arc().outerRadius(100)
+
 	$scope.floatTheadOptions = {
         scrollContainer: function($table){
             return $table.closest('.tabular-data');
@@ -22,7 +25,7 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
     };
 
 	if($scope.tabularData.length ==0){
-		s4TabService.getData(getFileName('DEF_ECC_PROG_20140716_182107')).then(function(response){
+		s4TabService.getData(getFileName('DEF_ECC_PROG')).then(function(response){
         	$scope.tabularData = response;
     	});
 	}
@@ -87,13 +90,21 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 		}
 		$scope.defectsCharts.piechart.options.chart.callback =  function(chart) {
 				//console.log(chart.pie);
+				var prevArc = null;
 				chart.pie.dispatch.on('elementClick', function(e){
 					var file_name = 'defects_BY_COMPTYPE_'+$scope.defectFilter;
-				s4TabService.getData(getFileName(file_name)).then(function(response){
+					s4TabService.getData(getFileName(file_name)).then(function(response){
 
-					$scope.defectsCharts.donutchart.data = generateDonutdata(response,e.data.key,$scope.defectFilter)
-					//$scope.defectsCharts.donutchart.data =  response;
-				});                           
+						$scope.defectsCharts.donutchart.data = generateDonutdata(response,e.data.key,$scope.defectFilter)
+						//$scope.defectsCharts.donutchart.data =  response;
+					});
+					if(prevArc){
+		                d3.select(prevArc).classed('clicked', false);
+		                d3.select(prevArc).select("path").transition().duration(70).attr('d', regularArc);
+		            }
+		            d3.select(e.element).classed('clicked', true);
+		            d3.select(e.element).select("path").transition().duration(70).attr('d', bulgedArc);     
+		            prevArc = e.element;                      
 			});
 				
 		}
@@ -140,13 +151,21 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 		}
 		$scope.performanceCharts.piechart.options.chart.callback =  function(chart) {
 			//console.log(chart);
+			var prevArc = null;
 			chart.pie.dispatch.on('elementClick', function(e){
 					var file_name = 'defects_BY_COMPTYPE_'+$scope.defectFilter;
-				s4TabService.getData(getFileName(file_name)).then(function(response){
+					s4TabService.getData(getFileName(file_name)).then(function(response){
 
-					$scope.performanceCharts.donutchart.data  = generateDonutdata(response,e.data.key,$scope.defectFilter)
-					//$scope.defectsCharts.donutchart.data =  response;
-				});                   
+						$scope.performanceCharts.donutchart.data  = generateDonutdata(response,e.data.key,$scope.defectFilter)
+						//$scope.defectsCharts.donutchart.data =  response;
+					});
+					if(prevArc){
+		                d3.select(prevArc).classed('clicked', false);
+		                d3.select(prevArc).select("path").transition().duration(70).attr('d', regularArc);
+		            }
+		            d3.select(e.element).classed('clicked', true);
+		            d3.select(e.element).select("path").transition().duration(70).attr('d', bulgedArc);     
+		            prevArc = e.element;                   
 			});
 			
 		}
@@ -174,11 +193,19 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 		};
 		$scope.usageCharts.piechart.options.chart.callback =  function(chart) {
 			//console.log(chart);
+			var prevArc = null;
 			chart.pie.dispatch.on('elementClick', function(e){
 				s4TabService.getData(getFileName('defects_BY_COMPTYPE')).then(function(response){
 					$scope.usageCharts.donutchart.data =  response;
 					//console.log('elementClick in callback',response); 
-				});                           
+				});
+				if(prevArc){
+	                d3.select(prevArc).classed('clicked', false);
+	                d3.select(prevArc).select("path").transition().duration(70).attr('d', regularArc);
+	            }
+	            d3.select(e.element).classed('clicked', true);
+	            d3.select(e.element).select("path").transition().duration(70).attr('d', bulgedArc);     
+	            prevArc = e.element;                          
 			});
 			
 		}
