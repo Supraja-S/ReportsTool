@@ -2,7 +2,6 @@ reportsTool.controller('inventoryController',['$scope','getFileContent','chartCr
 
     var bulgedArc = d3.svg.arc().outerRadius(105);
     var regularArc = d3.svg.arc().outerRadius(100);
-    var prevArc = null;
 
     $scope.chart={
         view1:'pieChart',
@@ -50,9 +49,10 @@ reportsTool.controller('inventoryController',['$scope','getFileContent','chartCr
     $scope.donutOptions = chartCreationService.createDonutChartData();
 
 	$scope.pieOptions.chart.callback = function(chart) {
+        var prevArc = null;
         chart.pie.dispatch.on('elementClick', function(e){
             fetchSubObjChartData(e.data['OBJTYPE']);
-            
+
             if(prevArc){
                 d3.select(prevArc).classed('clicked', false);
                 d3.select(prevArc).select("path").transition().duration(70).attr('d', regularArc);
