@@ -1,13 +1,20 @@
 reportsTool.controller('navController',['$scope','$location',function($scope,$location){
 	
 	$scope.getClass = function (path) {
-	  return ($location.path().substr(0, path.length) === path) ? 'active' : '';
-	} 
-	$scope.navItems = [{
+		var locationPath = $location.path().substr(0, path.length);
+		console.log(locationPath);
+		//remove the ifelse once summary tab is uncommented
+		if(locationPath =='/home' && path == '/inventory'){
+			return 'active';
+		}else{
+			return ($location.path().substr(0, path.length) === path) ? 'active' : '';
+		} 
+	}
+	$scope.navItems = [/* {
 		description:'System Overview',
 		linkCode:'/home',
 		iconName:'dashboard'
-	},
+	}, */
 	{
 		description:'Inventory',
 		linkCode:'/inventory',
