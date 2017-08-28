@@ -1,4 +1,4 @@
-reportsTool.controller('s4Controller',['$scope','getFileContent',function($scope,getFileContent){
+reportsTool.controller('s4Controller',['$scope','getFileContent','chartCreationService',function($scope,getFileContent,chartCreationService){
 
 	$scope.selected = 'busFunctions';
 
@@ -25,26 +25,6 @@ reportsTool.controller('s4Controller',['$scope','getFileContent',function($scope
         $scope.uniqueBFuncCompType = response;
     });
 
-	 $scope.options = {
-        chart: {
-            type: 'pieChart',
-            height: 300,
-            x: function(d){return d.key;},
-            y: function(d){return d.value;},
-            showLabels: false,
-            duration: 500,
-            labelThreshold: 0.01,
-            labelSunbeamLayout: true,
-            legend: {
-                margin: {
-                    top: 5,
-                    right: 35,
-                    bottom: 5,
-                    left: 0
-                }
-            },
-            legendPosition: "right"
-        }
-    };
+	$scope.options = chartCreationService.createPieChartData();
 
 }]);

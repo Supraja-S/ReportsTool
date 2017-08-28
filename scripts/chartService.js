@@ -34,20 +34,23 @@ reportsTool.factory('chartCreationService',['s4TabService',function(s4TabService
                 type: 'pieChart',
                 height: 300,
                 x: function(d){return d.key;},
-                y: function(d){return d.y;},
-                showLabels: false,
+                y: function(d){return d.value;},
+                showLabels: true,
+                labelType: "value",
                 duration: 500,
-                labelThreshold: 0.01,
-                labelSunbeamLayout: true,
+                labelThreshold: 0.05,
                 legend: {
                     margin: {
-                        top: 5,
-                        right: 0,
-                        bottom: 5,
-                        left: 0
-                    }
+	                    top: 5,
+	                    right: 35,
+	                    bottom: 5,
+	                    left: 0
+	                }
                 },
-				legendPosition: "right"
+				legendPosition: "right",
+	            showTooltipPercent: true,
+	            growOnHover: false
+
             }
         };
 	return options;
@@ -98,24 +101,26 @@ reportsTool.factory('chartCreationService',['s4TabService',function(s4TabService
 		var options = {
             chart: {
                 type: 'pieChart',
-                height: 300,
-                x: function(d){return d.key;},
-                y: function(d){return d.y;},
-                showLabels: false,
-                duration: 500,
-                labelThreshold: 0.01,
-                labelSunbeamLayout: true,
-                legend: {
-                    margin: {
-                        top: 5,
-                        right: 35,
-                        bottom: 5,
-                        left: 0
-                    }
-                },
-				donut:true,
-				donutRatio:0.35,
-				legendPosition: "right"
+	            height: 300,
+	            x: function(d){return d.key;},
+	            y: function(d){return d.value;},
+	            showLabels: true,
+	            labelType: "value",
+	            duration: 500,
+	            labelThreshold: 0.05,
+	            legend: {
+	                margin: {
+	                    top: 5,
+	                    right: 35,
+	                    bottom: 5,
+	                    left: 0
+	                }
+	            },
+	            donut:true,
+	            donutRatio:0.35,
+	            legendPosition: "right",
+	            showTooltipPercent: true,
+	            growOnHover: false
             }
         };
 	
