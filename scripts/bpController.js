@@ -38,7 +38,7 @@ reportsTool.controller('bpController',['$scope','s4TabService','chartCreationSer
 		s4TabService.getData(getFileName('BP_COUNT_BY_OBJECT')).then(function(response){
 			$scope.bpCharts.piechart.data = response;
 			for (i = 0; i < response.length; i++) {
-			   $scope.bpCount += parseInt(response[i].y);
+			   $scope.bpCount += parseInt(response[i].value);
 			}
 		});	
 		
@@ -78,7 +78,7 @@ reportsTool.controller('bpController',['$scope','s4TabService','chartCreationSer
 		s4TabService.getData(getFileName('FIROIE_COUNT_BY_OBJECT_BAR')).then(function(response){
 			$scope.fioriCharts.barchart.data[0].values =  response;
 			for (i = 0; i < response.length; i++) {
-			   $scope.fioriCount += parseInt(response[i].y);
+			   $scope.fioriCount += parseInt(response[i].value);
 			}
 		});
 	}

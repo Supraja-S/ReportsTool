@@ -102,6 +102,7 @@ reportsTool.factory('chartCreationService',['s4TabService',function(s4TabService
             chart: {
                 type: 'pieChart',
 	            height: 300,
+
 	            x: function(d){return d.key;},
 	            y: function(d){return d.value;},
 	            showLabels: true,
@@ -162,7 +163,9 @@ reportsTool.factory('chartCreationService',['s4TabService',function(s4TabService
 		var options = {
 		  chart: {
 			type: "discreteBarChart",
-			height: 260,
+			x: function(d){return d.key;},
+            y: function(d){return d.value;},
+			height: 300,
 			showValues: true,
 			duration: 500,
 			staggerLabels:true,

@@ -232,7 +232,7 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 				}	
 				internalData.push({
 					key:typeArray[j],
-					y:count
+					value:count
 				});
 			}
 
@@ -248,7 +248,7 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 			for(var j=0;j<typeArray.length;j++){
 				internalData.push({
 					key:typeArray[j],
-					y:compObject[typeArray[j]]
+					value:compObject[typeArray[j]]
 				});
 			}
 		}
