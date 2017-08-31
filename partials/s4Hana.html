@@ -93,17 +93,9 @@
 
 <div class="view-wrapper col-xs-12 s4-container" ng-if="selected == 'readycheck'">
 	<div class="totals-container col-xs-12">
-		<div class="totals-box col-xs-2 status-blue">
-			<p class="totals-numeric" ng-bind="countSummary[0]['TOTAL']"></p>
-			<p class="totals-text">Total</p>
-		</div>
-		<div class="totals-box col-xs-2 status-green">
-			<p class="totals-numeric" ng-bind="countSummary[0]['SUPPORTED']"></p>
-			<p class="totals-text">Supported</p>
-		</div>
-		<div class="totals-box col-xs-2 status-red">
-			<p class="totals-numeric" ng-bind="countSummary[0]['NOT-SUPPORTED']"></p>
-			<p class="totals-text">Not Supported</p>
+		<div class="totals-box col-xs-2 status-{{item.color}}" ng-repeat="item in countSummary">
+			<p class="totals-numeric" ng-bind="item.value"></p>
+			<p class="totals-text" ng-bind="item.key"></p>
 		</div>
 	</div>
 	<div class="s4-graph-container col-xs-12">
