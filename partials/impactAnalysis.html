@@ -57,7 +57,7 @@
 				<div class="col-xs-6 graph-box padding-top-10">
 					<div class="pull-right col-xs-10 switch-block-container no-padding"> 
 						<div class="col-xs-9 no-padding">
-						    <a class="switch-block col-xs-4 border-right text-center" href="javascript:void(0)" ng-click="updateChartType('COMPLEXITY')" title="Chart"  ng-class="defectFilter=='donutchart'?'active':''">
+						    <a class="switch-block col-xs-4 border-right text-center" href="javascript:void(0)" ng-click="updateChartType('COMPLEXITY')" title="Chart"  ng-class="defectFilter=='COMPLEXITY'?'active':''">
 								<span class="fa">Complexity</span>
 							</a>
 							 <a class="switch-block col-xs-4 border-right text-center" href="javascript:void(0)" ng-click="updateChartType('SEVERITY')"  title="Chart"  ng-class="defectFilter=='SEVERITY'?'active':''">
@@ -103,7 +103,7 @@
 
 			<div class="table-container col-xs-12 no-padding">
 				<div class="col-xs-3 pull-right text-right">
-					<a class="btn btn-primary toggle-table" show-table="showTabOneTable" scroll-down="scrollDown" tabular-data="tabOneData" tabular-header="tabOneHeader" file-name="DEF_ECC_PROG" file-service="getFileContent">Show/Hide Total Data</a>
+					<a class="btn btn-primary toggle-table" show-table="showTabOneTable" scroll-down="scrollDown" tabular-data="tabOneData" tabular-header="tabOneHeader" file-name="DEF_ECC_TABLE_SUMMARY" file-service="getFileContent">Show/Hide Total Data</a>
 				</div>
 
 				<div class="col-xs-12 no-border" ng-if="showTabOneTable && tabOneData">
@@ -293,7 +293,7 @@
 			</div>
 			<div class="table-container col-xs-12 no-padding">
 				<div class="col-xs-3 pull-right text-right">
-					<a class="btn btn-primary toggle-table" show-table="showTabThreeTable" scroll-down="scrollDown" tabular-data="tabThreeData" tabular-header="tabThreeHeader" file-name="DEF_ECC_PROG" file-service="getFileContent">Show/Hide Total Data</a>
+					<a class="btn btn-primary toggle-table" show-table="showTabThreeTable" scroll-down="scrollDown" tabular-data="tabThreeData" tabular-header="tabThreeHeader" file-name="DEF_ECC_TABLE_SUMMARY" file-service="getFileContent">Show/Hide Total Data</a>
 				</div>
 
 				<div class="col-xs-12 no-border" ng-if="showTabThreeTable && tabThreeData">

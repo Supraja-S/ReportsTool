@@ -21,7 +21,7 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
     };
 
 	if($scope.tabularData.length ==0){
-		s4TabService.getData(getFileName('DEF_ECC_PROG')).then(function(response){
+		s4TabService.getData(getFileName('DEF_ECC_TABLE_SUMMARY')).then(function(response){
         	$scope.tabularData = response;
     	});
 	}

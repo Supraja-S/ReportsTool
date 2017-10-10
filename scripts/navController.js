@@ -26,7 +26,7 @@ reportsTool.controller('navController',['$scope','$location',function($scope,$lo
 		iconName:'bar-chart'
 	},
 	{
-		description:'S/4Hana',
+		description:'S/4 HANA',
 		linkCode:'/sFour',
 		iconName:'mixcloud'
 	},

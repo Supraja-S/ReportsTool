@@ -14,7 +14,7 @@ reportsTool.controller('inventoryController',['$scope','getFileContent','chartCr
         }
     };
 
-    getFileContent.getData(getFileName('INV_COUNT_SUMMARY')).then(function(response){
+    getFileContent.getData(getFileName('INV_ECC_COUNT_SUMMARY')).then(function(response){
         $scope.countSummary = response;
         console.log($scope.countSummary);
     });
@@ -22,14 +22,14 @@ reportsTool.controller('inventoryController',['$scope','getFileContent','chartCr
     getFileContent.getData(getFileName('INV_ECC_SUMMARY')).then(function(response){
         $scope.objSummary = response;
         $scope.defaultObjType = $scope.objSummary[0]['OBJTYPE'];
-        $scope.objTypeDataFile = 'INV_' + $scope.defaultObjType + '_DATA';
+        $scope.objTypeDataFile = 'INV_ECC' + $scope.defaultObjType + '_DATA';
 
         fetchSubObjChartData($scope.defaultObjType);
 
     });    
 
     var fetchSubObjChartData = function(objType){
-        var fileName = 'INV_' + objType + '_SUMMARY';
+        var fileName = 'INV_ECC_' + objType + '_SUMMARY';
         getFileContent.getData(getFileName(fileName)).then(function(response){
             $scope.subObjSummary = response;
         });
