@@ -1,0 +1,10 @@
+OBJTYPE	key	value
+CORE	Core Modifications	      8
+FM	Function Module	       43
+DDIC	Data Dictionary	      917
+ENH	Enhancements	       12
+FRM	Forms	        6
+PROG	Programs	       438
+QUER	Queries	        13
+OTH	Others	      1215
+BDC	BDC Objects	        8

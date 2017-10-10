@@ -1,0 +1,7 @@
+key	value
+Obsolete	535	
+Syntax	5265
+Unicode	0
+Secondary Index	398
+Pool/Cluster Table	761
+ALV	87

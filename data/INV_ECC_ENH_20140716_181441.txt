@@ -1,0 +1,17 @@
+PROGTYPE	OBJTYPE	OBJDESC	SUBOBJ	SUBOBJDESC	OBJNAME	OBJTEXT	APPLN	FRICETYPE	PACKAGE	SYSNAME	MAINPROG	INCL	REFOBJTYP
+Program type	Obj Type	Obj Desc.	Sub-Obj Type	Sub-Obj Desc.	Object Name	Object Desc.	Application Name	Frice Type	Package	Sys Name	Main Program	Include Name	Ref. Obj. Type
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZBBP_SC_MODIFY_UI				ZABP	SRM 4.00	BBP_SC_MODIFY_UI		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZBBP_CREATE_PO_BACK				ZZZZ	SRM 4.00	BBP_CREATE_PO_BACK		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZBBP_CREATE_REQ_BACK				ZABP	SRM 4.00	BBP_CREATE_REQ_BACK		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZBBP_CUF_BADI_2				ZABP	SRM 4.00	BBP_CUF_BADI_2		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZBBP_DOC_CHANGE_BADI				ZZZZ	SRM 4.00	BBP_DOC_CHANGE_BADI		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZBBP_MESSAGES_BADI				ZPR	SRM 4.00	BBP_MESSAGES_BADI		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZBBP_TAX_MAP_BADI				ZABP	SRM 4.00	BBP_TAX_MAP_BADI		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZB_PREQ_CONTRACT_50K				ZPR	SRM 4.00	BBP_TARGET_OBJECTS		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZZBBP_APPEND_ITEM				ZPR	SRM 4.00	BBP_APPEND_ITEM		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZZBBP_DOC_CHECK_BADI				ZZZZ	SRM 4.00	BBP_DOC_CHECK_BADI		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZBBP_SC_TRANSFER_BE				ZZZZ	SRM 4.00	BBP_SC_TRANSFER_BE		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZBBP_CONF_RESTRICT				ZABP	SRM 4.00	BBP_WF_LIST		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	Z_BBP_CHANGE_SF_SC				ZABP	SRM 4.00	BBP_CHANGE_SF_SC		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZBBP_F4_MEM_UPDATE				ZBBP	SRM 4.00	BBP_F4_MEM_UPDATE		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZBBP_F4_READ_ON_EXIT				ZBBP	SRM 4.00	BBP_F4_READ_ON_EXIT		

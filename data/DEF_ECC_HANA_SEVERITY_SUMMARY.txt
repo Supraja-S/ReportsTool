@@ -1,0 +1,4 @@
+key	value
+Warning	87
+MustFix	0
+Suggestive	1158

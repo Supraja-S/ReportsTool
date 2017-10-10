@@ -1,0 +1,5 @@
+key	value
+Very High	5
+High	0
+Medium	0
+Low	14

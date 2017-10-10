@@ -1,0 +1,5 @@
+PROGTYPE	OBJTYPE	OBJDESC	SUBOBJ	SUBOBJDESC	OBJNAME	OBJTEXT	APPLN	FRICETYPE	PACKAGE	SYSNAME	MAINPROG	INCL	REFOBJTYP
+Program type	Obj Type	Obj Desc.	Sub-Obj Type	Sub-Obj Desc.	Object Name	Object Desc.	Application Name	Frice Type	Package	Sys Name	Main Program	Include Name	Ref. Obj. Type
+R3TR	QUER	Queries	AQBG	ABAP Query: User group	ZEBP_01				ZPR	SRM 4.00			
+R3TR	QUER	Queries	AQQU	ABAP Query: Query	ZEBP_01     ZBPADDRESS				ZPR	SRM 4.00			
+R3TR	QUER	Queries	AQSG	ABAP Query: Functional area	ZBPADDRESS	Vendor Address			ZPR	SRM 4.00			

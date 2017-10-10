@@ -1,0 +1,4 @@
+key	value
+Warning	11
+MustFix	11
+Suggestive	30

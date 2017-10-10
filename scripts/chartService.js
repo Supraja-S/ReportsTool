@@ -33,7 +33,7 @@ reportsTool.factory('chartCreationService',['s4TabService',function(s4TabService
             chart: {
                 type: 'pieChart',
                 height: 300,
-                x: function(d){return d.key;},
+                x: function(d){console.log(d);return d.key;},
                 y: function(d){return d.value;},
                 showLabels: true,
                 labelType: "value",
@@ -102,7 +102,6 @@ reportsTool.factory('chartCreationService',['s4TabService',function(s4TabService
             chart: {
                 type: 'pieChart',
 	            height: 300,
-
 	            x: function(d){return d.key;},
 	            y: function(d){return d.value;},
 	            showLabels: true,
@@ -179,6 +178,34 @@ reportsTool.factory('chartCreationService',['s4TabService',function(s4TabService
 			  axisLabelDistance: 5
 			},
 			legendPosition: "right"
+		  }
+		};
+	
+			
+	return options;
+	}
+	chartCreationService.createMultiBarChartData= function(){
+		var options = {
+		  chart: {
+			type: "multiBarChart",
+			x: function(d){return d.label;},
+            y: function(d){return d.value;},
+			height: 300,
+			showValues: true,
+			duration: 500,
+			 showControls: false,
+			stacked: false,
+			xAxis: {
+				staggerLabels:false,
+			  axisLabelDistance: 5
+			},
+			yAxis: {
+				staggerLabels:false,
+			  axisLabelDistance: 5
+			},
+			legendPosition: "right",
+			groupSpacing:"0.5",
+			reduceXTicks:false
 		  }
 		};
 	

@@ -2,7 +2,7 @@ reportsTool.controller('navController',['$scope','$location',function($scope,$lo
 	
 	$scope.getClass = function (path) {
 		var locationPath = $location.path().substr(0, path.length);
-		console.log(locationPath);
+		//console.log(locationPath);
 		//remove the ifelse once summary tab is uncommented
 		if(locationPath =='/home' && path == '/inventory'){
 			return 'active';

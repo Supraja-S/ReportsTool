@@ -1,0 +1,7 @@
+key	value
+Obsolete	5	
+Syntax	370
+Unicode	0
+Secondary Index	0
+Pool/Cluster Table	0
+ALV	0

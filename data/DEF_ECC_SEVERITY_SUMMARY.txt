@@ -1,0 +1,4 @@
+key	value
+Warning	5296
+MustFix	433
+Suggestive	1319

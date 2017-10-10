@@ -1,0 +1,30 @@
+PROGTYPE	OBJTYPE	OBJDESC	SUBOBJ	SUBOBJDESC	OBJNAME	OBJTEXT	APPLN	FRICETYPE	PACKAGE	SYSNAME	MAINPROG	INCL	REFOBJTYP
+Program type	Obj Type	Obj Desc.	Sub-Obj Type	Sub-Obj Desc.	Object Name	Object Desc.	Application Name	Frice Type	Package	Sys Name	Main Program	Include Name	Ref. Obj. Type
+LIMU	FM	Function Module	FUNC	Function Module	ZZ_BBP_EXTREQ_PLM	Shopping cart function for PLM			ZBBP	SRM 4.00	SAPLZBBP_PLM	LZBBP_PLMU01	
+LIMU	FM	Function Module	FUNC	Function Module	ZZ_BBP_EXTREQ_INBOUND	Eingang für externe Anforderungen			ZBBP	SRM 4.00	SAPLZBBP_PLM	LZBBP_PLMU03	
+LIMU	FM	Function Module	FUNC	Function Module	ZZ_BBP_EXTREQ_CRT_IN_MAPD	Shopping cart data mapping - RFC to SC BAPI			ZBBP	SRM 4.00	SAPLZBBP_PLM	LZBBP_PLMU02	
+LIMU	FM	Function Module	FUNC	Function Module	ZZ_BAPI_SCEC_CREATE	Create Shopping Cart			ZBBP	SRM 4.00	SAPLZBBP_PLM	LZBBP_PLMU04	
+LIMU	FM	Function Module	FUNC	Function Module	ZM_GET_SHOPPING_CART	CR3437 - BWDPS to Include SC Line Info			ZABP	SRM 4.00	SAPLZM01	LZM01U01	
+LIMU	FM	Function Module	FUNC	Function Module	ZVF_IDOC_STAT_TRANSFER	Transfer Idoc statuses to function group ZV01			ZABP	SRM 4.00	SAPLZV01	LZV01U01	
+LIMU	FM	Function Module	FUNC	Function Module	ZZ_IOS_BYTITLE_DERIVER_EN00003	Enhance EBP with Bytitle fields - Deriver to call R/3 function modules			ZPR	SRM 4.00	SAPLZZEN00003	LZZEN00003U02	
+LIMU	FM	Function Module	FUNC	Function Module	ZZ_WBS_BYTITLE_DERIVER_EN00003	Enhance EBP with Bytitle fields - Deriver to call R/3 function modules			ZPR	SRM 4.00	SAPLZZEN00003	LZZEN00003U01	
+LIMU	FM	Function Module	FUNC	Function Module	ZP_F4_SHLP_EXIT_CODER_TEXT	Search Help Exit for BUCODER			ZBBP	SRM 4.00	SAPLZZR3CONNECTCART	LZZR3CONNECTCARTU02	
+LIMU	FM	Function Module	FUNC	Function Module	ZZ_STATIC_ACC_ASSIGNMENT_EN74	Static Account Assignment			ZBBP	SRM 4.00	SAPLZZEN00074	LZZEN00074U02	
+LIMU	FM	Function Module	FUNC	Function Module	ZZ_MPM_VALIDATION_DERIVER_EN74	Enhance EBP with Bytitle fields - Deriver to call R/3 function modules			ZBBP	SRM 4.00	SAPLZZEN00074	LZZEN00074U01	
+LIMU	FM	Function Module	FUNC	Function Module	ZF_DOC_CHECK_ITEM	TEST			ZBBP	SRM 4.00	SAPLZZEN00074	LZZEN00074U03	
+LIMU	FM	Function Module	FUNC	Function Module	ZB470_REQUISITION_CREATE	Create Requisition			ZABP	SRM 4.00	SAPLZBBP_BD_DRIVER_470	LZBBP_BD_DRIVER_470U02	
+LIMU	FM	Function Module	FUNC	Function Module	ZZ_BBP_PD_SC_CREATE	Anlegen Einkaufswagen			ZBBP	SRM 4.00	SAPLZBBP_PLM	LZBBP_PLMU05	
+LIMU	FM	Function Module	FUNC	Function Module	ZMF_CODINGBLOCK_CHECK	Enhance EBP with Bytitle fields - Deriver to call R/3 function modules			ZBBP	SRM 4.00	SAPLZZEN00074	LZZEN00074U04	
+LIMU	FM	Function Module	FUNC	Function Module	Z_TIDAL_SELSCREEN_EXISTS	Verify that an ABAP program (type 1) has a selection screen			ZTID	SRM 4.00	SAPLZ_TIDAL_SAP_CHANNEL	LZ_TIDAL_SAP_CHANNELU08	
+LIMU	FM	Function Module	FUNC	Function Module	Z_TIDAL_PRINTER_LIST	Generates a list of printers defined in the instance			ZTID	SRM 4.00	SAPLZ_TIDAL_SAP_CHANNEL	LZ_TIDAL_SAP_CHANNELU05	
+LIMU	FM	Function Module	FUNC	Function Module	Z_TIDAL_MAINTAIN_ABAP_VARIANT	Maintain a variant in RFC background mode			ZTID	SRM 4.00	SAPLZ_TIDAL_SAP_CHANNEL	LZ_TIDAL_SAP_CHANNELU03	
+LIMU	FM	Function Module	FUNC	Function Module	Z_TIDAL_LOAD_ABAP_VARIANT	Loads an existing or a new variant			ZTID	SRM 4.00	SAPLZ_TIDAL_SAP_CHANNEL	LZ_TIDAL_SAP_CHANNELU02	
+LIMU	FM	Function Module	FUNC	Function Module	Z_TIDAL_JOB_DELETE	Deletes jobs			ZTID	SRM 4.00	SAPLZ_TIDAL_SAP_CHANNEL	LZ_TIDAL_SAP_CHANNELU07	
+LIMU	FM	Function Module	FUNC	Function Module	Z_TIDAL_INTERACT_ABAP_VARIANT	Maintain a variant in interactive RFC mode			ZTID	SRM 4.00	SAPLZ_TIDAL_SAP_CHANNEL	LZ_TIDAL_SAP_CHANNELU01	
+LIMU	FM	Function Module	FUNC	Function Module	ZZ_BBP_PROCDOC_CREATE	Anlegen Procurement-Document			ZBBP	SRM 4.00	SAPLZBBP_PLM	LZBBP_PLMU06	
+LIMU	FM	Function Module	FUNC	Function Module	ZB470_PO_CREATE_AFTER_NOTE	Create purchase order			ZABP	SRM 4.00	SAPLZBBP_BD_DRIVER_470	LZBBP_BD_DRIVER_470U06	
+LIMU	FM	Function Module	FUNC	Function Module	ZB470_PO_CREATE	Create purchase order			ZABP	SRM 4.00	SAPLZBBP_BD_DRIVER_470	LZBBP_BD_DRIVER_470U01	
+LIMU	FM	Function Module	FUNC	Function Module	ZALSM_EXCEL_TO_INTERNAL_TABLE	Legacy Data Transfer w/ Excel			ZABP	SRM 4.00	SAPLZALSMEX	LZALSMEXU01	
+LIMU	FM	Function Module	FUNC	Function Module	Z_TIDAL_SET_PRINTERTEXT	Sets printer text in job steps			ZTID	SRM 4.00	SAPLZ_TIDAL_SAP_CHANNEL_XT01	LZ_TIDAL_SAP_CHANNEL_XT01U01	
+LIMU	FM	Function Module	FUNC	Function Module	Z_TIDAL_DELETE_ABAP_VARIANT	Deletes a variant			ZTID	SRM 4.00	SAPLZ_TIDAL_SAP_CHANNEL	LZ_TIDAL_SAP_CHANNELU04	
+LIMU	FM	Function Module	FUNC	Function Module	Z_TIDAL_GET_ABAP_REPORTS	Generates a list of ABAP reports			ZTID	SRM 4.00	SAPLZ_TIDAL_SAP_CHANNEL	LZ_TIDAL_SAP_CHANNELU06	

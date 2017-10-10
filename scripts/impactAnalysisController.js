@@ -11,10 +11,6 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 	$scope.usageCountsArray= [];
 	$scope.typeArray=[];
 	
-	$scope.typeArray['COMPLEXITY'] = ['High','Medium','Low'];
-	$scope.typeArray['SEVERITY'] = ['Warning','MustFix','Suggestive'];
-	$scope.typeArray['ERROR'] = ['Obsolete','Syntax','Unicode','SecondaryIndex','Pool/ClusterTable','ALV'];
-
 	var bulgedArc = d3.svg.arc().outerRadius(105);
     var regularArc = d3.svg.arc().outerRadius(100)
 
@@ -30,6 +26,7 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
     	});
 	}
 	$scope.$watch('selected', function(n,o){
+		$(window).trigger('resize'); 
 		switch(n){
 			case 'defects': generateIncompatibilityCharts();break;
 			case 'performance': generatePerformaceCharts();break;
@@ -42,11 +39,11 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 		$scope.defectFilter = type;
 		$scope.defectsCharts.view2='donutchart';
 
-		var file_name = 'defects_BY_COMPTYPE_'+type;
+		var file_name = 'DEF_ECC_'+type+'_SUMMARY';
 		//console.log(file_name)
 		s4TabService.getData(getFileName(file_name)).then(function(response){
 			//console.log(response);
-				$scope.defectsCharts.donutchart.data =  generateDonutdata(response,'',type)
+				$scope.defectsCharts.donutchart.data = response;
 			
 			});
 	};
@@ -71,20 +68,20 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 		};
 
 		if($scope.IncompabilitycountsArray.length == 0){
-			s4TabService.getData(getFileName('defects_BY_count')).then(function(response){
+			s4TabService.getData(getFileName('DEF_ECC_COUNT_SUMMARY')).then(function(response){
 				$scope.IncompabilitycountsArray = response;
 			});
 		}
 
 		if($scope.defectsCharts.piechart.data.length==0){
-			s4TabService.getData(getFileName('defects_BY_COMPTYPE')).then(function(response){
+			s4TabService.getData(getFileName('DEF_ECC_SUMMARY')).then(function(response){
 				$scope.defectsCharts.piechart.data = response;
 			});		
 		}
 		
 		if($scope.defectsCharts.donutchart.data.length ==0){
-			s4TabService.getData(getFileName('defects_BY_COMPTYPE_COMPLEXITY')).then(function(response){
-				$scope.defectsCharts.donutchart.data =  generateDonutdata(response,'','COMPLEXITY')
+			s4TabService.getData(getFileName('DEF_ECC_COMPLEXITY_SUMMARY')).then(function(response){
+				$scope.defectsCharts.donutchart.data =  response;
 			
 			});
 		}
@@ -92,10 +89,10 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 				//console.log(chart.pie);
 				var prevArc = null;
 				chart.pie.dispatch.on('elementClick', function(e){
-					var file_name = 'defects_BY_COMPTYPE_'+$scope.defectFilter;
+					var file_name = 'DEF_ECC_'+e.data.Obj+'_'+$scope.defectFilter+'_SUMMARY';
 					s4TabService.getData(getFileName(file_name)).then(function(response){
 
-						$scope.defectsCharts.donutchart.data = generateDonutdata(response,e.data.key,$scope.defectFilter)
+						$scope.defectsCharts.donutchart.data = response;
 						//$scope.defectsCharts.donutchart.data =  response;
 					});
 					if(prevArc){
@@ -111,7 +108,7 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 	}
 	function generatePerformaceCharts(){
 		$scope.defectFilter = 'COMPLEXITY';
-		s4TabService.getData(getFileName('Performance_defects_BY_count')).then(function(response){
+		s4TabService.getData(getFileName('DEF_ECC_COUNT_SUMMARY')).then(function(response){
 			$scope.performanceCountsArray = response;
 		});	
 		$scope.performanceCharts = {
@@ -132,31 +129,31 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 			}
 		};
 		if($scope.performanceCharts.piechart.data.length==0){
-			s4TabService.getData(getFileName('defects_BY_COMPTYPE')).then(function(response){
+			s4TabService.getData(getFileName('DEF_ECC_SUMMARY')).then(function(response){
 				$scope.performanceCharts.piechart.data = response;
 			});		
 		}
 		
 		if($scope.performanceCharts.donutchart.data.length ==0){
-			s4TabService.getData(getFileName('defects_BY_COMPTYPE_COMPLEXITY')).then(function(response){
-				$scope.performanceCharts.donutchart.data = generateDonutdata(response,'','COMPLEXITY')
+			s4TabService.getData(getFileName('DEF_ECC_COMPLEXITY_SUMMARY')).then(function(response){
+				$scope.performanceCharts.donutchart.data = response;
 			
 			});
 		}
-		if($scope.performanceCharts.linechart.data.length ==0){
-			s4TabService.getData(getFileName('defects_BY_COMPTYPE_COMPLEXITY')).then(function(response){
+		/*if($scope.performanceCharts.linechart.data.length ==0){
+			s4TabService.getData(getFileName('DEF_BY_COMPTYPE_COMPLEXITY')).then(function(response){
 				$scope.performanceCharts.linechart.data = response;
 			
 			});
-		}
+		}*/
 		$scope.performanceCharts.piechart.options.chart.callback =  function(chart) {
 			//console.log(chart);
 			var prevArc = null;
 			chart.pie.dispatch.on('elementClick', function(e){
-					var file_name = 'defects_BY_COMPTYPE_'+$scope.defectFilter;
+					var file_name = 'DEF_ECC_'+e.data.Obj+'_'+$scope.defectFilter+'_SUMMARY';
 					s4TabService.getData(getFileName(file_name)).then(function(response){
 
-						$scope.performanceCharts.donutchart.data  = generateDonutdata(response,e.data.key,$scope.defectFilter)
+						$scope.performanceCharts.donutchart.data  = response;
 						//$scope.defectsCharts.donutchart.data =  response;
 					});
 					if(prevArc){
@@ -195,7 +192,7 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 			//console.log(chart);
 			var prevArc = null;
 			chart.pie.dispatch.on('elementClick', function(e){
-				s4TabService.getData(getFileName('defects_BY_COMPTYPE')).then(function(response){
+				s4TabService.getData(getFileName('DEF_BY_COMPTYPE')).then(function(response){
 					$scope.usageCharts.donutchart.data =  response;
 					//console.log('elementClick in callback',response); 
 				});
@@ -209,52 +206,17 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 			});
 			
 		}
-		s4TabService.getData(getFileName('defects_BY_COMPTYPE')).then(function(response){
+		s4TabService.getData(getFileName('DEF_BY_COMPTYPE')).then(function(response){
 			$scope.usageCharts.piechart.data = response;
 		});		
-		s4TabService.getData(getFileName('defects_BY_COMPTYPE')).then(function(response){
+		s4TabService.getData(getFileName('DEF_BY_COMPTYPE')).then(function(response){
 			$scope.usageCharts.linechart.options  = response;
 		});
 		
-		s4TabService.getData(getFileName('defects_BY_COMPTYPE_COMPLEXITY')).then(function(response){
-			$scope.usageCharts.donutchart.data =  generateDonutdata(response,'','COMPLEXITY');
+		s4TabService.getData(getFileName('DEF_BY_COMPTYPE_COMPLEXITY')).then(function(response){
+			$scope.usageCharts.donutchart.data =  response;
 		});
 	}
-	function generateDonutdata(response,compType,type){
-		var internalData = [] , typeArray=$scope.typeArray[type];
 
-		if(compType === ''){
-			for(var j=0;j<typeArray.length;j++){
-				var count = 0;
-				for(var i=0;i<response.length;i++){
-					
-					count = count+parseInt(response[i][typeArray[j]]);
-				}	
-				internalData.push({
-					key:typeArray[j],
-					value:count
-				});
-			}
-
-			
-		}else{
-			var compObject = {};
-			for(var i=0;i<response.length;i++){
-					if(compType == response[i].compType){
-						compObject = response[i];
-						break;
-					}
-				}
-			for(var j=0;j<typeArray.length;j++){
-				internalData.push({
-					key:typeArray[j],
-					value:compObject[typeArray[j]]
-				});
-			}
-		}
-		return internalData;
-		
-	}
-	
 		
 }]);

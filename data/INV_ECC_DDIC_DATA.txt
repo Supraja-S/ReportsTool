@@ -1,0 +1,919 @@
+PROGTYPE	OBJTYPE	OBJDESC	SUBOBJ	SUBOBJDESC	OBJNAME	OBJTEXT	APPLN	FRICETYPE	PACKAGE	SYSNAME	MAINPROG	INCL	REFOBJTYP
+Program type	Obj Type	Obj Desc.	Sub-Obj Type	Sub-Obj Desc.	Object Name	Object Desc.	Application Name	Frice Type	Package	Sys Name	Main Program	Include Name	Ref. Obj. Type
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSD_DOM_DESC	Description			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZPTEXT	Text for Item Category			ZUPD_MM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZFI_RULEID_UPD	Rule id			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_DEC8_2	"Number with length 8, decimal 2"			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_DEC4_11	11 char Currency Field with Decimal 4			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_DEC4	Currency Field with Decimal 4			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_APPAREA_UPD	Application Area			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_ALL_SYSTYP	System Type Domain for Pwd Reset			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_INTERFACE	Interface Names			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_DOC_TYPE_ORD	Sales Doc Type			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_DOC_TYPE	Sales Doc Type			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZPROCTYPE_UPD	Process type			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZMFRNR	Number of a Manufacturer			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZFI_RULE_NATURE_UPD	rule nature logical or interval			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSPAU_STATE	Object state in SPAU			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSYCM_AUTHORIZATION_AREA	Custom Code Management: Authoritation Object: Area			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSYCM_CATEG	Defect Category			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSYCM_CATEGORY	Defect Category			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSYCM_COMPLEX	Complexity			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSYCM_CUST_DATA_ID	Customer data id			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSYCM_ENTRY_POINT_TYPE	Custom Code Management: Type of an entry point			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSYCM_ORIGIN	Origin of data			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSYCM_SITEM_AREA	Custom code management: Area of a simplification item			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSYCM_SITEM_STATE	State of a simplification item			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZFI_BUSTRANS_UPD	Business transaction for upgrade analyser tool			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZFI_IMPL_TYPE_UPD	Identify implementation type			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZFI_MODULE_UPD	SAP FI Module			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_PROCESSID_UPD	Process ID			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_SIMPLIFINDICATOR_UPD	Simplification indicator			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZVEH_NAME	Vehicle Name			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSYCM_SITEM_VERSION	Version of a simplification item			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_SIMPLIFIID_UPD	SImplification ID			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZUPD_DOM_CATEG	Defect Category			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZUPD_DOM_SFW_IS	Industry or Add-On			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZUPD_DOM_WCB_COCO_NUM	Condition Contract Number			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZUPD_ONOFF_1610	On/Off indicator 1610			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZUPD_ONOFF_DOM	ON/Off indicator			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_INVOICED_FLAG	Invoiced Flag			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_MIGRATIONCOMP_UPD	Migration Compatibility			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_NFORMAT	Number Format			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_NUMC6	numeric			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZBUKRS_CNT_UPD	No. of company codes			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZCHECKBOX_UPD	Active			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZCOMPLEXITY_UPD	Complexity			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZCUSTOMER	Search Term for customer			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZVBELN	Sales Document			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZDOM_SYCM_COMPLEXITY	Complexity			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZDOM_SYCM_NCS	Note Complexity Score			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZDOM_SYCM_PRIORITY	Priority			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZDOM_SYCM_TECH_CF	Technical Complexity Factor			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ECI_ORDER_DATE	ECI Order Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ECI_SHIP_DATE	ECI Ship Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ECI_TRIAL_DATE	ECI Trial Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_EFFECTIVE_DT	Effective Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_EFF_DATE	Effective date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_EINDT	Item Delivery Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ERROR_DETAILS	Error Details for interfaces			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ERROR_FLAG	Error flag			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ERROR_MESSAGE	Error Message			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_LINNO	Line Number			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_MESSAGE	Message			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUTX2	Country sales Tax (UTX2)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUTX3	City Sales Tax (UTX3)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZVARIATION	variation			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZVARIATION1_UPD	Variation			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_FRI_TERMS	FRI Terms			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_MIGRCOMP_UPD	Migration Compatibility			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_MODEL_DESC	Model Description			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_MODEL_NAME	Model Name			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_FRN	FRN			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CHANGE_DATE	Changed Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CF_AXW_TRIAL_DATE	CF AxW Trial Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CF_AXW_SHIP_DATE	Z_CF_AxW_Ship_Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CF_AXW_ORDER_DATE	CF/AxW Order Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CF_AXW_ETA_DATE	CF/AxW ETA Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CD_CODE	Incoming C/D code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CAC_NAME	CAC Name			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CAC_CODE	CAC Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CACCODE	CAC Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CAC	CAC			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_BUILD_ISSUER_PHONE	Buildout Issuer Phone			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_BUILD_ISSUER_NAME	Build Out Issuer Name			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_BUILD_ISSUER_FAX	BO Issuer fax			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZRESOURCE_RELATED_BILLING	resource_related_billing			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_1ST_FORECAST	1st Forecast			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_1ST_STOCK_DATE	1st stock taking date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_1ST_VANNING	1st vanning			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_1ST_FIRM	1st Firm			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_1A_TRIAL_DATE	1A Trial Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_1A_SHIP_DATE	1A Ship Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_1A_ORDER_DATE	1A Order Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_2ND_STOCK_DATE	2nd stock taking date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_DATE_SHIPPER	check date by shipper			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_DELIV_DATE	Delivery Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_DEPART_PORT	Depart Port			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_DEPART_PORT_CODE	Depart Port Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_DUNNAGE_WT	Dunnage weight			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_EBELN	Purchasing Document Number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_EBELP	PO Item Number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ECCN_NO	ECCN Number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ECI_ETA_DATE	ECI ETA Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ECI_NO	ECI No			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCOMPLEXITY1_UPD	Complexity			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCOMPLEXITY_UPD	Complexity			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCUSTOMER	Search Term for customer			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCUS_TRKORR	Customer Enhancement/Modification: Last transport			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDESYCM_CATEGORY	Defect Category			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_KOZGF	Number of Acc.Seq			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAIROCN	Air/Ocean			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZBKLG_DATE	Backlog Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZBPROCESS_UPD	Business Process			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZBUKRS_CNT_UPD	No. of company codes			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZBUSPROC	Business Scenario			ZUPD_MM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCHECKBOX_UPD	Active			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCITY1_C	Corporrate City			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCITY1_O	Order City			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCITY1_R	Remit City			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT	Number of documents			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_AG	Sold-to-party			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_ASNUM	No of Activities			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CONTLOADFLAG	ContLoadFlag			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_DOCK_NO	Dock No			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_EXECUTION_TIME	Execution time			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_EXECUTION_DATE	Date of execution			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_EXECTIME	Execution Time			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_EXECDATE	Execution Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ETD_TAS_VAN	ETD TAS/Van Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_MROF	MROF			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPFACH_C	Corporate P.O. Box			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPFACH_O	Order P.O. Box			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPFACH_R	Remit P.O. Box			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ESTIMATED_VANDATE	Estimated Van Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ETA	ETA			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ETA_DATE	ETA Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ETA_DEADLINE	ETA Deadline			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ETA_FINALDEST	ETA Final Destination			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_SAREA	Total No. of Sales Areas			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_SL	No of Storage Locations used			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_SPARTE	No. Of Division			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_T166K	No. of header text ids			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_T166P	No. of Item text ids			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_VBELN	No. of Sales Document			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_VKORG	No. Of Sales Organizations			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_VTWEG	No. Of Dist. Channel			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_WE	Ship-to-party			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_WERKS	No. of Plants Assigned			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCOMPLEXITY	complexity			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_INT_TYPE	Internal Type			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_INT_NAME	INT_NAME			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_INCL	Include Name			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_FRICE_TYPE	Frice Type			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_ERR_MSG	Error Message			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SUCC_SW	Successor Software Component			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SUCCESSOR	Successor			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SFW_IS	Type of Business Function			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SFW_BFUNCTION	Business Function			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CONT_LOAD_FLAG	ContLoadFlag			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_BEBER	No.of.Plant Section			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_CP	Contact Person			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_DEL	No. of Delivery Documents			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_EQUI	No. of Equipments			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_FORM	No. of unique forms assigned to each output type for pch doc			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_KNTTP	Number of Account assgn. cat			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_DOC_TYPE	Sales Doc Type			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_DOC_TYPE_ORD	Sales Doc Type			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_DUNNAGE_WEIGHT	Dunnage weight			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUTX1	Tax Jurisdiction code (UTXJ)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZDESC_UPD	Description			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZDEBIT_PROCESS	debit_process			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZCREDIT_PROCESS	credit_process			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZCONTRACTS	contracts			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZCONSIGNMENT	consignment			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZCASH_SALES	cash_Sales			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZVEH_NAME	Vehicle Name			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZVBELN	Sales Document			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SEVERITY	Severity			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_BO_REMARKS	B O remarks			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_BOX_PALLET	box/pallet			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_BOX_LOT_SIZE	Box Lot Size			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_BOX_BUILDOUT_REQ	Box buildout req'd			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_BOL_DAT	Bill Of Lading Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_BLDDAT	Build Out Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_BILL_OF_LADING_DATE	Bill Of lading date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_ORIGIN_DESCR	Origin Description			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_OBJ_TEXT	Object Text			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_OBJ_NAME	Object Name			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_OBJECT_DESC	Object  Type Description			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_MAIN_PROG	Main Program			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_MAIN_OBJ_DESC	Main Object Description			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_MAIN_OBJ	Main Object			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ALL_SYSNAME	System Name for Pwd Reset			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ALL_SYSTYP	System Type Domain for Pwd Reset			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ARRIVAL_PORT	Arrival Port			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ARRIVAL_PORT_CODE	Arrival Port Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_1A_ETA_DATE	1A ETA Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZTHIRD_PARTY	third_party			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZSTANDARD_SALES	standard_sales			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZSINGLE_VAL	single_val			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZSCHEDULING_AGREEMENT	scheduling_agreement			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZSALES_REBATES	sales_rebates			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZSALES_PAYMENT_CARDS	sales_payment_cards			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZSALES_BILLING_PLAN	sales_billing_plan			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZRUSH_ORDER	rush_order			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZRETURNS_SALES	return_sales			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_BUILDOUT	Built out by Japan or Import Parts			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_RET_CODE	Return Code			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_REL_INFO	Release Information			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_PRODNAME	Product Name			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZHIGH	high			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_FAMILY_CODE	Family Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_FAMILY	Family			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_FINAL_AIR_ORDER_DATE	Final Air Order DATE			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_EXPORTER	Exporter Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ALL_DESC	System Description for Pwd reset Tool			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ADDRESS	Line Side Address			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_INTERFACE_NAME	Interface Name			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_FINAL_AIR_PICKUP_DATE	Final Air Pickup date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_FINAL_AIR_SHIPPING	Final Air Shipping date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_MROS	MROS			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_NETPR	Net Price with Decimal 4			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_NETPR1	11char Net Price with Decimal 4			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_NEWITM_NO	New Item number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_MODULE_ID	Module ID			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_NEWQTY	New Qty of PO line			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_NFORMAT	Number Format			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_NR	Number Range			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ORDER_GRP	Order group			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ORDER_DATE	Final Ocean Pick up date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_OPQTY	Open Quantity			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_OLDQTY	Old Qty of PO line			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_OCEAN_PICKUP_DATE	Ocean pick update			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_OCN	OCN			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_OLDITM_NO	Old Item number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_OCN_NUMBER	OCN Number for TMAP			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_FORECAST_DATE3	N+3 Forecast Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_FORECAST_DATE2	N+2 Forecast Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_FORECAST_DATE1	N+1 Forecast Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_FORECAST_DATE	Forecast Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_FORCAST_WEEK	Forecast week			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_FORCAST_QUANTITY	Forecast Quantity			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_FIRM_DATE	Firm Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_FINAL_OCEAN_VANNING_DATE	Final Ocean Vanning date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_FINAL_EVAL_DATE	Final Eval date			ZBACKLOG	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_FINAL_LIMIT_DATE	Final Eval date			ZBACKLOG	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_FINAL_OCEAN_ETA	Final Ocean ETA date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_FINAL_OCEAN_ORDER_DATE	Final Ocean Order date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_FINAL_OCEAN_PICKUP_DATE	Final Ocean Pickup Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZLOW	low			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZINTER_COMPANY	inter_company			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZINQUIRY	inquiry			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CUSTOMER	Customer			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CUSTOMER_CODE	Customer code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CUST_PO	Forecast Reference			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CUST_PONUM	Customer PO Number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CRT_DB	Credit/Debit			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CRT_DAT	Creation Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CROSS_DOCK	Crossdock			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CROSSDOC_CODE	Crossdock code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CROSSDOCS_COD	Cross docs Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CRE_WEEK	Creation Week			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CREATE_TM	Creation Time			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CREATE_DT	Creation Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_COUNTRY_CODE	Country Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_COST_RESPONSIBILITY	Cost Responsibilty			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_COSO_NO	COSO_NO/PRICING_ID			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_DESTINATION_PLANT	Destination Plant			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_LOT_SIZE	Lot Size			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_LOGPT_NAME	LogPtName			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_LOGPT_FLAG	LogPtFlag			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_LOGPT_CD	LogPtCd			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_LOGPT_ARRV_DPTCD	LogPtArrvDptCd			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_LOGISTIC_ORDER	Logistic Order			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CHANGE_TIME	Changed time			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_GROSS_WEIGHT	Gross Weight			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_IMPORTER	Importer			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_INBOUND_ACC_SEQ	InbOutbAccSeq			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_INBOUTB_FLAG	InbOutbFlag			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_INBOUT_BAC_SEQ	iNBOUTBACSEQ			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_INBOUT_BFLAG	Inboutb Flag			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_INTERFACE	Interface Names			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CONTAINER_LOADING_DATE	Container Loading date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_REF_INT_TYPE	REF_INT_TYPE			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_REF_OBJ_NAME	Reference Object Name			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_REF_OBJ_TYPE	Reference Object Type			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_REF_SUB_NAME	REF_SUB_NAME			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_REF_SUB_TYPE	Reference Sub Object Type			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_R_MAIN_OBJ	R_MAIN_OBJ			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_SIMPLI_ID	Simplification Id			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_TITLE	Title of the Simplification Item			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_VERSION	Version			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPL_JOBNAME	UPL extraction job name			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CUR_CODE	Currency Code Output			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_PROC_AREA	Process Area			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_ONOFF_1610	On/Off indicator 1610			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_ONOFF	On/Off indicator 1511			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_NOTE	SAP Note			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_MSG_TYP	Message Type			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_MSG_IDENT	Message ID for S4 Check analysis			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_MIGR_IMPACT	Migration Impact			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_REF_INT_NAME	REF_INT_NAME			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZMODULE	module			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_LINE_SIDE_ADDRESS	LINE SIDE ADDRESS			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_LINE_SIDE_ADDR	Line Side Address			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_LINE_CODE	Line Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_LEAD_TIME	Lead Time			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_KUNNR	Ship-To-Party ( Plant and CAC combination )			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_KANBAN_PLANT_CODE	Kanban Plant Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_KANBAN_NUMBER	Kanban Number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ISSUE_DATE	Issue Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_IPI_SHIPPER_CHARGE	IPI Shipper person in charge			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_IPI_REF	IPI Ref No			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_IPI_REASON	IPI reason			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_IPI_ISSUER_PH	IPI Issuer Ph			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_IPI_ISSUER_NAME	IPI Issuer Name			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_IPI_ISSUER_FAX	IPI Issuer fax			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_INVOICED_FLAG	Invoiced Flag			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_INTERFACE_TYPE	Interface Type			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_DOCK_CD	Dock Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZRATING	rating			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZQUOTATION	quotation			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZPERCENTAGE	percentage			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_AUART	Sales Order Type			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CONTAINER_ID	Container Id			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CONTAINER_CODE	Container Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CONSOLIDATION_LOCATION	Consolidation Location			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_COMPANY	Company			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_COMMENTS	Comments			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CHNGIND	"Change Indicator (U, I, S, D)"			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_LOAD_TYPE	Load Type			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CRT_TIME	Creation Time			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CUBIC_VOLUME	Cubic Volume			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CURR	Currency Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CURRENCY_CODE	Currency Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_RCV_COMP_DOCK_CD	RcvCompDockCd			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_RCV_COMP_CD	Receiving company code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_RCVCOMPPLANTCD	RcvCompPlantCode			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_RCVCOMPDOCKCD	Rcv Comp Dock Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_VANNING_DATE	Vanning Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_USAGE	Usage			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_UPDATE_TIME	Updated time			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_UPDATE_FLAG	Update Flag			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_UPDATE_DATE	Updating Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_UNAME	User Name			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_TRUCK	Truck for heijunka			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_TRANS_CD_CODE	Translate C/D code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_TRANSPORTAION_CODE	Transportaion Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_TRACK_SEQ	TrackSeq			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SO_ITM	SO Item			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFILED	GI Interface Fields			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_APPAREA_UPD	data element for app area for upgrade analyser tool			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_BUSTRANS_UPD	Business transaction for upgrade analyser tool			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_FORECASTHOURS_UPD	forecast hours			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_IMPLEMENTATION_TYPE_UPD	Implementation type			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_PROCESSID_UPD	Process ID for FI Module			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_RSLTRANGEMAX_UPD	Rule result maximum range			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_RSLTRANGEMIN_UPD	Rule result minimum range			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_RULECMPLXTY_UPD	rule complexity			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_RULEDESCR_UPD	rule/rule set description			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_RULENAME_UPD	rule name			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_RULENATURE_UPD	rule nature			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSUMOFGROSSWT	Summation of Gross Weight			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PACKAGE_WT	Package weight			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZORIGIN	Country of Origin			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_REASON_CODE	Reason code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_TMC_BUILD_OUT_DATE	Plant Build Out Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_TMC_PLANT	check date by TMC plant			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_TMC_PPLD_DATE	Check Date by Plant PPLD			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_TMC_WAREHOUSE	TMC Warehouse			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SIMPLINDIC_UPD	Simplification Indicator			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SIMPLID_UPD	Simplification ID			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SHIP_PNT	Shipping Point			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SHIPTO	Ship To			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SHIPPING_METHOD	Shipping Method			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SHIPPER_LOC	Shipper Location			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SHIPPER_IN_CHARGE	B O Shipper person in charge			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SHIPPER_DATE	check date by Shipper			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SHIPPER_CODE	Shipper Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SHIPPED_QTY	Shipped Quantity			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SEQ_NO	Sequence Number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZQTY2	 N +2 Forecast quantiy			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZQTY1	 N +1 Forecast quantity			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZQTY	N Forecast quantity			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPTEXT	Text for Item Category			ZUPD_MM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPSTLZ_R	Remit Postal Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPSTLZ_O	Order Postal Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SUPPL_NAME	Supplier Name			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ROUTING	Routing			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_RE_EXPORT	ReExport			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_RENEWAL_DATE	Renewal Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_RENBAN_NUMBER	Renban Number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_RECORD_NO	Record Number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_RECORD	Record Number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_RECEIVE_TIME	Timeline Receiving Time			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_RECEIVE_DATE	Timeline Receiving date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_DESCR	Description for Message ID S4 Check			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_EFFORT	Effort			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_EFFORT_FUNC	Functional Effort			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_EFFORT_TECH	Technical Effort			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_FILE				ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_MIGR	Migration Possible indicator			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSTRAS_R	Remit Street/House Number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPSTLZ_C	Corporate Postal Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_PSTYP	Number of Item Cat.			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSUMOFPIECES	Sum Of Pieces			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZRCV_COMP_PLANT_CD	RcvCompPlantCd			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZREASON	Detail Reason			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZREASON_CODE	Reason Code for Replacement Order			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZREGIO_C	Corportate Region			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZREGIO_O	Order Region			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZREGIO_R	 Remit Region			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZREMARKS_UPD	Remarks			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSCHB	Schedule - B			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSCI_DETAIL	Code Inspector: Detail Information			ZHANA_SCI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSCI_EFFORT	Code Inspector: Columns			ZHANA_SCI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSCI_NO_MOVES	Number of Moves			ZHANA_SCI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSD_COMPLEXITY	Complexity			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSD_DESCRIPTION	Description for the processes			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSD_PROCNO	Process Number			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSHIPTO	Ship to Party			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_PR	Number of Purchase Requisitions released using which release			ZUPD_MM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_PO	Number of Purchasing Organisation used			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_PG	No. of Purchasing Groups used			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_PE	Sales Employee			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_MAT	No. of Materials			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_COPMLEXITY	Complexity			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_PY	Payer			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_RC	Number of Release codes used per Strategy			ZUPD_MM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_RE	Bill-to-party			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSUMOFVALUE	Sum of Value			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSYCM_AUTHORIZATION_AREA	Custom Code Management: Authoritation Object: Area			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSYCM_CATEGORY	Defect Category			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSYCM_COMPLEX	Complexity			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSYCM_CUST_DATA_ID	Customer data id			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSYCM_ENTRY_POINT_TYPE	Custom Code Management: Type of an entry point			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSYCM_ORIGIN	Origin of data			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SO_NUM	SO Number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SPLIT_TYPE	Split Type for Invoice			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_STATUS	status			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SUPDOCCD	Supply Dock code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SUPPCD	Supplier Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SUPPLIER	Supplier			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SUPPLIER_CODE	Supplier Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPROCTYPE_UPD	Process type			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSYCM_SITEM_AREA	Custom code management: Area of a simplification item			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSYCM_SITEM_STATE	State of a simplification item			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSYCM_SITEM_VERSION	Version of a simplification item			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSYCM_SITM_STATE	State of a simplification ite			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSYCM_VERSION	Custom Code Mangagement: Versioning			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZTELF1_C	Corporate Contact Telephone			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZTELF1_O	Order Contact Telephone			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZTELF1_R	Remit Contact Telephone			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_ABAP_BOOL	ABAP Bool - Custom DE			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_CATEGORY	Defect Category			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_CHECK_ID	Check ID			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_COMMENTS	Comments			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_TLMS_REL	TLMS Relevance			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZLAND1_R	Remit Country			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZLAND1_O	Order Country			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZLAND1_C	Corporate Country			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZHSNUM	HS Number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZGROUP_UPD	Application Area			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFORECAST1_UPD	Forecast Manhours			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFORECAST	forecast			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_SUBPRCSAREA_UPD	Sub process area for upgrade analyser tool			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_SAPMODULE_UPD	Sapmodule for upgrade analyser tool			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_RULESETID_UPD	rule id/ruleset id			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_VAN_DATE	Planned Van Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_VAN_WEEK	Vanning Week			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_VESSEL_CODE	Vessel Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_VESSEL_NAME	Vessel Name			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_WAYBILL_NUMBER	Waybill Number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_WEIGHT_UNIT	Weight Unit			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_YEAR	Year			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_OWK_TRANS	OWK Transmission			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PLANDATE_RCVCOMP	PLANDATE RCV COMP			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PLANDATE_RCV_COMP	PlanDateRcvComp			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PLANNED_SUPPLIER_SHIPDATE	Planned Supplier Ship Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PLANNED_VAN_DATE	Planned VAN Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PLANT_CD	Plant Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PLANT_CODE	Plant code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PLNT_CODE	Plant Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PL_LOG_PT	plandateeachlogp			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PONO	PO Number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_POOPEN_QUANTITY	PO Open Quantity			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PO_FILE_NAME	Outbound PO file name			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PRIVILAGE	Privilage (AICO)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZLNUMT	Warehouse number description			ZUPD_MM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZEXISTS	Exists (yes/no)			ZUPD_MM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZEXEC_DATE	Execution Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZEMAIL_R	Remit E-Mail Address			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZEMAIL_O	Order E-Mail Address			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZEMAIL_C	Corporate E-Mail Address			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDE_SYCM_TECH_CF	Tech_Complexity Factor			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDE_SYCM_ST_PRIORITY	State priority			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDE_SYCM_SEVERITY	Severity			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDE_SYCM_NT_PRIORITY	Note priority			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDE_SYCM_NCS	Note Complexity Score			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDE_SYCM_EFFORT	Effort			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDE_SYCM_COMP_FACT	Complexity Factor Up to			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDE_SYCM_COMPLEXITY	Complexity			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDE_SYCM_COMP	Complexity			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDE_PLANTDESC	Plant Description			ZUPD_DEL_PP	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDE_ORDERTYPEDES	Order Description			ZUPD_DEL_PP	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_RULERESULT_UPD	logical rule result			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PACKAGE_WEIGHT	Package weight			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZORD_SUBSEQ	Order sub Sequence			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZORDER_TYPE	Order Type			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZORDER_NO	Order No			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZORDER_DATE	Order Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZOPQTY	Open Quantity			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZNAME1_R	Remit Contact Name			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZNAME1_O	Order Contact Name			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZNAME1_C	Corporate Contact Name			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZNAME	contact name			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZMODULE_UPD	Module			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZMFRNR	Number of a Manufacturer			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZLOGPT_ARRVDPTCD	LOGPTARRVDPTCD			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_OUTERHEIGHT	Outerheight			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_OUTERHEIT	Outerheight			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_OUTERLEN	Outerlength			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_OUTERLENGTH	Outerlength			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_OUTERWID	Outerwidth			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_OUTERWIDTH	Outerwidth			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SOP_DATE	SOP Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PACKAGING_TYPE	Packaging Type			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PALLET	Pallet number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PALLET_CONTAINER_NUMBER	Pallet Container number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PALLET_CONT_NUM	Pallet Container Number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PARTS_RATIO	parts order ratio %			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PART_NO	Part number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PART_NUM	Part Number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PART_TYPE	Part Type			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PART_WEIGHT	Part Weight			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PART_WT	Part weight			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PICDAT	Pickup Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PICKUP_DATE	Pickup Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PICK_DATE	Pick up date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_RTE_DATE	RteDate			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SUPPPLNT	Supply plant code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SUPP_CODE	Supplier Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SUPP_DOCK_CODE	Supplier Dock Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SUPP_PLANT_CODE	SuppPlantCd			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SUPP_SHIP_DT	Planned Supplier Ship Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SUP_CODE	Supplier Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SUP_NAME	Supplier Name			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_TARIFF_CODE	Tariff Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_TERM_DIST	Term Dist			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_OUTBOUND_VOYAGE_NUMBER	Outbound Voyage Number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PROJECT_CODE	Project Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PUR_ORD	Purchase Order			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_QPC	QPC			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_QTY_PARTS	Quantity of parts per Container			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_RAWMAT	Raw Material			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_RCVCOMPCD	Receive Comp code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_MODULE_TYPE	Module Type			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_MONTH	Month			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SOQTY	Sales Order Quantity			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SELL_PRICE	Selling Price			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SCHDNO	Schedule line			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_RVA_CODE	RVA Reason Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_RVATYPE	RVA Type			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_RVAMSG	RVA Output Message			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_RUN_SEQ	RunSeq			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_RTE_GRP_NAME	RteGrpName			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_RTE_GRP_CD	RteGrpCd			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_RTE_GRPNM	RTE Group Name			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_RTE_GRPCD	RTE Group Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_PLANDATE_EACH_LOGPT	PlanDateEachLogPt			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_MONTHLY_VOLUME	Monthly Volume			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ORDER_NUMBER	Logistics order number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ORDER_QTY	Order Quantity			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ORDISU_PTFLG	ORDISU PTFLG			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ORDNO	Logistic order number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ORD_ISUPT_FLAG	OrdIsuPtFlag			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ORD_SUB_SEQ	OrdSubSeq			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_ORIGINAL_VANDATE	Original Van Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_OT_AUART	Order Type			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_OUTBOUND_SHIPPING_COMPANY	Outbound Shipping Company			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_LGORT	Assignment of MM S Loc to WM Warehouse			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_LGNUM	Warehouse per Plant			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCNT_KSCHL	Number of cond. type			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSOLDTO	Sold To Party			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSOQTY	SO Quantity			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSPAU_PROCESSOR	Processor			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSPAU_STATE	Object state in SPAU			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDE_ORDERTYPE	Order Type			ZUPD_DEL_PP	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSTRAS_O	Order Street/House Number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSTRAS_C	Corporate Street/House Number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	ENQU	Lock Object	EZ_SPAU_SETTINGS	Lock SPAU settings			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	ENQU	Lock Object	EZ_SPAU_TEST	Lock object for testing only (!) of new SPAU			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	SHLP	Search Help	ZSYCM_EXTRACTION_SYSID	Seach for Extraction System ID's			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_SALES_ORDER_DATA_1	Structure for Sales order Interface			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_SCH_LINES	Structure for Schedule Lines Data			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_SIDT_SALES_ORDER	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_PO_INTVENDORDT_VENDOR_PO	Source data type for sending PO information to Vendors			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_PO_INTVENDORDT_VENDOR_PO_1	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_PO_INTVENDORDT_VENDOR_PO_D	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_BACKLOG_KANBAN	Kanban Data for Backlog			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_PO_INTDT_PURCHASE_ORDER_DE	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_PO_INTDT_PURCHASE_ORDER	Source data type for Purchase Order Interface			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_PCODE_RANGE	Range table for Project Code			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_SALES_ORDER_DATA	Structure for Sales order Interface			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSCR_TOKEN_REF	Token Reference			ZHANA_SCI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSCR_TYPE_COMPONENT	Component of Structure			ZHANA_SCI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_SIDT_SALES_ORDER_FIRM_ORD1	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSCR_REF	Cross Reference: Complete Where-Used List			ZHANA_SCI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSCR_PROC_ID	Process ID			ZHANA_SCI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSCR_GLREF	Cross Reference: Complete Where-Used List			ZHANA_SCI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSCR_COMPONENT	Component			ZHANA_SCI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSPAU_UPL_CONFIG	UPL connection configuration			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSPAU_PROCESSOR_LIST_LINE	Processor list line			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSPAU_MESSAGE_CONTEXT_TEXTS	"Context, textual representation"			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_OPEN_ORDER	Open Items			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_MNAME_RANGE	Range for Model Name			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_VENDORMT_VENDOR_DATA	Target Message interface for Vendor Master			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSDDT_CUSTOMER_INVOICE_TMAP	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_GR_INTDT_GOODS_RECEIPT	Target data type for Goods Receipt interface			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_GI_INTMT_POST_GOODS_ISSUE	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_GI_INTDT_POST_GOODS_ISSUE1	Target Data type for Goods Issue interface			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_GI_INTDT_POST_GOODS_ISSUE	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_GEOR_RANGE	Range table for GEO_ROUTE			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_FVAN_RANGE	Range for First Vanning Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_FOV_RANGE	Range for Final Vanning Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_BODAT_RANGE	Range for First Vanning Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_BL_REP_OUT	Backlog Report Output			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_BISMT_RANGE	Range table for Old Material Number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZALL_SYSTEMS_STR	Systems for password reset application			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZALSMEX_TABLINE	Rows for Table with Excel Data			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZCOES_MM_MRP	Structure for MM MRP for report ZPP_COE_REPORT_V			ZUPD_DEL_PP	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZCOES_MM_WORK_SCHEDULING	Structure for MM Work Scheduling for report ZPP_COE_REPORT_V			ZUPD_DEL_PP	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_ACH_INTDT_ACCOUNTS_CHECK_A	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_MFRNR_RANGE	Range table for MFRNR			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_KANBAN_RANGE	Range table for Kanban Number			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_IPMT_MATERIAL_FOREIGN_TRAD	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMT_GLACCOUNTING_DATA	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_WORK_DATES	Working Dates			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_VPACSMT_PACKAGING_DETAILS	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_VPACSDT_PACKAGING_DETAILS1	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_VPACSDT_PACKAGING_DETAILS	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_VPACKS_EXTN_FLG	Flag extension for ZMM_VPACKS			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_VPACKS_DATA	VPACKS data structure			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_SOP_RANGE	Range for SOP Date			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_RETURN02	Return Parameters for Z_FIORIBLA_FM02			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_RETURN01	Return Parameters for Z_FIORIBLA_FM01			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_PO_INTVENDORMT_VENDOR_PO	Source message type for sending PO information to Vendors			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_PO_INTVENDORDT_VENDOR_PO_R	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_PO_INTVENDORDT_VENDOR_PO_O	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZDT_GLACCOUNTING_DATA_TRANSACT	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFIDT_ARBILLING	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFIDT_ARBILLING_DETAIL_RECORDS	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_ACH_INTDT_ACCOUNTS_CHECK_1	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_ACH_INTDT_ACCOUNTS_CHECK	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFIMT_CUSTOMER_INVOICE	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFIMT_ARBILLING	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFIDT_CUSTOMER_INVOICE_BILLING	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFIDT_CUSTOMER_INVOICE	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSPAU_CUSTOMER_MODI_FIELDS	SPAU_CUSTOMER_MODI_FIELDS from HEE			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSPAU_CUSTOMER_NOTE_FIELDS	SPAU customer fields for SMODILOG notes only			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSPAU_MESSAGE_CONTEXT	SPAU Message context (maximum width 256 chars!)			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_PO_INTVENDORDT_VENDOR_PO_H	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_WARPDT_PURCHASE_INFO	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_VBEP	Structure to Update VBEP Data			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_TRUCK	Schedule Lines - Truck Information			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_TMAPMT_TMAPORDER	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_TMAPDT_TMAPORDER_DETAILS	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_TMAPDT_TMAPORDER	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_TLMSMT_TIMELINE_DATA	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_TLMSDT_TIMELINE_DATA_DETAI	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_TLMSDT_TIMELINE_DATA	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_SIMT_TMCAORDER_FILE	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_SIMT_SALES_ORDER	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_SIDT_TMCAORDER_FILE_HEADER	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSPAU_UPL_CONFIG_UI	UPL connection configuration for UI			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSCIS_SOURCE_LINK	Code Inspector : Source Link			ZHANA_SCI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSCIS_PROC_POS	Procedure Position			ZHANA_SCI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSCIS_DETAIL	Code Inspector: Detail			ZHANA_SCI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSCIR_OBJ_PAR	Code Inspector: Structure for Objects			ZHANA_SCI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZPOSERV_F4HELP	Strcuture for F-4 help			ZBACKLOG	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_IPMT_MATERIAL_DETAILS	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_WATERFALLMT_FIRM_FORECAST	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_WATERFALLMT_WATERFALL_DATA	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSENVI_TADIR	Enviroment results TADIR objects			ZSYCM_ANALYSIS	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_PO_INTMT_PURCHASE_ORDER	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSPAU_UPL_OUTPUT_EXTRACT_MONTH	The output SID of EXTRACT_DATE			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSPAU_UPL_OUTPUT_EXTRACT_YEAR	The output SID of EXTRACT_DATE			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSSIMP_VIEW	Liine type for SIMP_VIEW o/p			ZSYCM_ANALYSIS	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSTRU_DELIVERY	Structure to hold delivery data			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSTRU_DELV_MSG	Structure to hold msgs for invoice creation program			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSYCM_SENVI_TADIR	Enviroment results TADIR objects			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSYCM_SIMP_DATA	Simplification data			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_FORECASTMT_FORECAST_DATA	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_FORECASTDT_FORECAST_DATA_V	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_FORECASTDT_FORECAST_DATA_H	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_FORECASTDT_FORECAST_DATA_D	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_FORECASTDT_FORECAST_DATA	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_EAO_LINE_ITEM	Line Type for EAO Replacement Line items			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSDMT_CUSTOMER_INVOICE_TMAP	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSDDT_CUSTOMER_INVOICE_TMAP_WA	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSDDT_CUSTOMER_INVOICE_TMAP_RE	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSDDT_CUSTOMER_INVOICE_TMAP_R4	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSDDT_CUSTOMER_INVOICE_TMAP_R3	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_WATERFALLDT_WATERFALL_DATA	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_INDATA_TLMS	Proxy timeline data			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_MSEDT_PRICING_DATA	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_ACH_INTDT_ACCOUNTS_CHECK_R	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_ACH_INTMT_ACCOUNTS_CHECK	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_POS_PAY_INTDT_ACCOUNTS_PA1	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_POS_PAY_INTDT_ACCOUNTS_PAY	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_POS_PAY_INTMT_ACCOUNTS_PAY	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_VENDORDT_VENDOR_DATA	Target data type for Vendor Master			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_VENDORDT_VENDOR_DATA_DETAI	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_BACKLOG_WRKDATES	Number of Backlog Days			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_BACKLOG_VENDOR	Vendor data for Backlog			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_BACKLOG_VBPADATA	VBPA Data for Backlog			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_BACKLOG_VBKD	VBKD Data for Backlog			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_BACKLOG_SODATA	SO Data for Backlog			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_BACKLOG_PODATA	PO Data for Backlog			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZDT_GLACCOUNTING_DATA_TRANSAC1	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_SIDT_TMCAORDER_FILE_FORECA	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_WARPDT_PURCHASE_INFO_DETAI	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_WARPMT_PURCHASE_INFO	Target Message Type for Purchase Info Records interface			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_WATERFALLDT_FIRM_FORECAST	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_WATERFALLDT_FIRM_FORECAST1	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_WATERFALLDT_WATERFALL_DAT1	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_SIDT_TMCAORDER_FILE_FIRM_O	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZDT_GLACCOUNTING_DATA	GL accounting data from SAP			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_ACH_INTDT_ACCOUNTS_CHECK_D	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_MSEDT_PRICING_DATA_DETAILS	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_MSEMT_PRICING_DATA	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_ORD_INTDT_OPEN_ORDERS	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_ORD_INTDT_OPEN_ORDERS_DETA	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_ORD_INTMT_OPEN_ORDERS	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_PROFORMA_DETAILS	Interfacing structure for Proforma Invoice			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_VENDORVENDOR_ADDRESS	Structure for Address fields			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_VENDOR_DATA	Transfering structure for Vendor master data			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_VEND_REMDT_PAYMENT_ADVICE	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_VEND_REMDT_PAYMENT_ADVICE1	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_VEND_REMDT_PAYMENT_ADVICE2	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_VEND_REMDT_PAYMENT_ADVICE3	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_VEND_REMMT_PAYMENT_ADVICE	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMMDT_KANBAN_FORECAST_DATA	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMMDT_KANBAN_FORECAST_DATA_DET	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMMMT_KANBAN_FORECAST_DATA	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_BACKLOG_CHGDOCS	Change Docs for Backlog			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_BACKLOG_GRDATA	GR Data for Backlog			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_GR_INTDT_GOODS_RECEIPT_DET	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_GR_INTMT_GOODS_RECEIPT	Target messge type for Goods Receipt interface			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_INTEGRATIONP	Integration point file structure			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_IPDT_MATERIAL_DETAILS	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_IPDT_MATERIAL_DETAILS_DETA	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_IPDT_MATERIAL_FOREIGN_TRA1	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_IPDT_MATERIAL_FOREIGN_TRAD	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSDDT_CUSTOMER_INVOICE_TMAP_R1	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSDDT_CUSTOMER_INVOICE_TMAP_R2	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSDDT_CUSTOMER_INVOICE_TMAP_IN	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_PROFORMA_ITEM_LINE	Line Type for Proforma Line Item details			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSYCM_SIMP_DATA_CLAS	Simplification data - specific to class data			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSYCM_SIMP_SUMMARY	Summary file structure			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSYCM_STR_REFERENCES	Structure			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZTIME_LINE_DATA	Time line data structure for Upload			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZTLMSLOG	TLMS Error Log			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_SIDT_TMCAORDER_FILE	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_SIDT_SALES_ORDER_FORECAST1	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_SIDT_SALES_ORDER_FORECAST	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_SIDT_SALES_ORDER_FIRM_ORDE	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZYCM_S_DETAIL_DEFECT_LIST	Sturcture for the detailed defect list			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZZSPAU_CUSTOMER_MODI_FIELDS	SPAU customer fields for SMODILOG other than notes			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSD_SIDT_SALES_ORDER_FIRM_ORD2	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_ACH_INTDT_ACCOUNTS_CHECK_P	Proxy Structure (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_SITM_PLIST	Piecelists assigned to Simplification Item			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_SITM_PACKS	Packages related to a simplification item			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_SITM_STATS	States of a simplification item			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_TECH_CF	Complexity factor table for Technical object types			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_SITM_ENPOI	Entry point (transaction/URL) for a Simplification Item			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZMM_GI_ERR	GI error log table			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZMM_GR_ERR	GR Error log table			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZMM_KANBAN	Kanban master table			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_UPL	UPL data			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZTUPD_S4H_ADDON	S4H Addon table			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZTUPD_S4H_B_FUNC	Business Function table			ZUPD_PRECHECK	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZZEXPORT_SHIPPING	Append header fields for export shipping process			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_S4_UPD	Simplification table for S4			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_STD_BP_UPD	FI Standard Business Process			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZMM_BACKLOG_DATA	Backlog data storage			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZMM_BCKLOG_JOB	Table to save Backlog Report run on Batch Job			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSD_CDREF	Cross Dock Code Order Type Reference Table			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZZWAYBILL_CONTID	"Additional Fields - WaybillNo,Container ID"			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZZVKDFS_WAYBILL_CONTID	"Additional Fields-WayBillNum, ContainerID"			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZZVKDFIF_WAYBILL_CONTID	"Additional Fields-WayBillNum,Container ID"			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZZVBAP	Append fields to VBAP for Sales order Enhancement			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZZSPAU_SETTINGS	Settings			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	Z1099_CODES	Withholding Tax Codes			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZALL_SYSTEMS	Systems for password reset application			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZZWAYBILL_CONT_VBCO7	Additional Fields for Selection Criteria			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZZEXPORT_SHIPPING_ITEM	Append fields to LIPS for export shipping process			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSMODILOG_TEST	Testdummy: Log of Customer Modifications to Dev.Env. Objects			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSD_TRANSLATION	Translation Table for Load types			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSD_TMAP_ERROR	TMAP ERROR Table			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSD_TMAP_CODES	TMAP Port Codes			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSD_PROCESSES	List of processes for SD Module			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSD_FORECAST	Forecast details			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSD_ORDTYP	ZINV  Order Type Inclusion Master			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSD_FORECAST_ERR	Forecast details			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZMM_PALLETS	Pallets			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZMM_RVA_COMMENTS	RVA Comments			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZMM_MAT_CUST	Custom table for materia master creation			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSD_TIMELINE	Time line table for heijunka			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSD_SO_ERROR	Interface sales order Error			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZERROR_LOG	Error Logs			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSMODISRC_TEST	Testdummy: Customer Modification Log: Object Data (Active)			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSMODIUSER_TEST	Testdummy: Processor of Customer Modifications			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSPAU_SETTINGS	Settings			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_SITM_AREAS	Areas for a Simplification Item			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_SITEM	Simplification Item			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_SIMP_CAT	Category of defect			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_SAP_SIMPL	SYCM: Simplification Information - download at SAP			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_PLIST_HEAD	Custom Code Management: Piecelist header			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_PIECELIST	Piecelist for Simplification Items			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_NOTE_SCORE	Notes table for Complexity Score and Priority			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_RULE_UPD	Table to store ruleset for FI dynamic complexity logic			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_RDIC_UPD	Rule dictionary to hold rule ids for a rule set			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_RCPLX_UPD	Rule complexity			ZUPD_DEL_FI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_PP_INV_TAB	Order table for perpetual Inventory			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_JOB_DATAID	Mapping between custom data- id and UPL job-id			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_CUST_SIMPL	SYCM: Simplification Information  (metadata)			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_CUST_REFS	Object References			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_CUST_MODS	Custom Code Management			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_CUST_HEAD	SYCM: Repository Info Header (metadata)			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_CUST_ENHS	Enhancements			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_COMP_EFT	Complexity / Effort table			ZSYCM_COMPLEXITY	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSPAU_UPL_DATA	Usage data			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSPAU_TEST_ADMIN	Help table to exclusively lock SPAU tests			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZMM_VPACKS	VPACKS table			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSD_EAO_FIELDS	EAO Fields  from ZORCR			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSD_CURRENCY	Customization for Currency table			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSD_PLANT_REF	Plant reference table			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSD_ORD_MANDT	Order Type GI interface fields			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSD_TMAPCALENDAR	TMAP Calendar Table			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSDTCOMPLEXITY	Sd table			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSD_SIDT_SALES_ORDER_FIRM_TAB1	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSD_PROFORMA_ITEM	Table for Proforma item details.			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSD_TMAPDT_TMAPORDER_DETAI_TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSD_TT_IN_TLMS	Table type for proxy data			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZFIDT_CUSTOMER_INVOICE_BIL_TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZFIDT_ARBILLING_DETAIL_REC_TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZDT_GLACCOUNTING_DATA_TRAN_TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSD_TT_SCH_LINES	Table Type for Schedule Lines			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZMM_VPACSDT_PACKAGING_DETA_TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZMM_VPACKS_EXTN	Extension for ZMM_VPACKS			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZMM_TT_VPACKS_PI	Table type for VPACKS table			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZMM_TT_VPACKS_DATA	Table type for Vpacks data			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSD_PROCESSES_TT	Table type for ZSD_PROCESSES			ZUPD_SD	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSYCM_SIMP_POS	RSDEPOS			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZTSIMP_VIEW	Table Type for SIMP_VIEW o/p			ZSYCM_ANALYSIS	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZTT_SALES_ORDER_DATA	Table type for Sales order			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZTT_SALES_ORDER_DATA_1	Table type for Sales order			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZFI_ACH_INTDT_ACCOUNTS_CHE_TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZFI_ACH_INTDT_ACCOUNTS_CH_TAB1	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZFI_POS_PAY_INTDT_ACCOUNTS_TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZFI_VENDORDT_VENDOR_DATA_D_TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZFI_VEND_REMDT_PAYMENT_ADV_TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZFI_VEND_REMDT_PAYMENT_AD_TAB1	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZMMDT_KANBAN_FORECAST_DATA_TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZMM_GI_INTDT_POST_GOODS_IS_TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZMM_GR_INTDT_GOODS_RECEIPT_TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZMM_IPDT_MATERIAL_DETAILS__TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZMM_IPDT_MATERIAL_FOREIGN__TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZMM_PO_INTDT_PURCHASE_ORDE_TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZMM_PO_INTVENDORDT_VENDOR_TAB1	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZMM_PO_INTVENDORDT_VENDOR__TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZMM_TT_OPEN_ORDER	Table type for open order item			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSD_SIDT_SALES_ORDER_FOREC_TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSCR_COMPONENTS	Components			ZHANA_SCI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSCIT_SOURCE_LINK	Code Inspector : Source Links			ZHANA_SCI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSCIT_OBJ_PAR	Code Inspector: Table Type for Objects			ZHANA_SCI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSCIT_DETAIL	Code Inspector: List of Detail Information			ZHANA_SCI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSCR_PROGRAMS_HASH	List of Program Names			ZHANA_SCI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSCR_REFS	Table of References			ZHANA_SCI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSCR_TOKEN_REFS	"CL_ABAP_COMPILER: Names, Tags, and Usage Degrees"			ZHANA_SCI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSCR_TYPE_COMPONENTS	Components of Structure			ZHANA_SCI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSDDT_CUSTOMER_INVOICE_TMA_TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSD_ORD_INTDT_OPEN_ORDERS__TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSDDT_CUSTOMER_INVOICE_TM_TAB1	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSDDT_CUSTOMER_INVOICE_TM_TAB2	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSDDT_CUSTOMER_INVOICE_TM_TAB3	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSCR_GLREFS	Table of References			ZHANA_SCI	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSYCM_SIMP_DATA_T	Table type for ZSYCM_SIMP_DATA			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSYCM_SIMP_CAT_T	Table type for ZSYCM_SIMP_CAT			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSPAU_UPL_OUTPUT_EXTRACT_YRS	Years			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSPAU_UPL_OUTPUT_EXTRACT_MONTS	Years			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSD_WATERFALLDT_WATERFALL__TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSD_WATERFALLDT_FIRM_FOREC_TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSD_WARPDT_PURCHASE_INFO_D_TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSD_TT_VBEP	Table Type to Update VBEP data			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSD_TT_TRUCK	Table Type for Schedule Lines - Truck Information			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSD_EAO_REPLACEMENT	table for replacement order details			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSD_FORECASTDT_FORECAST_DA_TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSD_TT_TIME_LINE_DATA	Table type for Time line data			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSD_MSEDT_PRICING_DATA_DET_TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSD_FORECASTDT_FORECAST_D_TAB1	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSD_TLMS_LOG	TLMS Error Log			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSD_TLMSDT_TIMELINE_DATA_D_TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSD_SIDT_TMCAORDER_FILE_FO_TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSD_SIDT_TMCAORDER_FILE_FI_TAB	Proxy Table Type (generated)			Z001	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCMVSITEM_ENPO	Generated Table for View			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCMVSITEM_AREA	Generated Table for View			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCMVSITEM	Generated Table for View			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCMVPLIST_HEAD	Custom Code Management: Header for piece lists			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCMVPLIST	Generated Table for View			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSPAU_E070_E071	Generated Table for View			ZSPAU	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCMVSITEM_PACK	Generated Table for View			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCMVSITEM_PLIS	Custom Code Management: Piece list of a Simplification Item			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCMVSITEM_STAT	Generated Table for View			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCM_SIMP_ENHS	Generated Table for View			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCM_SIMP_MODS	Join Simplification DB with ZSYCM_CUST_MODS			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCM_SIMP_REFS	Generated Table for View			ZUPD_SYCM	SAP ECC 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCM_SITM_STAT	Generated Table for View			ZUPD_SYCM	SAP ECC 6.0			

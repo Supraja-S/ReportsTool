@@ -1,0 +1,9 @@
+description	label 	value
+
+Sales and Distribution	SD	16
+
+Material Management	MM	10
+
+Finance and Controlling	FC	41
+
+Production planning	PP	45

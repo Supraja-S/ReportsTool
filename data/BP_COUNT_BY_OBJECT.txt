@@ -1,7 +1,11 @@
 key 	value
 
-Function Module	28
+Sales and Distribution	33
 
-Method (ABAP Objects)	15
+Material Management	24
 
-Program	41
+Finance and Controlling	8
+
+Production planning	20
+
+

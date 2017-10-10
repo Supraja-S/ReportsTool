@@ -1,0 +1,8 @@
+Obj	key 	value 
+PROG	Programs	5341
+BDC	BDC objects	49
+ENH	Enhancements	1
+FRM	Forms	374
+FM	Function Module	19
+OTH	Others	692
+HANA	HANA Specific	0

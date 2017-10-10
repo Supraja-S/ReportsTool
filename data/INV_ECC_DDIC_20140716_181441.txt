@@ -1,0 +1,121 @@
+PROGTYPE	OBJTYPE	OBJDESC	SUBOBJ	SUBOBJDESC	OBJNAME	OBJTEXT	APPLN	FRICETYPE	PACKAGE	SYSNAME	MAINPROG	INCL	REFOBJTYP
+Program type	Obj Type	Obj Desc.	Sub-Obj Type	Sub-Obj Desc.	Object Name	Object Desc.	Application Name	Frice Type	Package	Sys Name	Main Program	Include Name	Ref. Obj. Type
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZZPROVSWA	Provide SWA Flag			ZZZZ	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZOTMID	Domain for Thread Manager ID			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZZGSRQSTR	Goods/Services Requested by			ZABP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZLOCOD	Location Code			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZZSWAPOTYPE	SWA PO Type			ZZZZ	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZLOCNAM	Location Name			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZIXWB_D01	IXOS: WarnerBros - Approved (yes/no)			ZBBP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZZSWADESC	SWA PO Description			ZZZZ	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZSWADESC	SWA PO Description			ZZZZ	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZPROVSWA	Provide SWA Flag			ZZZZ	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZPRODESC	MPM Product Description			ZABP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZMATNRP	MPM Product Number			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZMATNRI	MPM Issue Number			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZIXWB_E45	Vendor To			ZBBP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZLIFNR	Vendor Number			ZSUPPORT	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZLOCNAM	Location Name			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZREQUESTER	Shop On Behalf			ZABP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZANUMBER	Address Number			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZTMID	Object ID			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZTEXT	Comment/Description			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSTATUS	Shopping Cart Status			ZSUPPORT	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSLIMIT	Spend Limit			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSLAL	Approval Limit			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSLA	SL Approver User ID			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZBUCODER	BU Coder			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCATALOG	Catalog			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCURR	Local Currency			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZREQ_AMT	Purchase Requisition Amount			ZSUPPORT	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZSWAPOTYPE1	SWA PO Type			ZZZZ	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPS_POST1	PS: Short description (first text line)			ZABP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZISSDESC	MPM Issue Description			ZABP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZLIFNR	Preferred Vendor			ZABP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSHOP_AMT	Shopping Cart Amount			ZSUPPORT	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZORGCODE	Organization Code			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDZEKKN				ZABP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZE1	E			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFNAME	Field Name			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZI1	I			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZIXWB_E17	Send to Invoice Processor (yes/no)			ZBBP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZIXWB_E19	IXOS: WarnerBros - Recurring Invoice flag			ZBBP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZIXWB_E21	IXOS: WarnerBros - Vendor range			ZBBP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZALIMIT	Approval Limit			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZSWAPOTYPE	SWA PO Type			ZZZZ	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZLOCOD	Location Code			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZMATKL	Material Group			ZSUPPORT	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZNAME1	Vendor Name			ZSUPPORT	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZMATNRF	MPM Family Number			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZFAMDESC	MPM Family Description			ZABP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZCONFFOR	Receipt On Behalf			ZABP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZVALUE	Field Value			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUSRNAME	User Name			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUNAME	Created by			ZFI	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPOTHER	Material Doc.			ZFI	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPO_AMT	Purchase Order Amount			ZSUPPORT	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAEDAT	PO Creation Date			ZSUPPORT	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPREQU	Pur.Requisition			ZFI	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPRIRATE	Primary limit flag			ZFI	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPOSID	Position ID			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPOSNAME	Position Name			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPLANT	Plant			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPORDER	Pur.Order			ZFI	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPOSCODE	Position Code			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZORGID	Organization ID			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZORGNAME	Organization Name			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUID	User ID			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZBADAT	PR Creation Date			ZSUPPORT	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZBASLIM	Shopping Basket Limit			ZFI	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZIXWB_E22	"IXOS: WarnerBros - Org type (US=R/3Login, P=Person, ....)"			ZBBP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZIXWB_E23	"IXOS: WarnerBros - Primary (R/3 User, Person, Department..)"			ZBBP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZIXWB_E27	"IXOS: WarnerBros - Designate (R/3 User, Person, Dep..)"			ZBBP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZIXWB_E44	Vendor From			ZBBP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZBBPCOSTCTR	Cost Center			ZABP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZD1	D			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZGSRQSTR	Goods/Services Requested by			ZABP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	SHLP	Search Help	ZZSWAPOTYP	SWA PO Types			ZZZZ	SRM 4.00			
+R3TR	DDIC	Data Dictionary	SHLP	Search Help	ZEBP278_POS	Search help for EBP report 278 for Positions			ZABP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	SHLP	Search Help	ZEBP278	Search help for EBP report 278			ZABP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	SHLP	Search Help	ZIXWB_T07_CODER	Search Help for Coder on Index Screen			ZBBP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZBAPI2093_RES_HEAD	Transfer Structure: Create Reservation Header EN0074			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZBAPI_PROFITABILITY_SEGMENT	BAPI Communication Struct.: Reservtn f. Profitability  EN74			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMSHC_POREQ	CRQ23600 -  Call from ECC to get shpg cart info for PO_Req			ZABP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMSHOP_CART	Shopping cart			ZSUPPORT	SRM 4.00			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZBBPX_EXTREQ_HEADER	PLM shopping cart interface header			ZBBP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMSHC_OLD	Old shopping carts			ZABP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZZBAPI_TE_REQUISITION_ACCOUNT	Customer Enhancement for REQUISITION_ACCOUNT_ASSIGNMENT			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZZBAPI_TE_PO_ITEM_ACCOUNT	BAPI: Customer Enhancements for PO_ITEM_ACCOUNT_ASSIGNMENT			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZVIDOCSTAT	Structure for Idoc status			ZABP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZBAPIRET2	Return parameter   EN0074			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZBAPI2093_RES_ITEM	BAPI Communication Structure: Reservation Item Fields  EN74			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZPEBP_EN74	EBP MPM Filed and Desc. Structure EN74			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZIXWB_OUTPUT_SEARCH_HLP	Search Help ZIXWB_T07_CODER Structure			ZBBP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFSHOPPING_SOX	Shopping Cart Information Report			ZSUPPORT	SRM 4.00			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFSHOPPING	Shopping Cart Information Report			ZFI	SRM 4.00			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFEBP_ORG	EBP User Attribute			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZCI_COBL	MPM related custom fields per EN00074			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZBPADDRESS	Vendor Address			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZBBP_COBL	Structure for Enhance EBP			ZBBP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZBBPX_EXTREQ_ITEM	PLM shopping cart interface item			ZBBP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSSAUTHREF	Crystal Decisions authorization references			Z001	SRM 4.00			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZZSWAPOTYP	SWA PO Types			ZZZZ	SRM 4.00			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZPARAMS	Table for maintaining ABAP Program parameters			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZABBP_ATTR_F1	Test field			ZABP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZCLUSTKEY	Cluster key definitions for data cluster reporting			Z001	SRM 4.00			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZREQITM	External shopping cart request item			ZBBP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZREQSTAT	External shopping cart creation status			ZBBP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSSAUTHCHK	Table for auth. check in Crystal Info/Crystal Reports			Z001	SRM 4.00			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSSAUTHFCN	Crystal Decisions Security Definitions for functions			Z001	SRM 4.00			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSSAUTHKEY	Table for Crystal authorization checks.			Z001	SRM 4.00			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSSAUTHOBJ	Table for Crystal authorization checks			Z001	SRM 4.00			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZREQHDR	External shopping cart request header			ZBBP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZCLUSTKEY2	Actual key information for data cluster reporting			Z001	SRM 4.00			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFREQLIMIT	Shopping Cart Requisition Limits			ZFI	SRM 4.00			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZIXWB_T07	 IXOS: WarnerBros - Routing table			ZBBP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZMAXENTRIES	Maximum entries for SRM Drop Downs			ZABP	SRM 4.00			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZABBP_OCI_ENRACCT	Customer fields for table BBP_OCI_ENRACCT			ZBC	SRM 4.00			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZCLUSTDATA	"Data ""piece"" definitions for data cluster reporting"			Z001	SRM 4.00			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZCLUSTID	Cluster IDs for data cluster reporting			Z001	SRM 4.00			
+R3TR	DDIC	Data Dictionary	VIEW	View	Z_SC_VIEW_ACC	Generated Table for View Z_SC_VIEW_ACC			ZPR	SRM 4.00			
+R3TR	DDIC	Data Dictionary	VIEW	View	Z_SC_VIEW_BUP	Generated Table for View Z_SC_VIEW_BUP			ZPR	SRM 4.00			

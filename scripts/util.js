@@ -84,5 +84,6 @@ function getFileContent(filePath){
 			}						
 	  }					
 	}
+	console.log(obj);
 	return dataSet;
 }
