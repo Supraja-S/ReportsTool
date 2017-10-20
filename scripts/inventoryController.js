@@ -14,7 +14,7 @@ reportsTool.controller('inventoryController',['$scope','getFileContent','chartCr
         }
     };
 
-    getFileContent.getData(getFileName('INV_ECC_COUNT_SUMMARY')).then(function(response){
+    getFileContent.getData(getFileName('INV_ECC_COUNT')).then(function(response){
         $scope.countSummary = response;
         console.log($scope.countSummary);
     });

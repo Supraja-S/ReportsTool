@@ -1,7 +1,5 @@
-TABNAME	TABID	COLOR	BARCOLOR
-Summary	SUMMARY
-CRM	CRM	panel-red	red
-#ECC	ECC	panel-primary	blue
-#Portal	PORTAL	panel-green	green
-Custom Developments	ECC	panel-red	red
-S/4 HANA System Readiness	SYSREDY	panel-primary	blue
+TABNAME	TABID	ICON
+Inventory	inventory	university
+Impact Ananlysis	impact	bar-chart
+S/4 HANA	sFour	mixcloud
+Business Process	bpview	tasks

@@ -30,10 +30,10 @@
 		
 	  </ul> 
 	  <ul class = "nav navbar-nav col-xs-12 clear-both">
-		 <li class = "nav-tab" ng-class="getClass(menuItem.linkCode)" ng-repeat="menuItem in navItems">
-			<a  href = "{{menuItem.linkCode}}">
-				<i  class="fa  pull-left fa-2x fa-{{menuItem.iconName}}"></i>
-				<span >{{menuItem.description}}</span>
+		 <li class = "nav-tab" ng-class="getClass('/'+menuItem.TABID)" ng-repeat="menuItem in navItems">
+			<a  href = "{{'/'+menuItem.TABID}}">
+				<i  class="fa  pull-left fa-2x fa-{{menuItem.ICON}}"></i>
+				<span >{{menuItem.TABNAME}}</span>
 			</a>
 			</li>
 			
