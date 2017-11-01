@@ -169,9 +169,11 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 	
 	}
 	function generateUsageCharts(){
-		s4TabService.getData(getFileName('Usage_defects_BY_count')).then(function(response){
+		$scope.defectFilter = 'COMPLEXITY';
+		s4TabService.getData(getFileName('DEF_ECC_COUNT_SUMMARY')).then(function(response){
 			$scope.usageCountsArray = response;
 		});	
+		
 		$scope.usageCharts = {
 			view1:'piechart',
 			view2:'donutchart',
@@ -188,34 +190,38 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 				data:[]
 			}
 		};
+		
 		$scope.usageCharts.piechart.options.chart.callback =  function(chart) {
 			//console.log(chart);
 			var prevArc = null;
 			chart.pie.dispatch.on('elementClick', function(e){
-				s4TabService.getData(getFileName('DEF_BY_COMPTYPE')).then(function(response){
-					$scope.usageCharts.donutchart.data =  response;
-					//console.log('elementClick in callback',response); 
-				});
-				if(prevArc){
-	                d3.select(prevArc).classed('clicked', false);
-	                d3.select(prevArc).select("path").transition().duration(70).attr('d', regularArc);
-	            }
-	            d3.select(e.element).classed('clicked', true);
-	            d3.select(e.element).select("path").transition().duration(70).attr('d', bulgedArc);     
-	            prevArc = e.element;                          
+					var file_name = 'DEF_ECC_'+e.data.Obj+'_'+$scope.defectFilter+'_SUMMARY';
+					s4TabService.getData(getFileName(file_name)).then(function(response){
+
+						$scope.usageCharts.donutchart.data  = response;
+						//$scope.defectsCharts.donutchart.data =  response;
+					});
+					if(prevArc){
+		                d3.select(prevArc).classed('clicked', false);
+		                d3.select(prevArc).select("path").transition().duration(70).attr('d', regularArc);
+		            }
+		            d3.select(e.element).classed('clicked', true);
+		            d3.select(e.element).select("path").transition().duration(70).attr('d', bulgedArc);     
+		            prevArc = e.element;                                 
 			});
 			
 		}
-		s4TabService.getData(getFileName('DEF_BY_COMPTYPE')).then(function(response){
+		s4TabService.getData(getFileName('DEF_ECC_SUMMARY')).then(function(response){
 			$scope.usageCharts.piechart.data = response;
 		});		
-		s4TabService.getData(getFileName('DEF_BY_COMPTYPE')).then(function(response){
-			$scope.usageCharts.linechart.options  = response;
-		});
+			
 		
-		s4TabService.getData(getFileName('DEF_BY_COMPTYPE_COMPLEXITY')).then(function(response){
-			$scope.usageCharts.donutchart.data =  response;
-		});
+		if($scope.usageCharts.donutchart.data.length ==0){
+			s4TabService.getData(getFileName('DEF_ECC_COMPLEXITY_SUMMARY')).then(function(response){
+				$scope.usageCharts.donutchart.data = response;
+			
+			});
+		}
 	}
 
 		
