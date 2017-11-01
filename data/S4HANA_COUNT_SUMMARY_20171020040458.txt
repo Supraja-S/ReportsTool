@@ -1,0 +1,4 @@
+key	value	color
+TOTAL	826	green
+SUPPORTED	670	blue
+NOT-SUPPORTED	39	red

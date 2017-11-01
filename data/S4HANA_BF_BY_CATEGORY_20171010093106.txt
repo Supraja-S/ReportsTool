@@ -1,0 +1,4 @@
+key	value
+Enterprise Addons	19
+Enterprise BF / Enhancement Package	569
+Industries Business Functions	238
