@@ -10,7 +10,12 @@ reportsTool.controller('navController',['$scope','$location','getFileContent',fu
 			return ($location.path().substr(0, path.length) === path) ? 'active' : '';
 		} 
 	}
-	  getFileContent.getData(getFileName('Tabs')).then(function(response){
+	getFileContent.getData(getFileName('HOMESCREEN_TEXT')).then(function(response){
+        console.log('response>>>>>',response);
+        $scope.clientName  = response[0].SYSDECRIPTION;
+        console.log('clientName>>>>>',$scope.clientName);
+    });
+	getFileContent.getData(getFileName('Tabs')).then(function(response){
         $scope.navItems  = response;
         console.log($scope.countSummary);
     });

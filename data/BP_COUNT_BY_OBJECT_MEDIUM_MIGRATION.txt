@@ -1,9 +1,5 @@
-description	label 	value
-
-Sales and Distribution	SD	34
-
-Material Management	MM	67
-
-Finance and Controlling	FC	89
-
-Production planning	PP	10
+description	label	value
+Finance and Controlling	FC	8
+Material Mangament	MM	4
+Production planning	PP	2
+Sales & Distribution	SD	6
