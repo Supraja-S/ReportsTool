@@ -1,0 +1,5 @@
+description	label	value
+Finance and Controlling	FC	        0
+Material Management	MM	        6
+Production planning	PP	        2
+Sales & Distribution	SD	        4

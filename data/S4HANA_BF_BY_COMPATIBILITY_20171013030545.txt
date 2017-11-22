@@ -1,0 +1,5 @@
+key	value
+ALWAYS ON	154
+Customer Switchable	389
+Default State	127
+OFF	39

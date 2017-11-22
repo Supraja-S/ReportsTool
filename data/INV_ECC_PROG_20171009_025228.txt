@@ -1,0 +1,7 @@
+PROGTYPE	OBJTYPE	OBJDESC	SUBOBJ	SUBOBJDESC	OBJNAME	OBJTEXT	APPLN	FRICETYPE	PACKAGE	SYSNAME	MAINPROG	INCL	REFOBJTYP
+R3TR
+Program type	Obj Type	Obj Desc	Sub-Obj Type	Sub-Obj Desc.	Object Name.	Object Desc.	Application Name	Frice Type	Package	Sys Name	Main Package	Include Name	Ref. Obj. Type
+updated the tran	Basis		ZINF	EHP6 FOR SAP ERP 6.0			
+R3TR	PROG	Programs	PROG	Program	ZIN00066	Informatica's PowerConnect, mapping: (m_sap_idoc_na_check_refund_ap_in
+20131018 rename back to ori	Basis		ZINF	EHP6 FOR SAP ERP 6.0			
+R3TR	PROG	Programs	PROG	Program	ZIN00043	Informatica's PowerConnect, mapping: (m_sap_idoc_acs_inbound_multi_ver

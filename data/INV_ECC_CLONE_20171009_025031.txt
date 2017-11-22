@@ -1,0 +1,170 @@
+PROGTYPE	OBJTYPE	OBJDESC	SUBOBJ	SUBOBJDESC	OBJNAME	OBJTEXT	APPLN	FRICETYPE	PACKAGE	SYSNAME	MAINPROG	INCL	R_MAIN_OBJ
+Program type	Obj Type	Obj Desc	Sub-Obj Type	Sub-Obj Desc.	Object Name.	Object Desc.	Application Name	Frice Type	Package	Sys Name	Main Package	Include Name	Ref. Obj. Type
+LIMU	CLON	Clone Objects	FUNC	Function Module	Z_PRELIMINARY_POSTING_POST_ALL	Vorerfaßte Belege buchen ohne Dynpro		N	ZFI	EHP6 FOR SAP ERP 6.0	SAPLZFI_FBS1	LZFI_FBS1U02	
+LIMU	CLON	Clone Objects	FUNC	Function Module	Z_PRELIMINARY_POSTING_FB01	Vorerfaßten Beleg buchen aus FB01		N	ZFI	EHP6 FOR SAP ERP 6.0	SAPLZFI_FBS1	LZFI_FBS1U01	
+LIMU	CLON	Clone Objects	FUNC	Function Module	Z_PP_COMPLETE_DOCUMENT_ENJ	Vervollständigen eines vorerfassten Beleges aus den Enjoy Transaktione		N	ZFI	EHP6 FOR SAP ERP 6.0	SAPLZFI_FBS1	LZFI_FBS1U03	
+LIMU	CLON	Clone Objects	FUNC	Function Module	Z_FI_ITEMS_MASS_CHANGE	Massenänderung von Einzelposten		N	ZFI	EHP6 FOR SAP ERP 6.0	SAPLZFI_THCHINA	LZFI_THCHINAU01	
+LIMU	CLON	Clone Objects	FUNC	Function Module	ZFI_FI_PAYMEDIUM_DMEE_CGI_05	DMEE: Reference fields for the format CGI_XML_CT		N	ZDMEE	EHP6 FOR SAP ERP 6.0	SAPLZDMEE	LZDMEEU01	
+LIMU	CLON	Clone Objects	FUNC	Function Module	ZARCHIVFILE_SERVER_TO_SERVER	Kopieren Datei von Server auf Server		N	ZFI	EHP6 FOR SAP ERP 6.0	SAPLZARCHIVFILE_SERVER_TO_SERV	LZARCHIVFILE_SERVER_TO_SERVU01	
+LIMU	CLON	Clone Objects	FUNC	Function Module	ZALSM_EXCEL_TO_INTERNAL_TABLE	Datenübernahme aus Excel mit OLE - Konvertierung ins interne Format		N	ZFI	EHP6 FOR SAP ERP 6.0	SAPLZEXCEL_UPLOAD	LZEXCEL_UPLOADU01	
+LIMU	CLON	Clone Objects	FUNC	Function Module	Z_PRELIMINARY_POSTING_POST_D	Vorerfaßten Beleg buchen mit Dynpros		N	ZFI	EHP6 FOR SAP ERP 6.0	SAPLZFI_FBS1	LZFI_FBS1U05	
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05VI00	SAPMF05V PAI Module	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZRFFORI01_CA	International Payment Medium Include: Check	Financial accounting	N	ZFI_NA_SMARTFORMS	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZRFFORI01_US	International Payment Medium Include: Check	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZRFFORI01_USA	International Payment Medium Include: Check	Financial accounting	N	ZFI_NA_SMARTFORMS	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZRFFORI06_CA	International Payment Medium Include: Payment Advice	Financial accounting	N	ZFI_NA_SMARTFORMS	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZRFFORI06_US	International Payment Medium Include: Payment Advice	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZRFFORI06_USA	International Payment Medium Include: Payment Advice	Financial accounting	N	ZFI_NA_SMARTFORMS	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZRFFORIY1	Payment Medium Include (BRAZIL): DME in A/R	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZRFKORI00	Form Printout Include Module: Declaration Part 1	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZRFKORI01	Form Printout Include Module: Declaration Section 2	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZRFKORI04	Form Printout Include Module: Declaration Section 5	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZRFKORI13PH		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZRFKORI25PH		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZRFKORI70	Form Printout Include Module: Analysis Routines 1	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZRFKORI80	Form Printout Include Module: Read Routines	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZRFKORI81	Form Printout Include Module: Read Routines 2	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZRFKORI90	Form Printout Include Module: General Subroutines	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZRFKORI91	Form Printout Include Module: Routines for Extract	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZRFKORI92	Form Printout Include Module: General Subroutines for Printing	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZRFKORI93	Form Printout Include Module: Messages and Log	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZRFKORIPH		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZIS01HK04		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05ACHK		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AF00_D0100_POST_APPL_SUB		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AF00_D0100_PRE_APPL_SUB		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AF00_D0100_PRE_APPL_SUB_2		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AF00_D1300_PBO		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AF00_SO_DP_DPR_CHECKF01	Include MF05AF00_SO_DP_DPR_CHECKF01	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AF01_AUTH_SEGMENT		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AF01_GET_TMODU		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AF01_GL_MIGPLAN_CHECK		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AF01_LPNEBELN_CHECK		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AF01_READ_MGPLN		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AF01_SIMULATE_LEDGER_VIEW		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AF01_SORT_POSTAB		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AF01_SORT_TABLE		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AF01_TC_STANDARDFIELDS		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AF04_FMFGUS_KEY	Include MF05AF04_FMFGUS_KEY	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFA0		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFA0_AUTH_LEDGER		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFAENJ		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFALV		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFB0		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFB0_BELEG_PARKEN		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFB0_FILL_BSEG_FROM_ADDAA		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFBENJ		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFC0		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFCENJ		Basis	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFD0		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFD0_DET_LEADING_LEDGER		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFDENJ		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFE0		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFE0_EXCTAB_FUELLEN		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFEENJ		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFFENJ		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFG0		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFGENJ		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFH0		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFHENJ		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFIENJ		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFK0		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFLENJ		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFM0		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFMENJ		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFN0		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFP0		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFP0_POSITIONEN_ERGAENZEN		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFPENJ		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFQ0		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFR0		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFRENJ		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFS0		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFS0_STATUS_SETZEN		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFSENJ		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFT0		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFTENJ		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFU0		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFUENJ		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFV0		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFVENJ		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFW0		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFWENJ		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFX1	IS-RE Real Estate Specials	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AFXENJ		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AHLP		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AHLP_F1_PDFFO		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AHLP_F4_KKBER		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AHLP_F4_MNDID		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AI00		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AI00_AGUMS_CHECK		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AI00_BSED_BANK		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AI00_CHECK_MNDID		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AI00_CHECK_STODT		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AI00_D0100_POST_APPL_SUB		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AI00_D0100_PRE_APPL_SUB		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AI00_FI_FM_SUBST_MABER		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AI00_VERIFDOC_REF_READ		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AI01_AUTH_LEDGER		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AI01_CHECK_MIG_GL		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AI01_D1702_OKCODE		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AI01_D1703_OKCODE		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AI01_GET_TOPLINE		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AI01_LPNEBELN_CHECK		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AI01_TC_ANZUMB_UPDATE		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AI10		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AI10_MWSKZ_DELETED		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AI10_REINDAT_PRUEFEN		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AI10_VATDATE		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AI10_XBKPF_XMWST_UPDATE		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AI20_DET_LEADING_LEDGER		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AIENJ		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AO00		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AO00_D0100_PRE_APPL_SUB		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AO00_D0127_INIT		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AO00_D1300_PBO		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AO00_DYNPRO_KOPF_MODIF		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AO00_SCREEN_MODIF_609		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AO00_TRANSAKTIONS_INIT		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AO01_LONGNUM_OUTPUT		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AO01_TC_ANFTAB_ANZEIGE		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AO01_TC_ANZUMB_ANZEIGE		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AO01_TC_ANZUMB_SUMME		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AO01_TC_LISTE_INIT		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AO10		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AOALV		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05AOENJ		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05ASKA		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05ASKB		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05ATAX		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05ATOP		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05ATOP_ALV		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05A_CHECK_FORM_FOR_PAYM		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05A_CLR_CONTRACTI01		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05A_CLR_CONTRACT_CHECKF01		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05A_DECO	Include MF05A_DECO	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05A_DECO_2	Include MF05A_DECO_2	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05A_DYNPRO_SEL_MODIFF01		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05A_DYNPRO_SEL_MODIFO01		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05A_F01	Include MF05A_F01	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05A_F02	Include MF05A_F02	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05A_F03	Include MF05A_F03	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05A_FAGL_SPECIAL_FUNC_F01		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05A_FEB		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05A_FILL_LPNO01	Include MF05A_FILL_LPNO01	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05A_GET_TFBUF		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05A_NO_ZTERM_CLEAR_SETI01		Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	INCL	Includes	ZMF05VF00	SAPMF05V Form Routines	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	MODP	Module Pool	ZRGGBR000	Exit Routines for Rules	General ledger	M	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	MODP	Module Pool	ZRGGBS000	Exit Routines for Substitution	General ledger	M	ZFI_NA_SA	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	MODP	Module Pool	ZSAPMF05A		Financial accounting	M	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	MODP	Module Pool	ZSAPMF05V	Document Parking	Financial accounting	M	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	PROG	Program	Z_RFFOUS_C_CA	International Payment Medium - Check (with check management)	Financial accounting	N	ZFI_NA_SMARTFORMS	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	PROG	Program	ZSPLIT_PAYMENT_ADVICE	Split of Payment Advices Notes that Are Too Large	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	PROG	Program	ZFIR_FAGL_YEC_POSTINGS	Closing/Opening Postings at Year End	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	PROG	Program	ZFIR_FAGL_FCV	Foreign Currency Valuation	Financial accounting	N	ZFI_FAGL_REPORTING	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	PROG	Program	ZRFIDMXFORMAT29	Monthly VAT Return for Vendors (Mexico)		N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	PROG	Program	ZRFEBLB20	Lockbox: BAI Format Processing	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	PROG	Program	ZRFEBLB00	Main Lockbox Program	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	PROG	Program	ZRFEBBU01	Post Temporary Storage Data Call	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	CLON	Clone Objects	PROG	Program	ZRFEBBU00	Update Account Statement/Check Deposit Transaction	Financial accounting	N	ZFI	EHP6 FOR SAP ERP 6.0			

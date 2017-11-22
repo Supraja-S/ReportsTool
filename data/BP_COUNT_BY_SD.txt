@@ -1,0 +1,4 @@
+description	label 	noimpact	conflict	high	Low	Medium	VeryHigh	Total	
+	
+Sales and Distribution	SD	10	20	10	10	5	5	30		
+

@@ -1,0 +1,1246 @@
+PROGTYPE	OBJTYPE	OBJDESC	SUBOBJ	SUBOBJDESC	OBJNAME	OBJTEXT	APPLN	FRICETYPE	PACKAGE	SYSNAME	MAINPROG	INCL	REFOBJTYP
+Program type	Obj Type	Obj Desc	Sub-Obj Type	Sub-Obj Desc.	Object Name.	Object Desc.	Application Name	Frice Type	Package	Sys Name	Main Package	Include Name	Ref. Obj. Type
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZKUNNR1	Customer \ Vendor Number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFDATCON	MasterSAF - Accounting Date			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFDATEMI	MasterSAF - Issue fiscal note date			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFDATSAI	MasterSAF - Exit date			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFDATSEL	MasterSAF - Select document data			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFDTFIM	Valid until			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFDTINI	Valid from			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZREBILL_IND	Rebill Indicator			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPROJ_NAME	Project name			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPROVINCE	ACS R4 Province Code			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPROV_DESC	Province Description			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPR_CODE	Z ACS R4 province code			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZRCV_DT	Release Orders Received Date			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZRCV_TM	Release Orders Received Time			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZREASON_CODE_DESC	Reason Code Description			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZHKONT	WO GL account			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZHKONT1	G/L Account Debit			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZHKONT2	G/L Account Credit			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZHRASSOC	HR Associate Number			Z_CONCUR	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZHYPER	Processing step			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZNMC	Claim Number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFIFUNR	MasterSAF - Integrate Funrural			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFIIRRF	MasterSAF - Integrate IRRF			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFINDAP	MasterSAF - Indicator of aplication			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFINDCF	MasterSAF - Indicator of Client/Supplier			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFINDICADOR	MasterSAF - Indicator for operation type			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFDATA2				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_COD_CONTA	Conta Contábil			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_COD_CLASS_DOC_FIS	Classificação do Documento Fiscal			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_COD_CFO	Código Fiscal			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_COD_CBO	CBO			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_COD_CANAL_DISTRIB	Canal de Distribuição/ Código Obra			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_COD_ATIVIDADE	Código Atividade Econômica			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_COD_APUR_SUB_ICMS	Código Apuração ICMS Subst. Tributária			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_COD_APUR_SU	Código Apuração ICMS Subst. Tributária			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_COD_APUR_IPI	Código Apuração IPI			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_COD_APUR_ICMS	Código de Apuração ICMS			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_CODRETFON				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZRECEIVABLES	PVH Receivables			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZRECID	Receiver ID			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZRES	Responsible Area			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZRETEN	Retention Days			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZRETEN2	Retention Days 2			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZRETURN	Z-Return RA# Auth code			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZREVAL	Revaluation Indicator			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZROOT	Root Cause Note			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZROOTDAT	Root Cause Date			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZROYALTY	Royalty Code			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZRST_DT	Release Orders Reset Date			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZNOTES	Notes			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFCRED50	MasterSAF - 50% credit			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFCTRIPI	MasterSAF - No Taxpayer IPI			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFDATA1				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCYCLE	Cycle			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_CHAR25_STATUS	Status			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFDVCF	MasterSAF - Use Division as Branch			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFESCR	MasterSAF - Scripture Y/N			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFESPTRIB	Especificação de Tributos			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFFRETE	MasterSAF - Shipping Mode			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFGRPCTG	MasterSAF - Class of evaluation			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFGRUCON	MasterSAF - Evaluation Class			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFHORAS				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFI147				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFICMSN	MasterSAF - Reverse ICMS - SAFX08(ICMS OTHERS)			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFICMSNESC	MasterSAF - ICMS Not revalued			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPCNT1	Current Bucket Pcnt			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCLASS_ITEM	Item classification			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCHECT	Check Number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCHECK	Check# /Reference			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCCKHINR	CC Hierarchy area			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCA_DE_USERID	User ID			ZCA_ENHANCEMENTS	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCA_DE_SEC_INDX	Activities regarding Data Persistence			ZCA_AUTHORIZATION	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCA_DE_SAPID	SAP User ID			ZCA_ENHANCEMENTS	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCA_DE_RUNTIME	Run Time			ZCA_UTILITIES	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCA_DE_RUNDATE	Run date			ZCA_UTILITIES	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCA_DE_PROCESS_ID	PVH Process ID (Enhancement)			ZCA_ENHANCEMENTS	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_CR_STATUS	Credit Status			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_CHAR25_VALUE	Legacy Field Value			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZBAMT1	Base Amount Permanent and Temporary VAT			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDAYS	No. of days			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFINDSAFX39C	MasterSaf - Indicator SAFX39 - Relat. PFJ/Company (SPEDCTB)			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFINDSAFX39F	MasterSaf - Indicator SAFX39 - Relat. PFJ/Company (SPEDFIS)			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFINICC	MasterSAF - Initial position of account accountante			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZREBIL	Rebill Indicator			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZREBILL	Rebill Indicator			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_CHAR25_SAP_VALUE	SAP Field Value			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_CHAR25_FIELD	Field Name			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_CC_KHINR	Cost Center Hierarchy			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_CCTEXT	Cost Center Description			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_ACTIVE	Active Yes/No			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFEEDER_SYST	Feeder System for Open Order Interfaces (ACS/R4)			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFE013	MACYS.COM -FE013			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFE008	MACY'S -ZFE008			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFE003	BLOOM -FE003			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_FILE_MONTH	Monthly Processing flag for IDOC Report			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_FILE_DAY	Expected day for IDOC Report			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_FILE2	Actual File Name			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDE_SYCM_NT_PRIORITY	Note priority			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDE_SYCM_NCS	Note Complexity Score			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDE_SYCM_EFFORT	Effort			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDE_SYCM_COMP_FACT	Complexity Factor Up to			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDE_SYCM_COMPLEXITY	Complexity			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDE_SYCM_COMP	Complexity			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDESYCM_CATEGORY	Defect Category			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDB	Credit Checking Database Name			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDAYS_OVERDUE_POSTING	Number of Days Item Is Overdue			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_R4	R4 Customer Cross Ref number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_SERVER	Server Details			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_SRC_FTYPE	Src File Type			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_STATUS	Control data table status			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_UID_PASSWD	User ID and Password			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFLAG	Opened or Closed Item			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFLG	Error			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZJC001	JCPENNY -JC001			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZITMDESC	Item description			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZINV_WEIGHT	INV WEIGHT			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZINVOICE	PVH Total Invoice			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZINTORDSUFFIX	Internal Order Name Suffix			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZIND_UTIL_BEM				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZIND_TIPO_TITULO	Credit Type			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZIND_OPER_CRED				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_FILE_PATH	File path			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z20652	WINNERS -20652			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z19097	SAKS SD -19097			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z00961	BJ'S -00961			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z00455	WALMART.COM -00455			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DE_REASON_CD	Source Reason Codes			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0377	TSA -Z0377			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_IND_TRANSF_CRED	Nota Fiscal Transferência de Crédito/ Débito			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_IND_TP_FRETE	Indicador do Tipo de Frete			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_IND_SIMPLES_NAC	Enquadrado como Simples Nacional			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_IND_SCP	Sociedade em conta de participação			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_IND_PFJ_CONTRIB	Pessoa Física Contribuinte			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_IND_NF_ESPECIAL	Nota Fiscal Incentivada			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_IND_MUNIC_ISS	Indicador Município Beneficiário do ISS			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0371	SAM'S -Z0371			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_WO_ERROR	Auto Write-Off Error Code			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_TOL_DAYS	Number of Days Tolerance (Range)			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SAP_INTERFACE	Business Interface Name			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SAF_TIPO_APUR	Type of assessment			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SAF_REFL_APUR_ICMS	Reflection in the calculation of ICMS			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SAF_ORIG_TRIB	Source of taxation			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SAF_NAT_OPER	Reflection in the calculation of ICMS			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SAF_INFL_RCLH	Influence on gathering			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SAF_INDICAD	Reflection in the calculation of ICMS			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SAF_CODG_RESP	Code responsibility			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_SAF_AJUS_ICMS	ICMS Adjustment			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_IND_MODELO_CUPOM	Modelo Cupom Fiscal			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_IND_FOME_ZERO	Participante do Programa Fome Zero			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_IND_FIS_JUR	Código Pessoa Física/Jurídica			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_IND_FISJUR_CPDIR	Indicador Pessoa Física / Jurídica de Compra Direta ou Forne			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_IND_FATURA	Tipo de Faturamento			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_IND_CRED_ICMSS	Apropria			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_IND_CONTEM_COD	Indicador do Conteúdo do Código			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAUFT_A5	PVH Orders Released A5			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZTRACKDESC	Tracking Reason Code description			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZTRACK	Tracking WO Code			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZTIPO_LANCTO				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZTEXP	Tracking Expiration Date			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZTDEAD	Tracking Deadline Date			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZTAXD	Tax Description			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSPECIAL	Collection specialist			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_INDD_DCTF				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_INDNATREC				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_IND_CLASSE_EMP	Classe de Empresa			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_IND_CLASSE_OP_ISS	Responsável pelo Recolhimento de ISS			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_IND_CLASSE_PFJ	Classe de Pessoa Física Jurídica			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_IND_CLIENTE_SID	Indicador de Cliente SID			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_RECVD_FLG	Credit Checking - Flag that file has been processed			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSKFOR	PVH Total Receivables			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSDA	Date Source			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSPAU_PROCESSOR	Processor			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSPAU_STATE	Object state in SPAU			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_INSC_ESTAD_SUBSTIT	Inscrição Estadual Substituto Tributário			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZVEND_NO	Vendor number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_REF_INT_NAME	REF_INT_NAME			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_REF_INT_TYPE	REF_INT_TYPE			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFTYPITM	Document Classification Tax Item Type			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFTRCRED	Transfer Credit			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_INSC_ESTADUAL	Inscrição Estadual			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_ORIGIN_DESCR	Origin Description			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_OBJ_TEXT	Object Text			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_OBJ_NAME	Object Name			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_OBJECT_DESC	Object  Type Description			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_MAIN_PROG	Main Program			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_MAIN_OBJ_DESC	Main Object Description			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_MAIN_OBJ	Main Object			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZVBLNR	Check Number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_LINNO	Line Number			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFTOTAL				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_NUM_PAGINA	Página			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZATWRT	PVH Credit Status			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSDISC	Z-Discount Date			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSDIVISION	ACS Division			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSERS	Z-ERS# for 820 or ASN#			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSFRT	Z-Freight Amount			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSOP	Z-Op Ship To			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSORD	Z-Order Number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSOTH	Z-Other Amount			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSOTYP	Z-Order Type			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSPO	Z-Alternate Customer PO#			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSSCAC	Z-SCAC Code			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSSHDT	Ship Date			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSSLS	Z-Sales Person			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSSOLD	Op Ship To			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSTAX	Z-Tax Amount			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSWHCD	Z-Warehouse Code			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZALTKN	Previous Master Record Number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAM005	BON TON -AM005			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAMT_INV	Amount Original Invoice			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAP_AMT	Checker 3 Amount Approved			ZFI_AP_CHECKER3	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAP_APPROVER	Checker 3 Approver			ZFI_AP_CHECKER3	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAP_APP_EMAIL	Checker 3 Approver Email			ZFI_AP_CHECKER3	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAP_DE_EMAIL_BODY	Object Name for Email Body Text			ZFI_NA_SMARTFORMS	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSTATUS_TIME	IDoc Received Time			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSTCD1	Tax ID 1			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSTCD3	Tax ID 3			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSTORE_CONSTRUCT	Store Construction ( Y or N)			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSTORE_NO	Store Number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSTORE_UNIQ_ID	Store Unique ID			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSYCM_AUTHORIZATION_AREA	Custom Code Management: Authorization Object: Area			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSYCM_CATEGORY	Defect Category			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSYCM_COMPLEX	Complexity			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSYCM_CUST_DATA_ID	Customer data id			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSYCM_ENTRY_POINT_TYPE	Custom Code Management: Type of an entry point			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSYCM_ORIGIN	Origin of data			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSYCM_SITEM_AREA	Custom code management: Area of a simplification item			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSYCM_SITEM_STATE	State of a simplification item			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSYCM_SITEM_VERSION	Version of a simplification item			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSYCM_SITM_STATE	State of a simplification ite			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSYCM_VERSION	Custom Code Mangagement: Versioning			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZTAMT1	Total Permanent			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZTAMT2	Total Temporary			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_INSC_MUNICIPAL	Inscrição Municipal			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_NIVEL				ZLK	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_R4_ITM_NUM	R4 Item Number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSTATUS_DATE	IDoc Received Date			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_INDCP				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_IDENT_FIS_JUR	Indicador Pessoa Física/Jurídica			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_HKONT				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_FAX	Fax			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_E_MAIL	Endereço Eletrônico			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_ENDERECO	Endereço			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_DT_VNCTO	MasterSAF - Expiration Date			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_DISTRITO	Distrito			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_DIF_ALIQ_ICMS	Diferença Alíquota ICMS			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_DDD	DDD			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_ALIQ_INSS	Valor Alíquota INSS			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAUFT_DR	Orders Released DR			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAUFT_R4	PVH Orders Released R4			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAUFT_SP	PVH Orders Released SP			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSCI_NO_MOVES	Number of Moves			ZHANA_SCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSCI_EFFORT	Code Inspector: Columns			ZHANA_SCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAUFT_TW	PVH Orders Released TW			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSCI_DETAIL	Code Inspector: Detail Information			ZHANA_SCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_DESC_CONDIC	Desconto Condicional			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_FRETE	Valor do Frete			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSPECIALNAME	Collection Specialist Name			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSPECIALS	Collection specialist			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_ALIQ_IPI	Alíquota IPI			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_BASE_OUTR_ICMS	Base ICMS Outras			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_BASE_OUTR_IPI	Base IPI Outras			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_BASE_REAL_TERC_ISS	Base ISS Realizados por Terceiros			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_BASE_REDU_ICMS	Base Redução ICMS			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_BASE_REDU_IPI	Base Redução IPI			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_BASE_SUB_TRIB_ICMS	Base ICMS Substituição Tributária			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_BASE_TRIB_ICMS	Base ICMS Tributada			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_BASE_TRIB_IPI	Base IPI Tributada			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_BASE_TRIB_IR	Base IR Tributada			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_BASE_TRIB_ISS	Base ISS Tributada			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0009	AAFES -Z0009			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_NUM_MAQ_REG	Número Máquina Registradora			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_NUM_LIVRO	Livro			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_NUM_ENDERECO	Número do Endereço			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0322	TJX -Z0322			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_NUM_DOCFIS_REF	Número do Docto. Fiscal de Referência			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_NUM_DOCFIS	Número do Documento Fiscal/ Número do Mapa Resumo de Caixa			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_NUM_DEC_IMP_REF	Número da Declaração de Importação			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0317	NORDSTROM -Z0317			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_CPF_CGC	CPF-CGC			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_INT_NAME	INT_NAME			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_INCL	Include Name			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_FRICE_TYPE	Frice Type			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_ERR_MSG	Error Message			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_DT_TW	Release Orders Update Date TW			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_DT_SP	Release Orders Update Date SP			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_DAT_DI	Data  Declaração de Import/Data Doc. Original nas Oper dev			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0261	FRED MEYER -Z0261			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0288	K MART - Z0288			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_DAT_CANCELAMENTO	Data de Cancelamento			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0301	TJX -Z0301			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_DAT_AUTENTIC	Data Autenticação/Data do Canc. da NF			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_DATA_X04	Data Início/Inclusão/Alteração			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_DATA_SAIDA_REC	Data de Saída/Recebimento			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_DATA_EMISSAO	Data de Emissão			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_CX_POSTAL	Caixa Postal			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_NUM_CONTROLE_DOCTO	Número de Controle da Nota Fiscal			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_NUM_CUPON_FISC	Número Cupom Final do Dia			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_TM_SP	Release Orders Update Time SP			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_CONTRIB_FINAL	Contribuinte Final			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_COMPL_ENDERECO	Complemento do Endereço			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_TM_A4	Release Orders Update Time A4			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_TM_A3	Release Orders Update Time A3			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_TM_A2	Release Orders Update Time A2			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0238	CENTURY 21 -Z0238			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_BAIRRO	Bairro			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_BASE_ICMS_ORIGDEST	Base ICMS Origem/Destino			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_BASE_ISEN_ICMS	Base ICMS Isenta			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0218	BEALLS -Z0218			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_BASE_ISEN_IPI	Base IPI Isenta			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_BASE_ISEN_IR	Base IR Isenta			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_BASE_ISEN_ISS	Base ISS Isenta			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZTXT20	G/L Account Name			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZTXT50	G/L Account Description			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPL_JOBNAME	UPL extraction job name			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZVAMNT	Temporary VAT Amount			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUDM_ROOT_CCODE	Root Cause code			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_DT	Released Orders Update Date			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_DT_A2	Release Orders Update Date A2			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_DT_A3	Release Orders Update Date A3			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_DT_A4	Release Orders Update Date A4			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_DT_A5	Release Orders Update Date A5			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_DT_DR	Release Orders Update Date DR			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_REF_OBJ_TYPE	Reference Object Type			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_COD_INDICE	Índice de Conversão			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_COD_MUNICIPIO	Código do Município			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_REF_SUB_NAME	REF_SUB_NAME			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_REF_SUB_TYPE	Reference Sub Object Type			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_R_MAIN_OBJ	R_MAIN_OBJ			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_COD_MODELO	Modelo de Documento			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_COD_NATUREZA_OP	Natureza de Operação			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_COD_PAIS	País			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_SIMPLI_ID	Simplification Id			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_COD_QUITACAO	Condição de Quitação			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_TITLE	Title of the Simplification Item			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_TM	Release Orders Update Time			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_COD_REGIAO	Código da Região			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_COD_TRIB_INT	Código Tributação Interno			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZWRITEGLDESC	Write-off G/L Reason Description			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZWRITEGL	Write-Off Reason Code			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZWRITEDT	Write-Off Date			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZWERTV15	Value field 13(25) characters with 2 decimal places			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZWEEK	Week			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZVTEMP	Base Amount Temporary VAT			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFNFDESC	MasterSAF - SAP - Optional description of fiscal note type			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFNORDEV	MasterSAF - Normal or return			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFNRARQ				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZVGINT	New Posting rule			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFORIGEM	MasterSAF - Source documents			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFOUTISE	MasterSAF - Codes for Others/Free			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFPATH				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFPDTI	MasterSAF - Cost center PDTI			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFSTFRET	MasterSAF - Freight Tax Replacement			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFSUBSER	MasterSAF - Shipping by serie			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFTAXGRP	MasterSAF - Tax Groups			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZVGEXT	External business transaction			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFTAXTIP	MasterSAF - Kind of tribute			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZVERSPRDT	MasterSAF Product Version			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFTIPONF	MasterSAF - Fiscal note type			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFTIPORPS				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_DT_R4	Release Orders Update Date R4			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_TM_A5	Release Orders Update Time A5			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_TM_TW	Release Orders Update Time TW			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZTS_UPD	TimeStamp - Released Orders Update			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_DAT_ESCR_EXTEMP	Data Escrita Extemporânea			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_EDIDC_DESCR	EDIDC Inteface Description for IDoc Validation			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_EDIDC_COUNTER	EDIC Counter of Processed Documents			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_PIS_PASEP	Número do PIS/PASEP			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_PERC_RED_BASE_ICMS	Percentual Redução Base Cálculo ICMS			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_PER	Period			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0355	ROSS -Z0355			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_OCORRENCIA_TRAB	Ocorrência do Trabalhador			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_OBS_SUBST_ICMS	Observação ICMS Substituição Tributária			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_OBS_IPI	Observação IPI			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_OBS_ICMS	Observação ICMS/ISS			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_N_ENDERECO	Número do Endereço			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_NUM_SELO_CONT_ICMS	Número Selo Controle de NF			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0438	S.R.I. -Z0438			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0437	BEALLS -Z0437			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0427	COSTCO -Z0427			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0419	STEINMART -Z0419			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0410	WALMART -Z0410			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0396	TARGET - Z0396			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DE_SRC_ACCT	Source System Account			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZOUNR	SAP Division/ Profit Center (Assignment)			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0736	BURLINGTON -Z0736			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0543	KOHL'S.COM -Z0543			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0460	SEARS -Z0460			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0457	NORD. RACK -Z0457			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0453	NORDSTROM -Z0453			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0447	NORD. RACK -Z0447			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_ALIQ_IR	Alíquota IR			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFIPISN	MasterSAF - Reverse IPI - SAFX08 (IPI OTHERS)			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_CREDIT_BALANCE	Credit Balance			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_DEBIT_BALANCE	Debit Balance			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_APPL	SAP Application for IDoc Monitor			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZTXJCD	Tax Jurisdiction			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZSTATUS	Status: Success/Abend etc.			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_DESCRIPTION	File Processing Status			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_DIRECT_DESC	Direction for IDoc			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_REF_OBJ_NAME	Reference Object Name			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DE_SRC_CCD	Source System Company Code			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DE_SRC_DT	Source System Document Type			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DE_SRC_PRCTR	Source System Profit Center			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZPRCTR	SAP Division/Profit Center (Assignment)			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DE_SRC_BU	Source system Business Unit			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0439	BELK -Z0439			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_NET_BALANCE	Suspense/Clearing Net Balance			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_NATUREZA				ZLK	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_MONTH_DAY	Day of Month			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_INDICA				ZLK	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_FILE_NAME	Business interface name			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_FILE_LOCAL	Local de gravação de arquivos			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_EXPECTED	File Expected (Y/N)			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_EDI_WRBTR	IDoc Amount			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z_EDI_STATUS	IDoc Status			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_RATE	Tax Rate			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_BASE_DIF_FRETE	Valor Diferença Alíquotas Fretes			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_BASE_INSS	Valor base INSS			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_BASE_ISE_ICMSS	Base Isenta ICMS-S			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_BASE_OUT_ICMSS	Base Outras ICMS-S			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_BASE_PIS	Base PIS			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_COFINS	Valor COFINS			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_CONTAB_COMPL	Valor Total Serviços			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_DESCONTO	Valor Descontos			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_SYCM_INT_TYPE	Internal Type			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_TM_R4	Release Orders Update Time R4			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZTS_RST	Credit Checking Balance Update TimeStamp - Reset			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZTS_RCV	Credit Checking Balance Update TimeStamp - Received			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZTS_GEN	Credit Checking Balance Update TimeStamp - Generated			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZUPD_TM_DR	Release Orders Update Time DR			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZTS15	Credit Checking Balance Update TimeStamp			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZTRKREASON	Track this Reason Y/N			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_CPF_CNPJ_INV	CPF/CNPJ (Convênio ICMS 115)			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFNESTO	MasterSAF - Stock nature			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFVERSAO				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFVLRSER	Parameter - Service value			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_ALIQ_ICMS_ORIGDEST	Alíquota ICMS Origem/Destino			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFIPIJUD	Treat IPI by a special way			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFINTFRETE				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFININBM	MasterSAF - Initial NBM			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_CATEGORIA_TRAB	Categoria do Trabalhador			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_DAT_FATO_GERADOR	Data do Fato Gerador			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0443	KOHL'S -Z0443			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0442	DILLARDS INT. -Z0442			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZZ0440	DILLARDS -Z0440			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_INSC_SUFRAMA	Inscrição Suframa			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_LIFNR				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_MOVTO_E_S	Movimento Entrada/Saída			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_NOME_FANTASIA	Nome Fantasia			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_NORM_DEV	Normal ou Devolução			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_NRO_AIDF_NF	Número da AIDF			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_NUM_CEP_CX_POSTAL	Número do CEP - Caixa Postal			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_DAT_VALID_DOC_AIDF	Data Validade do Documento Fiscal AIDF			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_ALIQ_ICMS	Alíquota ICMS			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_ALIQ_DESTINO	Valor da Alíquota de Destino			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_UF	UF			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_TP_LOGRADOURO	Logradouro			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_TELEFONE	Telefone			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_S_SER_DOCFIS_REF	Subsérie do Docto. Fiscal de Referência			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_SUB_SERIE_DOCFIS	Subsérie do Documento Fiscal			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_SUB_DISTRITO	Subdistrito			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_SITUACAO	Situação da Nota			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_SERIE_DOCFIS_REF	Série do Docto. Fiscal de Referência			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_SERIE_DOCFIS	Série do Documento Fiscal			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_RAZAO_SOCIAL	Razão Social			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_ALIQ_ISS	Alíquota ISS			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_ALIQ_SUB_ICMS	Alíquota ICMS Substituição Tributária			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_BASE_COFINS	Base COFINS			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZGEN_DT	Release Orders Generation Date			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFULL	Full payment Reason Code			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DEL_ARC_FLAG	Archive Delete Flag			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DEST_DOCTYPE	Destination Document Type			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFSC_A	FSC%/A			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZASSOC_NAME	HR Associate Name			Z_CONCUR	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAUFT_A3	PVH Released Orders  A3			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAUFT_A4	PVH Orders Released A4			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DEST_DT_DESC	Destination Document Type Desc			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DEST_INVCSER	Destination Invoice Serial			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DE_CHK3_MAX	Maximum Approver Amount			ZFI_AP_CHECKER3	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DE_DSDESC	DS Description			ZFI_NA_SA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DE_DSSTAT	Active Status			ZFI_NA_SA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DE_DSTYPE	SA Number			ZFI_NA_SA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DE_GL_PERC	G/L Amt percentage of Vendor Amt			ZCA_UTILITIES	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DE_INVC_TYP	Destination Invoice Type			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z80641	WINNERS -80641			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z80651	WINNERS -80651			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZNOTES5	Notes 5			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZNWWOGL	Neckwear Royalty Code			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZOBLIG_F02L	PVH Credit Exposure (for credit limit check)			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZOCCURDT	Occurrence Date			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZORDOC	Original Document			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPARTIAL	Partial Payment Reason Code			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPCKHINR	PC Hierarchy area			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFA022	BON TON -FA022			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFA008	BON TON -FA008			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZERROR	Credit Checking Balance Error			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDR013	Check Number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDR012	Bank Account No			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDOC	Document type			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDMBTR	Permanent VAT Amount			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDIV_DESC	SAP Division/Profit Center (Assignment) Description			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DE_JDE_CSTNR	JDE Customer Number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCA_DE_LIFNA	Vendor and Name			ZCA_UTILITIES	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSDIS	Z-Discount Amount			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAP_DE_EMAIL_DFLT	Default Email (for Errors)			ZFI_NA_SMARTFORMS	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFSCMBOLNR	Bill of Lading			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFORMPAGTO	MasterSAF - Payment			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z81083	HBC -81083			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z81086	WALMART -81086			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z81152	NORDSTROM -81152			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z81171	SEARS -81171			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z81172	SEARS -81172			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z83035	AMAZON.COM -83035			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAB_DE_ANID	Ariba - Supplier Ariba Network Id			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAB_DE_BUYERID	Ariba - Common Supplier Id			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAB_DE_EANBLE	Ariba - Supplier Enable			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAB_DE_EMAIL	Ariba - Email address			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAB_DE_ORDMETHOD	Ariba - Preferred Ordering Method			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAB_DE_PAYMENTID	Ariba - Payment ID			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAB_DE_PCARD_NUMBER	Ariba - Ghost PCard Number			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAB_DE_PLEVEL	Ariba - PCard Acceptance Level			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAB_DE_PURCHUNIT	Ariba - Purchasing Unit			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAB_DE_SUPPLIER	Ariba - Is Ariba Supplier?			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACCTF	Accounts: From			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_ICMS_NDESTAC	ICMS Não Escriturado/Estorno de Débito de NFST			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_ICMS_ORIGDEST	Valor ICMS Origem/Destino			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_INSS_RETIDO	Valor INSS Retido			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_IPI	Valor IPI			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_IPI_NDESTAC	IPI Não Escriturado			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_IR	Valor IR			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z80785	COSTCO -80785			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAR_DE_CHECK	A/R Check Number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DE_OCCURRENCE	Occurrence			ZCA_UTILITIES	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DE_LOCATION	Source Location Values			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DE_LCL_CLASS	Local Classification Values			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDIVISION	Division			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_CEP	CEP			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_CEI	CEI			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFNAST	MasterSAF - Date in name file			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFNAMEDT	Date in name file			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFMWSKZ				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFMTART	MasterSAF - Indicator Product/Tag			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFMOVES	MasterSAF - Code for Movement I/O			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFMATSV				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFMATPR	MasterSAF - Generic product code			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFMAPROD	MasterSAF - Mask for product			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFMAFI				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFMA2	MasterSAF - Codes for Others/Free			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFLITXT				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFLIM				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFITTXT	MasterSAF - Use item text ?			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFITET	MasterSAF - Integrate Stock Movement			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFITCT	MasterSAF - Integrate Accounting			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFITCR	MasterSAF - Integrate Accounts Receivable			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFITCP	MasterSAF - Integrate Accounts Payable			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFIT147				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_CODIGO_CONTABIL	Código Contábil			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZGEN_TM	Release Orders GenerationTime			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDISC_A	DISC%/A			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDE_ZSTEP	Step			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDE_SYCM_TECH_CF	Tech_Complexity Factor			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDE_SYCM_SEVERITY	Severity			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDE_SYCM_ST_PRIORITY	State priority			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_ICMS	Valor ICMS			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFUSU				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_COD_FIS_JUR	Código/Destinatário/Emitente/ Remetente			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_COD_ESTAB	Código do Estabelecimento			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_COD_EMPRESA	Código da Empresa no Mastersaf			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_COD_DOCTO	Tipo do Documento			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZXBLNR	Invoice Reference			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDISREB	Dispute Reason Code - ReBill Indicator			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZDISC_INV	Discount Amt Invoice Original			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFCLASDOC	Document Classification Fiscal			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFCODOPE	Código de Operação			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFCODREC	Código de Receita			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFCODTRIB	Código de Tributos			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFCPSERV	MasterSAF - Accounting value - service			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZNOTES4	Notes 4			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCUTOFF	Cut-Off Amount			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCUS_TRKORR	Customer Enhancement/Modification: Last transport			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCUSTPAY	Customer Payment			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCONTA				ZLK	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCOMMENT	NA- FMS Interface comment			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCOD_VIA_SP	Transport Code Via SP			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCOD_GRUPO_BEM				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCLOSE	Case Status to be Closed Automatically			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFA027	SAKS -FA027			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFCFOSP	MasterSAF - CFO SP			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFCFOSC	MasterSAF - CFOP SC			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFCAICMS	MasterSAF - ICMS Determination code			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFBUKRS2				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFBUKRS1				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFBACF				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFARQ				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFAMPLEG	Support legal			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF145				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZRST_TM	Release Orders ResetTime			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCA_DE_MANAGER	User ID of Manager/Supervisor			ZCA_ENHANCEMENTS	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZNOTES1	Notes 1			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZNOTES2	Notes 2			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZNOTES3	Notes 3			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_CIDADE	Município			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZWT_RATE	WT/RATE			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCA_DE_INDX_TIME	Time indicator for export/import data storage			ZCA_UTILITIES	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_SUBST_ICMS	Valor ICMS Substituição Tributária			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_TOM_SERVICO	Valor Serviço de Transporte - Valor Frete			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_TOT_NOTA	Valor Total do Documento Fiscal			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAPDIVISION	SAP Division			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAUFT	PVH Released Orders			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAUFT_A2	PVH Released Orders A2			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACCTT	Accounts: To			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z20816	AMAZON -20816			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z22582	BOSCOV'S -22582			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z22902	BLOOM.COM -22902			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z23111	SAKS -23111			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z23112	SAKS -23112			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z23684	TSA CONS -23684			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZJC003	JCP -PR - JC003			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZKLPRZ_F02L	PVH Credit limit used			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZKOART	Customer \ Vendor			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZKOSTL	WO Cost center			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_FILE1	File Name Template with upper_lower_case			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZKUNNR2	Offset Customer / Vendor			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZLEASE	LEASE STATUS/TYPE			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZLEI11603	Service code law 116/03			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZMA006	L&T - MA006			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZMAX	Max Writeoff - Rsn Max Writeoff			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZNAME2	Vendor Name			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZNAMEW	Customer \ Vendor Description			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZNETDUEDATE	Net Due date			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPCNT2	Due 30 Pcnt Bucket			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPCNT3	Due 60 Pcnt Bucket			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPCNT4	Due 60+ Pcnt Bucket			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPCNT5	Future Bucket Pcnt			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPERMV	Base Amount Permanent VAT			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPICK	Z-Pick Slip			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPRCTR	SAP Division/Profit Center (Profit Ctr)			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_SUBEMPR_ISS	Valor Subempreitada (ISS)			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z80572	HBC -80572			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z80464	SEARS -80464			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAR_DE_DBT	Average Days Beyond Terms (DBT)			ZFI_AR_REPORTING_CREDIT	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAR_DE_ITEMTYPE	A/R:  Line Item type			ZFI_AR_REPORTING	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAR_DE_PAYPOINT	A/R Paypoint			ZFI_AR_REPORTING	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z80355	SEARS -80355			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z80064	SEARS -80064			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z80060	HBC -80060			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z26955	BON TON -26955			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z26954	BELK ECOM -26954			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z26609	DSG.COM -26609			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAR_PRCTR	SAP Division/Profit Center (Assignment)			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZASSIGN	Assignment Field			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZASSIGND	Assigned Date			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZASSING_INV	Assignment from Invoice			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSACCT	Z- Account Number-Ship to-Store no			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSARSN	Z-Invoice Royalty Code			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSBOL	Z-Bill of Lading			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSCLA	Z-CLAIM #			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSCLM	CLAIM #			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSDEBIT	Z-Debit Memo#			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSDEPT	Z-Department			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZACSDIRE	Z-Account No-Direct Customer			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	Z24374	DSG - 24374			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_ISS	Valor ISS			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_MAT_APLIC_ISS	Valor Material Aplicado			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_NOTA_CONV	Valor do Documento em Índice			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_OUTRAS	Valor de Outras Despesas			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_OUTROS1	Valor de Diferencial de Alíquotas			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_PIS	Valor PIS			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_PRODUTO	Valor dos Produtos / Serviços			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_RED_BASE_ICMSS	Redução Base ICMS-S			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAF_VLR_SEGURO	Valor do Seguro			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPRCTRWO	WO Profit Center			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_PCTEXT	Profit Center Description			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_OFFVENDOR	Offset vendor number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_OFFVENDNAME	Offset vendor name			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_OFFCUSTNAME	Offset Customer Name			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_OFFCUST	Offset Customer Number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_MAPID	FI Interface Informatica Mapping ID			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_HK_ID_GSC	Identifier			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_HK_ID_CODE	Code			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_GLDESC	GL Account Description			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_FTP_TYPE	FTP TYPE			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_FTP_PARTNER_NAME	FTP partner Name			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAP_DE_EMAIL_SENDER	Alternative Email address (Sender)			ZFI_NA_SMARTFORMS	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAP_DE_NA_LOCATION	A/P NA - location code for remit to vendor			ZFI_NA_REMITTO	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAP_MANAGER	Checker 3 Manager			ZFI_AP_CHECKER3	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZAP_MGR_EMAIL	Checker 3 Manager Email			ZFI_AP_CHECKER3	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFNAME_TEXT	Field Name Text			Z_EDI_820	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZBELNR	Accounting doc info			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZBLDAT_INV	Date Original Invoice			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZBOL	STR BOL - Bill of lading number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZBOLNR	Bill Of Lading Number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZBSCH1	Posting Key Debit			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZBSCH2	Posting Key Credit			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZBSTNK	Purchase Order Number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCACCT	Total  Permanent and Temporary			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCALVC	Permanent and Temporary VAT Amount			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCASE	Case Status			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCASH	PVH Total Cash			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCA_DE_ACTIVE	Active (Yes/No)			ZCA_ENHANCEMENTS	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCA_DE_ARCHIVE_ACTION	Archiving Action			ZCA_UTILITIES	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCA_DE_BUKNA	Company and Name			ZCA_UTILITIES	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCA_DE_HEADING	Column Header Code			ZCA_UTILITIES	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCA_DE_INDX_DATE	Date key for export/import data storage			ZCA_UTILITIES	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZCA_DE_INDX_DESCRIPTOR	Descriptor for export/import data storage			ZCA_UTILITIES	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_PC_KHINR	Profit Center Hierarchy			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPREV_INV	Previous Invoice Number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZPROCESSED	Doc updated(Y/N )			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZJC002	JCPENNY -JC002			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DE_SANUMBER	SA Number			ZFI_NA_SA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DE_REFNUM05	Reference Number (Char 5)			ZFINA_GARNISHMNT	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DE_SRC_PYTM	Source System Payment Term			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DE_SRC_SUBLED	Source system Sub Ledger			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DE_SRC_SYS	Source System Identifier			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DE_SUB_ACCT	Source Sub Account			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_DE_VLOCATION	FI:NA - Vendor location			ZFI_NA_REMITTO	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZFI_FILE	Control table INFORMATICA File name			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DTEL	Data Element	ZSAFDATA3				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAF_INDNATREC				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAF_INDPC				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_FILE_LOCAL	Local de gravação de arquivos			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZFORMPAGTO	MasterSAF - Payment			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZHRASSOC	HR Associate Number			Z_CONCUR	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZHYPER_D	Processing Step			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZIND_OPER_CRED				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZIND_UTIL_BEM				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAF_PER	Period			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAF_RATE	Tax Rate			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSPAU_STATE	Object state in SPAU			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSYCM_AUTHORIZATION_AREA	Custom Code Management: Authorization Object: Area			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSYCM_CATEG	Defect Category			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSYCM_CATEGORY	Defect Category			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSYCM_COMPLEX	Complexity			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSYCM_CUST_DATA_ID	Customer data id			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFCLASDOC	Document Classification Fiscal			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFBUKRS2				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFBUKRS1				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFARQ				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFAMPLEG	Support legal			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAF145				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZREVAL	Revaluation Indicator			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZRETEN	Retention Days			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_INDICA				ZLK	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZFNAME_TEXT	Field Name Text			Z_EDI_820	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFDATA2				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFDATA1				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSYCM_ENTRY_POINT_TYPE	Custom Code Management: Type of an entry point			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSYCM_ORIGIN	Origin of data			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFPATH				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZPRZ32	Packed percentage NNN,NNN,NNN-			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZREBIL	Rebill Indicator			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZRECID	Receiver ID			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZCA_DOM_PROCESS_ID	PVH Process ID (Enhancement)			ZCA_ENHANCEMENTS	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZCA_DOM_HEADING	Header Code (for column heading requirements)			ZCA_UTILITIES	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZCA_DOM_ARCHIVE_ACTION	Archiving Action			ZCA_UTILITIES	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZBSTNK	Purchase Order Number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZBOLNR	Bill Of Lading Number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZASSOC_NAME	HR Associate Name			Z_CONCUR	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZAR_DOM_ITEMTYPE	A/R:  Line Item type			ZFI_AR_CONVERSION	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZAR_DOM_DBT	Days beyond terms (DBT)			ZFI_AR_REPORTING_CREDIT	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZAB_DOM_PLEVEL	Ariba - PCard Acceptance Level			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZAB_DOM_ORDMETHOD	Ariba - Preferred Ordering Method			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFINDICADOR	MasterSAF - Indicator for operation type			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFINDCF	MasterSAF - Indicator of Client/Supplier			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFINDAP	MasterSAF - Indicator of aplication			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFICMSNESC	MasterSAF - ICMS Not revalued			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFHORAS				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFGRUCON	MasterSAF - Evaluation Class			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFGRPCTG	MasterSAF - Class of evaluation			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFFRETE	MasterSAF - Shipping Mode			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZCA_DOM_SEC_INDX	Activities regarding Data Persistence			ZCA_AUTHORIZATION	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZPCNT_D	Percentage domain for AR forecast			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZORDOC	Original Document			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZNAME1	Customer \ Vendor Description			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFSN	MasterSAF - Yes/No			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFSTFRET	MasterSAF - Freight Tax Replacement			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFTAXGRP	MasterSAF - Tax Groups			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFTAXTIP	MasterSAF - Kind of tribute			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFTIPONF	MasterSAF - Fiscal note type			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFTIPORPS				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFTOTAL				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFTRCRED	Transfer Credit			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFTYPITM	Document Classification Tax Item Type			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFUSU				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFVERSAO				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAF_CODRETFON				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_MONTH_DAY	Day of Month			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSYCM_SITEM_AREA	Custom code management: Area of a simplification item			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSYCM_SITEM_STATE	State of a simplification item			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSYCM_SITEM_VERSION	Version of a simplification item			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZTIPO_LANCTO				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZVBLNR	Check Number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZVERSPRDT	MasterSAF Product Version			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZWERTV15	Value field 13(25) characters with 2 decimal places			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZWRITEGL	Write-Off Reason Code			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZZCLASS_ITEM	Item Classification			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZZIND_TIPO_TITULO	Credit Type			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZZOUNR	SAP Division/ Profit Center (Assignment)			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZZPRCTR	SAP Division/Profit Center (Assignment)			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZZSTATUS	Status: Success/Abend etc.			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_CONTA				ZLK	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_EDIDC_COUNTER	EDIC Counter of Processed Documents			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_EDIDC_DESCR	EDIDC Inteface Description for IDoc Validation			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_SAF_INFL_RCLH	Influence on gathering			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_SAF_INDICAD	Reflection in the calculation of ICMS			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_SAF_CODG_RESP	Code responsibility			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_SAF_AJUS_ICMS	ICMS Adjustment			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_NIVEL				ZLK	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFDATA3				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZFI_HK_ID_GSC	Identifier			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZFI_HK_ID_CODE	Code			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZFI_DOM_SRC_SYS	Source System Identifier Domain			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZDOM_ZSTEP	Step			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZDOM_SYCM_TECH_CF	Technical Complexity Factor			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZDOM_SYCM_PRIORITY	Priority			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZPRCTR	SAP Division/Profit Center (Profit Ctr)			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZDOM_SYCM_NCS	Note Complexity Score			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZDOM_SYCM_COMPLEXITY	Complexity			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZCYCLE	Cycle			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZCOD_VIA_SP	Transport Code Via SP			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZCOD_GRUPO_BEM				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZCHAR3	Character string 3 with Upper/LowerCase			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_SAF_TIPO_APUR	Type of assessment			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_SAF_REFL_APUR_ICMS	Reflection in the calculation of ICMS			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_TOL_DAYS	Number of Days Tolerance (Range)			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_NATUREZA				ZLK	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZITMDESC	Item description			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZKOART	Customer \ Vendor			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZKUNNR	Customer \ Vendor Number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_SAF_ORIG_TRIB	Source of taxation			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	Z_SAF_NAT_OPER	Reflection in the calculation of ICMS			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFOUTISE	MasterSAF - Codes for Others/Free			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFORIGEM	MasterSAF - Source documents			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFNRARQ				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFNORDEV	MasterSAF - Normal or return			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFNFDESC	MasterSAF - SAP - Optional description of fiscal note type			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFNESTO	MasterSAF - Stock nature			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFMWSKZ				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFINDSAFX39C	MasterSaf - Indicator SAFX39 - Relat. PFJ/Company (SPEDCTB)			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFINDSAFX39F	MasterSaf - Indicator SAFX39 - Relat. PFJ/Company (SPEDFIS)			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFINTFRETE				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFLIM				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFMTART	MasterSAF - Indicator Product/Tag			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFMOVES	MasterSAF - Code for Movement I/O			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	DOMA	Domain	ZSAFLITXT				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	ENQU	Lock Object	EZ_SPAU_TEST	Lock object for testing only (!) of new SPAU			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	ENQU	Lock Object	EZ_SPAU_SETTINGS	Lock SPAU settings			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	SHLP	Search Help	ZAR_NA_CUSTOMER	PVH Customer			ZFI_AR_CUSTOMER_MASTER	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	SHLP	Search Help	ZAR_SH_ATNAM_CR_STATUS	PVH Credit Status			ZCA_UTILITIES	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	SHLP	Search Help	ZAR_SH_KATR	Customer Attributes (general)			ZFI_AR_CUSTOMER_MASTER	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	SHLP	Search Help	ZCA_INDX	Persistence of PVH application information			ZCA_UTILITIES	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	SHLP	Search Help	ZCA_INDX_C	Collective Search help:  Key fields of ZCA_INDX			ZCA_UTILITIES	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	SHLP	Search Help	ZCA_USERS	Users			ZCA_UTILITIES	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	SHLP	Search Help	ZCCT	Result of Customer Contact			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	SHLP	Search Help	ZHZWRITEGL	Search Help for ZWRITEGL (Write-Off Reason Code)			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	SHLP	Search Help	ZSYCM_EXTRACTION_SYSID	Seach for Extraction System ID's			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	SHLP	Search Help	ZUISS_TAXJURCODE	Help View for TTXJ (Tax Jurisdiction Codes)			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	SHLP	Search Help	Z_CYCLE	Search Help for Allocations Cycles			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	SHLP	Search Help	Z_H_ZFI_FILE1	Search help for FileName Template (IDOC)			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	SHLP	Search Help	Z_IDENT	Search Help for Customer Worklist			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	SHLP	Search Help	Z_SDATE	Search Help for Allocations Dates			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	SHLP	Search Help	Z_ZWRITEGL	Write Off Reason Code with Company Code			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST7				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST1				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSPAU_UPL_OUTPUT_EXTRACT_YEAR	The output SID of EXTRACT_DATE			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSPAU_UPL_CONFIG_UI	UPL connection configuration for UI			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST0				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFS34				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFMEMORY				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZAP_DISTRIBUTION	Structure for AP Distribution Report			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZAP_DISTRIBUTION2	Structure for AP Distribution Report			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZALSMEX_TABLINE	Rows for Table with Excel Data			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZAB_RELATION_ENTRY	CER Relation Structure for Ariba FMD			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZAB_PROFIT_CENTER_GROUP	Profit Center Structure for Ariba FMD			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZAB_PROFIT_CENTER	Profit Center Structure for Ariba FMD			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSPAU_UPL_OUTPUT_EXTRACT_MONTH	The output SID of EXTRACT_DATE			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZAB_PCARD_CSV_HEADER	Ariba customer CSV Header Structure for PCard			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZAB_PCARD_CSV_DETAIL	Ariba customer CSV Detail Structure for PCard			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZAB_CER_NUMBER	Structure to store CER# Information for Ariba			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	Z1COMPANY	NA - AP - Cross company code			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_KNKK_DB_TM_ALV	PVH DB Released Orders Balance Alerts - ALV			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_KNKK_EXT	PVH Credit Management: Extension			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_KNKK_DB_ALV_SHORT	ALV Structure for Released Orders Notifications			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_KNKK_DB_ALV	ALV Structure for Released Orders Notifications			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST6				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_KNKK_LOG_ALV	PVH Released Order Balance Update Log - Received and Reset			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_KUNNR_CLASS	Structure for Customer Classification by Checking Status			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_NA_ASSET_LOAD_STRUC	NA Asset Load structure			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_R4_CLASS	Structure for Customer Classification by Checking Status			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_STRUC_GL_DATA	GL Load structure			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_ST_FAUSTAB	Structure for Field Selection - Field Status Group FM			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST5				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST45				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST41				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST4				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSSIMP_VIEW	Liine type for SIMP_VIEW o/p			ZSYCM_ANALYSIS	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_EDIDC_DETAIL	EDIC File format for IDOC Monitor and Validation			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_EDIDC_FILES	EDIC File format for IDOC Monitor and Validation			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_FORM_ADDRESS	Address Format			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_CUST_HEADER_INFO_NA	Customer Statement Header Information			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_CUST_HEADER_INFO	Customer Statement Header Information			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_CUST_BANK_INFO	Customer Statement Bank Information			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_CUST_AGING	Customer Statement Aging info			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_CHAR1	Char1			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_BRANCH_AGING	Head Office/Branch Aging			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_AR_CUST_RPT_GEN	Customer Report - General view			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_AR_CUST_RPT_CREDIT	Customer Statement - Credit Report			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_AR_CUST_RPT_BANK	Customer Report - Bank data			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_APPROVED_BALANCE	Credit Checking Approved Balance Record			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZERPPARAMS	To pass parameters from PowerExchange to Application Server.			ZINFABC_RUNTIME	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSCR_TOKEN_REF	Token Reference			ZHANA_SCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSCR_TYPE_COMPONENT	Component of Structure			ZHANA_SCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSENVI_TADIR	Enviroment results TADIR objects			ZSYCM_ANALYSIS	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSPAU_CUSTOMER_MODI_FIELDS	SPAU_CUSTOMER_MODI_FIELDS from HEE			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSPAU_CUSTOMER_NOTE_FIELDS	SPAU customer fields for SMODILOG notes only			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSPAU_MESSAGE_CONTEXT	SPAU Message context (maximum width 256 chars!)			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSPAU_MESSAGE_CONTEXT_TEXTS	Context, textual representation			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSPAU_PROCESSOR_LIST_LINE	Processor list line			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_CUST_OPEN_ITEMS_DETAILS	Customer Statement Open Items Structure			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_CUST_OPEN_ITEMS_DETAILS_NA	Customer Statement Open Items Structure			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_CUST_STMT_INFO	Customer Statement Form information			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_CUST_STMT_INFO_NA	Customer Statement Form information			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSPAU_UPL_CONFIG	UPL connection configuration			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZVAT_SUM	Structure for Vendor Vat Detail Report			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZVAT_DETAIL_CUST	Structure for Vendor Vat Detail Report			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZVAT_DETAIL_ASIA	Structure for Vendor Vat Detail Report - Asia			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZVAT_DETAIL	Structure for Vendor Vat Detail Report			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZUDM_S_BR00000023	Result of Customer Contact			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZUDM_S_BR00000022	Reason Code			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSCR_REF	Cross Reference: Complete Where-Used List			ZHANA_SCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZAR_ST_ITEMTYPE	A/R:  Item type determination			ZFI_AR_CONVERSION	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZAR_ST_LASTACTIVITY	AR:  Last Activity			ZFI_AR_REPORTING_CREDIT	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZCA_ST_INDX_ID	User-defined key for table ZCA_INDX			ZCA_UTILITIES	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZE1EDP02	Custom IDoc: Document Item Reference Data			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	Z1COMMENT	NA- FMS Interface comment			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	Z1COMMENT_INF	ZCOMMENT at line item level for INFORMATICA interfaces			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST14				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST38				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST13				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST12				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST11				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST10				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST27				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_TAX_REPORT	Structure used for US Sales tax report			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_VENDOR_COMP_STR	Vendor Company code ext struc			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZLKMSAFST45				ZLK	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMASTERSAF_NFE				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSCR_PROC_ID	Process ID			ZHANA_SCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSCR_GLREF	Cross Reference: Complete Where-Used List			ZHANA_SCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSCR_COMPONENT	Component			ZHANA_SCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSCIS_SOURCE_LINK	Code Inspector : Source Link			ZHANA_SCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSCIS_PROC_POS	Procedure Position			ZHANA_SCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSCIS_DETAIL	Code Inspector: Detail			ZHANA_SCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSCIR_OBJ_PAR	Code Inspector: Structure for Objects			ZHANA_SCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSCIMESSAGE	Code Inspector: Key Structure of Message Code Prio. Pseudo			ZHANA_SCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFX07	MasterSAF - Tabela SAFX04			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFSTD				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFSTC				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFSTB				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFSTA				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST9				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST8				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZZSPAU_CUSTOMER_MODI_FIELDS	SPAU customer fields for SMODILOG other than notes			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZZEPSFILI	List of Files			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZYCM_S_DETAIL_DEFECT_LIST	Sturcture for the detailed defect list			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZVAT_SUM_CUST	Structure for Vendor Vat Detail Report			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_ST_GRUPTAB	Structure for Field Selection - Field Status Group FM			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST3	Estrutura para zsaf3			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST30				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST31	MasterSaf - Estrutura da ZSAF31 (SPED)			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST35				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST36				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST37				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFMEM05				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFM				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZPMSETVAL	To hold the from-to values of a node in a hierarchy.			ZINFABC_RUNTIME	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZPMFILTER	To hold the where clause for a given source.			ZINFABC_RUNTIME	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZPMEDIDD	Data segment for IDOC extraction for PowerExchange.			ZINFABC_RUNTIME	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZAR_ST_BSAID	Additional fields for tables BSID/BSAD			ZAR_NA_ENHANCEMENTS	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZUDM_S_BR00000011	unapplied cash on account 30 days or more after posting date			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZUDM_S_BR00000010	credits on account 30 days or more past invoice/document dat			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZUDM_S_BR00000008	NSF (non sufficient funds) check			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZUDM_S_BR00000006	NA-FSCM-Any deduction (reasonUK, M9,)-or > $1.00, 120+ days			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZUDM_S_BR00000005	NA-FSCM-Any deduction (reason code UK, M9, A9, W9, R9, S9, P			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZUDM_S_BR00000004	NA-FSCM-Invoices total amount = or > $1.00 past due 91+ days			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZUDM_S_BR00000003	NA-FSCM-Total of All Items Overdue 31 to 90 days			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZUDM_S_BR00000002	NA-FSCM-Total of All Items Overdue Since 30 Days			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZUDM_S_BR00000001	NA-Credit Limit Utilization			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST39				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSYCM_STR_REFERENCES	Structure			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSYCM_SIMP_SUMMARY	Summary file structure			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSYCM_SIMP_DATA_CLAS	Simplification data - specific to class data			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSYCM_SIMP_DATA	Simplification data			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSYCM_SENVI_TADIR	Enviroment results TADIR objects			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_IC_COMM	IC Commissions structure			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_IC_CUST_STMT	Customer Statement Form information			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_IC_LINE_TYPE	IC Customer Statement Line			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_IDOC_OUTPUT	Output structure for IDoc Monitor			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZFI_IDOC_OUTPUT_SHORT	Output structure for IDoc Monitor			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST20				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST2				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST19				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZPMDATATYPE	reference datatype structure			ZINFABC_RUNTIME	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST21				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_EKKN_ALV	Account assignment ALV display			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZMM_EKBE_ALV	Receiving Information ALV Display			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST24				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST25				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST18				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	STRC	Structure	ZSAFST15	Estrutura para ZSAF15			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_NA_FB02	NA - FB02 update for FMS/ACS AR interface			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_NA_AR_TXCODE	Tax Jur Code and Tax Code Xreference for AR - ACS and R4			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_GL_AU	NA GL Conversion - Accounting Unit Mapping Exceptions			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_NA_FSCM_CONV	NA - FSCM Open Item conversion table			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_GL_ACCT_EXP	GL Converions Account Exceptions			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_GL_AU_EXP	NA GL Conversion - Accounting Unit Mapping Exceptions			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_EBS_FIN	Brazil - EBS_Financial_Investment			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFINA_GARNSMNT	FI:NA - Garnishments			ZFINA_GARNISHMNT	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_CHCKR3_BLK	Checker-3: Payment Block Thresholds			ZFI_AP_CHECKER3	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF10				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF11				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_GL_ACCT	NA GL Conversion Account Mapping			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_EMAIL_PAYADV	PVH:  Email Payment Advice Control			ZFI_NA_SMARTFORMS	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF0				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZPVH_BKPF	Append Structure for BOLNR and purchase order			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZPRG_LAST_RUN	Programs Last Run			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZPMPARAMS	To hold paramters for export/import by generated programs.			ZINFABC_RUNTIME	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_NA_RENSTORES	Winlease Rental store unique ID Xref table			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZLKMSAF45				ZLK	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZKNVV	Data Services generated program			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZGLFIELDSX	Custom fields for GL			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_IC_ACCTS	Intercompany Accounts			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_IDOC_STATUS	For the Program ZFI_RC1_IDOC_SET_STATUS			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF12				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_WRN_MAP	Cross Reference Table			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_WRN_AR	Brazil Warnaco AR Items			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_WO_GL_PF	FSCM Write-Off Reason Code to G/L Account/Profit Center			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_SEG_PROFIT	Segment to Profit center Mapping for HFM			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_RSTGN	External to Internal Reason code			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_RECID_COCODE	Receiver ID to Company Code Mapping			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_REASON_CODES	Reference table for Source System reason codes			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_PRCTR_MAP	Reference table for Profit Centers			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_PAY_TERMS	Reference table for Payment Terms			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_NA_SA	Finance:  SA number			ZFI_NA_SA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_OPEN_AR	Adding Reference Key fields for Conversion			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_NA_TAXCODES	Tax Code and Jurisdiction code Xreference NA for  interfaces			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_NA_SUSPENSE	Suspense Account table for interfaces posting			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFIDEDUCTION	FSCM - Deduction tracking transfer table			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_CON_APR_OVR	Concur Approver Override			Z_CONCUR	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_CON_SUP_OVR	Concur Supervisor Override			Z_CONCUR	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_CURR_COCODE	Currency To Company Code maintenance			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_DATA_LOAD	Data Load Status			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_DE_DCTP_XREF	Destination Document Type Crossreference			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_DIV_FORECAST	Data Services generated program			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_DOC_TYPE	Reference table for Document Type			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZGLFIELDS	Custom fields for GL			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF13				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFIROOT	Root Cause Note  -FSCM -  Dispute Management			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFIROUTE_CAUSE	FSCM - Root Cause Automation			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFISAPHYPE	SAP to Hyperion: Accounts			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFITRACKING	Tracking Reason Code - FSCM - Dispute Management			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFIWRITEGL	Write-Off G/L Reason Code - FSCM - Dispute Management			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_ACCOUNT	Source System Accounts			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_ACC_RULE	Parameter for account rule			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_ACS_PC_MAP	Profit center mapping between Source systems and SAP			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_ALLOC_PCMAP	Allocation Interim PC to Actual PC mapping table			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_ALT_KEY_LOOK	Alternate customer Lookup based on the key			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_AR_DIV_COL	NA - AR Profit Cent/Customer/Div/Collection Specialist-mapp			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_ASSIGNMENT	Parameter of update assignment and house bank in items			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_BANK	Brazil - Bank Protesto			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_BUSINESS_UNT	Reference table for Business Unit			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_CCODE	Reference table for Company Code			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_CCODE_VAT_AC	Reference table for Company Code and VAT Account			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_CHCKR3_APP	Checker-3: Approvers			ZFI_AP_CHECKER3	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF4				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZAB_INVOICE_CSV_LINE	Additional fileds for Ariba GL data			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_NA_AR_ACS	Data Services generated program			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_LOCATION	Reference table for Location			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_LCL_CLASS	Reference table for Local Classification			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_KNKK_LOG	PVH Released Order Balance Update Log - Received and Reset			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFIRESP	Responsible Area - FSCM - Dispute Management			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_INF_ATTR	Z table for FI Interface Attribute			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_INF_ATTR_AP	Z table for Interface Attribute (AP Enttries for IDoc Mon.)			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_INF_ATTR_AR	Z table for FI Interface Attribute			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_INF_CTL	FI Interface Control table			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_INF_FTP_AR	Informatica Global FTP Process attr table for AR interface			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_INF_FTP_ATTR	Informatica Global FTP Process attribute table			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_INF_MASTER	SAP FI interface master table			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_INF_MTH	FI Interface Report Name for Monthly Processing			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_INF_RPT	FI Interface Report Name and Schedule Monitor			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_IP_INT_ORD	Maintenance Table: IP Internal Orders IDOC processing			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_IP_IO_GL	Maintenance Table: IP Internal Orders - GL XREF			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_JDE_ACS_CUST	JDE Customer Address Nr to ACS Customer Number cross-referen			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_KNKK	PVH Customer master credit management: Exposure and Sales			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_KNKK_DB	PVH Released Orders Balance Update log for customers in DBs			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_KNKK_DB_TM	PVH DB Released Orders Balance Alerts			ZCCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_SITM_PLIST	Piecelists assigned to Simplification Item			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_SITM_STATS	States of a simplification item			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI_GSC_CODES	GSC codes			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_COMP_EFT	Complexity / Effort table			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZVBKPF	Additional fields for parking (Accruals)			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZZGL_FIELDS	Custom GL Fields			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZZSPAU_SETTINGS	Settings			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFINA_REMIT_TO	FI:NA - Remit to Vendor from location			ZFI_NA_REMITTO	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZCA_INDX	Persistence of PVH application information			ZCA_UTILITIES	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF6				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF5				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF45				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF41				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZAB_LFA1_ADD_FIELDS	Ariba - Additional Fields for P2P integration			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_CUST_ENHS	Enhancements			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_CUST_HEAD	SYCM: Repository Info Header (metadata)			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_CUST_MODS	Custom Code Management			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_CUST_REFS	Object References			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_CUST_SIMPL	SYCM: Simplification Information  (metadata)			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_JOB_DATAID	Mapping between custom data- id and UPL job-id			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_NOTE_SCORE	Notes table for Complexity Score and Priority			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_PIECELIST	Piecelist for Simplification Items			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_PLIST_HEAD	Custom Code Management: Piecelist header			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_SAP_SIMPL	SYCM: Simplification Information - download at SAP			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_SIMP_CAT	Category of defect			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_SITEM	Simplification Item			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_SITM_AREAS	Areas for a Simplification Item			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_SITM_ENPOI	Entry point (transaction/URL) for a Simplification Item			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_SITM_PACKS	Packages related to a simplification item			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF9				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF8				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZBSTNK_AVIP	Purchase Order Number			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFIDATE	Date Source - FSCM - Dispute Management			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZAVIP	Payment Advice Line Item			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZCA_USERS	Users			ZCA_ENHANCEMENTS	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFA_BWASL	Hyperion mapping table for Fixed Assets (BWASL)			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI820_SUMM	FI 820 External Customer - File Format Type			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFA_TAB1	Hyperion mapping table for Fixed Assets (GL Accounts)			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFBDT	Baseline date & other fields			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFCONT_LANCTOS				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI820_FNAME	EDI 820 - Formats by customers - Fields offsets			Z_EDI_820	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFDM_COLL_INVOICE	NA - AR- FSCM-Collections- Additional fields			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFI820_FILETYPE	FI 820 External Customer - File Format Type			Z_EDI_820	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZAVIK	Payment Advice Header			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZAR_ST_BSID01	Additional fields for table BSID			ZAR_NA_ENHANCEMENTS	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZAR_ST_BSAD01	PVH:  BSAD fields			ZAR_NA_ENHANCEMENTS	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZAR_DM_RFPOSX	Additional Fields for Customer Line items with Dispute info			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZAR_DM_RFPOS	Additional Fields for Customer Line items with Dispute info			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZAR_820_SUMMAR	Table For Maintaining Summarization Rules			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZARFPOSX	Foreign Currency Re-Valuation			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZARFPOS	Foreign Currency Re-valuation			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZAP_MAP_CHECKER3	Mapping table for Checker 3 Approver			ZFI_AP_CHECKER3	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZAP_CHECKER3_LIM	Checker 3 Mapping: Company Code/Document type Limit			ZFI_AP_CHECKER3	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZAB_VENDOR_ADD_FIELDS	Ariba - Additional Filelds			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZAB_SUPLOC_ADD_FIELDS	Ariba - Addtional Fields			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF39				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF1				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSPAU_UPL_DATA	Usage data			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSPAU_TEST_ADMIN	Help table to exclusively lock SPAU tests			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSPAU_SETTINGS	Settings			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSMODIUSER_TEST	Testdummy: Processor of Customer Modifications			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSMODISRC_TEST	Testdummy: Customer Modification Log: Object Data (Active)			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSMODILOG_TEST	Testdummy: Log of Customer Modifications to Dev.Env. Objects			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF_TYP_ITM				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF_GRP_MERC				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF_CLAS_DOC				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF_CFOP				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF_CATEG_NF				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAFY				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAFX				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAFMM20				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAFMM10				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAFI02				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAFD				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAFC				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAFB				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFLEX_DUP_VEND	Duplicate Flex Vendors			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZFLB06	NA-Lockbox extension			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_TECH_CF	Complexity factor table for Technical object types			ZSYCM_COMPLEXITY	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF7				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF38				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF37				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF36				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF35				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF34				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF33				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF32	Parametrizaçção Tipo de Título de Créditos			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF31	MasterSaf - Empresa x Participante (SPED)			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF30				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF3				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF27				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF25				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF24				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF21				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF20				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF2				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF19				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF18				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF15	Amparo Legal			ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAF14				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSAFA				ZMASTERSAF	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TABL	Table	ZSYCM_UPL	UPL data			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZFI_NA_ASSET_LOAD	NA Asset Load Table type			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZFI_TABL_GL_DATA	Table type for GL conversion data			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZFI_TT_FAUSTAB	TT for Field Selection - Field Status Group FM			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZFI_TT_GRUPTAB	TT for Field Selection - Field Status Group FM			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZFI_VENDOR_COMP	Vendor Company code ext			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSCIT_DETAIL	Code Inspector: List of Detail Information			ZHANA_SCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSCR_TYPE_COMPONENTS	Components of Structure			ZHANA_SCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSCR_TOKEN_REFS	CL_ABAP_COMPILER: Names, Tags, and Usage Degrees			ZHANA_SCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSCR_REFS	Table of References			ZHANA_SCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSCR_PROGRAMS_HASH	List of Program Names			ZHANA_SCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSCIT_OBJ_PAR	Code Inspector: Table Type for Objects			ZHANA_SCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSCIT_SOURCE_LINK	Code Inspector : Source Links			ZHANA_SCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSCR_GLREFS	Table of References			ZHANA_SCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSCR_COMPONENTS	Components			ZHANA_SCI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZFI_IC_LINE	IC Customer Statement Line Table type			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSPAU_UPL_OUTPUT_EXTRACT_MONTS	Years			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSPAU_UPL_OUTPUT_EXTRACT_YRS	Years			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSYCM_SIMP_CAT_T	Table type for ZSYCM_SIMP_CAT			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSYCM_SIMP_DATA_T	Table type for ZSYCM_SIMP_DATA			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZSYCM_SIMP_POS	RSDEPOS			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZTSIMP_VIEW	Table Type for SIMP_VIEW o/p			ZSYCM_ANALYSIS	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZAB_PCARD_CSV_DETAIL_T	Ariba Pcard Detail Table type			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZAB_PCARD_CSV_HEADER_T	Ariba Pcard Header Table type			ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZCA_TT_W3FIELDS	Attributes for HTML Data Row fields			ZCA_UTILITIES	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZCA_TT_W3HEAD	Attributes for HTML Header Row fields			ZCA_UTILITIES	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZFI_CUST_OPEN_ITEMS	Customer Statement Open Items			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	TTYP	Table Type	ZFI_CUST_OPEN_ITEMS_NA	Customer Statement Open Items			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCM_SIMP_MODS	Join Simplification DB with ZSYCM_CUST_MODS			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCM_SIMP_REFS	Join Simplification DB with ZSYCM_CUST_REFS			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCM_SITM_STAT	Sitem and Status for Complexity determination			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	Z_V_ZFI_WO_GL_PF	Generated Table for View			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCM_SIMP_ENHS	Join Simplification DB with ZSYCM_CUST_ENHS			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCMVSITEM_STAT	Status assigned to a Simplification Item			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCMVSITEM_PLIS	Custom Code Management: Piece list of a Simplification Item			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCMVSITEM_PACK	Generated Table for View			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCMVSITEM_ENPO	Generated Table for View			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZAR_V_KNA1_ADR	Generated Table for View			ZCA_TH_CN_CONVERSION	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZCA_V_ATNAM	Database view for values of Classification Characteristics			ZCA_UTILITIES	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZFI_VT001B_ASIA	Generated Table for View			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZFI_VT001B_M001	Posting Periods: Specify Time Intervals			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSPAU_E070_E071	Generated Table for View			ZSPAU	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCMVSITEM_AREA	Assigned areas of a Simplification Item			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCMVSITEM	Simplification Item			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCMVPLIST_HEAD	Custom Code Management: Header for piece lists			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			
+R3TR	DDIC	Data Dictionary	VIEW	View	ZSYCMVPLIST	Generated Table for View			ZUPD_SYCM	EHP6 FOR SAP ERP 6.0			

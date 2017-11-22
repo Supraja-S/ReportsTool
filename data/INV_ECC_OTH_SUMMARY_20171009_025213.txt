@@ -1,0 +1,20 @@
+key	value
+All Concepts (OTR) of a Package - Short Texts	0000000004
+Authorization object	0000000003
+Authorization object class	0000000001
+Class (ABAP Objects)	0000000136
+Definition of a Maintenance and Transport Object	0000000084
+Element Type	0000000003
+Format Types	0000000001
+Function Group	0000000075
+General Text	0000000013
+General structure storage: Definition of a structure	0000000001
+Interface (ABAP Objects)	0000000055
+Message Class	0000000016
+Method (ABAP Objects)	0000000877
+Package	0000000053
+Printer Description	0000000008
+SAP Smart Style	0000000004
+Screen variants	0000000037
+Transaction	0000000362
+Transaction variants (cross-client)	0000000003

@@ -1,0 +1,5 @@
+key	value
+Very High	0000000000
+High	0000002688
+Medium	0000000194
+Low	0000000000

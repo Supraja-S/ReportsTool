@@ -1,0 +1,65 @@
+PROGTYPE	OBJTYPE	OBJDESC	SUBOBJ	SUBOBJDESC	OBJNAME	OBJTEXT	APPLN	FRICETYPE	PACKAGE	SYSNAME	MAINPROG	INCL	REFOBJTYP
+Program type	Obj Type	Obj Desc	Sub-Obj Type	Sub-Obj Desc.	Object Name.	Object Desc.	Application Name	Frice Type	Package	Sys Name	Main Package	Include Name	Ref. Obj. Type
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZFDM_AR_DEF_PROCESSO				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_FDM_AR_DEF_PROCESSO		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZUDM_S_BR00000014				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_UDM_S_BR00000014		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZUDM_S_BR00000015				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_UDM_S_BR00000015		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZUDM_BR00000022				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_UDM_BR00000022		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZUDM_S_BR00000016				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_UDM_S_BR00000016		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZUDM_S_BR00000017				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_UDM_S_BR00000017		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZAB_IMP_MASTER_DATA				ZARIBA	EHP6 FOR SAP ERP 6.0	ZCL_IM_AB_IMP_MASTER_DATA		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZUDM_BR00000023				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_UDM_BR00000023		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZUDM_CHNG_SGMT_DATA_				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_UDM_CHNG_SGMT_DATA_		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZUDM_BR00000001A				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_UDM_BR00000001A		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZFI_CHANGE_BS_DATA				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_FI_CHANGE_BS_DATA		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZFDM_AR_DEF_RESPONSI				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_FDM_AR_DEF_RESPONSI		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZFDM_AR_DEF_REASON				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_FDM_AR_DEF_REASON		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZZUDM_BR00000003				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_ZUDM_BR00000003		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZIM_UDM_RSM_DEFAULT				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_IM_UDM_RSM_DEFAULT		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZSCMG_CHNG_BFR_STR_C				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_SCMG_CHNG_BFR_STR_C		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZUDM_S_BR00000011	unapplied cash on account 30 days or more after posting date			ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_UDM_S_BR00000011		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZUDM_BR00000002A				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_UDM_BR00000002A		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZUDM_S_BR0000002B				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_UDM_S_BR0000002B		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZUDM_S_BR00000018				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_UDM_S_BR00000018		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZUDM_BR00000008				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_UDM_BR00000008		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZUDM_BR00000007				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_UDM_BR00000007		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZUDM_BR00000005				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_UDM_BR00000005		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZUDM_BR00000004				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_UDM_BR00000004		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZUDM_S_BR0000011A				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_UDM_S_BR0000011A		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZUDM_S_BR00000006	NA-FSCM-Any deduction (reasonUK, M9,)-or > $1.00, 120+ days			ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_UDM_S_BR00000006		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZFI_FIAA_DOCLINES				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_FI_FIAA_DOCLINES		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZUDM_WL_ITEM_DISP_C				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_UDM_WL_ITEM_DISP_C		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZFDM_AR_DEF_CATEGORY				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_FDM_AR_DEF_CATEGORY		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZAB_INVOICE_LOAD				ZARIBA	EHP6 FOR SAP ERP 6.0	ZCL_IM_AB_INVOICE_LOAD		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZUDM_BP_PROFILE_C				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_UDM_BP_PROFILE_C		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZUDM_BR00000010				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_UDM_BR00000010		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZFI_FAGLL03_FIELDS				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_FI_FAGLL03_FIELDS		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZUDM_BR00000002				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_UDM_BR00000002		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZFDM_AR_DEF_EXT_REF				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_FDM_AR_DEF_EXT_REF		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZAB_INVOICE_CREATE				ZARIBA	EHP6 FOR SAP ERP 6.0	ZCL_IM_AB_INVOICE_CREATE		
+R3TR	ENH	Enhancements	SXCI	Business Add-Ins - Implementations	ZUDM_LOC_MASSACT_C				ZFI	EHP6 FOR SAP ERP 6.0	ZCL_IM_UDM_LOC_MASSACT_C		
+R3TR	ENH	Enhancements	CMOD	Customer enhancement projects	ZVEND				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	CMOD	Customer enhancement projects	ZKSB1				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	CMOD	Customer enhancement projects	ZITAU_30				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	CMOD	Customer enhancement projects	ZINTORDS				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	CMOD	Customer enhancement projects	ZFI_PARK				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	CMOD	Customer enhancement projects	ZAS01ARB				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	CMOD	Customer enhancement projects	ZEDI_820				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	CMOD	Customer enhancement projects	ZFI_BMX				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	CMOD	Customer enhancement projects	ZFI_IDOC				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	IEXT	Enhancement	Z_PEXR2002				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	ENHO	Enhancement Implementation	ZAB_EI_VENDOR_ONLY_EXPORT				ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	ENHO	Enhancement Implementation	ZAB_VENDOR_ADD_DATA_CS				ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	ENHO	Enhancement Implementation	ZFB01_IC_PC_CHANGE				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	ENHO	Enhancement Implementation	ZAB_FMD_WORKDAY				ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	ENHO	Enhancement Implementation	ZFI_CGI_DMEE_COUNTRIES_CUST				ZDMEE	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	ENHO	Enhancement Implementation	ZFDM_COLL				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	ENHO	Enhancement Implementation	ZFDM_AR_CDIS_AMOUNT				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	ENHO	Enhancement Implementation	ZAB_VENDOR_ADD_DATA				ZARIBA	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	ENHO	Enhancement Implementation	Z_FDM_COLL				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	ENHO	Enhancement Implementation	ZSP_FBE3_SUM_DISPLAY				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	ENHO	Enhancement Implementation	ZSP_F110_GROUPING1				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	ENHO	Enhancement Implementation	ZFMS				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	ENHO	Enhancement Implementation	ZFI_VALIDATION				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	ENHO	Enhancement Implementation	ZFI_CUSTOMER_SUB				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	ENHO	Enhancement Implementation	ZFI_CUSTOMER				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	ENH	Enhancements	ENHO	Enhancement Implementation	ZFI_COLLECTION_STRATEGY				ZFI	EHP6 FOR SAP ERP 6.0			

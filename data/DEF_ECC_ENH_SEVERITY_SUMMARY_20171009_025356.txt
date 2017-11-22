@@ -1,0 +1,4 @@
+key	value
+Must Fix	0000000212
+Suggest To	0000000010
+Good	0000000003

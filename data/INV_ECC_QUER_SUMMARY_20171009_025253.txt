@@ -1,0 +1,4 @@
+key	value
+ABAP Query: Functional area	0000000007
+ABAP Query: Query	0000000009
+ABAP Query: User group	0000000004

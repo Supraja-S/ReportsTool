@@ -1,0 +1,9 @@
+OBJTYPE	key	value
+FM	Function Module	       72
+DDIC	Data Dictionary	     1244
+ENH	Enhancements	       63
+FRM	Forms	       33
+PROG	Programs	     1746
+QUER	Queries	       20
+OTH	Others	     1736
+BDC	BDC Objects	       42

@@ -1,0 +1,44 @@
+PROGTYPE	OBJTYPE	OBJDESC	SUBOBJ	SUBOBJDESC	OBJNAME	OBJTEXT	APPLN	FRICETYPE	PACKAGE	SYSNAME	MAINPROG	INCL	REFOBJTYP
+Program type	Obj Type	Obj Desc	Sub-Obj Type	Sub-Obj Desc.	Object Name.	Object Desc.	Application Name	Frice Type	Package	Sys Name	Main Package	Include Name	Ref. Obj. Type
+LIMU	BDC	Function Module	FUNC	Function Module	ZFI_NA_VENDOR_EXT_1	Extending Vendor to Company codes			ZFI	EHP6 FOR SAP ERP 6.0	SAPLZFI_NA_VENDORS	LZFI_NA_VENDORSU01	
+LIMU	BDC	Function Module	FUNC	Function Module	Z_AR_CLEARING_BDC	Clearing of two customer documents balancing zero (F.13)			ZCCI	EHP6 FOR SAP ERP 6.0	SAPLZ_AR_CLEARING	LZ_AR_CLEARINGU02	
+LIMU	BDC	Function Module	FUNC	Function Module	Z_FI_ITEMS_MASS_CHANGE	Massenänderung von Einzelposten			ZFI	EHP6 FOR SAP ERP 6.0	SAPLZFI_THCHINA	LZFI_THCHINAU01	
+LIMU	BDC	Function Module	FUNC	Function Module	Z_POSTING_INTERFACE_END	Endeinformationen für die interne Buchungsschnittstelle			ZFI	EHP6 FOR SAP ERP 6.0	SAPLZ_FIPI	LZ_FIPIU04	
+LIMU	BDC	Function Module	FUNC	Function Module	ZFI_NA_VENDOR_EXT	Extending Vendor to Company codes			ZFI	EHP6 FOR SAP ERP 6.0	SAPLZFI_NA	LZFI_NAU02	
+R3TR	BDC	Programs	INCL	Includes	ZRFFORI99	Include ZRFFORI99	Financial accounting		ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	INCL	Includes	ZRFFORI01_USA	International Payment Medium Include: Check	Financial accounting		ZFI_NA_SMARTFORMS	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	INCL	Includes	ZFI_AR_PROCESS_NEG_PAYADV_F01	Include ZFI_AR_PROCESS_NEG_PAYADV_F01			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	INCL	Includes	ZRFFORI01_US	International Payment Medium Include: Check	Financial accounting		ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	INCL	Includes	ZRFFORI01_CA	International Payment Medium Include: Check	Financial accounting		ZFI_NA_SMARTFORMS	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	INCL	Includes	ZFI_RFFORI01_PVH	International Payment Medium Include: Check	Financial accounting		ZFI_NA_SMARTFORMS	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	INCL	Includes	Z_RFFORI01_MX	Include Z_RFFORI01_MX	Financial accounting		ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZFI_FSCM_MASS_REB	AR - FSCM -Mass Re-bill update	Financial accounting		ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZFI_AR_TRANSFER_MULTI	AR Transfer and Clearing			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZFIR_FB09	Brazil EBS: Perform treatment of the return file FB09			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZFII_VENDOR_UPLOAD_FLEX2	Vendor Master Upload			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZRFI_CUSTOMER_VAT	Mexico Customer VAT Report			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZRFI_VENDOR_VAT	Mexico Vendor VAT Report			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZRFI_VENDOR_VAT_ASIA	Asia Vendor VAT Report			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZSEC_MASS_PASSWORD_RESET	Security report - mass user password reset	Basis		ZSEC	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZSEC_MASS_USER_CHANGE	Security report - mass user info change	Basis		ZSEC	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZSEC_MASS_USER_CREATE	Security report - mass user info change	Basis		ZSEC	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZRFEBBU00	Update Account Statement/Check Deposit Transaction	Financial accounting		ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZFII_VENDOR_UPLOAD	Vendor Master Upload			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZFII_UPDATE_XREF3	FI Transaction Upload Program with Tax code	Financial accounting		ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZFII_LOAD_FI_ACCRUALS	FI and Accruals Park and Posting Mass Upload	Financial accounting		ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZFII_INVOICE_UPLOAD	AP Generic Invoice Upload	Financial accounting		ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZFII_FREIGHT_UPLOAD	AP Freight Invoice Upload	Financial accounting		ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZFII_CUSTOMER_UPLOAD	Customer Master Upload			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZFII_CUSTOMER_NA_LOAD	NA- Customer Master Upload			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZFII_CUSTOMER_NA_CHANGE_BNK	NA- Customer Master Change - Bank-change			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZFII_CUSTOMER_NA_CHANGE	NA- Customer Master Change			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZFII_AR_AUTO_CASH	NA AR Auto Cash Application			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZFIC_VENDOR_WITH_HOLDING_FLAG	Brazil Vendor With holding tax			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZFIC_VENDOR_UPLOAD	Vendor Master Upload			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZFIC_LAWSON_VENDOR_UPLOAD	Lawson Vendor Upload			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZFIC_LAWSON_VENDOR_CHANGE	Lawson Vendor Change			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZFIAR_CASHAPP_F32	NA AR Cash app F-32 Clear Payment posting			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZFIAR_CASHAPP_F28	NA AR Cash app F-28 Incoming payment posting			ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZBC_TRANSPORT_TRACKING	TRANSPORT TRACKING	Basis		ZBC	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZBC_TRANSPORT_MONITOR	TRANSPORT MONITOR REPORT	Basis		ZBC	EHP6 FOR SAP ERP 6.0			
+R3TR	BDC	Programs	PROG	Program	ZBC_TRANSPORT_HISTORY	TRANSPORT HISTORY	Basis		ZBC	EHP6 FOR SAP ERP 6.0			

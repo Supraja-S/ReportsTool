@@ -1,0 +1,5 @@
+key	value	color
+Total	0000004956	red
+Core Modifications	0000000000	blue
+DDIC	0000001244	yellow
+Non-DDIC	0000003712	green

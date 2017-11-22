@@ -1,0 +1,22 @@
+PROGTYPE	OBJTYPE	OBJDESC	SUBOBJ	SUBOBJDESC	OBJNAME	OBJTEXT	APPLN	FRICETYPE	PACKAGE	SYSNAME	MAINPROG	INCL	REFOBJTYP
+Program type	Obj Type	Obj Desc	Sub-Obj Type	Sub-Obj Desc.	Object Name.	Object Desc.	Application Name	Frice Type	Package	Sys Name	Main Package	Include Name	Ref. Obj. Type
+R3TR	QUER	Queries	AQSG	ABAP Query: Functional area	ZFI_DETAIL				ZFI_NA_TAX_REPORTING	EHP6 FOR SAP ERP 6.0			
+R3TR	QUER	Queries	AQSG	ABAP Query: Functional area	ZFI_GL_LINE_ITEM				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	QUER	Queries	AQSG	ABAP Query: Functional area	ZPO_INVOICE				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	QUER	Queries	AQSG	ABAP Query: Functional area	ZCHECK_INFO				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	QUER	Queries	AQSG	ABAP Query: Functional area	ZFI_ASSET_CER2				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	QUER	Queries	AQSG	ABAP Query: Functional area	Z_PO_INFOSET				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	QUER	Queries	AQSG	ABAP Query: Functional area	ZFIAA1				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	QUER	Queries	AQQU	ABAP Query: Query	ZFIAA       07				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	QUER	Queries	AQQU	ABAP Query: Query	ZFIAA       06				ZFI_NA_TAX_REPORTING	EHP6 FOR SAP ERP 6.0			
+R3TR	QUER	Queries	AQQU	ABAP Query: Query	ZFIAA       02				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	QUER	Queries	AQQU	ABAP Query: Query	ZFIAA       01				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	QUER	Queries	AQQU	ABAP Query: Query	ZFIGL       ZGL_LIN_ITM				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	QUER	Queries	AQQU	ABAP Query: Query	ZPO_GRP     Z_PO_HIST_QRY				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	QUER	Queries	AQQU	ABAP Query: Query	ZFIAA       04				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	QUER	Queries	AQQU	ABAP Query: Query	ZFIAA       05				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	QUER	Queries	AQQU	ABAP Query: Query	ZFIAP       ZCHECK_INFO				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	QUER	Queries	AQBG	ABAP Query: User group	ZFIAP				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	QUER	Queries	AQBG	ABAP Query: User group	ZFIGL				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	QUER	Queries	AQBG	ABAP Query: User group	ZPO_GRP				ZFI	EHP6 FOR SAP ERP 6.0			
+R3TR	QUER	Queries	AQBG	ABAP Query: User group	ZFIAA				ZFI	EHP6 FOR SAP ERP 6.0			

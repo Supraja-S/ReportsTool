@@ -1,0 +1,72 @@
+Processs Team	Process ID	Process Description	Available in Client System (Y/N)	Simplification Item ID	Simplification Item Description	Migration Compatibility	Supporting Comments for Migration Compatibility	Complexity
+FI 	DC 010	DC 010-Perform Transaction Processing	Yes	2.1.19.2	2.1.19.2-SAP Invoice and Goods Receipt Reconciliation	2	GR / IR reconciliation transaction is not available but it will not have any impact on configuration or transaction posting.	Medium
+FI 	DC 020	DC 020-Manage General Ledger	Yes	2.1.19.1	2.1.19.1-General Ledger	1	No Impact - Since already document splitting functionality is active.	Very High
+FI 	DC 040	DC 040-Perform Fixed Asset Accounting	Yes	2.1.21.2	2.1.21.2-Classic Asset Acounting	1	We need to implement New Asset Accounting fuctionality	Medium
+FI 	DC 080	DC 080-Manage Customer Credit Exposure	Yes	2.1.25.1	2.1.25.1-Credit Management	2	FSCM credit Management is manadatory in the S4 system. Thus we need to migration from traditional SD Credit Credit Mangement to FSCM Credit Management	High
+FI 	DC 090	DC 090-Business Partner Approach	Yes	2.1.1.1	2.1.1.1-Business Partner Approach	2	Need to covert all existing Customers & Vendors into BP	Medium
+FI 	DC 100	DC 100-Process Receipts	Yes	2.1.22.1	2.1.22.1-Cash Management	2	New cash management and new Bank Accout management need be implemented	Very High
+FI 	DC 130	DC 130-Process Vendor Transactions & Payments	Yes	2.1.20.1	2.1.20.1-SAP Working Capital Analytics/DSO and DPO	2	No Impact - Alternative reports are avilable 	High
+FI 	DS 010	DS 010-Perform Overhead Accounting and Allocation	Yes	2.1.23.6	2.1.23.6-ALE Scenarios	2	"No Impact - Unless we need to transfer only CO items without FI entries, we need to use Central finance functionality"	Medium
+FI 	DS 010	DS 010-Perform Overhead Accounting and Allocation	Yes	2.1.23.7	2.1.23.7-Cost Elements	2	GL Accounts Masters and Cost Element masters need to merged	Medium
+FI 	DS 020	DS 020-Product Costing	Yes	2.1.25.2	2.1.25.2-Technical Changes in Material Ledger	2	Mandatory for all plant to be activated with Material Ledger - Just configuraiton change and no impact on any Business process.	High
+MM		STO Inter-company	Yes		2.1.4 - Procurement and 2.1.12.11 - MRP in HANA	2	S4 HANA has MRP Live which has additional advantages. If a material is transferred from one plant to another then stock transport requirement (STR) is not known in the suppying plant until after the material has been planned in the receiving plant.  MRP live determines the sequence in which the material has to be planned acroos several plants. 	medium
+MM		STO Intra-company	Yes		2.1.4 - Procurement and 2.1.12.11 - MRP in HANA	2	S4 HANA has MRP Live which has additional advantages. If a material is transferred from one plant to another then stock transport requirement (STR) is not known in the suppying plant until after the material has been planned in the receiving plant.  MRP live determines the sequence in which the material has to be planned acroos several plants. 	medium
+MM		STO without billing	Yes		2.1.4 - Procurement and 2.1.12.11 - MRP in HANA	2	S4 HANA has MRP Live which has additional advantages. If a material is transferred from one plant to another then stock transport requirement (STR) is not known in the suppying plant until after the material has been planned in the receiving plant.  MRP live determines the sequence in which the material has to be planned acroos several plants. 	medium
+MM		Direct Procurement – Regular external procurement	Yes		N/A	1	N/A	Low
+MM		Physical Inventory Processing – Annual counting method	Yes		N/A	1	N/A	Low
+MM		Goods receipt for batch managed parts	Yes		N/A	1	"Transactions MB01, MB02, MB03, MB04, MB05, MB0A, MB11, MB1A, MB1B, MB1C, MB31, MBNL, MBRL, MBSF, MBSL, MBST and MBSU are not available in S4 HANA 1511. But the transaction MIGO replaces all the the MB* transactions that are removed."	Low
+MM		Indirect Procurment – Service	Yes		N/A	1	N/A	Low
+MM		Down payment Scenario	Yes		N/A	1	N/A	Low
+MM		Incoming Invoice via EDI	Yes		N/A	1	N/A	Low
+MM		Procurement: Foreign Trade	Yes		2.1.4.15 - Foreign Trade within SAP S/4HANA Procurement	2	Foreign Trade (part of standard MM) deactivated. SAP Global Trade Services is used. It can be connected to S/4HANA.	medium
+SD	OTCC-010	Create and Maintain Customer	Yes	2.1.1.1	"Use of Business Partner is mandatory. Business Partner is is the single point of entry to create, edit, and display master data for business partners, customers, and vendors"	2	"Business Partner Approach 
+
+(CDS - S4 HANA offers migration of current ECC customers into S4 BP. Need for identifying the current set up of customer master ( contact person ) and other details)"	Medium
+SD	OTCC-040	Maintain Price	Yes	2.1.2.2	Customer appends at DB table KONV have to be transferred to the new DB table PRCD_ELEMENTS and PRCD_ELEM_DRAFT	2	"No Impact; Only there is a slight change in the Data Model of SD Pricing
+
+(Only technical changes and no impact as such on the Price related master data)"	Medium
+SD	OTCC-100	Capture / Process Orders	Yes		No Impact	1	No Impact 	Low
+SD	OTCC-170	Manage Product Returns	Yes		No Impact	1	No Impact 	Low
+PP	M-090	Schedule Production	Yes	N		1	No Impact on scheduling as no simplification provided so standard ECC settings should be sufficient for Migration	Medium
+PP	M-040	Execute Production	Yes	N		1	No Impact on Execution as no simplification provided so standard ECC settings should be sufficient for Migration	Low
+PP	M-160	Maintain Production Related Data	Yes	N		1	No Impact as no simplification provided so standard ECC settings should be sufficient for Migration	Medium
+PP	M-150	Maintain Product Related Data	Yes	"2.1.1.6
+2.1.10.16"	"MRP fields in Material Master
+BOM, Routing, Master Recipe, Production Version"	2	"The SAP S/4HANA simplification is done on the following tabs in transaction MM01/02/03.
+1. Lot Size data in MRP1 Tab: unit of measure group is considered in only retail henceforth it is not required to switch it on in the material master.
+- Unit of Measure Group
+2. Procurement in MRP2: MRP considers quota arrangements always, henceforth it is not required to switch it on in the material master.
+- Quota arr. usage.
+3. BOM explosion /dependent Requirement tab in MRP4
+- Selection Method
+4. Repetitive manufacturing /assembly /deployment strategy tab of MRP4
+- Action control
+- Fair share rule
+- Push distribution
+- Deployment horizon.
+5. Storage Location in MRP4
+- SLoc MRP indicator
+- spec.proc.type SLoc
+- Reoder Point
+- Replenishment qty.
+6. Also the backend database fields for these ""omitted functionality"" remains existing in the system.
+
+BOM Explosion for Manufacturing BOM will depend on Production Versions only. Manufacturing BOM determination can only happen via Production Version.
+
+An interactive migration report (CS_BOM_PRODVER_MIGRATION) has been provided to create new production versions based on existing BOM
+data."	Medium
+PP	M-170	Control and Report Production Operations	Yes	N		1	No Impact	Low
+PP	M-190	Manage Subcontractor Manufacturing	Yes	2.1.11.1	PP-MRP Subcontraccting	2	"We have seens BOM data (Usage -3- Universal ) but not Subcontracting Purchase Order in the system .                                                                                                                                                                        If we wanted to use subcontracting functionality for future  then please follow below .                                                                                                                                                                                                                     If you have several subcontractors requiring the same component materials and if you do not yet use MRP areas to plan the required components then proceed as follows:
+• Create MRP areas for every subcontractor (can be done before or after upgrade)
+• Run regenerative MRP after the upgrade
+"	Medium
+SD		MANAGE CUSTOMER INVOICES	Yes		No Impact	1	No Impact	Low
+SD		MANAGE CUSTOMER TRANSACTIONAL COMPLAINTS	Yes		No Impact	1	No Impact	Low
+SD		Foreign Trade	Yes		All the earlier T.codes are obsolete in SAP S/4 HANA and the new Foreign Trade falls under the purview of SAP GTS	1	SAP S/4HANA has SAP Global Trade Services (GTS).Many existing foreign trade t codes are de-activated	Medium
+SD		BUSINESS ROLE INTERNAL SALES REPRESENTATIVE	Yes	2.1.2.1	Business Internal sales representative role is not available in SAP S/4 HANA	2	"Instead, a set of new FIORI roles, such as SAP_BR_INTERNAL_SALES_REP, are offered as successors."	Medium
+SD		SD ANALYTICS	Yes	2.1.2.17	"Instead of prebuilt aggregates and/or redundant data for analytical purposes, Simplified SD analytics follows the overall analytics strategy in SAP S/4HANA. The SAP
+S/4HANA Analytics approach is based on ODATA and Open CDS (also known as ABAP-managed Core Data Services (CDS)), which sit directly on top of the original database."	2	New approach in S/4 Hana. No impact on Business process is expected.	Medium
+SD		TRANSPORTATION-LE-TRA	Yes	2.1.17.1	"The Logistics Execution Transportation (LE-TRA) is not the target architecture anymore within SAP S/4HANA, on-premise edition."	2	"CRM on-premise scenario, or that they use Cloud for Customer."	Medium
+SD		OUTPUT MANAGEMENT	Yes	2.1.44.1	"There is a new and modern Output Management within SAP S/4HANA. The new output management by design
+includes cloud qualities like extensibility enablement, multi tenancy enablement and modification free
+configuration. Therefore the complete configuration differs from configuration that is used when output management is based on NAST."	2	New Output Management using BRF+	Medium

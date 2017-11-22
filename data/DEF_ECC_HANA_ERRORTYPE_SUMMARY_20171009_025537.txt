@@ -1,0 +1,4 @@
+key	value
+Error	0000002882
+Warning	0000000000
+Information	0000000000
