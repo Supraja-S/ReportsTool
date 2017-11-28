@@ -22,7 +22,7 @@ reportsTool.controller('inventoryController',['$scope','getFileContent','chartCr
     getFileContent.getData(getFileName('INV_ECC_SUMMARY')).then(function(response){
         $scope.objSummary = response;
         $scope.defaultObjType = $scope.objSummary[0]['OBJTYPE'];
-        $scope.objTypeDataFile = 'INV_ECC' + $scope.defaultObjType + '_DATA';
+        $scope.objTypeDataFile = 'INV_ECC_' + $scope.defaultObjType + '_DATA';
 
         fetchSubObjChartData($scope.defaultObjType);
 
