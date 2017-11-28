@@ -1,0 +1,3 @@
+key	value
+High	100
+Very High	17

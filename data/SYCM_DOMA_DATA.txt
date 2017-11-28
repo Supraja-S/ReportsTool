@@ -1,0 +1,3 @@
+ERRORMSG	REF_OBJ_TYPE	REF_OBJ_NAME	CATEG_DESC	COMPLEX_DESC	AREA
+Error Message	Ref. Obj. Type	Ref. Obj. Name	Category Description	Complexity Description	Area
+Syntactically incompatible change	DOMA	MATNR	High	Low	LO-MD-MM
