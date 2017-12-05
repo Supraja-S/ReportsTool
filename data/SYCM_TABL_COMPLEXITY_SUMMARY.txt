@@ -1,0 +1,4 @@
+key	value
+High	36
+Medium	13
+Very High	68

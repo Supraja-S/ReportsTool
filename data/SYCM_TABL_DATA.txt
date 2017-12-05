@@ -1,0 +1,119 @@
+ERRORMSG	REF_OBJ_TYPE	REF_OBJ_NAME	CATEG_DESC	COMPLEX_DESC	AREA
+Error Message	Ref. Obj. Type	Ref. Obj. Name	Category Description	Complexity Description	Area
+Syntactically incompatible change	TABL	VBFA	High	Very High	SD-BF
+Syntactically incompatible change	TABL	MSEG	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	VBFA	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUK	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUK	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUK	High	Very High	SD-BF
+Syntactically incompatible change	TABL	MARC	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	KONH	Very High	Very High	SD-BF-PR
+Syntactically incompatible change	TABL	KONV	Very High	Very High	SD-BF-PR
+Syntactically incompatible change	TABL	MARD	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	VBUK	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUK	High	Very High	SD-BF
+Syntactically incompatible change	TABL	KNC1	High	High	FI
+Syntactically incompatible change	TABL	VBFA	High	Very High	SD-BF
+Syntactically incompatible change	TABL	MSEG	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	MKPF	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	MKPF	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	MKPF	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	MARD	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	MARD	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	MARD	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	MARD	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	MARD	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	MARD	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	MARD	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	MARC	High	Medium	SLL-LEG-FUN-CLS
+Syntactically incompatible change	TABL	MARC	High	Medium	SLL-LEG-FUN-CLS
+Syntactically incompatible change	TABL	MARC	High	Medium	SLL-LEG-FUN-CLS
+Syntactically incompatible change	TABL	MARD	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	MARD	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	MARC	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	MARC	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	MARC	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	MARC	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	MARC	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	VBOX	High	Medium	SD-BIL-RB
+Syntactically incompatible change	TABL	VBOX	High	Medium	SD-BIL-RB
+Syntactically incompatible change	TABL	MSEG	High	High	MM-IM-GF
+Usage of functionality not supported any more	TABL	WTAD_BUYING_PRINT_EXTRA_TEXT	High	Medium	LO-ADM
+Usage of functionality not supported any more	TABL	WTAD_BUYING_PRINT_EXTRA_TEXT	High	Medium	LO-ADM
+Usage of functionality not supported any more	TABL	WTAD_BUYING_PRINT_EXTRA_TEXT	High	Medium	LO-ADM
+Usage of functionality not supported any more	TABL	WTAD_BUYING_PRINT_ADDI	High	Medium	LO-ADM
+Usage of functionality not supported any more	TABL	WTAD_ADDIS_IN_SO_PRINT	High	Medium	LO-ADM
+Usage of functionality not supported any more	TABL	WTAD_ADDIS_IN_SO_PRINT	High	Medium	LO-ADM
+Syntactically incompatible change	TABL	MBEW	High	Medium	MM-IM-GF-VAL
+Syntactically incompatible change	TABL	MBEW	High	Medium	MM-IM-GF-VAL
+Syntactically incompatible change	TABL	VBKA	High	High	SD-CAS
+Syntactically incompatible change	TABL	MSKA	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	MSKA	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	MSEG	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	MSEG	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	VBUP	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBFA	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBFA	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBFA	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBFA	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBFA	High	Very High	SD-BF
+Syntactically incompatible change	TABL	BSAK	High	High	CO
+Syntactically incompatible change	TABL	BSID	High	High	FI
+Syntactically incompatible change	TABL	BSID	High	High	FI
+Syntactically incompatible change	TABL	BSIK	High	High	CO
+Syntactically incompatible change	TABL	COSP	High	High	CO
+Syntactically incompatible change	TABL	VBFA	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBFA	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBFA	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBFA	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBFA	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBFA	High	Very High	SD-BF
+Syntactically incompatible change	TABL	BSAD	High	High	FI
+Syntactically incompatible change	TABL	VBUP	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUP	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUP	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUP	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUP	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUP	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUP	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUP	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUP	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUP	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUP	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUP	High	Very High	SD-BF
+Syntactically incompatible change	TABL	BSAD	High	High	FI
+Syntactically incompatible change	TABL	VBUK	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUK	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUK	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUK	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUK	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUK	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUK	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUK	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUK	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUK	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUK	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUK	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBFA	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBFA	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBFA	High	Very High	SD-BF
+Syntactically incompatible change	TABL	KONV	Very High	Very High	SD-BF-PR
+Syntactically incompatible change	TABL	KONV	Very High	Very High	SD-BF-PR
+Syntactically incompatible change	TABL	KONH	Very High	Very High	SD-BF-PR
+Syntactically incompatible change	TABL	KONH	Very High	Very High	SD-MD-CM
+Syntactically incompatible change	TABL	KONH	Very High	Very High	SD-BF-PR
+Syntactically incompatible change	TABL	KONV	Very High	Very High	SD-BF-PR
+Syntactically incompatible change	TABL	KONV	Very High	Very High	SD-BF-PR
+Syntactically incompatible change	TABL	KONV	Very High	Very High	SD-BF-PR
+Syntactically incompatible change	TABL	KONV	Very High	Very High	SD-BF-PR
+Syntactically incompatible change	TABL	KONV	Very High	Very High	SD-BF-PR
+Syntactically incompatible change	TABL	KONV	Very High	Very High	SD-BF-PR
+Syntactically incompatible change	TABL	KONV	Very High	Very High	SD-BF-PR
+Syntactically incompatible change	TABL	KONV	Very High	Very High	SD-BF-PR
+Syntactically incompatible change	TABL	VBUK	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUK	High	Very High	SD-BF
+Syntactically incompatible change	TABL	MSEG	High	High	MM-IM-GF
+Syntactically incompatible change	TABL	VBUK	High	Very High	SD-BF
+Syntactically incompatible change	TABL	VBUP	High	Very High	SD-BF
+Syntactically incompatible change	TABL	KONV	Very High	Very High	SD-BF-PR
+Syntactically incompatible change	TABL	KONV	Very High	Very High	SD-BF-PR

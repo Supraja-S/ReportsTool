@@ -1,0 +1,10 @@
+ERRORMSG	REF_OBJ_TYPE	REF_OBJ_NAME	CATEG_DESC	COMPLEX_DESC	AREA
+Error Message	Ref. Obj. Type	Ref. Obj. Name	Category Description	Complexity Description	Area
+Usage of functionality not supported any more	TYPE	ADDI	High	Medium	LO-ADM
+Usage of functionality not supported any more	TYPE	ADDI	High	Medium	LO-ADM
+Usage of functionality not supported any more	TYPE	ADDI	High	Medium	LO-ADM
+Usage of functionality not supported any more	TYPE	ADDI	High	Medium	LO-ADM
+Usage of functionality not supported any more	TYPE	ADDI	High	Medium	LO-ADM
+Usage of functionality not supported any more	TYPE	ADDI	High	Medium	LO-ADM
+Usage of functionality not supported any more	TYPE	ADDI	High	Medium	LO-ADM
+Usage of functionality not supported any more	TYPE	ADDI	High	Medium	LO-ADM

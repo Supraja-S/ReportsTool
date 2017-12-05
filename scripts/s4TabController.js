@@ -1,6 +1,13 @@
 reportsTool.controller('s4Controller',['$scope','getFileContent','chartCreationService',function($scope,getFileContent,chartCreationService){
 
 	$scope.selected = 'busFunctions';
+    $scope.haveBFData = false;
+    $scope.haveSYCMData = false;
+    $scope.pieOptions = chartCreationService.createPieChartData();
+    $scope.pieOptionsSYCM = chartCreationService.createPieChartData();
+    $scope.donutOptions = chartCreationService.createDonutChartData();
+    var bulgedArc = d3.svg.arc().outerRadius(105);
+    var regularArc = d3.svg.arc().outerRadius(100)
 
 	$scope.chart={
 		view1:'pieChart',
@@ -13,18 +20,90 @@ reportsTool.controller('s4Controller',['$scope','getFileContent','chartCreationS
         }
     }
 
-    getFileContent.getData(getFileName('S4HANA_COUNT_SUMMARY')).then(function(response){
-        $scope.countSummary = response;
-    });
+    $scope.showTab = function(tabName){
+        $scope.selected = tabName;
+        getTabData(tabName);
+    };
 
-    getFileContent.getData(getFileName('S4HANA_BF_BY_CATEGORY')).then(function(response){
-        $scope.uniqueBFuncCateg = response;
-    });
+    var getTabData = function(tabName){
+        switch(tabName){
+            case 'busFunctions': 
+                if(!$scope.haveBFData){
+                    getFileContent.getData(getFileName('S4HANA_COUNT_SUMMARY')).then(function(response){
+                        $scope.countSummary = response;
+                    });
 
-    getFileContent.getData(getFileName('S4HANA_BF_BY_COMPTYPE')).then(function(response){
-        $scope.uniqueBFuncCompType = response;
-    });
+                    getFileContent.getData(getFileName('S4HANA_BF_BY_CATEGORY')).then(function(response){
+                        $scope.uniqueBFuncCateg = response;
+                    });
 
-	$scope.options = chartCreationService.createPieChartData();
+                    getFileContent.getData(getFileName('S4HANA_BF_BY_COMPTYPE')).then(function(response){
+                        $scope.uniqueBFuncCompType = response;
+                    }); 
+                    $scope.haveBFData = true;
+                }
+                break;
+
+            case 'SYCM':
+                if(!$scope.haveSYCMData){
+                    getFileContent.getData(getFileName('SYCM_COUNT_SUMMARY')).then(function(response){
+                        $scope.SYCMCountSummary = response;
+                    });
+
+                    getFileContent.getData(getFileName('SYCM_OBJTYPE_SUMMARY')).then(function(response){
+                        $scope.SYCMObjTypeSummary = response;
+                        $scope.selectedObjType = $scope.SYCMObjTypeSummary[0]['OBJTYPE'];
+                        $scope.filterType = 'COMPLEXITY';
+                        $scope.SYCMobjTypeDataFile = 'SYCM_' + $scope.selectedObjType + '_DATA';
+
+                        $scope.updateChartType($scope.filterType);
+                        fetchTableData($scope.selectedObjType);
+                    });
+                    $scope.haveSYCMData = true;
+                }
+                break;
+        }
+    }
+
+    $scope.updateChartType =  function(type){
+        $scope.filterType = type;
+        $scope.chart.view2='donutchart';
+
+        var file_name = 'SYCM_'+$scope.selectedObjType+'_'+type+'_SUMMARY';
+        getFileContent.getData(getFileName(file_name)).then(function(response){
+            $scope.SYCMfilteredData = response;
+        
+        });
+    };
+
+    var fetchTableData = function(objType){
+        var fileName = 'SYCM_' + objType+'_DATA';
+        getFileContent.getData(getFileName(fileName)).then(function(response){
+            $scope.SYCMobjTypeHeader = response[0];
+            response.splice(0,1);
+            $scope.SYCMobjTypeData = response;
+        });
+    };
+
+    $scope.pieOptionsSYCM.chart.callback =  function(chart) {
+        var prevArc = null;
+
+        chart.pie.dispatch.on('elementClick', function(e){
+            $scope.selectedObjType = e.data['OBJTYPE'];
+            
+            $scope.updateChartType($scope.filterType);
+            fetchTableData($scope.selectedObjType);
+
+            if(prevArc){
+                d3.select(prevArc).classed('clicked', false);
+                d3.select(prevArc).select("path").transition().duration(70).attr('d', regularArc);
+            }
+            d3.select(e.element).classed('clicked', true);
+            d3.select(e.element).select("path").transition().duration(70).attr('d', bulgedArc);     
+            prevArc = e.element;                      
+        });
+            
+    }
+    $scope.showTab($scope.selected);
 
 }]);

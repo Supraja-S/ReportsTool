@@ -1,0 +1,7 @@
+ERRORMSG	REF_OBJ_TYPE	REF_OBJ_NAME	CATEG_DESC	COMPLEX_DESC	AREA
+Error Message	Ref. Obj. Type	Ref. Obj. Name	Category Description	Complexity Description	Area
+Usage of functionality not supported any more	TTYP	FIP_T_SPART_RANGE	High	Medium	MM-PUR-FIP
+Usage of functionality not supported any more	TTYP	FIP_T_SPART_RANGE	High	Medium	MM-PUR-FIP
+Usage of functionality not supported any more	TTYP	FIP_T_KUNNR_RANGE	High	Medium	MM-PUR-FIP
+Usage of functionality not supported any more	TTYP	FIP_T_KUNNR_RANGE	High	Medium	MM-PUR-FIP
+Syntactically incompatible change	TTYP	TT_VBFA	High	Medium	SD-SLS-GF-RE
