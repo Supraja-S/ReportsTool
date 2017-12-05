@@ -1,0 +1,6 @@
+key	value	color
+Total	165	blue
+Very High	69	red
+High	64	orange
+Medium	31	yellow
+Low	1	green

@@ -1,0 +1,3 @@
+key	value
+High	28
+Medium	3

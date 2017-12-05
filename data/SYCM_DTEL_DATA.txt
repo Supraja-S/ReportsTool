@@ -1,0 +1,33 @@
+ERRORMSG	REF_OBJ_TYPE	REF_OBJ_NAME	CATEG_DESC	COMPLEX_DESC	AREA
+Error Message	Ref. Obj. Type	Ref. Obj. Name	Category Description	Complexity Description	Area
+Syntactically incompatible change	DTEL	VBTYP	High	High	SD-BF
+Syntactically incompatible change	DTEL	VBTYP	High	High	SD-BF
+Syntactically incompatible change	DTEL	VBTYP_N	High	High	SD-BF
+Syntactically incompatible change	DTEL	ATWTB	High	Medium	LO-MD-MM
+Syntactically incompatible change	DTEL	STUFE_VBFA	High	High	SD-BF
+Syntactically incompatible change	DTEL	VBTYP	High	High	SD-BF
+Syntactically incompatible change	DTEL	VBTYP	High	High	SD-BF
+Syntactically incompatible change	DTEL	VBTYP	High	High	SD-BF
+Syntactically incompatible change	DTEL	VBTYP	High	High	SD-BF
+Syntactically incompatible change	DTEL	VBTYP	High	High	SD-BF
+Syntactically incompatible change	DTEL	VBTYP_N	High	High	SD-BF
+Syntactically incompatible change	DTEL	VBTYP_N	High	High	SD-BF
+Syntactically incompatible change	DTEL	VBTYP_N	High	High	SD-BF
+Syntactically incompatible change	DTEL	VBTYP_N	High	High	SD-BF
+Syntactically incompatible change	DTEL	VBTYP_N	High	High	SD-BF
+Syntactically incompatible change	DTEL	VBTYP_N	High	High	SD-BF
+Syntactically incompatible change	DTEL	VBTYP_V	High	High	SD-BF
+Syntactically incompatible change	DTEL	VBTYP_V	High	High	SD-BF
+Syntactically incompatible change	DTEL	DZAEHK	Very High	High	SD-BF-PR
+Syntactically incompatible change	DTEL	KALKS	Very High	High	SD-BF-PR
+Syntactically incompatible change	DTEL	VAKEY	Very High	High	SD-BF-PR
+Syntactically incompatible change	DTEL	VBTYP	High	High	SD-BF
+Syntactically incompatible change	DTEL	VBTYP	High	High	SD-BF
+Syntactically incompatible change	DTEL	VBTYP	High	High	SD-BF
+Syntactically incompatible change	DTEL	VBTYP	High	High	SD-BF
+Syntactically incompatible change	DTEL	VBTYP	High	High	SD-BF
+Usage of functionality not supported any more	DTEL	/BEV3/CHZNSTZ_ABW	High	Medium	SD-SLS-PLL-OBS
+Usage of functionality not supported any more	DTEL	/BEV3/CHZNSTZ_ABW	High	Medium	SD-SLS-PLL-OBS
+Syntactically incompatible change	DTEL	KALKS	Very High	High	SD-BF-PR
+Syntactically incompatible change	DTEL	KALKS	Very High	High	SD-MD-CM
+Syntactically incompatible change	DTEL	VAKEY	Very High	High	SD-BF-PR
