@@ -38,8 +38,12 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 	$scope.updateChartType =  function(type,chartSection){
 		$scope.defectFilter = type;
 		$scope.defectsCharts.view2='donutchart';
-
-		var file_name = 'DEF_ECC_'+type+'_SUMMARY';
+		if($scope.defectObjecyType){
+			var file_name = 'DEF_ECC_'+$scope.defectObjecyType+'_'+type+'_SUMMARY';	
+		}else{
+			var file_name = 'DEF_ECC_'+type+'_SUMMARY';	
+		}
+		
 		//console.log(file_name)
 		s4TabService.getData(getFileName(file_name)).then(function(response){
 			//console.log(response);
@@ -89,6 +93,7 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 				//console.log(chart.pie);
 				var prevArc = null;
 				chart.pie.dispatch.on('elementClick', function(e){
+					$scope.defectObjecyType = e.data.Obj;
 					var file_name = 'DEF_ECC_'+e.data.Obj+'_'+$scope.defectFilter+'_SUMMARY';
 					s4TabService.getData(getFileName(file_name)).then(function(response){
 
@@ -108,9 +113,26 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 	}
 	function generatePerformaceCharts(){
 		$scope.defectFilter = 'COMPLEXITY';
-		s4TabService.getData(getFileName('DEF_ECC_COUNT_SUMMARY')).then(function(response){
+		s4TabService.getData(getFileName('PER_ECC_COUNT_SUMMARY')).then(function(response){
 			$scope.performanceCountsArray = response;
 		});	
+		var fetchSubObjChartData = function(objType){
+	        var fileName = 'PER_ECC_' + objType + '_SUMMARY';
+	        s4TabService.getData(getFileName(fileName)).then(function(response){
+	            $scope.performanceCharts.donutchart.data  = response;
+	        });
+	        fetchTableData(objType);
+	    }
+	    var fetchTableData = function(objType){
+			$scope.performanceTableDataFile = 'PER_ECC_' + objType;
+	        s4TabService.getData(getFileName($scope.performanceTableDataFile)).then(function(response){
+	            $scope.performanceTableheader = response[0];
+	            response.splice(0,1)
+	            $scope.performanceTableData = response;
+	        });
+	        $rootScope.showLoader = false;
+	    }
+
 		$scope.performanceCharts = {
 			view1:'piechart',
 			view2:'donutchart',
@@ -129,33 +151,23 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 			}
 		};
 		if($scope.performanceCharts.piechart.data.length==0){
-			s4TabService.getData(getFileName('DEF_ECC_SUMMARY')).then(function(response){
+			s4TabService.getData(getFileName('PER_ECC_SUMMARY')).then(function(response){
 				$scope.performanceCharts.piechart.data = response;
+				$scope.defaultObjType =  response[0].obj;
+				fetchSubObjChartData($scope.defaultObjType);
 			});		
+			
 		}
 		
-		if($scope.performanceCharts.donutchart.data.length ==0){
-			s4TabService.getData(getFileName('DEF_ECC_COMPLEXITY_SUMMARY')).then(function(response){
-				$scope.performanceCharts.donutchart.data = response;
-			
-			});
-		}
-		/*if($scope.performanceCharts.linechart.data.length ==0){
-			s4TabService.getData(getFileName('DEF_BY_COMPTYPE_COMPLEXITY')).then(function(response){
-				$scope.performanceCharts.linechart.data = response;
-			
-			});
-		}*/
+		
+		
 		$scope.performanceCharts.piechart.options.chart.callback =  function(chart) {
 			//console.log(chart);
 			var prevArc = null;
 			chart.pie.dispatch.on('elementClick', function(e){
-					var file_name = 'DEF_ECC_'+e.data.Obj+'_'+$scope.defectFilter+'_SUMMARY';
-					s4TabService.getData(getFileName(file_name)).then(function(response){
-
-						$scope.performanceCharts.donutchart.data  = response;
-						//$scope.defectsCharts.donutchart.data =  response;
-					});
+					$rootScope.showLoader = true;
+					fetchSubObjChartData(e.data.obj);
+					
 					if(prevArc){
 		                d3.select(prevArc).classed('clicked', false);
 		                d3.select(prevArc).select("path").transition().duration(70).attr('d', regularArc);
