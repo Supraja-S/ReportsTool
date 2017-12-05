@@ -1,0 +1,4 @@
+key	value
+Class (ABAP Objects)	0000004065
+Module Pool	0000000605
+Web Dynpro Component	0000000032	

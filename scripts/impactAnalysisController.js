@@ -8,6 +8,7 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 	$scope.tabularData = [] ;
 	$scope.IncompabilitycountsArray = [];
 	$scope.performanceCountsArray = [];
+	$scope.hanaPerformanceCountsArray = [];
 	$scope.usageCountsArray= [];
 	$scope.typeArray=[];
 	
@@ -29,7 +30,8 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 		$(window).trigger('resize'); 
 		switch(n){
 			case 'defects': generateIncompatibilityCharts();break;
-			case 'performance': generatePerformaceCharts();break;
+			case 'performance_nh': generatePerformaceCharts();break;
+			case 'performance_h': generateHanaPerformaceCharts();break;
 			case 'usage': generateUsageCharts();break;
 			default: generateIncompatibilityCharts();break;
 		}
@@ -121,7 +123,7 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 	        s4TabService.getData(getFileName(fileName)).then(function(response){
 	            $scope.performanceCharts.donutchart.data  = response;
 	        });
-	        fetchTableData(objType);
+	        //fetchTableData(objType);
 	    }
 	    var fetchTableData = function(objType){
 			$scope.performanceTableDataFile = 'PER_ECC_' + objType;
@@ -130,7 +132,7 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 	            response.splice(0,1)
 	            $scope.performanceTableData = response;
 	        });
-	        $rootScope.showLoader = false;
+	        //$rootScope.showLoader = false;
 	    }
 
 		$scope.performanceCharts = {
@@ -165,7 +167,76 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 			//console.log(chart);
 			var prevArc = null;
 			chart.pie.dispatch.on('elementClick', function(e){
-					$rootScope.showLoader = true;
+					//$rootScope.showLoader = true;
+					fetchSubObjChartData(e.data.obj);
+					
+					if(prevArc){
+		                d3.select(prevArc).classed('clicked', false);
+		                d3.select(prevArc).select("path").transition().duration(70).attr('d', regularArc);
+		            }
+		            d3.select(e.element).classed('clicked', true);
+		            d3.select(e.element).select("path").transition().duration(70).attr('d', bulgedArc);     
+		            prevArc = e.element;                   
+			});
+			
+		}
+	
+	}
+	function generateHanaPerformaceCharts(){
+		$scope.defectFilter = 'COMPLEXITY';
+		s4TabService.getData(getFileName('PER_ECC_HANA_COUNT_SUMMARY')).then(function(response){
+			$scope.hanaPerformanceCountsArray = response;
+		});	
+		var fetchSubObjChartData = function(objType){
+	        var fileName = 'PER_ECC_HANA_' + objType + '_SUMMARY';
+	        s4TabService.getData(getFileName(fileName)).then(function(response){
+	            $scope.hanaPerformanceCharts.donutchart.data  = response;
+	        });
+	        //fetchTableData(objType);
+	    }
+	    var fetchTableData = function(objType){
+			$scope.hanaPerformanceTableDataFile = 'PER_ECC_HANA_' + objType;
+	        s4TabService.getData(getFileName($scope.hanaPerformanceTableDataFile)).then(function(response){
+	            $scope.hanaPerformanceTableheader = response[0];
+	            response.splice(0,1)
+	            $scope.hanaPerformanceTableData = response;
+	        });
+	        //$rootScope.showLoader = false;
+	    }
+
+		$scope.hanaPerformanceCharts = {
+			view1:'piechart',
+			view2:'donutchart',
+			callBackCheck:false,
+			piechart:{
+				options:chartCreationService.createPieChartData(false),
+				data:[]
+			},
+			linechart:{
+				options:chartCreationService.createLineChartData(false),
+				data:[]
+			},
+			donutchart:{
+				options:chartCreationService.createDonutChartData(false),
+				data:[]
+			}
+		};
+		if($scope.hanaPerformanceCharts.piechart.data.length==0){
+			s4TabService.getData(getFileName('PER_ECC_HANA_SUMMARY')).then(function(response){
+				$scope.hanaPerformanceCharts.piechart.data = response;
+				$scope.defaultObjType =  response[0].obj;
+				fetchSubObjChartData($scope.defaultObjType);
+			});		
+			
+		}
+		
+		
+		
+		$scope.hanaPerformanceCharts.piechart.options.chart.callback =  function(chart) {
+			//console.log(chart);
+			var prevArc = null;
+			chart.pie.dispatch.on('elementClick', function(e){
+					//$rootScope.showLoader = true;
 					fetchSubObjChartData(e.data.obj);
 					
 					if(prevArc){
