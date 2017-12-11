@@ -1,4 +1,4 @@
-reportsTool.directive('toggleTable', ['$injector',function($injector){
+reportsTool.directive('toggleTable', ['$injector','$rootScope',function($injector,$rootscope){
 	return {
 		restrict: 'C',
 
@@ -16,10 +16,13 @@ reportsTool.directive('toggleTable', ['$injector',function($injector){
 			}
 			element.on('click', function(e){
 				if(!scope.tabularData && fileService != undefined){
+
+					 $rootscope.showLoader = true; //remove this when not using through EXE
 					 fileService.getData(getFileName(attrs.fileName)).then(function(response){
 					 	scope.tabularHeader = response[0];
 					 	response.splice(0,1);
 						scope.tabularData = response;
+						$rootscope.showLoader = false; //remove this when not using through EXE
 					});
 				}
             	scope.$apply(function () {

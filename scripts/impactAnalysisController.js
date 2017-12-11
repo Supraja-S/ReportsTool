@@ -1,5 +1,5 @@
 
-reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreationService',function($scope,s4TabService,chartCreationService){
+reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreationService','$rootScope',function($scope,s4TabService,chartCreationService,$rootScope){
 	$scope.selected = 'defects';
 	$scope.orderByField = 'name';
   	$scope.reverseSort = false;
@@ -123,16 +123,16 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 	        s4TabService.getData(getFileName(fileName)).then(function(response){
 	            $scope.performanceCharts.donutchart.data  = response;
 	        });
-	        //fetchTableData(objType);
+	        fetchTableData(objType);
 	    }
 	    var fetchTableData = function(objType){
 			$scope.performanceTableDataFile = 'PER_ECC_' + objType;
-	        s4TabService.getData(getFileName($scope.performanceTableDataFile)).then(function(response){
+	        /*s4TabService.getData(getFileName($scope.performanceTableDataFile)).then(function(response){
 	            $scope.performanceTableheader = response[0];
 	            response.splice(0,1)
 	            $scope.performanceTableData = response;
-	        });
-	        //$rootScope.showLoader = false;
+	        });*/
+	        $rootScope.showLoader = false;
 	    }
 
 		$scope.performanceCharts = {
@@ -167,7 +167,7 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 			//console.log(chart);
 			var prevArc = null;
 			chart.pie.dispatch.on('elementClick', function(e){
-					//$rootScope.showLoader = true;
+					$rootScope.showLoader = true;
 					fetchSubObjChartData(e.data.obj);
 					
 					if(prevArc){
@@ -192,16 +192,16 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 	        s4TabService.getData(getFileName(fileName)).then(function(response){
 	            $scope.hanaPerformanceCharts.donutchart.data  = response;
 	        });
-	        //fetchTableData(objType);
+	        fetchTableData(objType);
 	    }
 	    var fetchTableData = function(objType){
 			$scope.hanaPerformanceTableDataFile = 'PER_ECC_HANA_' + objType;
-	        s4TabService.getData(getFileName($scope.hanaPerformanceTableDataFile)).then(function(response){
+	        /*s4TabService.getData(getFileName($scope.hanaPerformanceTableDataFile)).then(function(response){
 	            $scope.hanaPerformanceTableheader = response[0];
 	            response.splice(0,1)
 	            $scope.hanaPerformanceTableData = response;
-	        });
-	        //$rootScope.showLoader = false;
+	        });*/
+	        $rootScope.showLoader = false;
 	    }
 
 		$scope.hanaPerformanceCharts = {
