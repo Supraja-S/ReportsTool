@@ -1,0 +1,6 @@
+count	color	description
+7048	blue	Total Defects
+8	red	Very High impact
+114	orange	High impact
+6453	yellow	Medium
+473	green	Low		
