@@ -1,0 +1,3 @@
+PROC_AREA	KEY_OBS	IMPACT	SAP_NOTE
+Process Area	Key Observations	Impact	SAP Note
+Ariba	Ariba Cloud Integration being used in TRI environment. Ariba Clg SPI is supported till S/4HANA 1610 EM only at this point of time	Error	2400737

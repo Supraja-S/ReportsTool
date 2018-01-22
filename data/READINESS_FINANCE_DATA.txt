@@ -1,0 +1,12 @@
+PROC_AREA	KEY_OBS	IMPACT	SAP_NOTE
+Process Area	Key Observations	Impact	SAP Note
+Finance	Quantity ledger is a technical pre requisite for the function valuation class transfer. Action required in company codes 1000 1020 1060,1060 and 1210	Error	2270629
+Finance	Accrual/Deferral of Expenses and Revenues. NOTE: Switch to the new functionality before the conversion to SAP S/4HANA edition. Refer to SAP note for nuyre details.	Error	2270462
+Finance	Company code CNOI and contr. area CNOI have different fiscal year variants Kl and K4	Error	2246333
+Finance	Activate the company code validation (CO area HIJOI / FiscYr 1997)	Error	
+Finance	New general ledger is not Active in the system	Warning	193902
+Finance	Account determination for transfer of CO postings into Fl (transaction OKI 7) is not called anymore	Warning	
+Finance	Substitution Fl/0005 will be replaced by Fl/0006	Warning	
+Finance	Substitution for Event 60 (Reconciliation ledger: Acct determ is not called anymore.	Warning	
+Finance	CO and FI-GL postings are integrated by design in S/4HANA:Reconciliation posting/real-time integration CO-FI is obsolete.	Warning	
+Finance	Activate control indicator "All Currencies" ( CO area ESOI/OMBI/FROI/HUOI/PTOI)	Warning	
