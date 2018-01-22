@@ -1,7 +1,7 @@
 <div ng-controller="s4Controller">
 <ul class="sub-nav  col-xs-12">
 		<li ng-class="selected == 'busFunctions'?'active':''" ng-click="showTab('busFunctions')" ><a >Business Functions</a></li>
-		<!--<li ng-class="selected == 'readycheck'?'active':''" ng-click="selected = 'readycheck'" ><a >Readiness Check</a></li>-->
+		<li ng-class="selected == 'readycheck'?'active':''" ng-click="showTab('readycheck')"><a >Readiness Check</a></li>
 		<li ng-class="selected == 'SYCM'?'active':''" ng-click="showTab('SYCM')" ><a>Code Incompatibilities</a></li>
 </ul>
 
@@ -94,7 +94,7 @@
 
 <div class="view-wrapper col-xs-12 s4-container" ng-if="selected == 'readycheck'">
 	<div class="totals-container col-xs-12">
-		<div class="totals-box col-xs-2 status-{{item.color}}" ng-repeat="item in countSummary">
+		<div class="totals-box col-xs-2 status-{{item.color}}" ng-repeat="item in ReadinessCountSummary">
 			<p class="totals-numeric" ng-bind="item.value"></p>
 			<p class="totals-text" ng-bind="item.key"></p>
 		</div>
@@ -112,7 +112,7 @@
 			</div>
 			<div class="center-section clear-both">
 				
-				<nvd3 ng-if="chart.view1=='pieChart'" options="pieOptions" data="uniqueBFuncCompType"></nvd3>
+				<nvd3 ng-if="chart.view1=='pieChart'" options="pieOptionsReadiness" data="ReadinessAreaSummary"></nvd3>
 				<div class="tabular-data" ng-if="chart.view1=='table'">
 					<table float-thead="floatTheadOptions">
 						<thead >
@@ -124,7 +124,7 @@
 						</thead>
 						
 						<tbody>
-							<tr class="" ng-repeat="item in uniqueBFuncCompType">
+							<tr class="" ng-repeat="item in ReadinessAreaSummary">
 								<td class="col-xs-2 border-right">{{$index+1}}</td>
 								<td class="col-xs-6 border-right">{{item.key}}</td>
 								<td class="col-xs-4 border-right">{{item.value}}</td>
@@ -146,7 +146,7 @@
 			</div>
 			<div class="center-section clear-both">
 				
-				<nvd3 ng-if="chart.view2=='pieChart'" options="pieOptions" data="uniqueBFuncCateg"></nvd3>
+				<nvd3 ng-if="chart.view2=='pieChart'" options="pieOptions" data="readinessImpact"></nvd3>
 				<div class="tabular-data" ng-if="chart.view2=='table'">
 					<table float-thead="floatTheadOptions">
 						<thead >
@@ -158,7 +158,7 @@
 						</thead>
 						
 						<tbody>
-							<tr class="" ng-repeat="item in uniqueBFuncCateg">
+							<tr class="" ng-repeat="item in readinessImpact">
 								<td class="col-xs-2 border-right">{{$index+1}}</td>
 								<td class="col-xs-6 border-right">{{item.key}}</td>
 								<td class="col-xs-4 border-right">{{item.value}}</td>

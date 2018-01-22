@@ -1,0 +1,5 @@
+key	value	color
+Error	9	red
+Warning	7	orange
+Info	   0	yellow
+total	16	green

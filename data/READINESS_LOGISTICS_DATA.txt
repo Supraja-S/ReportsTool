@@ -1,0 +1,5 @@
+PROC_AREA	KEY_OBS	IMPACT	SAP_NOTE
+Process Area	Key Observations	Impact	SAP Note
+Logistics	Foreign key inconsistencies found beb,veen MM-IM tables and MARA. NOTE: If the erroneous records are old and they are not needed any nuyre, they can be archived.	Error	2197392
+Logistics	Obsolete Fields in Foreign Trade In Material Master. Note: Follow the correction instructions In the note to reset all the field prior to the conversion	Error	2468666
+Logistics	LIS Customing ó Late lock mode is active in client 100. Adﬂst the customzing after conversion refer to SAP note	Warning	2319579
