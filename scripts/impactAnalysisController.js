@@ -38,20 +38,36 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 	});
 
 	$scope.updateChartType =  function(type,chartSection){
-		$scope.defectFilter = type;
-		$scope.defectsCharts.view2='donutchart';
-		if($scope.defectObjecyType){
-			var file_name = 'DEF_ECC_'+$scope.defectObjecyType+'_'+type+'_SUMMARY';	
-		}else{
-			var file_name = 'DEF_ECC_'+type+'_SUMMARY';	
+		switch(chartSection){
+			case 'non-hana':
+				$scope.defectFilter = type;
+				$scope.defectsCharts.view2='donutchart';
+				if($scope.defectObjectType){
+					var file_name = 'PER_ECC_'+$scope.defectObjectType+'_'+type+'_SUMMARY';	
+				}else{
+					var file_name = 'PER_ECC_'+type+'_SUMMARY';	
+				}
+				
+				s4TabService.getData(getFileName(file_name)).then(function(response){
+					$scope.performanceCharts.donutchart.data = response;
+				});
+				break;
+
+			default :
+				$scope.defectFilter = type;
+				$scope.defectsCharts.view2='donutchart';
+				if($scope.defectObjectType){
+					var file_name = 'DEF_ECC_'+$scope.defectObjectType+'_'+type+'_SUMMARY';	
+				}else{
+					var file_name = 'DEF_ECC_'+type+'_SUMMARY';	
+				}
+				
+				s4TabService.getData(getFileName(file_name)).then(function(response){
+					$scope.defectsCharts.donutchart.data = response;
+				});
+				break;
 		}
 		
-		//console.log(file_name)
-		s4TabService.getData(getFileName(file_name)).then(function(response){
-			//console.log(response);
-				$scope.defectsCharts.donutchart.data = response;
-			
-			});
 	};
 	function generateIncompatibilityCharts(){
 		
@@ -95,7 +111,7 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 				//console.log(chart.pie);
 				var prevArc = null;
 				chart.pie.dispatch.on('elementClick', function(e){
-					$scope.defectObjecyType = e.data.Obj;
+					$scope.defectObjectType = e.data.Obj;
 					var file_name = 'DEF_ECC_'+e.data.Obj+'_'+$scope.defectFilter+'_SUMMARY';
 					s4TabService.getData(getFileName(file_name)).then(function(response){
 
@@ -119,7 +135,7 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 			$scope.performanceCountsArray = response;
 		});	
 		var fetchSubObjChartData = function(objType){
-	        var fileName = 'PER_ECC_' + objType + '_SUMMARY';
+	        var fileName = 'PER_ECC_' + objType + '_' + $scope.defectFilter + '_SUMMARY';
 	        s4TabService.getData(getFileName(fileName)).then(function(response){
 	            $scope.performanceCharts.donutchart.data  = response;
 	        });
@@ -127,11 +143,11 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 	    }
 	    var fetchTableData = function(objType){
 			$scope.performanceTableDataFile = 'PER_ECC_' + objType;
-	        /*s4TabService.getData(getFileName($scope.performanceTableDataFile)).then(function(response){
+	        s4TabService.getData(getFileName($scope.performanceTableDataFile)).then(function(response){
 	            $scope.performanceTableheader = response[0];
 	            response.splice(0,1)
 	            $scope.performanceTableData = response;
-	        });*/
+	        });
 	        $rootScope.showLoader = false;
 	    }
 
@@ -167,6 +183,7 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 			//console.log(chart);
 			var prevArc = null;
 			chart.pie.dispatch.on('elementClick', function(e){
+					$scope.defectObjectType = e.data.obj;
 					$rootScope.showLoader = true;
 					fetchSubObjChartData(e.data.obj);
 					
