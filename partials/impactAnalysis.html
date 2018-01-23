@@ -163,13 +163,23 @@
 				</div>
 				<div class="col-xs-6 graph-box padding-top-10" ng-init="performanceCharts.view2 = 'donutchart'">
 					<div class="pull-left col-xs-10">&nbsp;</div>
-					<div class="pull-right col-xs-2 switch-block-container no-padding"> 
-						<a class="switch-block col-xs-6 border-right text-center" href="javascript:void(0)" ng-click="performanceCharts.view2='donutchart'" ng-class="performanceCharts.view2=='donutchart'?'active':''" title="Chart">
-							<span class="fa fa-pie-chart fa-lg"></span>
-						</a>
-						<a class="switch-block col-xs-6 text-center" ng-class="performanceCharts.view2=='table'?'active':''" href="javascript:void(0)" ng-click="performanceCharts.view2='table'" title="Tabular">
-							<span class="fa fa-table fa-lg"></span>
-						</a>
+					<div class="pull-right col-xs-6 switch-block-container no-padding"> 
+						<div class="col-xs-8 no-padding">
+						    <a class="switch-block col-xs-6 border-right text-center" href="javascript:void(0)" ng-click="updateChartType('COMPLEXITY','non-hana')" title="Chart"  ng-class="defectFilter=='COMPLEXITY'?'active':''">
+								<span class="fa">Complexity</span>
+							</a>
+							 <a class="switch-block col-xs-6 border-right text-center" href="javascript:void(0)" ng-click="updateChartType('SEVERITY', 'non-hana')"  title="Chart"  ng-class="defectFilter=='SEVERITY'?'active':''">
+								<span class="fa">Severity</span>
+							</a>
+						</div>
+						<div class="col-xs-4 no-padding">
+							<a class="switch-block col-xs-6 border-right text-center" href="javascript:void(0)" ng-click="performanceCharts.view2='donutchart'" ng-class="performanceCharts.view2=='donutchart'?'active':''" title="Chart">
+								<span class="fa fa-pie-chart fa-lg"></span>
+							</a>
+							<a class="switch-block col-xs-6 text-center" ng-class="performanceCharts.view2=='table'?'active':''" href="javascript:void(0)" ng-click="performanceCharts.view2='table'" title="Tabular">
+								<span class="fa fa-table fa-lg"></span>
+							</a>
+						</div>
 					</div>
 					<div class="center-section clear-both">
 						<nvd3 ng-if="performanceCharts.view2=='donutchart'" options="performanceCharts.donutchart.options" data="performanceCharts.donutchart.data"></nvd3>
