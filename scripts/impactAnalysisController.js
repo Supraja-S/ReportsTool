@@ -38,6 +38,7 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 	});
 
 	$scope.updateChartType =  function(type,chartSection){
+		
 		switch(chartSection){
 			case 'non-hana':
 				$scope.defectFilter = type;
@@ -50,6 +51,19 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 				
 				s4TabService.getData(getFileName(file_name)).then(function(response){
 					$scope.performanceCharts.donutchart.data = response;
+				});
+				break;
+			case 'hana':
+				$scope.defectFilter = type;
+				$scope.defectsCharts.view2='donutchart';
+				if($scope.defectObjectType){
+					var file_name = 'PER_ECC_HANA_'+$scope.defectObjectType+'_'+type+'_SUMMARY';	
+				}else{
+					var file_name = 'PER_ECC_HANA'+type+'_SUMMARY';	
+				}
+				
+				s4TabService.getData(getFileName(file_name)).then(function(response){
+					$scope.hanaPerformanceCharts.donutchart.data = response;
 				});
 				break;
 
@@ -171,8 +185,8 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 		if($scope.performanceCharts.piechart.data.length==0){
 			s4TabService.getData(getFileName('PER_ECC_SUMMARY')).then(function(response){
 				$scope.performanceCharts.piechart.data = response;
-				$scope.defaultObjType =  response[0].obj;
-				fetchSubObjChartData($scope.defaultObjType);
+				$scope.defectObjectType =  response[0].obj;
+				fetchSubObjChartData($scope.defectObjectType);
 			});		
 			
 		}
@@ -205,7 +219,7 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 			$scope.hanaPerformanceCountsArray = response;
 		});	
 		var fetchSubObjChartData = function(objType){
-	        var fileName = 'PER_ECC_HANA_' + objType + '_SUMMARY';
+	        var fileName = 'PER_ECC_HANA_' + objType + '_' + $scope.defectFilter+'_SUMMARY';
 	        s4TabService.getData(getFileName(fileName)).then(function(response){
 	            $scope.hanaPerformanceCharts.donutchart.data  = response;
 	        });
@@ -241,8 +255,8 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 		if($scope.hanaPerformanceCharts.piechart.data.length==0){
 			s4TabService.getData(getFileName('PER_ECC_HANA_SUMMARY')).then(function(response){
 				$scope.hanaPerformanceCharts.piechart.data = response;
-				$scope.defaultObjType =  response[0].obj;
-				fetchSubObjChartData($scope.defaultObjType);
+				$scope.defectObjectType =  response[0].obj;
+				fetchSubObjChartData($scope.defectObjectType);
 			});		
 			
 		}

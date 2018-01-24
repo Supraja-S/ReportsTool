@@ -1,0 +1,4 @@
+key	value
+Must Fix	50
+Suggest To	60
+Good	70
