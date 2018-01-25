@@ -227,11 +227,11 @@ reportsTool.controller('ImpactController',['$scope','s4TabService','chartCreatio
 	    }
 	    var fetchTableData = function(objType){
 			$scope.hanaPerformanceTableDataFile = 'PER_ECC_HANA_' + objType;
-	        /*s4TabService.getData(getFileName($scope.hanaPerformanceTableDataFile)).then(function(response){
+	        s4TabService.getData(getFileName($scope.hanaPerformanceTableDataFile)).then(function(response){
 	            $scope.hanaPerformanceTableheader = response[0];
 	            response.splice(0,1)
 	            $scope.hanaPerformanceTableData = response;
-	        });*/
+	        });
 	        $rootScope.showLoader = false;
 	    }
 
