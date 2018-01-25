@@ -228,10 +228,10 @@
 		<div class="col-xs-6 graph-box padding-top-10" ng-init="chart.view2='donutchart'">
 			<div class="pull-right col-xs-6 switch-block-container no-padding"> 
 				<div class="col-xs-9 no-padding">
-				    <a class="switch-block col-xs-6 border-right text-center" href="javascript:void(0)" ng-click="updateChartType('COMPLEXITY')" title="Chart"  ng-class="filterType=='COMPLEXITY'?'active':''">
+				    <a class="switch-block col-xs-6 border-right text-center" href="javascript:void(0)" ng-click="updateChartType('COMPLEXITY',selected)" title="Chart"  ng-class="filterType=='COMPLEXITY'?'active':''">
 						<span class="fa">Complexity</span>
 					</a>
-					 <a class="switch-block col-xs-6 border-right text-center" href="javascript:void(0)" ng-click="updateChartType('CATEGORY')"  title="Chart"  ng-class="filterType=='CATEGORY'?'active':''">
+					 <a class="switch-block col-xs-6 border-right text-center" href="javascript:void(0)" ng-click="updateChartType('CATEGORY', selected)"  title="Chart"  ng-class="filterType=='CATEGORY'?'active':''">
 						<span class="fa">Category</span>
 					</a>
 				</div>
