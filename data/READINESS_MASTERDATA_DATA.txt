@@ -1,4 +1,4 @@
 PROC_AREA	KEY_OBS	IMPACT	SAP_NOTE
 Process Area	Key Observations	Impact	SAP Note
 Master Data	Business Partner enablement and CM. It is mandatory to complete CM integration prior to S/4HANA conversion.	Error	2210486
-Master Data	Smplification of copy/reference handling. NOTE: Follow the correction nstructions In note to resolve the issue with mssing table T130F C	Error	2330063
+Master Data	Smplification of copy/reference handling.NOTE: Follow the correction nstructions In note to resolve the issue with mssing table T130F C	Error	2330063
