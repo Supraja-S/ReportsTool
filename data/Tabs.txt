@@ -1,5 +1,5 @@
 TABNAME	TABID	ICON
 Inventory	inventory	university
 Impact Ananlysis	impact	bar-chart
-S/4 HANA	sFour	mixcloud
+S/4 HANA	sFour	database
 Business Process	bpview	tasks
