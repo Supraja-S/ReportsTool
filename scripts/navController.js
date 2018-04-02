@@ -14,6 +14,7 @@ reportsTool.controller('navController',['$scope','$location','getFileContent',fu
         console.log('response>>>>>',response);
         $scope.clientName  = response[0].SYSDECRIPTION;
         console.log('clientName>>>>>',$scope.clientName);
+        $scope.DMACEUrl = response[0].DMCAUrl;
     });
 	getFileContent.getData(getFileName('Tabs')).then(function(response){
         $scope.navItems  = response;
