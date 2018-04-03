@@ -1,0 +1,6 @@
+key	value	color
+TOTAL	1071	green
+SUPPORTED	34	blue
+NOT-SUPPORTED		red
+NOT-AVAILABLE	824	black
+NEW	213	purple
