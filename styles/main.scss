@@ -136,6 +136,9 @@ tr:nth-child(odd) {
     			border-bottom:4px solid $border-grey;
     		}
     	}
+    	td{
+    		word-wrap:break-word;
+    	}
     }
     .search-selector{
     	margin: 30px 0;
