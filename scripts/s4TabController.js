@@ -5,6 +5,8 @@ reportsTool.controller('s4Controller',['$scope','getFileContent','chartCreationS
     $scope.haveSYCMData = false;
     $scope.haveReadinessData = false;
     $scope.pieOptions = chartCreationService.createPieChartData();
+    $scope.pieOptionsBFFutState = chartCreationService.createPieChartData();
+    $scope.pieOptionsBFCategory = chartCreationService.createPieChartData();
     $scope.pieOptionsSYCM = chartCreationService.createPieChartData();
     $scope.pieOptionsReadiness = chartCreationService.createPieChartData();
     $scope.donutOptions = chartCreationService.createDonutChartData();
@@ -28,6 +30,9 @@ reportsTool.controller('s4Controller',['$scope','getFileContent','chartCreationS
     };
 
     var getTabData = function(tabName){
+        $scope.selectedObjType = '';
+        $scope.selectedSearchCategory = '';
+        
         switch(tabName){
             case 'busFunctions': 
                 if(!$scope.haveBFData){
@@ -130,6 +135,44 @@ reportsTool.controller('s4Controller',['$scope','getFileContent','chartCreationS
                 break;
         }
     };
+
+    $scope.pieOptionsBFFutState.chart.callback =  function(chart) {
+        var prevArc = null;
+
+        chart.pie.dispatch.on('elementClick', function(e){
+            $scope.selectedObjType = e.data['key'];
+            $scope.selectedSearchCategory = 'FUT_STAT';
+            $scope.$apply();
+            
+            if(prevArc){
+                d3.select(prevArc).classed('clicked', false);
+                d3.select(prevArc).select("path").transition().duration(70).attr('d', regularArc);
+            }
+            d3.select(e.element).classed('clicked', true);
+            d3.select(e.element).select("path").transition().duration(70).attr('d', bulgedArc);     
+            prevArc = e.element;                      
+        });
+            
+    }
+
+    $scope.pieOptionsBFCategory.chart.callback =  function(chart) {
+        var prevArc = null;
+
+        chart.pie.dispatch.on('elementClick', function(e){
+            $scope.selectedObjType = e.data['key'];
+            $scope.selectedSearchCategory = 'BFUNCCATEG';
+            $scope.$apply();
+            
+            if(prevArc){
+                d3.select(prevArc).classed('clicked', false);
+                d3.select(prevArc).select("path").transition().duration(70).attr('d', regularArc);
+            }
+            d3.select(e.element).classed('clicked', true);
+            d3.select(e.element).select("path").transition().duration(70).attr('d', bulgedArc);     
+            prevArc = e.element;                      
+        });
+            
+    }
 
     $scope.pieOptionsSYCM.chart.callback =  function(chart) {
         var prevArc = null;

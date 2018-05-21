@@ -25,7 +25,7 @@
 			</div>
 			<div class="center-section clear-both">
 				
-				<nvd3 ng-if="chart.view1=='pieChart'" options="pieOptions" data="uniqueBFuncCompType"></nvd3>
+				<nvd3 ng-if="chart.view1=='pieChart'" options="pieOptionsBFFutState" data="uniqueBFuncCompType"></nvd3>
 				<div class="tabular-data" ng-if="chart.view1=='table'">
 					<table float-thead="floatTheadOptions">
 						<thead >
@@ -59,7 +59,7 @@
 			</div>
 			<div class="center-section clear-both">
 				
-				<nvd3 ng-if="chart.view2=='pieChart'" options="pieOptions" data="uniqueBFuncCateg"></nvd3>
+				<nvd3 ng-if="chart.view2=='pieChart'" options="pieOptionsBFCategory" data="uniqueBFuncCateg"></nvd3>
 				<div class="tabular-data" ng-if="chart.view2=='table'">
 					<table float-thead="floatTheadOptions">
 						<thead >
@@ -87,7 +87,7 @@
 			<a class="btn btn-primary toggle-table" show-table="showBFTable" scroll-down="scrollDown" tabular-data="BFData" tabular-header="BFHeader" file-name="S4HANA_DATA" file-service="getFileContent">Show/Hide Total Data</a>
 		</div>
 		<div class="col-xs-12 no-border" ng-if="showBFTable && BFData">
-			<table-generate table-header="BFHeader" tabular-data="BFData"></table-generate>
+			<table-generate table-header="BFHeader" tabular-data="BFData" search-string="selectedObjType" search-cat="selectedSearchCategory"></table-generate>
 		</div>
 	</div>
 </div>

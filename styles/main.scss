@@ -11,6 +11,8 @@ $border-green: #22901f;
 $border-red: #d04531;
 $border-yellow: #f0f78b;
 $border-orange: #ef740a;
+$border-black: #000;
+$border-purple: #ab08ab;
 
 $brand-color1:#000;
 $brand-color2:#86bc25;
@@ -99,6 +101,12 @@ tr:nth-child(odd) {
 }
 .status-yellow{
 	border-left: 4px solid $border-yellow;
+}
+.status-black{
+	border-left: 4px solid $border-black;
+}
+.status-purple{
+	border-left: 4px solid $border-purple;
 }
 .switch-block-container{
 	 border: 1px solid $border-grey;

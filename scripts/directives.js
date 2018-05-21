@@ -40,16 +40,20 @@ reportsTool.directive('tableGenerate', [function(){
 		scope: {
 			tableHeader: '=',
 			tabularData: '=',
+			searchString: '=',
+			searchCat: '='
 		},
 		templateUrl: 'table.html',
 		controller: function($scope, $attrs){
   			$scope.reverseSort = false;
-  			$scope.searchText = '';
-  			$scope.searchCategory = '';
+  			$scope.searchText = $scope.searchString ? $scope.searchString : '';
+  			$scope.searchCategory = $scope.searchCat ? $scope.searchCat : '';
   			$scope.orderByField = '';
-  			for(var key in $scope.tabularData[0]){
-  				$scope.searchCategory = key;
-  				break;
+  			if(!$scope.searchCategory){
+	  			for(var key in $scope.tabularData[0]){
+	  				$scope.searchCategory = key;
+	  				break;
+	  			}
   			}
 			$scope.sortFunction = function(key){
 		        $scope.orderByField = key;
@@ -64,9 +68,20 @@ reportsTool.directive('tableGenerate', [function(){
 		        var val = item[$scope.searchCategory].toLowerCase();
 		        return (val.indexOf($scope.searchText.toLowerCase()) > -1);
 		    };
+		    
 		},
 		link: function(scope, element, attrs) {
-			
+			scope.$watch('searchString', function(){
+				if(scope.searchString){
+					scope.searchText = scope.searchString;
+				}
+		    });
+
+		    scope.$watch('searchCat', function(){
+		    	if(scope.searchCat){
+					scope.searchCategory = scope.searchCat;
+				}
+		    });
         }
 	}	
 }]);
